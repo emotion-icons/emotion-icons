@@ -44,7 +44,7 @@
     "trailingComma": "all"
   },
   "scripts": {
-    "build": "node generate0/generate.js",
+    "build": "node generate/generate.js",
     "build:es": "cross-env BABEL_ENV=es babel build/src --out-dir build/icons --ignore *.spec.js,*.test.js ",
     "build:cjs": "cross-env BABEL_ENV=cjs babel build/src --out-dir build/icons-cjs --ignore *.spec.js,*.test.js ",
     "build-website": "gatsby build",

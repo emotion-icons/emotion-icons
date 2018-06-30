@@ -1,7 +1,7 @@
 #  emotion-icons
 
 
-emotion-icons is a fork from [emotion\-icons](https://github.com/jacobwgillespie/emotion\-icons) that uses [emotion](https://github.com/emotion-js/emotion) instead of [styled-components](https://github.com/styled-components/styled-components).
+emotion-icons is a fork from [styled-icons](https://github.com/jacobwgillespie/styled-icons) that uses [emotion](https://github.com/emotion-js/emotion) instead of [styled-components](https://github.com/styled-components/styled-components).
 
 [![Build Status](https://img.shields.io/travis/jacobwgillespie/emotion\-icons/master.svg)](https://travis-ci.org/jacobwgillespie/emotion\-icons)
 [![npm](https://img.shields.io/npm/dm/emotion\-icons.svg)](https://www.npmjs.com/package/emotion\-icons)
