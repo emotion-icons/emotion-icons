@@ -1,0 +1,21 @@
+sudo: false
+language: node_js
+node_js: '8'
+
+before_install:
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.5.1
+  - export PATH=$HOME/.yarn/bin:$PATH
+
+script:
+  - yarn build
+  - yarn build-website
+
+deploy:
+  provider: npm
+  email: jrosenstein6@gmail.com
+  api_key:
+    secure:
+  on:
+    repo: joshuarosenstein/emotion-icons
+    tags: true
+  skip_cleanup: true
