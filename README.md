@@ -9,9 +9,9 @@ emotion-icons is a fork from [emotion\-icons](https://github.com/jacobwgillespie
 [![Built with Styled Components](https://img.shields.io/badge/built%20with-styled%20components-db7093.svg)](https://emotion.sh/)
 ![Powered by TypeScript](https://img.shields.io/badge/powered%20by-typescript-blue.svg)
 
-[![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)](https://emotion\-icons.js.org)
 
-`react-emotion` provides the [Font Awesome](https://fontawesome.com/), [Feather](https://feathericons.com/), [Material Design](https://material.io/icons/), and [Octicons](https://octicons.github.com/) icon packs as [emotion-js](https://emotion.sh/), with full support for TypeScript types and tree-shaking / ES modules.
+
+`emotion-icons` provides the [Font Awesome](https://fontawesome.com/), [Feather](https://feathericons.com/), [Material Design](https://material.io/icons/), and [Octicons](https://octicons.github.com/) icon composed with [emotion-js](https://emotion.sh/).
 
 ---
 
@@ -31,13 +31,13 @@ emotion-icons is a fork from [emotion\-icons](https://github.com/jacobwgillespie
 ## Installation
 
 ```
-yarn add react-emotion
+yarn add emotion-icons
 ```
 
 or
 
 ```
-npm install react-emotion --save
+npm install emotion-icons --save
 ```
 
 Additionally, you will need to have installed a version of `react-emotion`, as `emotion-icons` depends on `react-emotion` as a peer dependency.
