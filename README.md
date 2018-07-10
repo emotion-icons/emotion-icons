@@ -9,6 +9,15 @@ emotion-icons is a fork from [styled-icons](https://github.com/jacobwgillespie/s
 [![Built with Styled Components](https://img.shields.io/badge/built%20with-styled%20components-db7093.svg)](https://emotion.sh/)
 ![Powered by TypeScript](https://img.shields.io/badge/powered%20by-typescript-blue.svg)
 
+## Bundled Icon Sets
+(3,574 Total icons)
+* [`Feather`](http://feathericons.com) by Cole Bemis & Contributors
+* [`FontAwesome`](http://fortawesome.github.io/Font-Awesome/icons/) by Dave Gandy
+* [`Ionicons`](https://ionicons.com/) by Ben Sperry
+* [`MaterialIcons`](https://material.io/icons/) by Google, Inc.
+* [`Octicons`](http://octicons.github.com) by Github, Inc.
+* [`SimpleIcons`](http://SimpleIcons.org) by Dan Leech & Contributors
+
 
 
 `emotion-icons` provides the [Font Awesome](https://fontawesome.com/), [Feather](https://feathericons.com/), [Material Design](https://material.io/icons/), and [Octicons](https://octicons.github.com/) icon composed with [emotion-js](https://emotion.sh/).
@@ -44,7 +53,7 @@ Additionally, you will need to have installed a version of `react-emotion`, as `
 
 ## Usage
 
-All Font Awesome (free), Feather, Material, and Octicon icons are available for preview at the [Icon Explorer](https://emotion\-icons.js.org).
+
 
 The entire icon packs are available via the main import and sub-imports:
 
@@ -220,3 +229,7 @@ The Feather icons are licensed under the [MIT License](https://github.com/feathe
 The Material Design icons are licensed under the [Apache License Version 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE).
 
 The Octicons are licensed under the [MIT License](https://github.com/primer/octicons/blob/master/LICENSE).
+
+The SimpleIcons are licensed under the [CC0 1.0 Universal License](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md).
+
+The IonicIcons are licensed under the [MIT License](https://github.com/ionic-team/ionicons/blob/master/LICENSE).

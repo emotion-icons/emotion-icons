@@ -52,7 +52,7 @@ const getComponentName = originalName => {
 
 const getTemplate = () =>
   new Promise((resolve, reject) =>
-    fs.readFile(path.join(__dirname, 'templates', 'icon.js.template'), (err, data) => {
+    fs.readFile(path.join(__dirname, 'templates', 'icon2.js.template'), (err, data) => {
       if (err) reject(err)
       else resolve(data.toString())
     }),

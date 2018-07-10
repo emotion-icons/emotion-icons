@@ -17,6 +17,9 @@
     "/feather",
     "/material",
     "/octicons",
+    "/ion-ios",
+    "/ion-md",
+    "/simpleIcons",
     "/CHANGELOG.md",
     "/index.d.ts",
     "/index.cjs.js",
@@ -45,18 +48,18 @@
   },
   "scripts": {
     "build": "node generate/generate.js",
+    "test": "node generate/Test.js",
     "build:es": "cross-env BABEL_ENV=es babel build/src --out-dir build/icons --ignore *.spec.js,*.test.js ",
     "build:cjs": "cross-env BABEL_ENV=cjs babel build/src --out-dir build/icons-cjs --ignore *.spec.js,*.test.js ",
     "build-website": "gatsby build",
-    "clean": "rimraf build fa-brands fa-regular fa-solid material octicons public manifest.json index.d.ts index.cjs.js index.js",
+    "clean": "rimraf build fa-brands fa-regular fa-solid material octicons simpleIcons feather manifest.json index.d.ts index.cjs.js index.js",
     "clean:modules": "rimraf node_modules",
     "dev": "gatsby develop",
     "serve": "serve public -l 6060"
   },
   "peerDependencies": {
     "emotion": "8 || 9",
-    "react-emotion": "8 || 9",
-    "recompose": "^0.27.*"
+    "react-emotion": "8 || 9"
   },
   "devDependencies": {
     "@fortawesome/fontawesome": "^1.1.5",
@@ -106,5 +109,8 @@
     "serve": "^9.0.0",
     "svgo": "^1.0.5"
   },
-  "dependencies": {}
+  "dependencies": {
+    "ionicons": "^4.2.4",
+    "simple-icons": "^1.6.4"
+  }
 }

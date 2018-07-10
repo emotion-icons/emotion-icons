@@ -29,6 +29,7 @@ const addKeyPropToChildren = {
 const svgoOptions = {
   plugins: [
     { convertShapeToPath: false },
+    { mergePaths: false },
     {removeXMLNS: true},
     {removeScriptElement: true},
     {removeTitle: true},
@@ -39,6 +40,7 @@ const svgoOptions = {
     {addKeyPropToChildren},
     {removeAttrs: {attrs: ['id']}},
     {sortAttrs: true},
+
   ],
 }
 

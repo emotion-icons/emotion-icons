@@ -11,6 +11,9 @@ fa-solid/
 feather/
 material/
 octicons/
+ion-ios/
+ion-md/
+simpleIcons/
 public/
 /index.d.ts
 /index.cjs.js
