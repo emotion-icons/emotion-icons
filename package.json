@@ -26,7 +26,8 @@
     "/index.js",
     "/LICENSE",
     "/package.json",
-    "/README.md"
+    "/README.md",
+    "/manifest.json"
   ],
   "keywords": [
     "styled-components",
@@ -106,10 +107,10 @@
     "react-virtualized": "^9.18.5",
     "rimraf": "^2.6.2",
     "serve": "^9.0.0",
-    "svgo": "^1.0.5"
-  },
-  "dependencies": {
+    "svgo": "^1.0.5",
     "ionicons": "^4.2.4",
     "simple-icons": "^1.6.4"
+  },
+  "dependencies": {
   }
 }
