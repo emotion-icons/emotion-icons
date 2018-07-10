@@ -4,7 +4,7 @@ import styled from 'react-emotion'
 export const innerElements = [{{svg}}]
 
 {{hex}}
-const {{name}} = props => {
+const {{name}} = ({ size, height, width, css, title, ...restProps }) => {
   return React.createElement(
     styled('svg')(
       {
@@ -12,21 +12,23 @@ const {{name}} = props => {
         verticalAlign: '{{verticalAlign}}',
         overflow: 'hidden'
       },
-      props => props.css
+      ({ css }) => css
     ),
     {
       children: (
-        props.title != null
-          ? [<title key="{{name}}-title">{props.title}</title>, ...innerElements]
+        title != null
+          ? [<title key="{{name}}-title">{title}</title>, ...innerElements]
           : innerElements
       ),
       viewBox: '{{viewBox}}',
-      height: (props.size ? props.size : props.height),
-      width: (props.size ? props.size : props.width),
-      'aria-hidden': (props.title == null ? 'true' : undefined),
+      height: (size ? size : height),
+      width: (size ? size : width),
+      'aria-hidden': (title == null ? 'true' : undefined),
       focusable: 'false',
-      role: (props.title != null ? 'img' : undefined),
+      css: css,
+      role: (title != null ? 'img' : undefined),
       {{attrs}},
+      ...restProps
     }
     )
   }

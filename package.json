@@ -2,7 +2,7 @@
   "name": "emotion-icons",
   "version": "0.0.2",
   "description": "Font Awesome, Material Icons, and Octicons available as Emotion Components",
-  "author": "Josh Rosenstein <jrosenstein@gmail.com>",
+  "author": "Josh Rosenstein <jrosenstein6@gmail.com>",
   "homepage": "https://github.com/joshuarosenstein/emotion-icons",
   "repository": "git://github.com/joshuarosenstein/emotion-icons-emotion.git",
   "license": "MIT",
@@ -52,7 +52,7 @@
     "build:es": "cross-env BABEL_ENV=es babel build/src --out-dir build/icons --ignore *.spec.js,*.test.js ",
     "build:cjs": "cross-env BABEL_ENV=cjs babel build/src --out-dir build/icons-cjs --ignore *.spec.js,*.test.js ",
     "build-website": "gatsby build",
-    "clean": "rimraf build fa-brands fa-regular fa-solid material octicons simpleIcons feather manifest.json index.d.ts index.cjs.js index.js",
+    "clean": "rimraf build fa-brands fa-regular fa-solid material octicons simpleIcons ion-ios ion-md feather manifest.json index.d.ts index.cjs.js index.js",
     "clean:modules": "rimraf node_modules",
     "dev": "gatsby develop",
     "serve": "serve public -l 6060"
@@ -104,7 +104,6 @@
     "react-emotion": "^9.2.4",
     "react-helmet": "^5.2.0",
     "react-virtualized": "^9.18.5",
-    "recompose": "^0.27.1",
     "rimraf": "^2.6.2",
     "serve": "^9.0.0",
     "svgo": "^1.0.5"

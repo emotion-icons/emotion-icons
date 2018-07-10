@@ -200,10 +200,12 @@ const copyToDest =async()=>{
 
 const createManifest=async(icons)=>{
   const seenImports = new Set()
+
   await fs.writeJSON(
     path.join(__dirname, '..', 'manifest.json'),
     icons
-      .map(({name, originalName, pack}) => {
+      .map(({ name,originalName, pack}) => {
+  
         const importPath = `emotion-icons/${pack}/${name}`
 
         if (seenImports.has(importPath)) return null
@@ -216,7 +218,12 @@ const createManifest=async(icons)=>{
           pack,
         }
       })
-      .filter(icon => icon),
+      .filter(icon => icon).sort((a, b)=> {
+  x=a.name
+  y=b.name
+  if (x < y) {return -1;}
+    if (x > y) {return 1;}
+    return 0;}),
   )
 }
 const generate = async () => {
