@@ -3,11 +3,10 @@
 
 emotion-icons is a fork from [styled-icons](https://github.com/jacobwgillespie/styled-icons) that uses [emotion](https://github.com/emotion-js/emotion) instead of [styled-components](https://github.com/styled-components/styled-components).
 
-[![Build Status](https://img.shields.io/travis/jacobwgillespie/emotion\-icons/master.svg)](https://travis-ci.org/jacobwgillespie/emotion\-icons)
-[![npm](https://img.shields.io/npm/dm/emotion\-icons.svg)](https://www.npmjs.com/package/emotion\-icons)
-[![npm](https://img.shields.io/npm/v/emotion\-icons.svg)](https://www.npmjs.com/package/emotion\-icons)
-[![Built with Styled Components](https://img.shields.io/badge/built%20with-styled%20components-db7093.svg)](https://emotion.sh/)
-![Powered by TypeScript](https://img.shields.io/badge/powered%20by-typescript-blue.svg)
+[![Build Status](https://img.shields.io/travis/joshuarosenstein/emotion-icons/master.svg)](https://travis-ci.org/jacobwgillespie/emotion-icons)
+[![npm](https://img.shields.io/npm/dm/emotion-icons.svg)](https://www.npmjs.com/package/emotion\-icons)
+[![npm](https://img.shields.io/npm/v/emotion-icons.svg)](https://www.npmjs.com/package/emotion\-icons)
+[![Built with Styled Components](https://img.shields.io/badge/built%20with-emotion-db7093.svg)](https://emotion.sh/)
 
 ## Bundled Icon Sets
 (3,574 Total icons)
