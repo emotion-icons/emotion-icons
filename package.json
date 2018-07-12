@@ -71,12 +71,14 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "babel-runtime": "^6.26.0",
+    "cross-env": "^5.2.0",
     "execa": "^0.10.0",
     "fast-glob": "^2.2.0",
     "feather-icons": "^4.7.0",
     "fs-extra": "^6.0.0",
     "h2x-core": "^0.1.9",
     "h2x-plugin-jsx": "^0.1.9",
+    "ionicons": "^4.2.4",
     "js-search": "^1.4.2",
     "material-design-icons": "^3.0.1",
     "number-to-words": "^1.2.3",
@@ -85,10 +87,8 @@
     "prettier": "^1.13.0",
     "rimraf": "^2.6.2",
     "serve": "^9.0.0",
-    "svgo": "^1.0.5",
-    "ionicons": "^4.2.4",
-    "simple-icons": "^1.6.4"
+    "simple-icons": "^1.6.4",
+    "svgo": "^1.0.5"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
