@@ -1,9 +1,9 @@
 import * as React from 'react'
 import {AutoSizer, Grid, WindowScroller, defaultCellRangeRenderer} from 'react-virtualized'
 
-import {IconCard} from './IconCard'
+import IconCard from './IconCard'
 
-export class IconExplorer extends React.Component {
+export default class IconExplorer extends React.Component {
   state = {
     search: '',
   }

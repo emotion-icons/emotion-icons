@@ -24,10 +24,10 @@ export class Badges extends React.Component {
 
     return (
       <div className="badges">
-        <a href="https://travis-ci.org/jacobwgillespie/emotion-icons">
+        <a href="https://travis-ci.org/JoshRosenstein/emotion-icons">
           <img
             alt="Build Status"
-            src="https://img.shields.io/travis/jacobwgillespie/emotion-icons/master.svg"
+            src="https://travis-ci.org/JoshRosenstein/emotion-icons.svg?branch=master"
           />
         </a>
         <a href="https://www.npmjs.com/package/emotion-icons">
@@ -45,3 +45,5 @@ export class Badges extends React.Component {
     )
   }
 }
+
+export default Badges

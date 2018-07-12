@@ -1,6 +1,6 @@
 .cache/
 node_modules/
-
+docs/dist/
 *.log
 
 # Built files
