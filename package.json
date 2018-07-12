@@ -52,11 +52,8 @@
     "test": "node generate/Test.js",
     "build:es": "cross-env BABEL_ENV=es babel build/src --out-dir build/icons --ignore *.spec.js,*.test.js ",
     "build:cjs": "cross-env BABEL_ENV=cjs babel build/src --out-dir build/icons-cjs --ignore *.spec.js,*.test.js ",
-    "build-website": "gatsby build",
     "clean": "rimraf build fa-brands fa-regular fa-solid material octicons simpleIcons ion-ios ion-md feather manifest.json index.d.ts index.cjs.js index.js",
     "clean:modules": "rimraf node_modules",
-    "dev": "gatsby develop",
-    "serve": "serve public -l 6060"
   },
   "peerDependencies": {
     "emotion": "8 || 9",
