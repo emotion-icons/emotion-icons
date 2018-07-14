@@ -15,7 +15,7 @@ const svgo2 = require('./transform/svgoTest')
 //const baseDir = path.join(__dirname, '.', 'test')
 const baseDir = path.join(__dirname, '..', 'build')
 //const PACKS = ['ion-md']
-const PACKS = ['fa-regular', 'fa-solid', 'fa-brands', 'feather', 'material', 'octicons','simpleIcons','ion-ios','ion-md']
+const PACKS = ['fa-regular', 'fa-solid', 'fa-brands', 'feather', 'material', 'octicons','simpleIcons','ion-ios','ion-md','boxicons-regular','boxicons-solid']
 
 const SVG_ATTRS = [
   'fill',
@@ -205,7 +205,7 @@ const createManifest=async(icons)=>{
     path.join(__dirname, '..', 'manifest.json'),
     icons
       .map(({ name,originalName, pack}) => {
-  
+
         const importPath = `emotion-icons/${pack}/${name}`
 
         if (seenImports.has(importPath)) return null

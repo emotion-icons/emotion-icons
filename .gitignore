@@ -4,6 +4,8 @@ docs/dist/
 *.log
 
 # Built files
+boxicons-regular/
+boxicons-solid/
 build/
 fa-brands/
 fa-regular/

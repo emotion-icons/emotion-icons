@@ -5,6 +5,7 @@ export default {
   getSiteData: () => ({
     title: 'Emotion Icons',
   }),
+  basePath: 'emotion-icons',
   getRoutes: async () => {
     return [
       {

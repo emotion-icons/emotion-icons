@@ -52,7 +52,7 @@
     "test": "node generate/Test.js",
     "build:es": "cross-env BABEL_ENV=es babel build/src --out-dir build/icons --ignore *.spec.js,*.test.js ",
     "build:cjs": "cross-env BABEL_ENV=cjs babel build/src --out-dir build/icons-cjs --ignore *.spec.js,*.test.js ",
-    "clean": "rimraf build fa-brands fa-regular fa-solid material octicons simpleIcons ion-ios ion-md feather manifest.json index.d.ts index.cjs.js index.js",
+    "clean": "rimraf build fa-brands fa-regular fa-solid material octicons boxicons-solid boxicons-regular simpleIcons ion-ios ion-md feather manifest.json index.d.ts index.cjs.js index.js",
     "clean:modules": "rimraf node_modules"
   },
   "peerDependencies": {
@@ -72,6 +72,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "babel-runtime": "^6.26.0",
+    "boxicons": "^1.6.0",
     "cross-env": "^5.2.0",
     "execa": "^0.10.0",
     "fast-glob": "^2.2.0",

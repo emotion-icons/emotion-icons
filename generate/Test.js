@@ -15,7 +15,7 @@ const svgo2 = require('./transform/svgoTest')
 //const baseDir = path.join(__dirname, '.', 'test')
 const baseDir = path.join(__dirname, '..', 'build')
 //const PACKS = ['ion-md']
-const PACKS = ['fa-regular', 'fa-solid', 'fa-brands', 'feather', 'material', 'octicons','simpleIcons','ion-ios','ion-md']
+const PACKS = ['boxicons-regular','boxicons-solid']
 
 const SVG_ATTRS = [
   'fill',
@@ -52,7 +52,7 @@ const getComponentName = originalName => {
 
 const getTemplate = () =>
   new Promise((resolve, reject) =>
-    fs.readFile(path.join(__dirname, 'templates', 'icon2.js.template'), (err, data) => {
+    fs.readFile(path.join(__dirname, 'templates', 'icon.js.template'), (err, data) => {
       if (err) reject(err)
       else resolve(data.toString())
     }),
@@ -200,10 +200,12 @@ const copyToDest =async()=>{
 
 const createManifest=async(icons)=>{
   const seenImports = new Set()
+
   await fs.writeJSON(
     path.join(__dirname, '..', 'manifest.json'),
     icons
-      .map(({name, originalName, pack}) => {
+      .map(({ name,originalName, pack}) => {
+
         const importPath = `emotion-icons/${pack}/${name}`
 
         if (seenImports.has(importPath)) return null
@@ -216,7 +218,12 @@ const createManifest=async(icons)=>{
           pack,
         }
       })
-      .filter(icon => icon),
+      .filter(icon => icon).sort((a, b)=> {
+  x=a.name
+  y=b.name
+  if (x < y) {return -1;}
+    if (x > y) {return 1;}
+    return 0;}),
   )
 }
 const generate = async () => {
