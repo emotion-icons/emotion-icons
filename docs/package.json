@@ -8,20 +8,18 @@
     "build": "react-static build",
     "serve": "serve dist -p 3000"
   },
-
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
-    "emotion-icons":"latest",
+    "copy-to-clipboard": "^3.0.8",
+    "emotion": "^9.2.4",
+    "emotion-icons": "latest",
+    "emotion-server": "^9.2.4",
+    "fuse.js": "^3.2.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-emotion": "^9.2.4",
     "react-helmet": "^5.2.0",
-    "react-virtualized": "^9.18.5",
-    "copy-to-clipboard": "^3.0.8",
-    "emotion": "^9.2.4",
-    "emotion-server": "^9.2.4",
-    "fuse.js": "^3.2.1",
-    "react-static": "^5.9.7"
+    "react-static": "^5.9.7",
+    "react-virtualized": "^9.18.5"
   }
 }

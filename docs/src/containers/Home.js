@@ -13,9 +13,11 @@ import {
   octicons,
   ionIos,
   ionMd,
-  simpleIcons
-} from "emotion-icons"
-import icons from 'emotion-icons/manifest.json'
+  simpleIcons,
+  boxiconsRegular,
+  boxiconsSolid
+} from "../../../"
+import icons from '../../../manifest.json'
 import Badges from '../components/Badges'
 import IconExplorer from '../components/IconExplorer'
 
@@ -23,6 +25,14 @@ import IconExplorer from '../components/IconExplorer'
 
 icons.forEach(icon => {
   switch (icon.pack) {
+    case "boxicons-solid":
+      icon.icon = boxiconsSolid[icon.name]
+      break
+
+    case "boxicons-regular":
+      icon.icon = boxiconsRegular[icon.name]
+      break
+
     case "ion-ios":
       icon.icon = ionIos[icon.name]
       break
@@ -98,7 +108,7 @@ export default withSiteData(() => (
                             </p>
 
     <p>
-      emotion-icons provides the 
+      emotion-icons provides the
 <a href="https://fontawesome.com/">Font Awesome (free)</a>, <a href="https://material.io/icons/">Material</a>, <a href="https://octicons.github.com/">Octicons</a> <a href="https://octicons.github.com/">Feather</a> ,
  <a href="https://octicons.github.com/">Ionicons</a> and <a href="https://octicons.github.com/">SimpleIcons</a> icons composed with <a href="https://emotion.sh//">Emotion </a>
     </p>

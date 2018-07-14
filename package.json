@@ -11,6 +11,8 @@
   "jsnext:main": "index.js",
   "sideEffects": false,
   "files": [
+    "/boxicons-regular",
+    "/boxicons-solid",
     "/fa-brands",
     "/fa-regular",
     "/fa-solid",
