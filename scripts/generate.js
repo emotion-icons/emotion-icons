@@ -184,7 +184,7 @@ await fs.move(path.join(baseDir, 'src',), path.join(baseDir,'..', 'src',), {over
   spinner.text = 'Writing icon manifest for website...'
   const seenImports = new Set()
   await fs.writeJSON(
-    path.join(__dirname, '..', 'manifest.json'),
+    path.join(__dirname, '..','docs', 'manifest.json'),
     icons
       .map(({name, originalName, pack}) => {
         const importPath = `styled-icons/${pack}/${name}`
