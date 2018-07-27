@@ -14,7 +14,7 @@ import {
 } from 'emotion-icons'
 
 import Fuse from 'fuse.js'
-import icons from '../manifest.json'
+import icons from './manifest.json'
 import { IconExplorer } from './components/IconExplorer'
 
 
