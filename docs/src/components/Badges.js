@@ -1,5 +1,5 @@
-import * as React from 'react'
-
+import * as React from "react"
+ 
 export class Badges extends React.Component {
   state = {
     loaded: false,

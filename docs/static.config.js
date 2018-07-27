@@ -1,16 +1,22 @@
 import React, { Component } from 'react'
 import { renderStylesToString } from 'emotion-server'
+import axios from 'axios'
 
 export default {
-  getSiteData: () => ({
+  getSiteData: async () => ({
     title: 'Emotion Icons',
   }),
+   siteRoot: 'https://rosenstein.io',
   basePath: 'emotion-icons',
   getRoutes: async () => {
+    const { data: icons } = await axios.get('https://unpkg.com/emotion-icons/manifest.json')
     return [
       {
         path: '/',
         component: 'src/containers/Home',
+        getData: () => ({
+           icons,
+         })
       },
       {
         is404: true,

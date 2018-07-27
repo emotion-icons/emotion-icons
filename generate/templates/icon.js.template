@@ -4,29 +4,31 @@ import styled from 'react-emotion'
 export const innerElements = [{{svg}}]
 
 {{hex}}
-const {{name}} = ({ size, height, width, css, title, ...restProps }) => {
+const {{name}} = ({ title, ...restProps }) => {
   return React.createElement(
-    styled('svg')(
+    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
       {
         display: 'inline-block',
         verticalAlign: '{{verticalAlign}}',
         overflow: 'hidden'
       },
-      ({ css }) => css
+      ({ size,height,width,css }) => ({
+        height: size ? size : height,
+        width: size ? size : width,
+        ...css
+      }),
     ),
     {
       children: (
-        title != null
+        title
           ? [<title key="{{name}}-title">{title}</title>, ...innerElements]
           : innerElements
       ),
       viewBox: '{{viewBox}}',
-      height: (size ? size : height),
-      width: (size ? size : width),
-      'aria-hidden': (title == null ? 'true' : undefined),
+       'aria-hidden': title ? null : 'true',
+       'aria-labelledby': title && 'icon-title-{{name}}',
       focusable: 'false',
-      css: css,
-      role: (title != null ? 'img' : undefined),
+      role: title ? undefined:'img' ,
       {{attrs}},
       ...restProps
     }

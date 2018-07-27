@@ -12,7 +12,7 @@
   "dependencies": {
     "copy-to-clipboard": "^3.0.8",
     "emotion": "^9.2.4",
-    "emotion-icons": "latest",
+    "emotion-icons": "^0.0.5",
     "emotion-server": "^9.2.4",
     "fuse.js": "^3.2.1",
     "react": "^16.3.2",
