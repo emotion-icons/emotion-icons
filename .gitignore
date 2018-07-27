@@ -6,18 +6,18 @@ docs/build/
 *.log
 
 # Built files
-boxicons-regular/
-boxicons-solid/
-fa-brands/
-fa-regular/
-fa-solid/
-feather/
-material/
-octicons/
-ion-ios/
-ion-md/
-simpleIcons/
-public/
+/boxicons-regular/
+/boxicons-solid/
+/fa-brands/
+/fa-regular/
+/fa-solid/
+/feather/
+/material/
+/octicons/
+/ion-ios/
+/ion-md/
+/simpleIcons/
+/public/
 /index.d.ts
 /index.cjs.js
 /index.js

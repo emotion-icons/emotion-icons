@@ -10,7 +10,7 @@
   "module": "index.js",
   "jsnext:main": "index.js",
   "sideEffects": false,
-  "files": [
+  "files": ["src",
     "/boxicons-regular",
     "/boxicons-solid",
     "/fa-brands",
@@ -53,7 +53,7 @@
     "generate": "node scripts/generate.js",
     "build": "yarn run clean && yarn run build:es",
     "build:es": "cross-env BABEL_ENV=es babel src --out-dir . --ignore *.spec.js,*.test.js ",
-    "build:cjs": "cross-env BABEL_ENV=cjs babel src --out-dir tmp/icons-cjs --ignore *.spec.js,*.test.js ",
+    "build:cjs": "cross-env BABEL_ENV=cjs babel src --out-dir ./build/srccjs/ --ignore *.spec.js,*.test.js ",
     "clean": "rimraf build fa-brands fa-regular fa-solid material octicons boxicons-solid boxicons-regular simpleIcons ion-ios ion-md feather manifest.json index.d.ts index.cjs.js index.js",
     "clean:modules": "rimraf node_modules"
   },

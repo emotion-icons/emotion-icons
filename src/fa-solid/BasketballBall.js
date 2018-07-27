@@ -1,0 +1,43 @@
+import React from 'react'
+import styled from 'react-emotion'
+
+export const innerElements = [<path fill="currentColor" d="M212.3 10.3c-43.8 6.3-86.2 24.1-122.2 53.8l77.4 77.4c27.8-35.8 43.3-81.2 44.8-131.2zM248 222L405.9 64.1c-42.4-35-93.6-53.5-145.5-56.1-1.2 63.9-21.5 122.3-58.7 167.7L248 222zM56.1 98.1c-29.7 36-47.5 78.4-53.8 122.2 50-1.5 95.5-17 131.2-44.8L56.1 98.1zm272.2 204.2c45.3-37.1 103.7-57.4 167.7-58.7-2.6-51.9-21.1-103.1-56.1-145.5L282 256l46.3 46.3zM248 290L90.1 447.9c42.4 34.9 93.6 53.5 145.5 56.1 1.3-64 21.6-122.4 58.7-167.7L248 290zm191.9 123.9c29.7-36 47.5-78.4 53.8-122.2-50.1 1.6-95.5 17.1-131.2 44.8l77.4 77.4zM167.7 209.7C122.3 246.9 63.9 267.3 0 268.4c2.6 51.9 21.1 103.1 56.1 145.5L214 256l-46.3-46.3zm116 292c43.8-6.3 86.2-24.1 122.2-53.8l-77.4-77.4c-27.7 35.7-43.2 81.2-44.8 131.2z" key="k0" />
+]
+
+
+const BasketballBall = ({ title, ...restProps }) => {
+  return React.createElement(
+    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
+      {
+        display: 'inline-block',
+        verticalAlign: '-.125em',
+        overflow: 'hidden'
+      },
+      ({ size,height,width,css }) => ({
+        height: size ? size : height,
+        width: size ? size : width,
+        ...css
+      }),
+    ),
+    {
+      children: (
+        title
+          ? [<title key="BasketballBall-title">{title}</title>, ...innerElements]
+          : innerElements
+      ),
+      viewBox: '0 0 496 512',
+       'aria-hidden': title ? null : 'true',
+       'aria-labelledby': title && 'icon-title-BasketballBall',
+      focusable: 'false',
+      role: title ? undefined:'img' ,
+        "fill": "currentColor",
+      ...restProps
+    }
+    )
+  }
+
+BasketballBall.displayName = 'BasketballBall'
+
+BasketballBall.defaultProps = { height: undefined, width: undefined}
+
+export default BasketballBall

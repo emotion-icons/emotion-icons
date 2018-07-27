@@ -1,0 +1,43 @@
+import React from 'react'
+import styled from 'react-emotion'
+
+export const innerElements = [<path fill="currentColor" d="M201.5 174.8l55.7 55.8c3.1 3.1 3.1 8.2 0 11.3l-11.3 11.3c-3.1 3.1-8.2 3.1-11.3 0l-55.7-55.8-45.3 45.3 55.8 55.8c3.1 3.1 3.1 8.2 0 11.3l-11.3 11.3c-3.1 3.1-8.2 3.1-11.3 0L111 265.2l-26.4 26.4c-17.3 17.3-25.6 41.1-23 65.4l7.1 63.6L2.3 487c-3.1 3.1-3.1 8.2 0 11.3l11.3 11.3c3.1 3.1 8.2 3.1 11.3 0l66.3-66.3 63.6 7.1c23.9 2.6 47.9-5.4 65.4-23l181.9-181.9-135.7-135.7-64.9 65zm308.2-93.3L430.5 2.3c-3.1-3.1-8.2-3.1-11.3 0l-11.3 11.3c-3.1 3.1-3.1 8.2 0 11.3l28.3 28.3-45.3 45.3-56.6-56.6-17-17c-3.1-3.1-8.2-3.1-11.3 0l-33.9 33.9c-3.1 3.1-3.1 8.2 0 11.3l17 17L424.8 223l17 17c3.1 3.1 8.2 3.1 11.3 0l33.9-34c3.1-3.1 3.1-8.2 0-11.3l-73.5-73.5 45.3-45.3 28.3 28.3c3.1 3.1 8.2 3.1 11.3 0l11.3-11.3c3.1-3.2 3.1-8.2 0-11.4z" key="k0" />
+]
+
+
+const Syringe = ({ title, ...restProps }) => {
+  return React.createElement(
+    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
+      {
+        display: 'inline-block',
+        verticalAlign: '-.125em',
+        overflow: 'hidden'
+      },
+      ({ size,height,width,css }) => ({
+        height: size ? size : height,
+        width: size ? size : width,
+        ...css
+      }),
+    ),
+    {
+      children: (
+        title
+          ? [<title key="Syringe-title">{title}</title>, ...innerElements]
+          : innerElements
+      ),
+      viewBox: '0 0 512 512',
+       'aria-hidden': title ? null : 'true',
+       'aria-labelledby': title && 'icon-title-Syringe',
+      focusable: 'false',
+      role: title ? undefined:'img' ,
+        "fill": "currentColor",
+      ...restProps
+    }
+    )
+  }
+
+Syringe.displayName = 'Syringe'
+
+Syringe.defaultProps = { height: undefined, width: undefined}
+
+export default Syringe

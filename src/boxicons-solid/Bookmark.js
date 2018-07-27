@@ -1,0 +1,43 @@
+import React from 'react'
+import styled from 'react-emotion'
+
+export const innerElements = [<path d="M5.496 21.868L12 18.151l6.504 3.717a.996.996 0 0 0 .998-.003A1 1 0 0 0 20 21V3a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v18a1 1 0 0 0 1.496.868z" key="k0" />
+]
+
+
+const Bookmark = ({ title, ...restProps }) => {
+  return React.createElement(
+    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
+      {
+        display: 'inline-block',
+        verticalAlign: 'middle',
+        overflow: 'hidden'
+      },
+      ({ size,height,width,css }) => ({
+        height: size ? size : height,
+        width: size ? size : width,
+        ...css
+      }),
+    ),
+    {
+      children: (
+        title
+          ? [<title key="Bookmark-title">{title}</title>, ...innerElements]
+          : innerElements
+      ),
+      viewBox: '0 0 24 24',
+       'aria-hidden': title ? null : 'true',
+       'aria-labelledby': title && 'icon-title-Bookmark',
+      focusable: 'false',
+      role: title ? undefined:'img' ,
+        "fill": "currentColor",
+      ...restProps
+    }
+    )
+  }
+
+Bookmark.displayName = 'Bookmark'
+
+Bookmark.defaultProps = { height: 24, width: 24}
+
+export default Bookmark

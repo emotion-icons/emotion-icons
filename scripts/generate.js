@@ -113,7 +113,7 @@ const generate = async () => {
             // The Material icon pack has one icon incorrectly in the pack twice
             const seen = seenNames.has(name)
             seenNames.add(name)
-            return seen ? null : `export {${name}} from './${name}${cjs ? '.cjs' : ''}'`
+            return seen ? null : `export {default as ${name}} from './${name}${cjs ? '.cjs' : ''}'`
           })
           .filter(lines => lines)
           .join('\n') ,
