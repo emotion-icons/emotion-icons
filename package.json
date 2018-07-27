@@ -50,10 +50,11 @@
     "trailingComma": "all"
   },
   "scripts": {
-    "build": "node generate/generate.js",
-    "test": "node generate/Test.js",
-    "build:es": "cross-env BABEL_ENV=es babel build/src --out-dir build/icons --ignore *.spec.js,*.test.js ",
-    "build:cjs": "cross-env BABEL_ENV=cjs babel build/src --out-dir build/icons-cjs --ignore *.spec.js,*.test.js ",
+    "main": "yarn run generate && yarn run build",
+    "generate": "node scripts/generate.js",
+    "build": "yarn run clean && node scripts/build.js",
+    "build:es": "cross-env BABEL_ENV=es babel src --out-dir . --ignore *.spec.js,*.test.js ",
+    "build:cjs": "cross-env BABEL_ENV=cjs babel src --out-dir tmp/icons-cjs --ignore *.spec.js,*.test.js ",
     "clean": "rimraf build fa-brands fa-regular fa-solid material octicons boxicons-solid boxicons-regular simpleIcons ion-ios ion-md feather manifest.json index.d.ts index.cjs.js index.js",
     "clean:modules": "rimraf node_modules"
   },

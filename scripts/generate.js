@@ -1,10 +1,11 @@
 const {toWords} = require('number-to-words')
 const execa = require('execa')
-
+const paths= require('./paths')
 const fg = require('fast-glob')
 const fs = require('fs-extra')
 const ora = require('ora')
 const path = require('path')
+const {PACKS,SVG_ATTRS}= require('./constants')
 
 const h2x = require('./transform/h2x')
 const svgo = require('./transform/svgo')
@@ -12,23 +13,10 @@ const svgo2 = require('./transform/svgoTest')
 //const feather = require('feather-icons')
 
 
-//const baseDir = path.join(__dirname, '.', 'test')
-const baseDir = path.join(__dirname, '..', 'build')
-//const PACKS = ['ion-md']
-const PACKS = ['boxicons-regular','boxicons-solid']
+if (!fs.existsSync(paths.DEST)) {
+  fs.mkdirSync(paths.DEST);
+}
 
-const SVG_ATTRS = [
-  'fill',
-  'fill-opacity',
-  'fill-rule',
-  'stroke',
-  'stroke-dasharray',
-  'stroke-dashoffset',
-  'stroke-linecap',
-  'stroke-linejoin',
-  'stroke-miterlimit',
-  'stroke-opacity',
-]
 
 let spinner
 const camelize=(str) =>str
@@ -61,7 +49,7 @@ const getTemplate = () =>
 const ClearingDestination=async ()=>  {
   const destinationFiles = [ ...PACKS, 'index.js']
   for (const destinationFile of destinationFiles) {
-    await fs.remove(path.join(baseDir, destinationFile))
+    await fs.remove(path.join(paths.DEST, destinationFile))
   }
 }
 
@@ -112,7 +100,7 @@ const BuildIcons=async (icons,template)=>  {
       .replace(/{{width}}/g, icon.width)
       .replace(/{{hex}}/g, icon.hex?`export const hex='#${icon.hex}'`:'')
 ///ios-([^}]+).svg/
-    const destinationFilename = path.join(baseDir, 'src', icon.pack, `${icon.name}.js`)
+    const destinationFilename = path.join(paths.DEST, icon.pack, `${icon.name}.js`)
     await fs.outputFile(destinationFilename, component)
 
     spinner.text = `[${++builtIcons} / ${totalIcons}] Built ${icon.pack}/${icon.name}...`
@@ -130,7 +118,7 @@ const WriteIndex=async (icons)=>  {
 
     const packIcons = icons.filter(({pack}) => pack === iconPack)
     await fs.outputFile(
-      path.join(baseDir, 'src', iconPack, 'index.js'),
+      path.join(paths.DEST, iconPack, 'index.js'),
 
       packIcons
         .map(({name}) => {
@@ -147,7 +135,7 @@ const WriteIndex=async (icons)=>  {
   }
 
   await fs.writeFileSync(
-    path.join(baseDir, 'src', 'index.js'),
+    path.join(paths.DEST, 'index.js'),
     `
 ${PACKS.map((pack, idx) => `import * as ${camelize(pack)} from './${pack}'`).join('\n')}
 
@@ -229,49 +217,38 @@ const createManifest=async(icons)=>{
 const generate = async () => {
   spinner = ora('Reading icon packs...').start()
 
+
+
   let icons = (await Promise.all(PACKS.map(pack => require(`./sources/${pack}`)()))).reduce(
     (all, icons) => all.concat(...icons),
     [],
   )
-// let icons = (
-//     ['alert-circle','activity','airplay'].map(originalName => {
-//       const icon = feather.icons[originalName]
-//       return {
-//         originalName,
-//         source: icon.toSvg(),
-//         pack: 'feather',
-//         width: icon.attrs.width,
-//         height: icon.attrs.height,
-//       }
-//     }))
 
 
   spinner.text = 'Reading template...'
   const template = await getTemplate()
 
   spinner.text = 'Clearing desination files...'
-
-  await ClearingDestination()
+  //
+  // const destinationFiles = [ ...PACKS, 'index.js']
+  // for (const destinationFile of destinationFiles) {
+  //   await fs.remove(path.join(paths.BUILD, destinationFile))
+  // }
 
   spinner.text = 'Building icons...'
-  icons=  await BuildIcons(icons,template)
+ icons=  await BuildIcons(icons,template)
 
   spinner.text = 'Writing index files...'
-await WriteIndex(icons)
+ await WriteIndex(icons)
+
+  //spinner.text = 'Moving Source File'
+//await  fs.remove(paths.SRC)
 
 
-spinner.text = 'Compiling...'
-await Build()
+  spinner.text = 'Writing icon manifest for website...'
+  await createManifest(icons)
 
-
-spinner.text = 'Copying files to destination...'
-await copyToDest()
-
-
-spinner.text = 'Writing icon manifest for website...'
-await createManifest(icons)
-
-spinner.succeed(`${icons.length} icons successfully built!`)
+spinner.succeed(`${icons.length} icons successfully generated!`)
 }
 
 generate().catch(err => {

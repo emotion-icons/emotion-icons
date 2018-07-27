@@ -8,7 +8,7 @@
   "dependencies": {
     "copy-to-clipboard": "3.0.8",
     "emotion": "9.2.6",
-    "emotion-icons": "0.0.7",
+    "emotion-icons": "file:../",
     "fuse.js": "3.2.1",
     "react": "16.3.2",
     "react-dom": "16.3.2",

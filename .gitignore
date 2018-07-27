@@ -1,12 +1,12 @@
 .cache/
 node_modules/
 docs/dist/
+docs/build/
 *.log
 
 # Built files
 boxicons-regular/
 boxicons-solid/
-build/
 fa-brands/
 fa-regular/
 fa-solid/

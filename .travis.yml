@@ -6,7 +6,8 @@ before_install:
   - export PATH=$HOME/.yarn/bin:$PATH
 cache:
   yarn: true
-
+script:
+  
 before_deploy:
   - cd docs
   - yarn install
