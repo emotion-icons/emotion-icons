@@ -21,6 +21,5 @@ docs/build/
 /index.d.ts
 /index.cjs.js
 /index.js
-manifest.json
 .vscode/
 yarn.lock
