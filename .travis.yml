@@ -6,8 +6,6 @@ before_install:
   - export PATH=$HOME/.yarn/bin:$PATH
 cache:
   yarn: true
-script:
-  - yarn build
 
 before_deploy:
   - cd docs
@@ -19,6 +17,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GH_TOKEN
-  local_dir: ./docs/dist
+  local_dir: ./docs/build
   on:
     branch: master

@@ -1,224 +1,126 @@
 import React from 'react'
-import { Router, Link } from 'react-static'
-import styled, { injectGlobal } from 'react-emotion'
-import { hot } from 'react-hot-loader'
-//
-import Routes from 'react-static-routes'
+import {
+  faBrands,
+  faRegular,
+  faSolid,
+  feather,
+  material,
+  octicons,
+  ionIos,
+  ionMd,
+  boxiconsRegular,
+  boxiconsSolid,
+  simpleIcons,
+} from 'emotion-icons'
+
+import Fuse from 'fuse.js'
+import icons from 'emotion-icons/manifest.json'
+import { IconExplorer } from './components/IconExplorer'
 
 
-injectGlobal`
-html {
-  height: 100%;
-  font-family: 'Avenir Next', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  text-align: center;
-  background-size: cover;
-  background: linear-gradient( to bottom,#46C9E5 0%,#D26AC2 100% );
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: #fff;
-  overflow-x: hidden;
-}
+icons.forEach(icon => {
+  switch (icon.pack) {
+    case 'boxicons-regular':
+      icon.icon = boxiconsRegular[icon.name]
+      break
+    case 'boxicons-solid':
+      icon.icon = boxiconsSolid[icon.name]
+      break
+    case 'ion-ios':
+      icon.icon = ionIos[icon.name]
+      break
+    case 'ion-md':
+      icon.icon = ionMd[icon.name]
+      break
+    case 'simpleIcons':
+      icon.icon = simpleIcons[icon.name]
+      break
+    case 'fa-brands':
+      icon.icon = faBrands[icon.name]
+      break
 
-body {
-  margin: 0 auto;
-  padding: 1em;
-  max-width: 1200px;
-}
+    case 'fa-regular':
+      icon.icon = faRegular[icon.name]
+      break
 
-* {
-  box-sizing: border-box;
-}
+    case 'fa-solid':
+      icon.icon = faSolid[icon.name]
+      break
 
-a {
-  color: #fff;
-}
+    case 'feather':
+      icon.icon = feather[icon.name]
+      break
 
-h1 {
-  font-weight: 600;
-  font-size: 1.7rem;
-}
+    case 'material':
+      icon.icon = material[icon.name]
+      break
 
-h2 {
-  font-weight: 500;
-  font-size: 1.4rem;
-  margin-top: 4rem;
-}
-
-code {
-  display: block;
-  margin: 0 auto;
-  white-space: pre;
-  padding: 12px;
-  text-align: left;
-  color: #000;
-  overflow-x: scroll;
-}
-
-code.demo {
-  display: inline-block;
-  margin-bottom: 12px;
-  margin-top: 1em;
-  background: rgba(0, 0, 0, 0.2);
-}
-
-.icon-card-wrapper {
-  padding: 6px;
-}
-
-.icon-card {
-  background: rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 1rem;
-  cursor: pointer;
-  color: #000;
-  transition: transform 0.5s ease-out;
-  will-change: transform;
-  width: 100%;
-  height: 100%;
-}
-
-.icon-card:hover {
-  transform: scale(1.05);
-}
-
-.icon-card .name {
-  font-weight: 500;
-  overflow-x: scroll;
-  width: 100%;
-}
-
-.icon-card code {
-  width: 100%;
-  text-align: center;
-  padding: 0;
-}
-
-.icon-card ::-webkit-scrollbar {
-  display: none;
-}
-
-.badges {
-  padding: 0;
-  min-height: 26px;
-}
-
-.badges > * {
-  margin-right: 6px;
-}
-
-.badges > *:last-child {
-  margin-right: 0;
-}
-
-.search-box {
-  background: rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  border-radius: 4px;
-  margin-bottom: 1.5em;
-  padding: 12px;
-  width: 100%;
-  max-width: 400px;
-  color: #000;
-  font-weight: 300;
-  outline: none;
-  text-align: center;
-  font-size: 1.2rem;
-}
-
-::placeholder {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-@keyframes octocat-wave {
-  0%,
-  100% {
-    transform: rotate(0);
+    case 'octicons':
+      icon.icon = octicons[icon.name]
+      break
+    default:
   }
-  20%,
-  60% {
-    transform: rotate(-25deg);
-  }
-  40%,
-  80% {
-    transform: rotate(10deg);
-  }
+})
+const fuseOptions = {
+  shouldSort: true,
+  threshold: 0.6,
+  location: 0,
+  distance: 100,
+  maxPatternLength: 32,
+  minMatchCharLength: 3,
+  keys: ['importPath', 'name', 'originalName'],
 }
 
-.github-corner svg {
-  fill: #151513;
-  color: #fff;
-  position: absolute;
-  top: 0;
-  border: 0;
-  right: 0;
-}
-
-.github-corner .octo-arm {
-  transform-origin: 130px 106px;
-  will-change: transform;
-}
-
-.github-corner:hover .octo-arm {
-  animation: octocat-wave 560ms ease-in-out;
-}
-
-.ReactVirtualized__Grid {
-  outline: none;
-}
-
-@media (max-width: 500px) {
-  .github-corner:hover .octo-arm {
-    animation: none;
-  }
-  .github-corner .octo-arm {
-    animation: octocat-wave 560ms ease-in-out;
-  }
-}
-`
-
-const AppStyles = styled('div')`
-
-`
-
-const Layout = ({children, data}) => (
+const search = new Fuse(icons, fuseOptions)
+export default () => (
   <div>
-    <a
-      href="https://github.com/JoshRosenstein/emotion-icons"
-      className="github-corner"
-      aria-label="View source on Github"
-    >
-      <svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true">
-        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z" />
-        <path
-          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
-          fill="currentColor"
-          className="octo-arm"
-        />
-        <path
-          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
-          fill="currentColor"
-          className="octo-body"
-        />
-      </svg>
-    </a>
-    {children}
+    <div css={{ display: 'inline-block' }}>
+      <img
+        style={{ width: 75, height: 75 }}
+        src="https://uploads.codesandbox.io/uploads/user/654fb2c0-8e71-49fb-b4d2-18b945fec988/ihyz-emotion.png"
+        alt="Emotion Avatar"
+      />
+    </div>
+    <h1 style={{ display: 'inline-block' }}>Emotion Icons </h1>
+
+    <p>
+      This site and repo is an altered fork of{' '}
+      <a href="https://github.com/jacobwgillespie/styled-icons">styled-icons</a>,
+      using <a href="https://emotion.sh/">Emotion </a>
+      instead of{' '}
+      <a href="https://www.styled-components.com/">Styled Components </a>
+    </p>
+
+    <p>
+      Import icons from the{' '}
+      <a href="https://fontawesome.com/">Font Awesome (free)</a>,{' '}
+      <a href="https://simpleicons.org/">SimpleIcons</a>, ,
+      <a href="https://ionicons.com/">IonIcons</a>,{' '}
+      <a href="https://material.io/icons/">Material</a>, or{' '}
+      <a href="https://octicons.github.com/">Octicons</a> icon packs as{' '}
+      <a href="https://emotion.sh//">Emotion </a>
+    </p>
+
+    <code style={{ overflow: 'auto' }} className="demo">
+      {`
+import {Zap} from 'emotion-icons/octicons/Zap'
+
+const RedZap = styled(Zap)\`
+  color: red;
+\`
+
+const App = () => <RedZap />
+    `.trim()}
+    </code>
+
+    <p>
+      <a href="https://github.com/joshuarosenstein/emotion-icons">
+        View documentation on GitHub
+      </a>
+    </p>
+
+    <h2>Icon Explorer</h2>
+
+    <IconExplorer icons={icons} search={search} />
   </div>
 )
-
-const App = () => (
-  <Router>
-    <Layout>
-
-      <div className="content">
-
-        <Routes />
-      </div>
-    </Layout>
-  </Router>
-)
-
-export default hot(module)(App)

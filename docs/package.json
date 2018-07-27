@@ -1,25 +1,27 @@
 {
-  "name": "emotion-icons-docs",
+  "name": "emotion-icons",
   "private": true,
-  "author": "Josh Rosenstein <jrosenstein6@gmail.com>",
-  "scripts": {
-    "start": "react-static start",
-    "stage": "react-static build --staging",
-    "build": "react-static build",
-    "serve": "serve dist -p 3000"
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "homepage": "https://joshrosenstein.github.io/emotion-icons",
+  "dependencies": {
+    "copy-to-clipboard": "3.0.8",
+    "emotion": "9.2.6",
+    "emotion-icons": "0.0.7",
+    "fuse.js": "3.2.1",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-emotion": "9.2.4",
+    "react-scripts": "1.1.4",
+    "react-virtualized": "9.20.0",
+    "recompose": "0.27.1"
   },
   "devDependencies": {},
-  "dependencies": {
-    "copy-to-clipboard": "^3.0.8",
-    "emotion": "^9.2.4",
-    "emotion-icons": "^0.0.5",
-    "emotion-server": "^9.2.4",
-    "fuse.js": "^3.2.1",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-emotion": "^9.2.4",
-    "react-helmet": "^5.2.0",
-    "react-static": "^5.9.7",
-    "react-virtualized": "^9.18.5"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }

@@ -1,35 +1,39 @@
-import * as React from 'react'
-import {AutoSizer, Grid, WindowScroller, defaultCellRangeRenderer} from 'react-virtualized'
+import * as React from "react";
+import {
+  AutoSizer,
+  Grid,
+  WindowScroller,
+} from "react-virtualized";
 
-import IconCard from './IconCard'
+import { IconCard } from "./IconCard";
 
-export default class IconExplorer extends React.Component {
+export class IconExplorer extends React.Component {
   state = {
-    search: '',
-  }
+    search: ""
+  };
 
   updateSearch = event => {
-    const search = event.target.value
-    this.setState({search})
-  }
+    const search = event.target.value;
+    this.setState({ search });
+  };
 
   render() {
     const filteredIcons = this.state.search
       ? this.props.search.search(this.state.search)
-      : this.props.icons
+      : this.props.icons;
 
-    const cellRenderer = ({columnIndex, key, rowIndex, style}) => {
-      const idx = rowIndex * 4 + columnIndex
-      if (idx >= filteredIcons.length) return null
+    const cellRenderer = ({ columnIndex, key, rowIndex, style }) => {
+      const idx = rowIndex * 4 + columnIndex;
+      if (idx >= filteredIcons.length) return null;
 
-      const {importPath, icon, name, pack} = filteredIcons[idx]
+      const { importPath, icon, name, pack } = filteredIcons[idx];
 
       return (
         <div className="icon-card-wrapper" key={key} style={style}>
           <IconCard Icon={icon} name={name} pack={pack} key={importPath} />
         </div>
-      )
-    }
+      );
+    };
 
     return (
       <div>
@@ -41,12 +45,12 @@ export default class IconExplorer extends React.Component {
         />
 
         <WindowScroller>
-          {({height, isScrolling, onChildScroll, scrollTop}) => (
+          {({ height, isScrolling, onChildScroll, scrollTop }) => (
             <AutoSizer disableHeight>
-              {({width}) => {
-                const columnCount = width > 755 ? 4 : width < 600 ? 2 : 3
-                const rowCount = Math.ceil(filteredIcons.length / columnCount)
-                const size = Math.floor(width / columnCount)
+              {({ width }) => {
+                const columnCount = width > 755 ? 4 : width < 600 ? 2 : 3;
+                const rowCount = Math.ceil(filteredIcons.length / columnCount);
+                const size = Math.floor(width / columnCount);
 
                 return (
                   <Grid
@@ -61,12 +65,12 @@ export default class IconExplorer extends React.Component {
                     scrollTop={scrollTop}
                     width={width}
                   />
-                )
+                );
               }}
             </AutoSizer>
           )}
         </WindowScroller>
       </div>
-    )
+    );
   }
 }
