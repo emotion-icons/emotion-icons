@@ -11,6 +11,4 @@ import * as ionMd from './ion-md'
 import * as boxiconsRegular from './boxicons-regular'
 import * as boxiconsSolid from './boxicons-solid'
 
-
-
 export {faRegular, faSolid, faBrands, feather, material, octicons, simpleIcons, ionIos, ionMd, boxiconsRegular, boxiconsSolid}

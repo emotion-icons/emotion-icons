@@ -2,6 +2,7 @@
 node_modules/
 docs/dist/
 docs/build/
+/build/
 *.log
 
 # Built files

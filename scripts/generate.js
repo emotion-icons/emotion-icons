@@ -1,37 +1,18 @@
-const {toWords} = require('number-to-words')
+
 const execa = require('execa')
 const paths= require('./paths')
+const {PACKS,SVG_ATTRS}= require('./constants')
 const fg = require('fast-glob')
 const fs = require('fs-extra')
 const ora = require('ora')
 const path = require('path')
-const {PACKS,SVG_ATTRS}= require('./constants')
-
+const {camelize,pascalize}= require('./utils')
+const {toWords} = require('number-to-words')
 const h2x = require('./transform/h2x')
 const svgo = require('./transform/svgo')
-const svgo2 = require('./transform/svgoTest')
-//const feather = require('feather-icons')
-
-
-if (!fs.existsSync(paths.DEST)) {
-  fs.mkdirSync(paths.DEST);
-}
 
 
 let spinner
-const camelize=(str) =>str
-.split(/[\s\u2000-\u206F\u2E00-\u2E7F\\'!"#$%&()*+,\-.\/:;<=>?@\[\]^_`{|}~]+/)
-.reduce((res,word,i)=>{
-    return word===''?res: res.concat( i>0?word[0].toUpperCase():word[0].toLowerCase() , word.slice(1))
-  },'')
-
-  const pascalize=(str) =>str
-.split(/[\s\u2000-\u206F\u2E00-\u2E7F\\'!"#$%&()*+,\-.\/:;<=>?@\[\]^_`{|}~]+/)
-.reduce((res,word)=>{
-    return word===''?res:res.concat( word[0].toUpperCase(),word.slice(1))
-  },'')
-
-
 
 const getComponentName = originalName => {
   originalName = originalName.replace(/^\d+/, digits => `${toWords(parseInt(digits, 10))}_`)
@@ -46,34 +27,41 @@ const getTemplate = () =>
     }),
   )
 
-const ClearingDestination=async ()=>  {
-  const destinationFiles = [ ...PACKS, 'index.js']
-  for (const destinationFile of destinationFiles) {
-    await fs.remove(path.join(paths.DEST, destinationFile))
-  }
-}
+const baseDir = path.join(__dirname, '..', 'build')
 
-const BuildIcons=async (icons,template)=>  {
+const generate = async () => {
+  spinner = ora('Reading icon packs...').start()
+
+  const icons = (await Promise.all(PACKS.map(pack => require(`./sources/${pack}`)()))).reduce(
+    (all, icons) => all.concat(...icons),
+    [],
+  )
+
+  spinner.text = 'Reading template...'
+  const template = await getTemplate()
+
+  spinner.text = 'Clearing desination files...'
+  const destinationFiles = [
+    'build',
+    ...PACKS,
+    'index.cjs.js',
+    'index.js',
+  ]
+  for (const destinationFile of destinationFiles) {
+    await fs.remove(path.join(__dirname, '..', destinationFile))
+  }
+
+  spinner.text = 'Building icons...'
   const totalIcons = icons.length
   let builtIcons = 0
 
   for (const icon of icons) {
     const state = {}
-  icon.name = getComponentName(icon.originalName)
+
     let result = icon.source
-  //  let result2 = icon.source
-    //await fs.outputFile(path.join(baseDir, 'src', icon.pack, `${icon.name}result1.js`), result)
-
     result = await svgo(result)
-//result2 = await svgo2(result2)
-//await fs.outputFile(path.join(baseDir, 'src', icon.pack, `${icon.name}resultsvgo.js`), result2)
-
-
-  //await fs.outputFile(path.join(baseDir, 'src', icon.pack, `${icon.name}resultsvgo2.js`), result)
     result = await h2x(result, state)
-
     result = result.join(',\n')
-
 
     icon.name = getComponentName(icon.originalName)
     icon.height = state.height || icon.height
@@ -90,7 +78,8 @@ const BuildIcons=async (icons,template)=>  {
     // Special-case the `React` icon
     if (icon.name === 'React') icon.name = 'ReactLogo'
 
-    const component = template
+    const component = (cjs = false) =>
+      template
       .replace(/{{attrs}}/g, JSON.stringify(icon.attrs, null, 2).slice(2, -2))
       .replace(/{{height}}/g, icon.height)
       .replace(/{{name}}/g, icon.name)
@@ -99,102 +88,106 @@ const BuildIcons=async (icons,template)=>  {
       .replace(/{{viewBox}}/g, icon.viewBox)
       .replace(/{{width}}/g, icon.width)
       .replace(/{{hex}}/g, icon.hex?`export const hex='#${icon.hex}'`:'')
-///ios-([^}]+).svg/
-    const destinationFilename = path.join(paths.DEST, icon.pack, `${icon.name}.js`)
-    await fs.outputFile(destinationFilename, component)
+
+    const destinationPath = path.join(baseDir, 'src', icon.pack)
+      const destinationPath1 = path.join(baseDir, 'srccjs', icon.pack)
+
+    await fs.outputFile(path.join(destinationPath, `${icon.name}.js`), component())
+    await fs.outputFile(path.join(destinationPath1, `${icon.name}.cjs.js`), component(true))
 
     spinner.text = `[${++builtIcons} / ${totalIcons}] Built ${icon.pack}/${icon.name}...`
   }
 
-  return icons
-}
+  spinner.text = 'Writing index files...'
 
+  const writeIndexFiles = async (cjs = false) => {
+    for (const iconPack of PACKS) {
+      const seenNames = new Set()
 
+      const packIcons = icons.filter(({pack}) => pack === iconPack)
+      await fs.outputFile(
+        path.join(baseDir, cjs?'srccjs':'src', iconPack, cjs ? 'index.cjs.js' : 'index.js'),
 
+        packIcons
+          .map(({name}) => {
+            // The Material icon pack has one icon incorrectly in the pack twice
+            const seen = seenNames.has(name)
+            seenNames.add(name)
+            return seen ? null : `export {${name}} from './${name}${cjs ? '.cjs' : ''}'`
+          })
+          .filter(lines => lines)
+          .join('\n') ,
+      )
+    }
 
-const WriteIndex=async (icons)=>  {
-  for (const iconPack of PACKS) {
-    const seenNames = new Set()
-
-    const packIcons = icons.filter(({pack}) => pack === iconPack)
-    await fs.outputFile(
-      path.join(paths.DEST, iconPack, 'index.js'),
-
-      packIcons
-        .map(({name}) => {
-          // The Material icon pack has one icon incorrectly in the pack twice
-          const seen = seenNames.has(name)
-          seenNames.add(name)
-          return seen ? null : `export {default as ${name}} from './${name}'`
-        })
-        .filter(lines => lines)
-        .join('\n') +
-        `
-`,
-    )
-  }
-
-  await fs.writeFileSync(
-    path.join(paths.DEST, 'index.js'),
-    `
-${PACKS.map((pack, idx) => `import * as ${camelize(pack)} from './${pack}'`).join('\n')}
-
-
+    await fs.writeFileSync(
+      path.join(baseDir, cjs?'srccjs':'src', cjs ? 'index.cjs.js' : 'index.js'),
+      `
+${PACKS.map(
+        (pack, idx) =>
+          `import * as ${camelize(pack)} from './${pack}${cjs ? '/index.cjs' : ''}'`,
+      ).join('\n')}
 
 export {${PACKS.map(camelize).join(', ')}}
 `,
-  )
-}
+    )
+  }
 
+  await writeIndexFiles()
+  await writeIndexFiles(true)
 
-
-const Build=async (icons)=>  {
-  spinner.text = 'Building ESM JavaScript...'
-  let compiler  = execa('yarn', [
-  'run',
-  'build:es'
-])
-//compiler.stdout.pipe(process.stdout)
-compiler.stderr.pipe(process.stderr)
-await compiler
-  spinner.text = 'Building CJS bundles...'
-
-  compiler = execa('yarn', [
-    'run',
-    'build:cjs'
-  ])
-  //compiler.stdout.pipe(process.stdout)
+  spinner.text='Building ESM JavaScript..'
+    let compiler  = execa('babel', [
+    './build/src',
+    '--out-dir',
+    '.',
+    '--ignore',
+    '*.spec.js,*.cjs.js'
+  ],{cwd:paths.ROOT})
+  compiler.stdout.pipe(process.stdout)
   compiler.stderr.pipe(process.stderr)
   await compiler
-}
+  spinner.text = 'Building CJS bundles...'
 
-const copyToDest =async()=>{
-  const builtFiles = [...PACKS, 'index.js']
-  for (const builtFile of builtFiles) {
-    await fs.remove(path.join(__dirname, '..', builtFile))
-    await fs.move(path.join(baseDir, 'icons', builtFile), path.join(__dirname, '..', builtFile))
-  }
+  compiler  = execa('babel', [
+  './build/srccjs',
+  '--out-dir',
+  '.',
+  '--presets','stage-2,react,env',
+  '--ignore',
+  '*.spec.js,*.test.js'
+  ],{cwd:paths.ROOT})
 
-  const cjsFiles = await fg('build/icons-cjs/**/*.js')
-  for (const cjsFile of cjsFiles) {
-    const destination = path.join(
-      __dirname,
-      '..',
-      cjsFile.replace('build/icons-cjs/', '').replace(/\.js$/, '.cjs.js'),
-    )
-    await fs.move(path.join(__dirname, '..', cjsFile), destination)
-  }
-}
+  compiler.stdout.pipe(process.stdout)
+  compiler.stderr.pipe(process.stderr)
+  await compiler
 
-const createManifest=async(icons)=>{
+spinner.text = 'Moving src...'
+
+await fs.move(path.join(baseDir, 'src',), path.join(baseDir,'..', 'src',), {overwrite: true})
+
+  //
+  // spinner.text = 'Copying files to destination...'
+  // const builtFiles = [...PACKS,'index.cjs.js', 'index.js']
+  // for (const builtFile of builtFiles) {
+  //   await fs.remove(path.join(__dirname, '..', builtFile))
+  //   await fs.move(path.join(baseDir, 'icons', builtFile), path.join(__dirname, '..', builtFile))
+  // }
+  //
+  // const cjsFiles = await fg('build/icons-cjs/**/*.cjs.js')
+  // for (const cjsFile of cjsFiles) {
+  //   const destination = path.join(__dirname, '..', cjsFile.replace('build/icons-cjs/', ''))
+  //   await fs.move(path.join(__dirname, '..', cjsFile), destination, {overwrite: true})
+  // }
+  //
+
+  spinner.text = 'Writing icon manifest for website...'
   const seenImports = new Set()
-
   await fs.writeJSON(
     path.join(__dirname, '..', 'manifest.json'),
     icons
-      .map(({ name,originalName, pack}) => {
-
-        const importPath = `emotion-icons/${pack}/${name}`
+      .map(({name, originalName, pack}) => {
+        const importPath = `styled-icons/${pack}/${name}`
 
         if (seenImports.has(importPath)) return null
         seenImports.add(importPath)
@@ -206,49 +199,10 @@ const createManifest=async(icons)=>{
           pack,
         }
       })
-      .filter(icon => icon).sort((a, b)=> {
-  x=a.name
-  y=b.name
-  if (x < y) {return -1;}
-    if (x > y) {return 1;}
-    return 0;}),
-  )
-}
-const generate = async () => {
-  spinner = ora('Reading icon packs...').start()
-
-
-
-  let icons = (await Promise.all(PACKS.map(pack => require(`./sources/${pack}`)()))).reduce(
-    (all, icons) => all.concat(...icons),
-    [],
+      .filter(icon => icon),
   )
 
-
-  spinner.text = 'Reading template...'
-  const template = await getTemplate()
-
-  spinner.text = 'Clearing desination files...'
-  //
-  // const destinationFiles = [ ...PACKS, 'index.js']
-  // for (const destinationFile of destinationFiles) {
-  //   await fs.remove(path.join(paths.BUILD, destinationFile))
-  // }
-
-  spinner.text = 'Building icons...'
- icons=  await BuildIcons(icons,template)
-
-  spinner.text = 'Writing index files...'
- await WriteIndex(icons)
-
-  //spinner.text = 'Moving Source File'
-//await  fs.remove(paths.SRC)
-
-
-  spinner.text = 'Writing icon manifest for website...'
-  await createManifest(icons)
-
-spinner.succeed(`${icons.length} icons successfully generated!`)
+  spinner.succeed(`${totalIcons} icons successfully built!`)
 }
 
 generate().catch(err => {
