@@ -1,43 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<path d="M7.59 5.41c-.78-.78-.78-2.05 0-2.83.78-.78 2.05-.78 2.83 0 .78.78.78 2.05 0 2.83-.79.79-2.05.79-2.83 0zM6 16V7H4v9c0 2.76 2.24 5 5 5h6v-2H9c-1.66 0-3-1.34-3-3zm14 4.07L14.93 15H11.5v-3.68c1.4 1.15 3.6 2.16 5.5 2.16v-2.16c-1.66.02-3.61-.87-4.67-2.04l-1.4-1.55c-.19-.21-.43-.38-.69-.5-.29-.14-.62-.23-.96-.23h-.03C8.01 7 7 8.01 7 9.25V15c0 1.66 1.34 3 3 3h5.07l3.5 3.5L20 20.07z" key="k0" />
-]
+export const AirlineSeatReclineNormalConfig = {"displayName":"AirlineSeatReclineNormal","defaultProps":{"height":"24","width":"24"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"AirlineSeatReclineNormal-title"},"viewBox":"0 0 24 24","labelledby":"icon-title-AirlineSeatReclineNormal","body":[{"type":"path","props":{"d":"M7.59 5.41c-.78-.78-.78-2.05 0-2.83.78-.78 2.05-.78 2.83 0 .78.78.78 2.05 0 2.83-.79.79-2.05.79-2.83 0zM6 16V7H4v9c0 2.76 2.24 5 5 5h6v-2H9c-1.66 0-3-1.34-3-3zm14 4.07L14.93 15H11.5v-3.68c1.4 1.15 3.6 2.16 5.5 2.16v-2.16c-1.66.02-3.61-.87-4.67-2.04l-1.4-1.55c-.19-.21-.43-.38-.69-.5-.29-.14-.62-.23-.96-.23h-.03C8.01 7 7 8.01 7 9.25V15c0 1.66 1.34 3 3 3h5.07l3.5 3.5L20 20.07z","key":"k0"}}]}
 
-
-const AirlineSeatReclineNormal = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: 'middle',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="AirlineSeatReclineNormal-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 24 24',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-AirlineSeatReclineNormal',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "currentColor",
-      ...restProps
-    }
-    )
-  }
-
-AirlineSeatReclineNormal.displayName = 'AirlineSeatReclineNormal'
-
-AirlineSeatReclineNormal.defaultProps = { height: 24, width: 24}
-
-export default AirlineSeatReclineNormal
+export default createIcon(AirlineSeatReclineNormalConfig)

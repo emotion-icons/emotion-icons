@@ -1,43 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<path fill="currentColor" d="M544 96H416V32c0-17.7-14.3-32-32-32H192c-17.7 0-32 14.3-32 32v64H32c-17.7 0-32 14.3-32 32v368c0 8.8 7.2 16 16 16h544c8.8 0 16-7.2 16-16V128c0-17.7-14.3-32-32-32zM160 436c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40zm0-128c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40zm160 128c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40zm0-128c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40zm16-170c0 3.3-2.7 6-6 6h-26v26c0 3.3-2.7 6-6 6h-20c-3.3 0-6-2.7-6-6v-26h-26c-3.3 0-6-2.7-6-6v-20c0-3.3 2.7-6 6-6h26V86c0-3.3 2.7-6 6-6h20c3.3 0 6 2.7 6 6v26h26c3.3 0 6 2.7 6 6v20zm144 298c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40zm0-128c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40z" key="k0" />
-]
+export const HospitalAltConfig = {"displayName":"HospitalAlt","defaultProps":{},"css":{"display":"inline-block","verticalAlign":"-.125em","overflow":"hidden"},"title":{"key":"HospitalAlt-title"},"viewBox":"0 0 576 512","labelledby":"icon-title-HospitalAlt","body":[{"type":"path","props":{"fill":"currentColor","d":"M544 96H416V32c0-17.7-14.3-32-32-32H192c-17.7 0-32 14.3-32 32v64H32c-17.7 0-32 14.3-32 32v368c0 8.8 7.2 16 16 16h544c8.8 0 16-7.2 16-16V128c0-17.7-14.3-32-32-32zM160 436c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40zm0-128c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40zm160 128c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40zm0-128c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40zm16-170c0 3.3-2.7 6-6 6h-26v26c0 3.3-2.7 6-6 6h-20c-3.3 0-6-2.7-6-6v-26h-26c-3.3 0-6-2.7-6-6v-20c0-3.3 2.7-6 6-6h26V86c0-3.3 2.7-6 6-6h20c3.3 0 6 2.7 6 6v26h26c3.3 0 6 2.7 6 6v20zm144 298c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40zm0-128c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40z","key":"k0"}}]}
 
-
-const HospitalAlt = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: '-.125em',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="HospitalAlt-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 576 512',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-HospitalAlt',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "currentColor",
-      ...restProps
-    }
-    )
-  }
-
-HospitalAlt.displayName = 'HospitalAlt'
-
-HospitalAlt.defaultProps = { height: undefined, width: undefined}
-
-export default HospitalAlt
+export default createIcon(HospitalAltConfig)

@@ -1,50 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<circle cx={18} cy={18} r={3} key="k0" />
-,
-<circle cx={6} cy={6} r={3} key="k1" />
-,
-<path d="M6 21V9a9 9 0 0 0 9 9" key="k2" />
-]
+export const GitMergeConfig = {"displayName":"GitMerge","defaultProps":{"height":24,"width":24},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"GitMerge-title"},"viewBox":"0 0 24 24","labelledby":"icon-title-GitMerge","body":[{"type":"circle","props":{"cx":18,"cy":18,"r":3,"key":"k0"}},{"type":"circle","props":{"cx":6,"cy":6,"r":3,"key":"k1"}},{"type":"path","props":{"d":"M6 21V9a9 9 0 0 0 9 9","key":"k2"}}]}
 
-
-const GitMerge = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: 'middle',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="GitMerge-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 24 24',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-GitMerge',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "none",
-  "stroke": "currentColor",
-  "strokeLinecap": "round",
-  "strokeLinejoin": "round",
-      ...restProps
-    }
-    )
-  }
-
-GitMerge.displayName = 'GitMerge'
-
-GitMerge.defaultProps = { height: 24, width: 24}
-
-export default GitMerge
+export default createIcon(GitMergeConfig)

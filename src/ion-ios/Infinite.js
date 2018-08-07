@@ -1,43 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<path d="M456.8 182.4c-20-19.6-46.8-30.4-75.2-30.4-28.5 0-55.2 10.8-75.2 30.4l-31.2 30c-1.6 1.6-1.6 4.2 0 5.7l19.4 19.1c1.5 1.5 4 1.5 5.6 0l31-30.1c13.5-13.1 31.3-20.3 50.3-20.3 19 0 36.8 7.2 50.3 20.3 13.4 13.1 20.7 30.5 20.7 49 0 18.4-7.4 35.8-20.7 48.7-13.5 13.1-31.3 20.3-50.3 20.3-19 0-36.8-7.2-50.3-20.3L205.6 182.4c-20.2-19.6-46.9-30.4-75.2-30.4-28.5 0-55.2 10.8-75.2 30.4C35.1 202 24 228.1 24 256c0 27.8 11.1 54 31.2 73.6 20 19.6 46.8 30.4 75.2 30.4 28.5 0 55.2-10.8 75.2-30.4l31-30c1.6-1.6 1.6-4.2 0-5.7L217.2 275c-1.5-1.5-4-1.5-5.6 0l-31 29.9c-13.5 13.1-31.3 20.3-50.3 20.3-19 0-36.8-7.2-50.3-20.3-13.4-13.1-20.7-30.5-20.7-49 0-18.4 7.4-35.7 20.7-48.7 13.5-13.1 31.3-20.3 50.3-20.3 19 0 36.8 7.2 50.3 20.3l125.5 122.5c20.2 19.6 46.9 30.4 75.2 30.4 28.5 0 55.2-10.8 75.2-30.4 20.2-19.6 31.3-45.7 31.3-73.6.2-27.9-10.9-54.1-31-73.7z" key="k0" />
-]
+export const InfiniteConfig = {"displayName":"Infinite","defaultProps":{},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"Infinite-title"},"viewBox":"0 0 512 512","labelledby":"icon-title-Infinite","body":[{"type":"path","props":{"d":"M456.8 182.4c-20-19.6-46.8-30.4-75.2-30.4-28.5 0-55.2 10.8-75.2 30.4l-31.2 30c-1.6 1.6-1.6 4.2 0 5.7l19.4 19.1c1.5 1.5 4 1.5 5.6 0l31-30.1c13.5-13.1 31.3-20.3 50.3-20.3 19 0 36.8 7.2 50.3 20.3 13.4 13.1 20.7 30.5 20.7 49 0 18.4-7.4 35.8-20.7 48.7-13.5 13.1-31.3 20.3-50.3 20.3-19 0-36.8-7.2-50.3-20.3L205.6 182.4c-20.2-19.6-46.9-30.4-75.2-30.4-28.5 0-55.2 10.8-75.2 30.4C35.1 202 24 228.1 24 256c0 27.8 11.1 54 31.2 73.6 20 19.6 46.8 30.4 75.2 30.4 28.5 0 55.2-10.8 75.2-30.4l31-30c1.6-1.6 1.6-4.2 0-5.7L217.2 275c-1.5-1.5-4-1.5-5.6 0l-31 29.9c-13.5 13.1-31.3 20.3-50.3 20.3-19 0-36.8-7.2-50.3-20.3-13.4-13.1-20.7-30.5-20.7-49 0-18.4 7.4-35.7 20.7-48.7 13.5-13.1 31.3-20.3 50.3-20.3 19 0 36.8 7.2 50.3 20.3l125.5 122.5c20.2 19.6 46.9 30.4 75.2 30.4 28.5 0 55.2-10.8 75.2-30.4 20.2-19.6 31.3-45.7 31.3-73.6.2-27.9-10.9-54.1-31-73.7z","key":"k0"}}]}
 
-
-const Infinite = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: 'middle',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="Infinite-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 512 512',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-Infinite',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "currentColor",
-      ...restProps
-    }
-    )
-  }
-
-Infinite.displayName = 'Infinite'
-
-Infinite.defaultProps = { height: undefined, width: undefined}
-
-export default Infinite
+export default createIcon(InfiniteConfig)

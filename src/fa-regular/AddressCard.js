@@ -1,43 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<path fill="currentColor" d="M528 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm0 400H48V80h480v352zM208 256c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm-89.6 128h179.2c12.4 0 22.4-8.6 22.4-19.2v-19.2c0-31.8-30.1-57.6-67.2-57.6-10.8 0-18.7 8-44.8 8-26.9 0-33.4-8-44.8-8-37.1 0-67.2 25.8-67.2 57.6v19.2c0 10.6 10 19.2 22.4 19.2zM360 320h112c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H360c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8zm0-64h112c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H360c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8zm0-64h112c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H360c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8z" key="k0" />
-]
+export const AddressCardConfig = {"displayName":"AddressCard","defaultProps":{},"css":{"display":"inline-block","verticalAlign":"-.125em","overflow":"hidden"},"title":{"key":"AddressCard-title"},"viewBox":"0 0 576 512","labelledby":"icon-title-AddressCard","body":[{"type":"path","props":{"fill":"currentColor","d":"M528 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm0 400H48V80h480v352zM208 256c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm-89.6 128h179.2c12.4 0 22.4-8.6 22.4-19.2v-19.2c0-31.8-30.1-57.6-67.2-57.6-10.8 0-18.7 8-44.8 8-26.9 0-33.4-8-44.8-8-37.1 0-67.2 25.8-67.2 57.6v19.2c0 10.6 10 19.2 22.4 19.2zM360 320h112c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H360c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8zm0-64h112c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H360c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8zm0-64h112c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H360c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8z","key":"k0"}}]}
 
-
-const AddressCard = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: '-.125em',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="AddressCard-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 576 512',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-AddressCard',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "currentColor",
-      ...restProps
-    }
-    )
-  }
-
-AddressCard.displayName = 'AddressCard'
-
-AddressCard.defaultProps = { height: undefined, width: undefined}
-
-export default AddressCard
+export default createIcon(AddressCardConfig)

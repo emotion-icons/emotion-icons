@@ -1,48 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<line x1={22} x2={11} y1={2} y2={13} key="k0" />
-,
-<polygon points="22 2 15 22 11 13 2 9 22 2" key="k1" />
-]
+export const SendConfig = {"displayName":"Send","defaultProps":{"height":24,"width":24},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"Send-title"},"viewBox":"0 0 24 24","labelledby":"icon-title-Send","body":[{"type":"line","props":{"x1":22,"x2":11,"y1":2,"y2":13,"key":"k0"}},{"type":"polygon","props":{"points":"22 2 15 22 11 13 2 9 22 2","key":"k1"}}]}
 
-
-const Send = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: 'middle',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="Send-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 24 24',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-Send',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "none",
-  "stroke": "currentColor",
-  "strokeLinecap": "round",
-  "strokeLinejoin": "round",
-      ...restProps
-    }
-    )
-  }
-
-Send.displayName = 'Send'
-
-Send.defaultProps = { height: 24, width: 24}
-
-export default Send
+export default createIcon(SendConfig)

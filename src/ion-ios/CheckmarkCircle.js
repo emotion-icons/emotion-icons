@@ -1,43 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<path d="M256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48zm106.5 150.5L228.8 332.8h-.1c-1.7 1.7-6.3 5.5-11.6 5.5-3.8 0-8.1-2.1-11.7-5.7l-56-56c-1.6-1.6-1.6-4.1 0-5.7l17.8-17.8c.8-.8 1.8-1.2 2.8-1.2 1 0 2 .4 2.8 1.2l44.4 44.4 122-122.9c.8-.8 1.8-1.2 2.8-1.2 1.1 0 2.1.4 2.8 1.2l17.5 18.1c1.8 1.7 1.8 4.2.2 5.8z" key="k0" />
-]
+export const CheckmarkCircleConfig = {"displayName":"CheckmarkCircle","defaultProps":{},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"CheckmarkCircle-title"},"viewBox":"0 0 512 512","labelledby":"icon-title-CheckmarkCircle","body":[{"type":"path","props":{"d":"M256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48zm106.5 150.5L228.8 332.8h-.1c-1.7 1.7-6.3 5.5-11.6 5.5-3.8 0-8.1-2.1-11.7-5.7l-56-56c-1.6-1.6-1.6-4.1 0-5.7l17.8-17.8c.8-.8 1.8-1.2 2.8-1.2 1 0 2 .4 2.8 1.2l44.4 44.4 122-122.9c.8-.8 1.8-1.2 2.8-1.2 1.1 0 2.1.4 2.8 1.2l17.5 18.1c1.8 1.7 1.8 4.2.2 5.8z","key":"k0"}}]}
 
-
-const CheckmarkCircle = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: 'middle',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="CheckmarkCircle-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 512 512',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-CheckmarkCircle',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "currentColor",
-      ...restProps
-    }
-    )
-  }
-
-CheckmarkCircle.displayName = 'CheckmarkCircle'
-
-CheckmarkCircle.defaultProps = { height: undefined, width: undefined}
-
-export default CheckmarkCircle
+export default createIcon(CheckmarkCircleConfig)

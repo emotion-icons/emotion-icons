@@ -10,8 +10,8 @@ const {camelize,pascalize}= require('./utils')
 const {toWords} = require('number-to-words')
 const h2x = require('./transform/h2x')
 const svgo = require('./transform/svgo')
-
-
+var acorn = require('acorn-jsx');
+var {parseJSX} = require('./parseJSX');
 let spinner
 
 const getComponentName = originalName => {
@@ -21,22 +21,28 @@ const getComponentName = originalName => {
 
 const getTemplate = () =>
   new Promise((resolve, reject) =>
-    fs.readFile(path.join(__dirname, 'templates', 'icon.js.template'), (err, data) => {
+    fs.readFile(path.join(__dirname, 'templates', 'icon.js.txt'), (err, data) => {
       if (err) reject(err)
       else resolve(data.toString())
     }),
   )
+
+
+
 
 const baseDir = path.join(__dirname, '..', 'build')
 
 const generate = async () => {
   spinner = ora('Reading icon packs...').start()
 
+  // const icons = (await Promise.all(PACKS.map(pack => require(`./sources/${pack}`)()))).reduce(
+  //   (all, icons) => all.concat(...icons),
+  //   [],
+  // )
   const icons = (await Promise.all(PACKS.map(pack => require(`./sources/${pack}`)()))).reduce(
     (all, icons) => all.concat(...icons),
     [],
   )
-
   spinner.text = 'Reading template...'
   const template = await getTemplate()
 
@@ -67,8 +73,8 @@ const generate = async () => {
     icon.height = state.height || icon.height
     icon.width = state.width || icon.width
     icon.viewBox = state.viewBox || `0 0 ${icon.width} ${icon.height}`
-    icon.attrs = {fill: 'currentColor'}
-
+    icon.attrs = {}
+    icon.defaultFill = {fill: 'currentColor'}
     for (const attr of SVG_ATTRS) {
       if (attr in state.attrs) {
         icon.attrs[camelize(attr)] = state.attrs[attr]
@@ -78,16 +84,42 @@ const generate = async () => {
     // Special-case the `React` icon
     if (icon.name === 'React') icon.name = 'ReactLogo'
 
+
+const dataP= parseJSX(result)
+
+const fill=icon.hex?{fill:`#${icon.hex}`}: {}
+const width=icon.width?{width:icon.width}: {}
+const height=icon.height?{height:icon.height}: {}
+const hex=icon.hex?{hex:`#${icon.hex}`}: {}
+const css={
+  display: 'inline-block',
+  verticalAlign: icon.verticalAlign || 'middle',
+  overflow: 'hidden'
+}
+
+const config={
+  displayName: icon.name,
+  defaultProps: { ...height ,...width, ...fill },
+...hex,
+css,
+  title: { key: `${icon.name}-title` },
+  viewBox: icon.viewBox,
+  labelledby: `icon-title-${icon.name}`,
+  body: dataP
+}
     const component = (cjs = false) =>
       template
       .replace(/{{attrs}}/g, JSON.stringify(icon.attrs, null, 2).slice(2, -2))
+      .replace(/{{config}}/g, JSON.stringify(config))
       .replace(/{{height}}/g, icon.height)
       .replace(/{{name}}/g, icon.name)
       .replace(/{{svg}}/g, result)
+      .replace(/{{svgdata}}/g, JSON.stringify(dataP))
       .replace(/{{verticalAlign}}/g, icon.verticalAlign || 'middle')
       .replace(/{{viewBox}}/g, icon.viewBox)
       .replace(/{{width}}/g, icon.width)
-      .replace(/{{hex}}/g, icon.hex?`export const hex='#${icon.hex}'`:'')
+      .replace(/{{defaultFill}}/g, icon.hex?`fill:'#${icon.hex}',`:'')
+    //  .replace(/{{hex}}/g, icon.hex?`export const hex='#${icon.hex}'`:'')
 
     const destinationPath = path.join(baseDir, 'src', icon.pack)
       const destinationPath1 = path.join(baseDir, 'srccjs', icon.pack)
@@ -97,7 +129,8 @@ const generate = async () => {
 
     spinner.text = `[${++builtIcons} / ${totalIcons}] Built ${icon.pack}/${icon.name}...`
   }
-
+await fs.copyFile(path.join(__dirname, 'templates','createIcon.js'), path.join(baseDir,'src','createIcon.js'), {overwrite: true})
+await fs.copyFile(path.join(__dirname, 'templates','createIcon.js'), path.join(baseDir,'srccjs','createIcon.cjs.js'), {overwrite: true})
   spinner.text = 'Writing index files...'
 
   const writeIndexFiles = async (cjs = false) => {
@@ -127,7 +160,7 @@ ${PACKS.map(
         (pack, idx) =>
           `import * as ${camelize(pack)} from './${pack}${cjs ? '/index.cjs' : ''}'`,
       ).join('\n')}
-
+export {default as createIcon} from './createIcon${cjs ? '.cjs' : ''}'
 export {${PACKS.map(camelize).join(', ')}}
 `,
     )

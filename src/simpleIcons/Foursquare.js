@@ -1,43 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<path d="M17.727 3.465l-.535 2.799c-.064.303-.445.623-.801.623H11.41c-.562 0-.963.391-.963.945v.614c0 .569.405.96.966.96h4.23c.395 0 .785.436.697.855l-.535 2.76c-.051.24-.314.63-.785.63h-3.457c-.63 0-.818.091-1.239.601-.42.524-4.206 5.069-4.206 5.069-.037.045-.074.029-.074-.015V3.42c0-.359.311-.78.776-.78h10.274c.375 0 .73.356.633.821v.004zm.451 10.98c.145-.578 1.746-8.784 2.281-11.385M18.486 0H5.683C3.918 0 3.4 1.328 3.4 2.164v20.34c0 .94.504 1.291.789 1.405.284.117 1.069.214 1.541-.328 0 0 6.044-7.014 6.146-7.117.165-.157.165-.157.315-.157h3.914c1.65 0 1.906-1.17 2.086-1.86.15-.569 1.754-8.774 2.279-11.385C20.875 1.08 20.365 0 18.49 0h-.004z" key="k0" />
-]
+export const FoursquareConfig = {"displayName":"Foursquare","defaultProps":{"height":"24","width":"24","fill":"#F94877"},"hex":"#F94877","css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"Foursquare-title"},"viewBox":"0 0 24 24","labelledby":"icon-title-Foursquare","body":[{"type":"path","props":{"d":"M17.727 3.465l-.535 2.799c-.064.303-.445.623-.801.623H11.41c-.562 0-.963.391-.963.945v.614c0 .569.405.96.966.96h4.23c.395 0 .785.436.697.855l-.535 2.76c-.051.24-.314.63-.785.63h-3.457c-.63 0-.818.091-1.239.601-.42.524-4.206 5.069-4.206 5.069-.037.045-.074.029-.074-.015V3.42c0-.359.311-.78.776-.78h10.274c.375 0 .73.356.633.821v.004zm.451 10.98c.145-.578 1.746-8.784 2.281-11.385M18.486 0H5.683C3.918 0 3.4 1.328 3.4 2.164v20.34c0 .94.504 1.291.789 1.405.284.117 1.069.214 1.541-.328 0 0 6.044-7.014 6.146-7.117.165-.157.165-.157.315-.157h3.914c1.65 0 1.906-1.17 2.086-1.86.15-.569 1.754-8.774 2.279-11.385C20.875 1.08 20.365 0 18.49 0h-.004z","key":"k0"}}]}
 
-export const hex='#F94877'
-const Foursquare = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: 'middle',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="Foursquare-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 24 24',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-Foursquare',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "currentColor",
-      ...restProps
-    }
-    )
-  }
-
-Foursquare.displayName = 'Foursquare'
-
-Foursquare.defaultProps = { height: 24, width: 24}
-
-export default Foursquare
+export default createIcon(FoursquareConfig)

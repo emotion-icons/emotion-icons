@@ -1,43 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<path fill="currentColor" d="M257 8C120 8 9 119 9 256s111 248 248 248 248-111 248-248S394 8 257 8zm-49.5 374.8L81.8 257.1l125.7-125.7 35.2 35.4-24.2 24.2-11.1-11.1-77.2 77.2 77.2 77.2 26.6-26.6-53.1-52.9 24.4-24.4 77.2 77.2-75 75.2zm99-2.2l-35.2-35.2 24.1-24.4 11.1 11.1 77.2-77.2-77.2-77.2-26.5 26.5 53.1 52.9-24.4 24.4-77.2-77.2 75-75L432.2 255 306.5 380.6z" key="k0" />
-]
+export const GgCircleConfig = {"displayName":"GgCircle","defaultProps":{},"css":{"display":"inline-block","verticalAlign":"-.125em","overflow":"hidden"},"title":{"key":"GgCircle-title"},"viewBox":"0 0 512 512","labelledby":"icon-title-GgCircle","body":[{"type":"path","props":{"fill":"currentColor","d":"M257 8C120 8 9 119 9 256s111 248 248 248 248-111 248-248S394 8 257 8zm-49.5 374.8L81.8 257.1l125.7-125.7 35.2 35.4-24.2 24.2-11.1-11.1-77.2 77.2 77.2 77.2 26.6-26.6-53.1-52.9 24.4-24.4 77.2 77.2-75 75.2zm99-2.2l-35.2-35.2 24.1-24.4 11.1 11.1 77.2-77.2-77.2-77.2-26.5 26.5 53.1 52.9-24.4 24.4-77.2-77.2 75-75L432.2 255 306.5 380.6z","key":"k0"}}]}
 
-
-const GgCircle = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: '-.125em',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="GgCircle-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 512 512',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-GgCircle',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "currentColor",
-      ...restProps
-    }
-    )
-  }
-
-GgCircle.displayName = 'GgCircle'
-
-GgCircle.defaultProps = { height: undefined, width: undefined}
-
-export default GgCircle
+export default createIcon(GgCircleConfig)

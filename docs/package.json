@@ -14,8 +14,7 @@
     "react-dom": "16.3.2",
     "react-emotion": "9.2.4",
     "react-scripts": "1.1.4",
-    "react-virtualized": "9.20.0",
-    "recompose": "0.27.1"
+    "react-virtualized": "9.20.1"
   },
   "devDependencies": {},
   "scripts": {

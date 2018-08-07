@@ -1,45 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<path fillOpacity={.3} d="M21 8.5c.85 0 1.64.23 2.34.62l2.24-2.79C25.1 5.96 20.26 2 13 2S.9 5.96.42 6.32l12.57 15.66.01.02.01-.01 4.21-5.24c-.76-.87-1.22-2-1.22-3.25 0-2.76 2.24-5 5-5z" key="k0" />
-,
-<path d="M21 10c-1.93 0-3.5 1.57-3.5 3.5h1.75c0-.97.78-1.75 1.75-1.75s1.75.78 1.75 1.75c0 .48-.2.92-.51 1.24l-1.09 1.1c-.63.63-1.02 1.51-1.02 2.47v.44h1.75c0-1.31.39-1.84 1.03-2.47l.78-.8c.5-.5.82-1.2.82-1.97C24.5 11.57 22.93 10 21 10zm-.95 11.95h1.9v-1.9h-1.9v1.9z" key="k1" />
-]
+export const SignalWifiStatusbarNotConnectedConfig = {"displayName":"SignalWifiStatusbarNotConnected","defaultProps":{"height":"24","width":"26"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"SignalWifiStatusbarNotConnected-title"},"viewBox":"0 0 26 24","labelledby":"icon-title-SignalWifiStatusbarNotConnected","body":[{"type":"path","props":{"fillOpacity":0.3,"d":"M21 8.5c.85 0 1.64.23 2.34.62l2.24-2.79C25.1 5.96 20.26 2 13 2S.9 5.96.42 6.32l12.57 15.66.01.02.01-.01 4.21-5.24c-.76-.87-1.22-2-1.22-3.25 0-2.76 2.24-5 5-5z","key":"k0"}},{"type":"path","props":{"d":"M21 10c-1.93 0-3.5 1.57-3.5 3.5h1.75c0-.97.78-1.75 1.75-1.75s1.75.78 1.75 1.75c0 .48-.2.92-.51 1.24l-1.09 1.1c-.63.63-1.02 1.51-1.02 2.47v.44h1.75c0-1.31.39-1.84 1.03-2.47l.78-.8c.5-.5.82-1.2.82-1.97C24.5 11.57 22.93 10 21 10zm-.95 11.95h1.9v-1.9h-1.9v1.9z","key":"k1"}}]}
 
-
-const SignalWifiStatusbarNotConnected = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: 'middle',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="SignalWifiStatusbarNotConnected-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 26 24',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-SignalWifiStatusbarNotConnected',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "currentColor",
-      ...restProps
-    }
-    )
-  }
-
-SignalWifiStatusbarNotConnected.displayName = 'SignalWifiStatusbarNotConnected'
-
-SignalWifiStatusbarNotConnected.defaultProps = { height: 24, width: 26}
-
-export default SignalWifiStatusbarNotConnected
+export default createIcon(SignalWifiStatusbarNotConnectedConfig)

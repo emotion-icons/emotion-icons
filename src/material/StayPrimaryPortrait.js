@@ -1,43 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<path d="M17 1.01L7 1c-1.1 0-1.99.9-1.99 2v18c0 1.1.89 2 1.99 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z" key="k0" />
-]
+export const StayPrimaryPortraitConfig = {"displayName":"StayPrimaryPortrait","defaultProps":{"height":"24","width":"24"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"StayPrimaryPortrait-title"},"viewBox":"0 0 24 24","labelledby":"icon-title-StayPrimaryPortrait","body":[{"type":"path","props":{"d":"M17 1.01L7 1c-1.1 0-1.99.9-1.99 2v18c0 1.1.89 2 1.99 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z","key":"k0"}}]}
 
-
-const StayPrimaryPortrait = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: 'middle',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="StayPrimaryPortrait-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 24 24',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-StayPrimaryPortrait',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "currentColor",
-      ...restProps
-    }
-    )
-  }
-
-StayPrimaryPortrait.displayName = 'StayPrimaryPortrait'
-
-StayPrimaryPortrait.defaultProps = { height: 24, width: 24}
-
-export default StayPrimaryPortrait
+export default createIcon(StayPrimaryPortraitConfig)

@@ -10,7 +10,8 @@
   "module": "index.js",
   "jsnext:main": "index.js",
   "sideEffects": false,
-  "files": ["src",
+  "files": [
+    "src",
     "/boxicons-regular",
     "/boxicons-solid",
     "/fa-brands",
@@ -23,12 +24,13 @@
     "/ion-md",
     "/simpleIcons",
     "/CHANGELOG.md",
-    "/index.d.ts",
     "/index.cjs.js",
     "/index.js",
     "/LICENSE",
     "/package.json",
     "/README.md",
+    "/createIcon.js",
+    "/createIcon.cjs.js",
     "/manifest.json"
   ],
   "keywords": [
@@ -51,21 +53,24 @@
   },
   "scripts": {
     "generate": "node scripts/generate.js",
+    "testgenerate": "node scripts/generateTest.js",
     "build": "yarn run clean && yarn run build:es",
     "build:es": "cross-env BABEL_ENV=es babel src --out-dir . --ignore *.spec.js,*.test.js ",
     "build:cjs": "cross-env BABEL_ENV=cjs babel src --out-dir ./build/srccjs/ --ignore *.spec.js,*.test.js ",
-    "clean": "rimraf build fa-brands fa-regular fa-solid material octicons boxicons-solid boxicons-regular simpleIcons ion-ios ion-md feather manifest.json index.d.ts index.cjs.js index.js",
+    "clean": "rimraf build fa-brands fa-regular fa-solid material octicons boxicons-solid boxicons-regular simpleIcons ion-ios ion-md feather manifest.json createIcon.js createIcon.cjs.js index.cjs.js index.js",
     "clean:modules": "rimraf node_modules"
   },
   "peerDependencies": {
-    "emotion": "8 || 9",
-    "react-emotion": "8 || 9"
+    "emotion": "8.x || 9.x",
+    "react-emotion": "8.x || 9.x",
+    "react": "15.x || 16.x"
   },
   "devDependencies": {
     "@fortawesome/fontawesome": "^1.1.5",
     "@fortawesome/fontawesome-free-brands": "^5.0.10",
     "@fortawesome/fontawesome-free-regular": "^5.0.10",
     "@fortawesome/fontawesome-free-solid": "^5.0.10",
+    "acorn-jsx": "^4.1.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-plugin-transform-export-extensions": "^6.22.0",

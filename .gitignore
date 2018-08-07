@@ -21,5 +21,8 @@ docs/build/
 /index.d.ts
 /index.cjs.js
 /index.js
+/createIcon.js
+/createIcon.cjs.js
 .vscode/
 yarn.lock
+/src/

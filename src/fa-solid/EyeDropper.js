@@ -1,43 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<path fill="currentColor" d="M177.38 206.64L39.03 344.97A24.01 24.01 0 0 0 32 361.94V424L0 480l32 32 56-32h62.06c6.36 0 12.47-2.53 16.97-7.03l138.35-138.33-128-128zm225.552 30.47l16.952 16.95c9.37 9.37 9.37 24.57 0 33.94l-40.973 40.97c-9.292 9.312-24.506 9.434-33.94 0L183.028 167.03c-9.37-9.37-9.37-24.57 0-33.94L224 92.12c9.289-9.309 24.502-9.438 33.94 0l16.992 16.99 82.606-82.601c35.19-35.19 92.5-35.5 128 0 40.49 48.08 29.66 98.34 0 128l-82.606 82.601z" key="k0" />
-]
+export const EyeDropperConfig = {"displayName":"EyeDropper","defaultProps":{},"css":{"display":"inline-block","verticalAlign":"-.125em","overflow":"hidden"},"title":{"key":"EyeDropper-title"},"viewBox":"0 0 512 512","labelledby":"icon-title-EyeDropper","body":[{"type":"path","props":{"fill":"currentColor","d":"M177.38 206.64L39.03 344.97A24.01 24.01 0 0 0 32 361.94V424L0 480l32 32 56-32h62.06c6.36 0 12.47-2.53 16.97-7.03l138.35-138.33-128-128zm225.552 30.47l16.952 16.95c9.37 9.37 9.37 24.57 0 33.94l-40.973 40.97c-9.292 9.312-24.506 9.434-33.94 0L183.028 167.03c-9.37-9.37-9.37-24.57 0-33.94L224 92.12c9.289-9.309 24.502-9.438 33.94 0l16.992 16.99 82.606-82.601c35.19-35.19 92.5-35.5 128 0 40.49 48.08 29.66 98.34 0 128l-82.606 82.601z","key":"k0"}}]}
 
-
-const EyeDropper = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: '-.125em',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="EyeDropper-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 512 512',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-EyeDropper',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "currentColor",
-      ...restProps
-    }
-    )
-  }
-
-EyeDropper.displayName = 'EyeDropper'
-
-EyeDropper.defaultProps = { height: undefined, width: undefined}
-
-export default EyeDropper
+export default createIcon(EyeDropperConfig)

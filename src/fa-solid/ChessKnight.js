@@ -1,43 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<path fill="currentColor" d="M352 224v224H32v-46.557c0-30.302 17.12-58.003 44.223-71.554l57.243-28.622A48 48 0 0 0 160 258.334V208l-22.127 11.063a23.996 23.996 0 0 0-12.55 15.645l-11.835 47.338a12 12 0 0 1-7.185 8.231l-29.601 11.84a11.998 11.998 0 0 1-9.33-.176L7.126 275.167A12 12 0 0 1 0 264.201v-158.26c0-6.365 2.529-12.47 7.03-16.971L16 80 1.789 51.578A16.937 16.937 0 0 1 0 44c0-6.627 5.373-12 12-12h148c106.039 0 192 85.961 192 192zm20 240H12c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h360c6.627 0 12-5.373 12-12v-24c0-6.627-5.373-12-12-12zM52 128c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20z" key="k0" />
-]
+export const ChessKnightConfig = {"displayName":"ChessKnight","defaultProps":{},"css":{"display":"inline-block","verticalAlign":"-.125em","overflow":"hidden"},"title":{"key":"ChessKnight-title"},"viewBox":"0 0 384 512","labelledby":"icon-title-ChessKnight","body":[{"type":"path","props":{"fill":"currentColor","d":"M352 224v224H32v-46.557c0-30.302 17.12-58.003 44.223-71.554l57.243-28.622A48 48 0 0 0 160 258.334V208l-22.127 11.063a23.996 23.996 0 0 0-12.55 15.645l-11.835 47.338a12 12 0 0 1-7.185 8.231l-29.601 11.84a11.998 11.998 0 0 1-9.33-.176L7.126 275.167A12 12 0 0 1 0 264.201v-158.26c0-6.365 2.529-12.47 7.03-16.971L16 80 1.789 51.578A16.937 16.937 0 0 1 0 44c0-6.627 5.373-12 12-12h148c106.039 0 192 85.961 192 192zm20 240H12c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h360c6.627 0 12-5.373 12-12v-24c0-6.627-5.373-12-12-12zM52 128c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20z","key":"k0"}}]}
 
-
-const ChessKnight = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: '-.125em',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="ChessKnight-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 384 512',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-ChessKnight',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "currentColor",
-      ...restProps
-    }
-    )
-  }
-
-ChessKnight.displayName = 'ChessKnight'
-
-ChessKnight.defaultProps = { height: undefined, width: undefined}
-
-export default ChessKnight
+export default createIcon(ChessKnightConfig)

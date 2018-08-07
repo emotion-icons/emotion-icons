@@ -1,43 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<path fill="currentColor" d="M352 32H96C43.2 32 0 75.2 0 128v256c0 52.8 43.2 96 96 96h256c52.8 0 96-43.2 96-96V128c0-52.8-43.2-96-96-96zM221 382.9c-39.6 0-81.9-17.8-81.9-53.7V302H179v17.8c0 15.1 19.5 24.5 41.9 24.5 24.2 0 41.3-10.4 41.3-29.5 0-23.8-27.2-31.9-54.7-42.6-31.9-12.4-63.1-26.2-63.1-69.1 0-48 38.6-66.4 79.9-66.4 37.6 0 75.5 14.1 75.5 41.9v31.2h-39.9v-16.1c0-12.1-17.8-18.5-35.6-18.5-19.5 0-35.6 8.1-35.6 26.2 0 22.1 22.5 29.2 47 38.9 35.9 12.4 71.1 27.2 71.1 71.5.1 48.6-40.8 71.1-85.8 71.1z" key="k0" />
-]
+export const SpeakapConfig = {"displayName":"Speakap","defaultProps":{},"css":{"display":"inline-block","verticalAlign":"-.125em","overflow":"hidden"},"title":{"key":"Speakap-title"},"viewBox":"0 0 448 512","labelledby":"icon-title-Speakap","body":[{"type":"path","props":{"fill":"currentColor","d":"M352 32H96C43.2 32 0 75.2 0 128v256c0 52.8 43.2 96 96 96h256c52.8 0 96-43.2 96-96V128c0-52.8-43.2-96-96-96zM221 382.9c-39.6 0-81.9-17.8-81.9-53.7V302H179v17.8c0 15.1 19.5 24.5 41.9 24.5 24.2 0 41.3-10.4 41.3-29.5 0-23.8-27.2-31.9-54.7-42.6-31.9-12.4-63.1-26.2-63.1-69.1 0-48 38.6-66.4 79.9-66.4 37.6 0 75.5 14.1 75.5 41.9v31.2h-39.9v-16.1c0-12.1-17.8-18.5-35.6-18.5-19.5 0-35.6 8.1-35.6 26.2 0 22.1 22.5 29.2 47 38.9 35.9 12.4 71.1 27.2 71.1 71.5.1 48.6-40.8 71.1-85.8 71.1z","key":"k0"}}]}
 
-
-const Speakap = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: '-.125em',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="Speakap-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 448 512',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-Speakap',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "currentColor",
-      ...restProps
-    }
-    )
-  }
-
-Speakap.displayName = 'Speakap'
-
-Speakap.defaultProps = { height: undefined, width: undefined}
-
-export default Speakap
+export default createIcon(SpeakapConfig)

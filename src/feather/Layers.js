@@ -1,50 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<polygon points="12 2 2 7 12 12 22 7 12 2" key="k0" />
-,
-<polyline points="2 17 12 22 22 17" key="k1" />
-,
-<polyline points="2 12 12 17 22 12" key="k2" />
-]
+export const LayersConfig = {"displayName":"Layers","defaultProps":{"height":24,"width":24},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"Layers-title"},"viewBox":"0 0 24 24","labelledby":"icon-title-Layers","body":[{"type":"polygon","props":{"points":"12 2 2 7 12 12 22 7 12 2","key":"k0"}},{"type":"polyline","props":{"points":"2 17 12 22 22 17","key":"k1"}},{"type":"polyline","props":{"points":"2 12 12 17 22 12","key":"k2"}}]}
 
-
-const Layers = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: 'middle',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="Layers-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 24 24',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-Layers',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "none",
-  "stroke": "currentColor",
-  "strokeLinecap": "round",
-  "strokeLinejoin": "round",
-      ...restProps
-    }
-    )
-  }
-
-Layers.displayName = 'Layers'
-
-Layers.defaultProps = { height: 24, width: 24}
-
-export default Layers
+export default createIcon(LayersConfig)

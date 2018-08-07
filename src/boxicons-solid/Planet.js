@@ -1,43 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<path d="M21.222 3.811c-.661-.744-1.584-1.089-2.575-.983-.832.091-1.687.502-2.549 1.192a8.922 8.922 0 0 0-8.712.282 8.917 8.917 0 0 0-4.109 5.515 8.892 8.892 0 0 0 .306 5.325c-1.065 1.203-2.054 3.677-.823 5.063.517.581 1.257.841 2.147.841 2.707 0 6.808-2.398 10.258-5.464 4.587-4.073 8.141-9.424 6.057-11.771zm-2.358 1.004c.358-.034.632.064.861.323.231.261.169.946-.252 1.929a9.059 9.059 0 0 0-1.617-1.853c.431-.262.776-.373 1.008-.399zM4.256 18.877c-.217-.244.002-1.07.377-1.759a8.979 8.979 0 0 0 1.568 1.737c-1.025.303-1.714.284-1.945.022zm11.909-2.295c-1.934 1.719-4.066 3.208-6.05 4.202a9.082 9.082 0 0 0 1.874.212 8.986 8.986 0 0 0 4.616-1.282 8.915 8.915 0 0 0 4.337-8.465c-1.213 1.797-2.905 3.671-4.777 5.333z" key="k0" />
-]
+export const PlanetConfig = {"displayName":"Planet","defaultProps":{"height":"24","width":"24"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"Planet-title"},"viewBox":"0 0 24 24","labelledby":"icon-title-Planet","body":[{"type":"path","props":{"d":"M21.222 3.811c-.661-.744-1.584-1.089-2.575-.983-.832.091-1.687.502-2.549 1.192a8.922 8.922 0 0 0-8.712.282 8.917 8.917 0 0 0-4.109 5.515 8.892 8.892 0 0 0 .306 5.325c-1.065 1.203-2.054 3.677-.823 5.063.517.581 1.257.841 2.147.841 2.707 0 6.808-2.398 10.258-5.464 4.587-4.073 8.141-9.424 6.057-11.771zm-2.358 1.004c.358-.034.632.064.861.323.231.261.169.946-.252 1.929a9.059 9.059 0 0 0-1.617-1.853c.431-.262.776-.373 1.008-.399zM4.256 18.877c-.217-.244.002-1.07.377-1.759a8.979 8.979 0 0 0 1.568 1.737c-1.025.303-1.714.284-1.945.022zm11.909-2.295c-1.934 1.719-4.066 3.208-6.05 4.202a9.082 9.082 0 0 0 1.874.212 8.986 8.986 0 0 0 4.616-1.282 8.915 8.915 0 0 0 4.337-8.465c-1.213 1.797-2.905 3.671-4.777 5.333z","key":"k0"}}]}
 
-
-const Planet = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: 'middle',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="Planet-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 24 24',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-Planet',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "currentColor",
-      ...restProps
-    }
-    )
-  }
-
-Planet.displayName = 'Planet'
-
-Planet.defaultProps = { height: 24, width: 24}
-
-export default Planet
+export default createIcon(PlanetConfig)

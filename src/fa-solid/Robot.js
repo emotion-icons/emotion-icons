@@ -1,43 +1,5 @@
-import React from 'react'
-import styled from 'react-emotion'
+import createIcon from '../createIcon'
 
-export const innerElements = [<path fill="currentColor" d="M0 256v128c0 17.7 14.3 32 32 32h32V224H32c-17.7 0-32 14.3-32 32zM464 96H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32v64H176c-44.2 0-80 35.8-80 80v272c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V176c0-44.2-35.8-80-80-80zM256 416h-64v-32h64v32zm-32-120c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40zm128 120h-64v-32h64v32zm96 0h-64v-32h64v32zm-32-120c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40zm192-72h-32v192h32c17.7 0 32-14.3 32-32V256c0-17.7-14.3-32-32-32z" key="k0" />
-]
+export const RobotConfig = {"displayName":"Robot","defaultProps":{},"css":{"display":"inline-block","verticalAlign":"-.125em","overflow":"hidden"},"title":{"key":"Robot-title"},"viewBox":"0 0 640 512","labelledby":"icon-title-Robot","body":[{"type":"path","props":{"fill":"currentColor","d":"M0 256v128c0 17.7 14.3 32 32 32h32V224H32c-17.7 0-32 14.3-32 32zM464 96H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32v64H176c-44.2 0-80 35.8-80 80v272c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V176c0-44.2-35.8-80-80-80zM256 416h-64v-32h64v32zm-32-120c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40zm128 120h-64v-32h64v32zm96 0h-64v-32h64v32zm-32-120c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40zm192-72h-32v192h32c17.7 0 32-14.3 32-32V256c0-17.7-14.3-32-32-32z","key":"k0"}}]}
 
-
-const Robot = ({ title, ...restProps }) => {
-  return React.createElement(
-    styled('svg',{shouldForwardProp: name => !['width', 'size', 'height'].includes(name)})(
-      {
-        display: 'inline-block',
-        verticalAlign: '-.125em',
-        overflow: 'hidden'
-      },
-      ({ size,height,width,css }) => ({
-        height: size ? size : height,
-        width: size ? size : width,
-        ...css
-      }),
-    ),
-    {
-      children: (
-        title
-          ? [<title key="Robot-title">{title}</title>, ...innerElements]
-          : innerElements
-      ),
-      viewBox: '0 0 640 512',
-       'aria-hidden': title ? null : 'true',
-       'aria-labelledby': title && 'icon-title-Robot',
-      focusable: 'false',
-      role: title ? undefined:'img' ,
-        "fill": "currentColor",
-      ...restProps
-    }
-    )
-  }
-
-Robot.displayName = 'Robot'
-
-Robot.defaultProps = { height: undefined, width: undefined}
-
-export default Robot
+export default createIcon(RobotConfig)
