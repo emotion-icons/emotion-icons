@@ -25,4 +25,3 @@ docs/build/
 /createIcon.cjs.js
 .vscode/
 yarn.lock
-/src/
