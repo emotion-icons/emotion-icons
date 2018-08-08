@@ -1,5 +1,5 @@
 import createIcon from '../createIcon'
 
-export const PlayConfig = {"displayName":"Play","defaultProps":{},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"Play-title"},"viewBox":"0 0 512 512","labelledby":"icon-title-Play","body":[{"type":"path","props":{"d":"M128 104.3v303.4c0 6.4 6.5 10.4 11.7 7.2l240.5-151.7c5.1-3.2 5.1-11.1 0-14.3L139.7 97.2c-5.2-3.3-11.7.7-11.7 7.1z","key":"k0"}}]}
+export const PlayConfig = {"displayName":"Play","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"titleKey":"Play-title","viewBox":"0 0 512 512","labelledby":"icon-title-Play","body":[{"type":"path","props":{"d":"M128 104.3v303.4c0 6.4 6.5 10.4 11.7 7.2l240.5-151.7c5.1-3.2 5.1-11.1 0-14.3L139.7 97.2c-5.2-3.3-11.7.7-11.7 7.1z","key":"k0"}}]}
 
 export default createIcon(PlayConfig)

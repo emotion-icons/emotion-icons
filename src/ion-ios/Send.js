@@ -1,5 +1,5 @@
 import createIcon from '../createIcon'
 
-export const SendConfig = {"displayName":"Send","defaultProps":{},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"Send-title"},"viewBox":"0 0 512 512","labelledby":"icon-title-Send","body":[{"type":"path","props":{"d":"M435.9 64.9l-367.1 160c-6.5 3.1-6.3 12.4.3 15.3l99.3 56.1c5.9 3.3 13.2 2.6 18.3-1.8l195.8-168.8c1.3-1.1 4.4-3.2 5.6-2 1.3 1.3-.7 4.3-1.8 5.6L216.9 320.1c-4.7 5.3-5.4 13.1-1.6 19.1l64.9 104.1c3.2 6.3 12.3 6.2 15.2-.2L447.2 76c3.3-7.2-4.2-14.5-11.3-11.1z","key":"k0"}}]}
+export const SendConfig = {"displayName":"Send","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"titleKey":"Send-title","viewBox":"0 0 512 512","labelledby":"icon-title-Send","body":[{"type":"path","props":{"d":"M435.9 64.9l-367.1 160c-6.5 3.1-6.3 12.4.3 15.3l99.3 56.1c5.9 3.3 13.2 2.6 18.3-1.8l195.8-168.8c1.3-1.1 4.4-3.2 5.6-2 1.3 1.3-.7 4.3-1.8 5.6L216.9 320.1c-4.7 5.3-5.4 13.1-1.6 19.1l64.9 104.1c3.2 6.3 12.3 6.2 15.2-.2L447.2 76c3.3-7.2-4.2-14.5-11.3-11.1z","key":"k0"}}]}
 
 export default createIcon(SendConfig)

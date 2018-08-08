@@ -1,5 +1,5 @@
 import createIcon from '../createIcon'
 
-export const PauseCircleOutlineConfig = {"displayName":"PauseCircleOutline","defaultProps":{"height":"24","width":"24"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"PauseCircleOutline-title"},"viewBox":"0 0 24 24","labelledby":"icon-title-PauseCircleOutline","body":[{"type":"path","props":{"d":"M9 16h2V8H9v8zm3-14C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm1-4h2V8h-2v8z","key":"k0"}}]}
+export const PauseCircleOutlineConfig = {"displayName":"PauseCircleOutline","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"width":"24","height":"24","titleKey":"PauseCircleOutline-title","viewBox":"0 0 24 24","labelledby":"icon-title-PauseCircleOutline","body":[{"type":"path","props":{"d":"M9 16h2V8H9v8zm3-14C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm1-4h2V8h-2v8z","key":"k0"}}]}
 
 export default createIcon(PauseCircleOutlineConfig)

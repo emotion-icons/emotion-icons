@@ -73,8 +73,8 @@ const generate = async () => {
     icon.height = state.height || icon.height
     icon.width = state.width || icon.width
     icon.viewBox = state.viewBox || `0 0 ${icon.width} ${icon.height}`
-    icon.attrs = {}
-    icon.defaultFill = {fill: 'currentColor'}
+
+    icon.attrs = {fill: 'currentColor'}
     for (const attr of SVG_ATTRS) {
       if (attr in state.attrs) {
         icon.attrs[camelize(attr)] = state.attrs[attr]
@@ -87,22 +87,25 @@ const generate = async () => {
 
 const dataP= parseJSX(result)
 
-const fill=icon.hex?{fill:`#${icon.hex}`}: {}
+const color=icon.hex?{color:`#${icon.hex}`}: {}
 const width=icon.width?{width:icon.width}: {}
 const height=icon.height?{height:icon.height}: {}
 const hex=icon.hex?{hex:`#${icon.hex}`}: {}
 const css={
   display: 'inline-block',
   verticalAlign: icon.verticalAlign || 'middle',
-  overflow: 'hidden'
+  overflow: 'hidden',
+  maxHeight: '100%',
+  maxWidth: '100%',
+  margin: 'auto',
 }
 
 const config={
   displayName: icon.name,
-  defaultProps: { ...height ,...width, ...fill },
-...hex,
+  attrs:{...icon.attrs },
 css,
-  title: { key: `${icon.name}-title` },
+...width,...height,...color,
+  titleKey:  `${icon.name}-title`,
   viewBox: icon.viewBox,
   labelledby: `icon-title-${icon.name}`,
   body: dataP

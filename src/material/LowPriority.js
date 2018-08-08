@@ -1,5 +1,5 @@
 import createIcon from '../createIcon'
 
-export const LowPriorityConfig = {"displayName":"LowPriority","defaultProps":{"height":"24","width":"24"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"LowPriority-title"},"viewBox":"0 0 24 24","labelledby":"icon-title-LowPriority","body":[{"type":"path","props":{"d":"M14 5h8v2h-8zm0 5.5h8v2h-8zm0 5.5h8v2h-8zM2 11.5C2 15.08 4.92 18 8.5 18H9v2l3-3-3-3v2h-.5C6.02 16 4 13.98 4 11.5S6.02 7 8.5 7H12V5H8.5C4.92 5 2 7.92 2 11.5z","key":"k0"}}]}
+export const LowPriorityConfig = {"displayName":"LowPriority","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"width":"24","height":"24","titleKey":"LowPriority-title","viewBox":"0 0 24 24","labelledby":"icon-title-LowPriority","body":[{"type":"path","props":{"d":"M14 5h8v2h-8zm0 5.5h8v2h-8zm0 5.5h8v2h-8zM2 11.5C2 15.08 4.92 18 8.5 18H9v2l3-3-3-3v2h-.5C6.02 16 4 13.98 4 11.5S6.02 7 8.5 7H12V5H8.5C4.92 5 2 7.92 2 11.5z","key":"k0"}}]}
 
 export default createIcon(LowPriorityConfig)

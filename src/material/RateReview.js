@@ -1,5 +1,5 @@
 import createIcon from '../createIcon'
 
-export const RateReviewConfig = {"displayName":"RateReview","defaultProps":{"height":"24","width":"24"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"RateReview-title"},"viewBox":"0 0 24 24","labelledby":"icon-title-RateReview","body":[{"type":"path","props":{"d":"M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 14v-2.47l6.88-6.88c.2-.2.51-.2.71 0l1.77 1.77c.2.2.2.51 0 .71L8.47 14H6zm12 0h-7.5l2-2H18v2z","key":"k0"}}]}
+export const RateReviewConfig = {"displayName":"RateReview","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"width":"24","height":"24","titleKey":"RateReview-title","viewBox":"0 0 24 24","labelledby":"icon-title-RateReview","body":[{"type":"path","props":{"d":"M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 14v-2.47l6.88-6.88c.2-.2.51-.2.71 0l1.77 1.77c.2.2.2.51 0 .71L8.47 14H6zm12 0h-7.5l2-2H18v2z","key":"k0"}}]}
 
 export default createIcon(RateReviewConfig)

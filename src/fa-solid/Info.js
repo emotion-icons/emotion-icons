@@ -1,5 +1,5 @@
 import createIcon from '../createIcon'
 
-export const InfoConfig = {"displayName":"Info","defaultProps":{},"css":{"display":"inline-block","verticalAlign":"-.125em","overflow":"hidden"},"title":{"key":"Info-title"},"viewBox":"0 0 192 512","labelledby":"icon-title-Info","body":[{"type":"path","props":{"fill":"currentColor","d":"M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z","key":"k0"}}]}
+export const InfoConfig = {"displayName":"Info","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"-.125em","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"titleKey":"Info-title","viewBox":"0 0 192 512","labelledby":"icon-title-Info","body":[{"type":"path","props":{"fill":"currentColor","d":"M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z","key":"k0"}}]}
 
 export default createIcon(InfoConfig)

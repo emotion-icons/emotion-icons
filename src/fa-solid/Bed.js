@@ -1,5 +1,5 @@
 import createIcon from '../createIcon'
 
-export const BedConfig = {"displayName":"Bed","defaultProps":{},"css":{"display":"inline-block","verticalAlign":"-.125em","overflow":"hidden"},"title":{"key":"Bed-title"},"viewBox":"0 0 576 512","labelledby":"icon-title-Bed","body":[{"type":"path","props":{"fill":"currentColor","d":"M552 288c13.255 0 24 10.745 24 24v136h-96v-64H96v64H0V88c0-13.255 10.745-24 24-24h48c13.255 0 24 10.745 24 24v200h456zM192 96c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80zm384 128c0-53.019-42.981-96-96-96H312c-13.255 0-24 10.745-24 24v104h288v-32z","key":"k0"}}]}
+export const BedConfig = {"displayName":"Bed","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"-.125em","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"titleKey":"Bed-title","viewBox":"0 0 576 512","labelledby":"icon-title-Bed","body":[{"type":"path","props":{"fill":"currentColor","d":"M552 288c13.255 0 24 10.745 24 24v136h-96v-64H96v64H0V88c0-13.255 10.745-24 24-24h48c13.255 0 24 10.745 24 24v200h456zM192 96c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80zm384 128c0-53.019-42.981-96-96-96H312c-13.255 0-24 10.745-24 24v104h288v-32z","key":"k0"}}]}
 
 export default createIcon(BedConfig)

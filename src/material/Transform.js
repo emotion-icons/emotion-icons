@@ -1,5 +1,5 @@
 import createIcon from '../createIcon'
 
-export const TransformConfig = {"displayName":"Transform","defaultProps":{"height":"24","width":"24"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"Transform-title"},"viewBox":"0 0 24 24","labelledby":"icon-title-Transform","body":[{"type":"path","props":{"d":"M22 18v-2H8V4h2L7 1 4 4h2v2H2v2h4v8c0 1.1.9 2 2 2h8v2h-2l3 3 3-3h-2v-2h4zM10 8h6v6h2V8c0-1.1-.9-2-2-2h-6v2z","key":"k0"}}]}
+export const TransformConfig = {"displayName":"Transform","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"width":"24","height":"24","titleKey":"Transform-title","viewBox":"0 0 24 24","labelledby":"icon-title-Transform","body":[{"type":"path","props":{"d":"M22 18v-2H8V4h2L7 1 4 4h2v2H2v2h4v8c0 1.1.9 2 2 2h8v2h-2l3 3 3-3h-2v-2h4zM10 8h6v6h2V8c0-1.1-.9-2-2-2h-6v2z","key":"k0"}}]}
 
 export default createIcon(TransformConfig)

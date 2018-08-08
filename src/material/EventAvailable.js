@@ -1,5 +1,5 @@
 import createIcon from '../createIcon'
 
-export const EventAvailableConfig = {"displayName":"EventAvailable","defaultProps":{"height":"24","width":"24"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden"},"title":{"key":"EventAvailable-title"},"viewBox":"0 0 24 24","labelledby":"icon-title-EventAvailable","body":[{"type":"path","props":{"d":"M16.53 11.06L15.47 10l-4.88 4.88-2.12-2.12-1.06 1.06L10.59 17l5.94-5.94zM19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11z","key":"k0"}}]}
+export const EventAvailableConfig = {"displayName":"EventAvailable","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"width":"24","height":"24","titleKey":"EventAvailable-title","viewBox":"0 0 24 24","labelledby":"icon-title-EventAvailable","body":[{"type":"path","props":{"d":"M16.53 11.06L15.47 10l-4.88 4.88-2.12-2.12-1.06 1.06L10.59 17l5.94-5.94zM19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11z","key":"k0"}}]}
 
 export default createIcon(EventAvailableConfig)
