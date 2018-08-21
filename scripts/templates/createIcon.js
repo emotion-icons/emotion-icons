@@ -70,7 +70,7 @@ const createIcon = config => {
           ? [
               React.createElement(
                 'title',
-                { key: config.title.key || null },
+                { key: config.titleKey  },
                 title,
               ),
               ...createInnerElements(config.body),

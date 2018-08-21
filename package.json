@@ -55,8 +55,8 @@
     "generate": "node scripts/generate.js",
     "testgenerate": "node scripts/generateTest.js",
     "build": "yarn run clean && yarn run build:es",
-    "build:es": "cross-env BABEL_ENV=es babel src --out-dir . --ignore *.spec.js,*.test.js ",
-    "build:cjs": "cross-env BABEL_ENV=cjs babel src --out-dir ./build/srccjs/ --ignore *.spec.js,*.test.js ",
+    "build:es": "cross-env BABEL_ENV=es babel src --out-dir . --ignore *.spec.js,*.test.js --quiet ",
+    "build:cjs": "cross-env BABEL_ENV=cjs babel src --out-dir ./build/srccjs/ --ignore *.spec.js,*.test.js --quiet ",
     "clean": "rimraf build fa-brands fa-regular fa-solid material octicons boxicons-solid boxicons-regular simpleIcons ion-ios ion-md feather manifest.json createIcon.js createIcon.cjs.js index.cjs.js index.js",
     "clean:modules": "rimraf node_modules"
   },
