@@ -4,7 +4,7 @@ import styled from 'react-emotion'
 function memoize(fn) {
   const cache = {}
 
-  return (arg: string) => {
+  return (arg) => {
     if (cache[arg] === undefined) cache[arg] = fn(arg)
     return cache[arg]
   }
@@ -18,7 +18,7 @@ const isPropValid = memoize(prop =>
 
 const createInnerElements = body =>
   body.map(item =>
-    React.createElement(item.type, { key: item.key, ...item.props }),
+    React.createElement(item.type, { ...item.props }),
   )
 
 function calcRatio(value, ratio = 1) {
