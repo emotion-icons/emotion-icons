@@ -4,7 +4,7 @@ import styled from 'react-emotion'
 function memoize(fn) {
   const cache = {}
 
-  return (arg) => {
+  return arg => {
     if (cache[arg] === undefined) cache[arg] = fn(arg)
     return cache[arg]
   }
@@ -17,9 +17,7 @@ const isPropValid = memoize(prop =>
 )
 
 const createInnerElements = body =>
-  body.map(item =>
-    React.createElement(item.type, { ...item.props }),
-  )
+  body.map(item => React.createElement(item.type, {...item.props}))
 
 function calcRatio(value, ratio = 1) {
   if (typeof ratio !== 'number') return value
@@ -28,7 +26,7 @@ function calcRatio(value, ratio = 1) {
   return unitlessValue * ratio + value.replace(`${unitlessValue}`, '')
 }
 
-const calcDimension = (key, { size, ratio, ...HW }) => {
+const calcDimension = (key, {size, ratio, ...HW}) => {
   const targetV = HW[key]
   const value = size
     ? ratio
@@ -39,53 +37,49 @@ const calcDimension = (key, { size, ratio, ...HW }) => {
         ? calcRatio(targetV, ratio)
         : targetV
       : null
-  return value ? { [key]: value } : {}
+  return value ? {[key]: value} : {}
 }
 
 const createIcon = config => {
-  const Icon = ({ title, ...restProps }) => {
-    return React.createElement(
-      styled('svg', {
-        shouldForwardProp: name =>
-          !['width', 'size', 'height', 'css', 'color'].includes(name) &&
-          isPropValid(name),
-      })(
-        ({
-          size,
-          ratio,
-          height = config['height'],
-          width = config['width'],
-          css,
-          color = config['color'],
-        }) => ({
-          ...config.css,
-          ...calcDimension('height', { size, ratio, height, width }),
-          ...calcDimension('width', { size, ratio, height, width }),
-          ...(color ? { color } : {}),
-          ...css,
-        }),
-      ),
-      {
-        children: title
-          ? [
-              React.createElement(
-                'title',
-                { key: config.titleKey  },
-                title,
-              ),
-              ...createInnerElements(config.body),
-            ]
-          : createInnerElements(config.body),
-        viewBox: config.viewBox,
-        'aria-hidden': title ? null : 'true',
-        'aria-labelledby': title && config.labelledby,
-        focusable: 'false',
-        role: title ? undefined : 'img',
-        ...config.attrs,
-        ...restProps,
-      },
+  const Inner = createInnerElements(config.body)
+  const StyledIcon = styled('svg', {
+    shouldForwardProp: name =>
+      !['width', 'size', 'height', 'css', 'color'].includes(name) && isPropValid(name),
+  })(
+    ({
+      size,
+      ratio,
+      height = config['height'],
+      width = config['width'],
+      css,
+      color = config['color'],
+    }) => ({
+      ...config.css,
+      ...calcDimension('height', {size, ratio, height, width}),
+      ...calcDimension('width', {size, ratio, height, width}),
+      ...(color ? {color} : {}),
+      ...css,
+    }),
+  )
+
+  const Icon = ({title, ...restProps}) => {
+    const passProps = {
+      viewBox: config.viewBox,
+      'aria-hidden': title ? null : 'true',
+      'aria-labelledby': title && config.labelledby,
+      focusable: 'false',
+      role: title ? undefined : 'img',
+      ...config.attrs,
+      ...restProps,
+    }
+    return (
+      <StyledIcon {...passProps}>
+        {title && <title key={config.titleKey}>{title}</title>}
+        {Inner}
+      </StyledIcon>
     )
   }
+
   Icon.displayName = config.displayName
 
   Icon.defaultProps = config.defaultProps
