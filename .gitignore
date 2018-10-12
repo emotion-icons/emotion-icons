@@ -25,3 +25,4 @@ docs/build/
 /createIcon.cjs.js
 .vscode/
 yarn.lock
+/.docz/
