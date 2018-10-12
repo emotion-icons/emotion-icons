@@ -4,7 +4,7 @@
   "description": "Font Awesome, Material Icons, and Octicons available as Emotion Components",
   "author": "Josh Rosenstein <jrosenstein6@gmail.com>",
   "homepage": "https://github.com/joshuarosenstein/emotion-icons",
-  "repository": "git://github.com/joshuarosenstein/emotion-icons-emotion.git",
+  "repository": "git://github.com/joshuarosenstein/emotion-icons.git",
   "license": "MIT",
   "main": "index.js",
   "module": "index.js",
