@@ -1,0 +1,5 @@
+import createIcon from '../createIcon'
+
+export const BicycleConfig = {"displayName":"Bicycle","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"width":"24","height":"24","titleKey":"Bicycle-title","viewBox":"0 0 24 24","labelledby":"icon-title-Bicycle","body":[{"type":"path","props":{"d":"M17.5 11c-.124 0-.241.026-.363.037L13.618 4H16V2h-4a1.001 1.001 0 0 0-.895 1.448L12.882 7h-6.94L4.813 5.419A.997.997 0 0 0 4 5H2v2h1.485l2.868 4.015C3.941 11.094 2 13.068 2 15.5 2 17.981 4.019 20 6.5 20s4.5-2.019 4.5-4.5c0-.863-.256-1.663-.68-2.349l3.876-3.523 1.011 2.021C13.892 12.436 13 13.859 13 15.5c0 2.481 2.019 4.5 4.5 4.5s4.5-2.019 4.5-4.5-2.019-4.5-4.5-4.5zm-11 7C5.121 18 4 16.879 4 15.5S5.121 13 6.5 13 9 14.121 9 15.5 7.879 18 6.5 18zm2.668-6.504L7.421 9h4.492l-2.745 2.496zM17.5 18a2.498 2.498 0 1 1-1.402-4.568l.008.016.631-.315c.242-.079.495-.133.763-.133 1.379 0 2.5 1.121 2.5 2.5S18.879 18 17.5 18z","key":"k0"}}]}
+
+export default createIcon(BicycleConfig)

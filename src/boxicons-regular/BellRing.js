@@ -1,0 +1,5 @@
+import createIcon from '../createIcon'
+
+export const BellRingConfig = {"displayName":"BellRing","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"width":"24","height":"24","titleKey":"BellRing-title","viewBox":"0 0 24 24","labelledby":"icon-title-BellRing","body":[{"type":"path","props":{"d":"M18 13.764V11c0-2.956-2.206-5.506-5.194-5.938l-.725-.059a1.068 1.068 0 0 0-.16 0l-.778.063C8.211 5.489 6 8.04 6 11v2.764l-.895 1.789A.998.998 0 0 0 6 17h3c0 1.654 1.346 3 3 3s3-1.346 3-3h3a1 1 0 0 0 .815-1.607L18 13.764zM12 18a1 1 0 0 1-1-1h2a1 1 0 0 1-1 1zm-4.382-3l.276-.553A.99.99 0 0 0 8 14v-3c0-1.973 1.474-3.672 3.364-3.946l.637-.051.58.045A4.015 4.015 0 0 1 16 11v3c0 .155.036.309.105.447l.277.553H7.618zM5.296 3.29C2 6.563 2 8.935 2 12h1l1-.063C4 9.009 4 7.396 6.704 4.71L5.296 3.29zm13.408 0l-1.408 1.42C20 7.396 20 9.009 20 12l2-.063c0-3.002 0-5.374-3.296-8.647z","key":"k0"}}]}
+
+export default createIcon(BellRingConfig)

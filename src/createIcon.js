@@ -25,7 +25,7 @@ function calcRatio(value, ratio = 1) {
   const unitlessValue = parseFloat(value)
   return unitlessValue * ratio + value.replace(`${unitlessValue}`, '')
 }
-
+//Todo change api ratio to scale? move calcDimension within that way have constant original ratio- height ='100px' with no width, width will auto scale
 const calcDimension = (key, {size, ratio, ...HW}) => {
   const targetV = HW[key]
   const value = size

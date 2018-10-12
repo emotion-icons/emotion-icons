@@ -1,0 +1,5 @@
+import createIcon from '../createIcon'
+
+export const DollarCircleConfig = {"displayName":"DollarCircle","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"width":"24","height":"24","titleKey":"DollarCircle-title","viewBox":"0 0 24 24","labelledby":"icon-title-DollarCircle","body":[{"type":"path","props":{"d":"M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z","key":"k0"}},{"type":"path","props":{"d":"M12 11c-1.999 0-1.999-.578-1.999-1 0-.826 1.087-1 1.999-1 1.391 0 2.356.766 2.366.773l1.273-1.542c-.05-.042-1.067-.86-2.64-1.136V6.012h-2v1.057C8.812 7.38 8.001 8.728 8.001 10c0 1.368.693 3 3.999 3 1.999 0 1.999.602 1.999 1 0 .826-1.087 1-1.999 1-1.391 0-2.356-.766-2.36-.769l-1.28 1.538c.05.042 1.067.86 2.64 1.136V18h2v-1.068c2.188-.312 2.999-1.659 2.999-2.932 0-1.368-.693-3-3.999-3z","key":"k1"}}]}
+
+export default createIcon(DollarCircleConfig)

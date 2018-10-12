@@ -1,17 +1,16 @@
-
 const execa = require('execa')
-const paths= require('./paths')
-const {PACKS,SVG_ATTRS}= require('./constants')
+const paths = require('./paths')
+const {PACKS, SVG_ATTRS} = require('./constants')
 const fg = require('fast-glob')
 const fs = require('fs-extra')
 const ora = require('ora')
 const path = require('path')
-const {camelize,pascalize}= require('./utils')
+const {camelize, pascalize} = require('./utils')
 const {toWords} = require('number-to-words')
 const h2x = require('./transform/h2x')
 const svgo = require('./transform/svgo')
-var acorn = require('acorn-jsx');
-var {parseJSX} = require('./parseJSX');
+var acorn = require('acorn-jsx')
+var {parseJSX} = require('./parseJSX')
 let spinner
 
 const getComponentName = originalName => {
@@ -26,9 +25,6 @@ const getTemplate = () =>
       else resolve(data.toString())
     }),
   )
-
-
-
 
 const baseDir = path.join(__dirname, '..', 'build')
 
@@ -47,12 +43,7 @@ const generate = async () => {
   const template = await getTemplate()
 
   spinner.text = 'Clearing desination files...'
-  const destinationFiles = [
-    'build',
-    ...PACKS,
-    'index.cjs.js',
-    'index.js',
-  ]
+  const destinationFiles = ['build', ...PACKS, 'index.cjs.js', 'index.js']
   for (const destinationFile of destinationFiles) {
     await fs.remove(path.join(__dirname, '..', destinationFile))
   }
@@ -84,56 +75,65 @@ const generate = async () => {
     // Special-case the `React` icon
     if (icon.name === 'React') icon.name = 'ReactLogo'
 
+    const dataP = parseJSX(result)
 
-const dataP= parseJSX(result)
+    const color = icon.hex ? {color: `#${icon.hex}`} : {}
+    const width = icon.width ? {width: icon.width} : {}
+    const height = icon.height ? {height: icon.height} : {}
+    const hex = icon.hex ? {hex: `#${icon.hex}`} : {}
+    const css = {
+      display: 'inline-block',
+      verticalAlign: icon.verticalAlign || 'middle',
+      overflow: 'hidden',
+      maxHeight: '100%',
+      maxWidth: '100%',
+      margin: 'auto',
+    }
 
-const color=icon.hex?{color:`#${icon.hex}`}: {}
-const width=icon.width?{width:icon.width}: {}
-const height=icon.height?{height:icon.height}: {}
-const hex=icon.hex?{hex:`#${icon.hex}`}: {}
-const css={
-  display: 'inline-block',
-  verticalAlign: icon.verticalAlign || 'middle',
-  overflow: 'hidden',
-  maxHeight: '100%',
-  maxWidth: '100%',
-  margin: 'auto',
-}
-
-const config={
-  displayName: icon.name,
-  attrs:{...icon.attrs },
-css,
-...width,...height,...color,
-  titleKey:  `${icon.name}-title`,
-  viewBox: icon.viewBox,
-  labelledby: `icon-title-${icon.name}`,
-  body: dataP
-}
+    const config = {
+      displayName: icon.name,
+      attrs: {...icon.attrs},
+      css,
+      ...width,
+      ...height,
+      ...color,
+      titleKey: `${icon.name}-title`,
+      viewBox: icon.viewBox,
+      labelledby: `icon-title-${icon.name}`,
+      body: dataP,
+    }
     const component = (cjs = false) =>
       template
-      .replace(/{{attrs}}/g, JSON.stringify(icon.attrs, null, 2).slice(2, -2))
-      .replace(/{{config}}/g, JSON.stringify(config))
-      .replace(/{{height}}/g, icon.height)
-      .replace(/{{name}}/g, icon.name)
-      .replace(/{{svg}}/g, result)
-      .replace(/{{svgdata}}/g, JSON.stringify(dataP))
-      .replace(/{{verticalAlign}}/g, icon.verticalAlign || 'middle')
-      .replace(/{{viewBox}}/g, icon.viewBox)
-      .replace(/{{width}}/g, icon.width)
-      .replace(/{{defaultFill}}/g, icon.hex?`fill:'#${icon.hex}',`:'')
+        .replace(/{{attrs}}/g, JSON.stringify(icon.attrs, null, 2).slice(2, -2))
+        .replace(/{{config}}/g, JSON.stringify(config))
+        .replace(/{{height}}/g, icon.height)
+        .replace(/{{name}}/g, icon.name)
+        .replace(/{{svg}}/g, result)
+        .replace(/{{svgdata}}/g, JSON.stringify(dataP))
+        .replace(/{{verticalAlign}}/g, icon.verticalAlign || 'middle')
+        .replace(/{{viewBox}}/g, icon.viewBox)
+        .replace(/{{width}}/g, icon.width)
+        .replace(/{{defaultFill}}/g, icon.hex ? `fill:'#${icon.hex}',` : '')
     //  .replace(/{{hex}}/g, icon.hex?`export const hex='#${icon.hex}'`:'')
 
     const destinationPath = path.join(baseDir, 'src', icon.pack)
-      const destinationPath1 = path.join(baseDir, 'srccjs', icon.pack)
+    const destinationPath1 = path.join(baseDir, 'srccjs', icon.pack)
 
     await fs.outputFile(path.join(destinationPath, `${icon.name}.js`), component())
     await fs.outputFile(path.join(destinationPath1, `${icon.name}.cjs.js`), component(true))
 
     spinner.text = `[${++builtIcons} / ${totalIcons}] Built ${icon.pack}/${icon.name}...`
   }
-await fs.copyFile(path.join(__dirname, 'templates','createIcon.js'), path.join(baseDir,'src','createIcon.js'), {overwrite: true})
-await fs.copyFile(path.join(__dirname, 'templates','createIcon.js'), path.join(baseDir,'srccjs','createIcon.cjs.js'), {overwrite: true})
+  await fs.copyFile(
+    path.join(__dirname, 'templates', 'createIcon.js'),
+    path.join(baseDir, 'src', 'createIcon.js'),
+    {overwrite: true},
+  )
+  await fs.copyFile(
+    path.join(__dirname, 'templates', 'createIcon.js'),
+    path.join(baseDir, 'srccjs', 'createIcon.cjs.js'),
+    {overwrite: true},
+  )
   spinner.text = 'Writing index files...'
 
   const writeIndexFiles = async (cjs = false) => {
@@ -142,7 +142,7 @@ await fs.copyFile(path.join(__dirname, 'templates','createIcon.js'), path.join(b
 
       const packIcons = icons.filter(({pack}) => pack === iconPack)
       await fs.outputFile(
-        path.join(baseDir, cjs?'srccjs':'src', iconPack, cjs ? 'index.cjs.js' : 'index.js'),
+        path.join(baseDir, cjs ? 'srccjs' : 'src', iconPack, cjs ? 'index.cjs.js' : 'index.js'),
 
         packIcons
           .map(({name}) => {
@@ -152,16 +152,15 @@ await fs.copyFile(path.join(__dirname, 'templates','createIcon.js'), path.join(b
             return seen ? null : `export {default as ${name}} from './${name}${cjs ? '.cjs' : ''}'`
           })
           .filter(lines => lines)
-          .join('\n') ,
+          .join('\n'),
       )
     }
 
     await fs.writeFileSync(
-      path.join(baseDir, cjs?'srccjs':'src', cjs ? 'index.cjs.js' : 'index.js'),
+      path.join(baseDir, cjs ? 'srccjs' : 'src', cjs ? 'index.cjs.js' : 'index.js'),
       `
 ${PACKS.map(
-        (pack, idx) =>
-          `import * as ${camelize(pack)} from './${pack}${cjs ? '/index.cjs' : ''}'`,
+        (pack, idx) => `import * as ${camelize(pack)} from './${pack}${cjs ? '/index.cjs' : ''}'`,
       ).join('\n')}
 export {default as createIcon} from './createIcon${cjs ? '.cjs' : ''}'
 export {${PACKS.map(camelize).join(', ')}}
@@ -172,35 +171,38 @@ export {${PACKS.map(camelize).join(', ')}}
   await writeIndexFiles()
   await writeIndexFiles(true)
 
-  spinner.text='Building ESM JavaScript..'
-    let compiler  = execa('babel', [
-    './build/src',
-    '--out-dir',
-    '.',
-    '--ignore',
-    '*.spec.js,*.cjs.js'
-  ],{cwd:paths.ROOT})
+  spinner.text = 'Building ESM JavaScript..'
+  let compiler = execa(
+    'babel',
+    ['./build/src', '--out-dir', '.', '--ignore', '*.spec.js,*.cjs.js'],
+    {cwd: paths.ROOT},
+  )
   compiler.stdout.pipe(process.stdout)
   compiler.stderr.pipe(process.stderr)
   await compiler
   spinner.text = 'Building CJS bundles...'
 
-  compiler  = execa('babel', [
-  './build/srccjs',
-  '--out-dir',
-  '.',
-  '--presets','stage-2,react,env',
-  '--ignore',
-  '*.spec.js,*.test.js'
-  ],{cwd:paths.ROOT})
+  compiler = execa(
+    'babel',
+    [
+      './build/srccjs',
+      '--out-dir',
+      '.',
+      '--presets',
+      '@babel/env,@babel/react',
+      '--ignore',
+      '*.spec.js,*.test.js',
+    ],
+    {cwd: paths.ROOT},
+  )
 
   compiler.stdout.pipe(process.stdout)
   compiler.stderr.pipe(process.stderr)
   await compiler
 
-spinner.text = 'Moving src...'
+  spinner.text = 'Moving src...'
 
-await fs.move(path.join(baseDir, 'src',), path.join(baseDir,'..', 'src',), {overwrite: true})
+  await fs.move(path.join(baseDir, 'src'), path.join(baseDir, '..', 'src'), {overwrite: true})
 
   //
   // spinner.text = 'Copying files to destination...'
@@ -220,10 +222,10 @@ await fs.move(path.join(baseDir, 'src',), path.join(baseDir,'..', 'src',), {over
   spinner.text = 'Writing icon manifest for website...'
   const seenImports = new Set()
   await fs.writeJSON(
-    path.join(__dirname, '..','docs','src', 'manifest.json'),
+    path.join(__dirname, '..', 'docz', 'Icons', 'manifest.json'),
     icons
       .map(({name, originalName, pack}) => {
-        const importPath = `styled-icons/${pack}/${name}`
+        const importPath = `emotion-icons/${pack}/${name}`
 
         if (seenImports.has(importPath)) return null
         seenImports.add(importPath)

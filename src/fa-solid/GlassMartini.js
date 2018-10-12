@@ -1,5 +1,5 @@
 import createIcon from '../createIcon'
 
-export const GlassMartiniConfig = {"displayName":"GlassMartini","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"-.125em","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"titleKey":"GlassMartini-title","viewBox":"0 0 512 512","labelledby":"icon-title-GlassMartini","body":[{"type":"path","props":{"fill":"currentColor","d":"M507.3 27.3c10-10 2.9-27.3-11.3-27.3H16C1.8 0-5.4 17.2 4.7 27.3L216 238.6V472h-92c-15.5 0-28 12.5-28 28 0 6.6 5.4 12 12 12h296c6.6 0 12-5.4 12-12 0-15.5-12.5-28-28-28h-92V238.6L507.3 27.3z","key":"k0"}}]}
+export const GlassMartiniConfig = {"displayName":"GlassMartini","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"-.125em","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"titleKey":"GlassMartini-title","viewBox":"0 0 512 512","labelledby":"icon-title-GlassMartini","body":[{"type":"path","props":{"fill":"currentColor","d":"M502.05 57.6C523.3 36.34 508.25 0 478.2 0H33.8C3.75 0-11.3 36.34 9.95 57.6L224 271.64V464h-56c-22.09 0-40 17.91-40 40 0 4.42 3.58 8 8 8h240c4.42 0 8-3.58 8-8 0-22.09-17.91-40-40-40h-56V271.64L502.05 57.6z","key":"k0"}}]}
 
 export default createIcon(GlassMartiniConfig)
