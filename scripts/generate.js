@@ -175,7 +175,7 @@ export {${PACKS.map(camelize).join(', ')}}
   let compiler = execa(
     'babel',
     ['./build/src', '--out-dir', '.', '--ignore', '*.spec.js,*.cjs.js'],
-    {cwd: paths.ROOT},
+    {cwd: paths.ROOT, env: {BABEL_ENV: 'es'}},
   )
   compiler.stdout.pipe(process.stdout)
   compiler.stderr.pipe(process.stderr)
@@ -184,16 +184,8 @@ export {${PACKS.map(camelize).join(', ')}}
 
   compiler = execa(
     'babel',
-    [
-      './build/srccjs',
-      '--out-dir',
-      '.',
-      '--presets',
-      '@babel/env,@babel/react',
-      '--ignore',
-      '*.spec.js,*.test.js',
-    ],
-    {cwd: paths.ROOT},
+    ['./build/srccjs', '--out-dir', '.', '--ignore', '*.spec.js,*.test.js'],
+    {cwd: paths.ROOT, env: {BABEL_ENV: 'cjs'}},
   )
 
   compiler.stdout.pipe(process.stdout)

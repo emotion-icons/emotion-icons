@@ -1,5 +1,0 @@
-import createIcon from '../createIcon'
-
-export const MusicConfig = {"displayName":"Music","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"width":"24","height":"24","titleKey":"Music-title","viewBox":"0 0 24 24","labelledby":"icon-title-Music","body":[{"type":"path","props":{"d":"M20 18.439V8a.999.999 0 0 0-.515-.874l-9-5A1 1 0 0 0 9 3v8.336a3.467 3.467 0 0 0-1.5-.35c-1.934 0-3.507 1.573-3.507 3.507S5.566 18 7.5 18s3.507-1.573 3.507-3.507c0-.023-.007-.045-.007-.067V4.699l7 3.89v6.761a3.467 3.467 0 0 0-1.5-.35c-1.934 0-3.507 1.573-3.507 3.507s1.573 3.507 3.507 3.507 3.507-1.573 3.507-3.507c0-.024-.007-.045-.007-.068zM7.5 16c-.831 0-1.507-.676-1.507-1.507s.676-1.507 1.507-1.507c.808 0 1.464.641 1.5 1.439v.075h.006A1.508 1.508 0 0 1 7.5 16zm9 4.014c-.831 0-1.507-.676-1.507-1.507S15.669 17 16.5 17c.808 0 1.464.641 1.5 1.439v.061h.006l.001.007c0 .831-.676 1.507-1.507 1.507z","key":"k0"}}]}
-
-export default createIcon(MusicConfig)

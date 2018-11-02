@@ -1,5 +1,0 @@
-import createIcon from '../createIcon'
-
-export const DiamondConfig = {"displayName":"Diamond","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"width":"24","height":"24","titleKey":"Diamond-title","viewBox":"0 0 24 24","labelledby":"icon-title-Diamond","body":[{"type":"path","props":{"d":"M21.813 9.419l-5-7A.997.997 0 0 0 16 2H8a.997.997 0 0 0-.813.419l-5 7a1 1 0 0 0 .039 1.214l9 11c.016.019.039.026.056.043a.975.975 0 0 0 .237.186c.032.019.062.037.096.052.119.05.247.086.385.086s.266-.036.386-.087c.034-.015.063-.033.096-.052a.951.951 0 0 0 .237-.186c.017-.017.04-.024.056-.043l9-11a.998.998 0 0 0 .038-1.213zM19.057 9h-3.302l-1.429-5h1.159l3.572 5zM8.236 11l1.563 5.73L5.11 11h3.126zm2.074 0h3.381L12 17.199 10.31 11zm5.454 0h3.126l-4.688 5.73L15.764 11zm-3.518-7l1.429 5h-3.35l1.429-5h.492zM8.515 4h1.159L8.245 9H4.943l3.572-5z","key":"k0"}}]}
-
-export default createIcon(DiamondConfig)

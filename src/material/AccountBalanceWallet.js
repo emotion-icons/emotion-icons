@@ -1,5 +1,0 @@
-import createIcon from '../createIcon'
-
-export const AccountBalanceWalletConfig = {"displayName":"AccountBalanceWallet","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"width":"24","height":"24","titleKey":"AccountBalanceWallet-title","viewBox":"0 0 24 24","labelledby":"icon-title-AccountBalanceWallet","body":[{"type":"path","props":{"d":"M21 18v1c0 1.1-.9 2-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14c1.1 0 2 .9 2 2v1h-9a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9zm-9-2h10V8H12v8zm4-2.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z","key":"k0"}}]}
-
-export default createIcon(AccountBalanceWalletConfig)

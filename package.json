@@ -1,6 +1,6 @@
 {
   "name": "emotion-icons",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Font Awesome, Material Icons, and Octicons available as Emotion Components",
   "author": "Josh Rosenstein <jrosenstein6@gmail.com>",
   "homepage": "https://github.com/joshuarosenstein/emotion-icons",
@@ -11,7 +11,6 @@
   "jsnext:main": "index.js",
   "sideEffects": false,
   "files": [
-    "src",
     "/boxicons-regular",
     "/boxicons-solid",
     "/fa-brands",
@@ -72,6 +71,7 @@
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.4",
     "@fortawesome/free-brands-svg-icons": "^5.3.1",
@@ -81,6 +81,7 @@
     "acorn": "5.7.3",
     "acorn-jsx": "4.1.1",
     "babel-eslint": "^10.0.1",
+    "babel-preset-minify": "^0.5.0",
     "boxicons": "^1.7.1",
     "copy-to-clipboard": "^3.0.8",
     "cross-env": "^5.2.0",

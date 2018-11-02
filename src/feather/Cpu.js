@@ -1,5 +1,0 @@
-import createIcon from '../createIcon'
-
-export const CpuConfig = {"displayName":"Cpu","attrs":{"fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeLinejoin":"round"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"width":24,"height":24,"titleKey":"Cpu-title","viewBox":"0 0 24 24","labelledby":"icon-title-Cpu","body":[{"type":"rect","props":{"width":16,"height":16,"x":4,"y":4,"rx":2,"ry":2,"key":"k0"}},{"type":"rect","props":{"width":6,"height":6,"x":9,"y":9,"key":"k1"}},{"type":"line","props":{"x1":9,"x2":9,"y1":1,"y2":4,"key":"k2"}},{"type":"line","props":{"x1":15,"x2":15,"y1":1,"y2":4,"key":"k3"}},{"type":"line","props":{"x1":9,"x2":9,"y1":20,"y2":23,"key":"k4"}},{"type":"line","props":{"x1":15,"x2":15,"y1":20,"y2":23,"key":"k5"}},{"type":"line","props":{"x1":20,"x2":23,"y1":9,"y2":9,"key":"k6"}},{"type":"line","props":{"x1":20,"x2":23,"y1":14,"y2":14,"key":"k7"}},{"type":"line","props":{"x1":1,"x2":4,"y1":9,"y2":9,"key":"k8"}},{"type":"line","props":{"x1":1,"x2":4,"y1":14,"y2":14,"key":"k9"}}]}
-
-export default createIcon(CpuConfig)

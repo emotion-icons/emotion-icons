@@ -1,5 +1,0 @@
-import createIcon from '../createIcon'
-
-export const LocalPharmacyConfig = {"displayName":"LocalPharmacy","attrs":{"fill":"currentColor"},"css":{"display":"inline-block","verticalAlign":"middle","overflow":"hidden","maxHeight":"100%","maxWidth":"100%","margin":"auto"},"width":"24","height":"24","titleKey":"LocalPharmacy-title","viewBox":"0 0 24 24","labelledby":"icon-title-LocalPharmacy","body":[{"type":"path","props":{"d":"M21 5h-2.64l1.14-3.14L17.15 1l-1.46 4H3v2l2 6-2 6v2h18v-2l-2-6 2-6V5zm-5 9h-3v3h-2v-3H8v-2h3V9h2v3h3v2z","key":"k0"}}]}
-
-export default createIcon(LocalPharmacyConfig)
