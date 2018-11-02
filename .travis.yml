@@ -5,13 +5,13 @@ cache: yarn
 
 install: yarn
 script:
-  - yarn generate
+  - yarn run generate
 
 jobs:
   include:
     - stage: npm release
       if: tag IS present
-      script: yarn generate
+      script: yarn run generate
       deploy:
         provider: npm
         email: '$NPM_EMAIL'
@@ -20,4 +20,4 @@ jobs:
         on:
           tags: true
     - stage: build Docs
-      script: docz:build
+      script: yarn run docz:build
