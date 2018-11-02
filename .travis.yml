@@ -9,6 +9,11 @@ script:
 
 jobs:
   include:
+    - stage: build Docs
+      script:
+        - yarn run generate
+        - yarn run docz:build
+
     - stage: npm release
       if: tag IS present
       script: yarn run generate
@@ -19,5 +24,3 @@ jobs:
         skip_cleanup: true
         on:
           tags: true
-    - stage: build Docs
-      script: yarn run docz:build
