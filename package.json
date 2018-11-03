@@ -1,6 +1,6 @@
 {
   "name": "emotion-icons",
-  "version": "0.0.09",
+  "version": "0.0.10",
   "description": "Font Awesome, Material Icons, and Octicons available as Emotion Components",
   "author": "Josh Rosenstein <jrosenstein6@gmail.com>",
   "homepage": "https://github.com/joshrosenstein/emotion-icons",
@@ -9,7 +9,6 @@
   "main": "index.js",
   "module": "index.js",
   "jsnext:main": "index.js",
-  "sideEffects": false,
   "files": [
     "/boxicons-regular",
     "/boxicons-solid",
