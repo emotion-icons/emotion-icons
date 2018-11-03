@@ -4,10 +4,9 @@ node_js: '10'
 cache: yarn
 
 install: yarn
-script:
-  - yarn run generate
 
 stages:
+  - name: build
   - name: deploy docs
     if: branch = master
   - name: npm release
@@ -15,6 +14,9 @@ stages:
 
 jobs:
   include:
+    - stage: deploy docs
+      script: yarn run generate
+
     - stage: deploy docs
       script: yarn run docz:build
       deploy:
