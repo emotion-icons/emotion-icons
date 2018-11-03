@@ -7,20 +7,33 @@ install: yarn
 script:
   - yarn run generate
 
+stages:
+  - name: deploy docs
+    if: branch = master
+  - name: npm release
+    if: branch = master AND tag IS present
+
 jobs:
   include:
-    - stage: build Docs
-      script:
-        - yarn run generate
-        - yarn run docz:build
+    - stage: deploy docs
+      script: yarn run docz:build
+      deploy:
+        provider: pages
+        skip_cleanup: true
+        github_token: $GH_TOKEN
+        local_dir: docs
+        target_branch: gh-pages
+        on:
+          branch: master
 
     - stage: npm release
-      if: tag IS present
-      script: yarn run generate
+      install: skip
+      script: skip
       deploy:
         provider: npm
-        email: '$NPM_EMAIL'
-        api_key: '$NPM_TOKEN'
         skip_cleanup: true
+        email: $NPM_EMAIL
+        api_key: $NPM_TOKEN
         on:
+          branch: master
           tags: true
