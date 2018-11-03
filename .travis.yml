@@ -6,26 +6,12 @@ cache: yarn
 install: yarn
 
 stages:
-  - name: deploy docs
-    if: branch = master
   - name: npm release
-    if: branch = master AND tag IS present
+    if: branch = master
 
 jobs:
   include:
-    - stage: deploy docs
-      script: yarn run generate && yarn run docz:build
-      deploy:
-        provider: pages
-        skip_cleanup: true
-        github_token: $GH_TOKEN
-        local_dir: docs
-        target_branch: gh-pages
-        on:
-          branch: master
-
     - stage: npm release
-      install: skip
       script: yarn run generate
       deploy:
         provider: npm
@@ -34,4 +20,3 @@ jobs:
         api_key: $NPM_TOKEN
         on:
           branch: master
-          tags: true
