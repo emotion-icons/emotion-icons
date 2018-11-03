@@ -5,37 +5,16 @@ cache: yarn
 
 install: yarn
 
-stages: 
-  - prepare::info
-  - name: deploy docs
-    if: branch = master
-  - name: npm release
-    if: branch = master
-    
+
+stages:
+  - Docs
+  - Release   
 
 jobs:
  include:
-    - stage: prepare::info
-      script: 
-        - echo "         TRAVIS_TAG= $TRAVIS_TAG"
-        - echo "      TRAVIS_BRANCH= $TRAVIS_BRANCH"
-        - echo "TRAVIS_PULL_REQUEST= $TRAVIS_PULL_REQUEST"
-        - if [ -n "$TRAVIS_TAG" ]; then echo "Tagged build detected"; else echo "No tagged build detected"; fi
-        - if [ "$TRAVIS_BRANCH" = "master" ]; then echo "Master branch build detected"; else echo "No master branch build detected"; fi
-        - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then echo "No pull request build detected"; else echo "Pull request build detected"; fi
-        - if [ -n "$TRAVIS_TAG" ] || ( [ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_PULL_REQUEST" = "false" ]); then echo "Push functionality activated"; else echo "Push functionality disabled"; fi
-    - stage: deploy docs
-      script: yarn run generate && yarn run docz:build
-      deploy:
-        provider: pages
-        skip_cleanup: true
-        github_token: $GH_TOKEN
-        local_dir: docs
-        target_branch: gh-pages
-        on:
-          branch: master
-
-    - stage: npm release
+    - stage: Release
+      name: "Releasing a new version"
+      if: tag IS present
       script: yarn run generate
       deploy:
         provider: npm
@@ -46,3 +25,16 @@ jobs:
           branch: master
           tags: true
           condition: $TRAVIS_TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+
+
+    - stage: Docs
+      name: "Building Docs"
+      if: branch = master
+      script: yarn run generate && yarn run docz:build
+      deploy:
+        provider: pages
+        skip_cleanup: true
+        github_token: $GH_TOKEN
+        local_dir: docs
+        target_branch: gh-pages
+        on:
+          branch: master
