@@ -9,6 +9,7 @@
   "main": "index.js",
   "module": "index.js",
   "jsnext:main": "index.js",
+  "sideEffects": false,
   "files": [
     "/boxicons-regular",
     "/boxicons-solid",
