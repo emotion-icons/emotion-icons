@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 import isPropValid from '@emotion/is-prop-valid' 
 
 const createInnerElements = body =>
@@ -26,7 +26,8 @@ const calcDimension = (key, {size, ratio, ...HW}) => {
   return value ? {[key]: value} : {}
 }
 
-const createIcon = config => {
+const createIcon = config =>  {
+  console.log(config)
   const Inner = createInnerElements(config.body)
   const StyledIcon = styled('svg', {
     shouldForwardProp: name =>
@@ -35,8 +36,8 @@ const createIcon = config => {
     ({
       size,
       ratio,
-      height = config['height'],
-      width = config['width'],
+      height = `${config['height']}px`,
+      width = `${config['width']}px`,
       css,
       color = config['color'],
     }) => ({

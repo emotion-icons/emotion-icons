@@ -1,6 +1,6 @@
 {
   "name": "emotion-icons",
-  "version": "0.0.11",
+  "version": "1.0.0",
   "description": "Font Awesome, Material Icons, and Octicons available as Emotion Components",
   "author": "Josh Rosenstein <jrosenstein6@gmail.com>",
   "homepage": "https://github.com/joshrosenstein/emotion-icons",
@@ -63,9 +63,10 @@
     "clean:modules": "rimraf node_modules"
   },
   "peerDependencies": {
-    "emotion": "8.x || 9.x",
-    "react": "15.x || 16.x",
-    "react-emotion": "8.x || 9.x"
+    "@emotion/core": "10.x",
+    "@emotion/styled": "10.x",
+    "emotion": "10.x",
+    "react": "15.x || 16.x"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
@@ -73,6 +74,8 @@
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
+    "@emotion/core": "^10.0.4",
+    "@emotion/styled": "^10.0.4",
     "@fortawesome/fontawesome-svg-core": "^1.2.4",
     "@fortawesome/free-brands-svg-icons": "^5.3.1",
     "@fortawesome/free-regular-svg-icons": "^5.3.1",
@@ -86,7 +89,7 @@
     "copy-to-clipboard": "^3.0.8",
     "cross-env": "^5.2.0",
     "docz": "^0.12.5",
-    "emotion": "^9.2.12",
+    "emotion": "^10.0.4",
     "execa": "^0.10.0",
     "fast-glob": "^2.2.0",
     "feather-icons": "^4.7.3",
@@ -101,7 +104,6 @@
     "octicons": "^8.1.0",
     "ora": "^2.0.0",
     "prettier": "^1.13.0",
-    "react-emotion": "^9.2.12",
     "react-virtualized": "^9.20.1",
     "rimraf": "^2.6.2",
     "serve": "^9.0.0",
