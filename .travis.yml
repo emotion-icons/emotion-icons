@@ -5,7 +5,6 @@ cache: yarn
 
 install: yarn
 
-
 stages:
   - Docs
   - Release   
