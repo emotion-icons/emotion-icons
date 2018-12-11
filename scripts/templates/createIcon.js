@@ -27,7 +27,6 @@ const calcDimension = (key, {size, ratio, ...HW}) => {
 }
 
 const createIcon = config =>  {
-  console.log(config)
   const Inner = createInnerElements(config.body)
   const StyledIcon = styled('svg', {
     shouldForwardProp: name =>
