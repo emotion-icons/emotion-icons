@@ -35,8 +35,8 @@ const createIcon = config => {
     ({
       size,
       ratio,
-      height = `${config['height']}px`,
-      width = `${config['width']}px`,
+      height = config['height'],
+      width = config['width'],
       css,
       color = config['color'],
     }) => ({
