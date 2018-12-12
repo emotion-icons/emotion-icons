@@ -30,13 +30,10 @@ const baseDir = path.join(__dirname, '..', 'build')
 
 const generate = async () => {
   spinner = ora('Reading icon packs...').start()
-  // LogAndWait('generate')
-  // const icons = (await Promise.all(PACKS.map(pack => require(`./sources/${pack}`)()))).reduce(
-  //   (all, icons) => all.concat(...icons),
-  //   [],
-  // )
+
+//.slice(0, 3) to get first 10 icons for each Pack
   const icons = (await Promise.all(PACKS.map(pack => require(`./sources/${pack}`)()))).reduce(
-    (all, icons) => all.concat(...icons.slice(0, 5)),
+    (all, icons) => all.concat(...icons.slice(0, 10) ),
     [],
   )
   spinner.text = 'Reading template...'
@@ -59,7 +56,7 @@ const generate = async () => {
     result = await svgo(result)
     result = await h2x(result, state)
     result = result.join(',\n')
-    // console.log(result)
+
     icon.name = getComponentName(icon.originalName)
     icon.height = state.height || icon.height
     icon.width = state.width || icon.width
@@ -76,7 +73,7 @@ const generate = async () => {
     if (icon.name === 'React') icon.name = 'ReactLogo'
 
     const dataP = parseJSX(result)
-    //throw Error('HALT')
+
     const color = icon.hex ? {color: `#${icon.hex}`} : {}
     const width = icon.width ? {width: icon.width} : {}
     const height = icon.height ? {height: icon.height} : {}
@@ -175,7 +172,7 @@ export {${PACKS.map(camelize).join(', ')}}
   let compiler = execa(
     'babel',
     ['./build/src', '--out-dir', '.', '--ignore', '*.spec.js,*.cjs.js'],
-    {cwd: paths.ROOT},
+    {cwd: paths.ROOT, env: {BABEL_ENV: 'es'}},
   )
   compiler.stdout.pipe(process.stdout)
   compiler.stderr.pipe(process.stderr)
@@ -184,16 +181,8 @@ export {${PACKS.map(camelize).join(', ')}}
 
   compiler = execa(
     'babel',
-    [
-      './build/srccjs',
-      '--out-dir',
-      '.',
-      '--presets',
-      '@babel/env,@babel/react',
-      '--ignore',
-      '*.spec.js,*.test.js',
-    ],
-    {cwd: paths.ROOT},
+    ['./build/srccjs', '--out-dir', '.', '--ignore', '*.spec.js,*.test.js'],
+    {cwd: paths.ROOT, env: {BABEL_ENV: 'cjs'}},
   )
 
   compiler.stdout.pipe(process.stdout)
@@ -202,7 +191,7 @@ export {${PACKS.map(camelize).join(', ')}}
 
   spinner.text = 'Moving src...'
 
-  //await fs.move(path.join(baseDir, 'src'), path.join(baseDir, '..', 'src'), {overwrite: true})
+  await fs.move(path.join(baseDir, 'src'), path.join(baseDir, '..', 'src'), {overwrite: true})
 
   //
   // spinner.text = 'Copying files to destination...'
@@ -221,24 +210,24 @@ export {${PACKS.map(camelize).join(', ')}}
 
   spinner.text = 'Writing icon manifest for website...'
   const seenImports = new Set()
-  // await fs.writeJSON(
-  //   path.join(__dirname, '..', 'docs', 'src', 'manifest.json'),
-  //   icons
-  //     .map(({name, originalName, pack}) => {
-  //       const importPath = `styled-icons/${pack}/${name}`
+  await fs.writeJSON(
+    path.join(__dirname, '..', 'docz', 'Icons', 'manifest.json'),
+    icons
+      .map(({name, originalName, pack}) => {
+        const importPath = `emotion-icons/${pack}/${name}`
 
-  //       if (seenImports.has(importPath)) return null
-  //       seenImports.add(importPath)
+        if (seenImports.has(importPath)) return null
+        seenImports.add(importPath)
 
-  //       return {
-  //         importPath,
-  //         name,
-  //         originalName,
-  //         pack,
-  //       }
-  //     })
-  //     .filter(icon => icon),
-  // )
+        return {
+          importPath,
+          name,
+          originalName,
+          pack,
+        }
+      })
+      .filter(icon => icon),
+  )
 
   spinner.succeed(`${totalIcons} icons successfully built!`)
 }

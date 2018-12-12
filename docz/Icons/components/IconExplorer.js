@@ -2,7 +2,7 @@ import * as React from 'react'
 import {AutoSizer, Grid, WindowScroller} from 'react-virtualized'
 
 import {IconCard} from './IconCard'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 
 const Wrapper = styled('div')`
   text-align: center;

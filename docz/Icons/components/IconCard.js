@@ -1,6 +1,6 @@
 import * as React from 'react'
 import copy from 'copy-to-clipboard'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 
 const Code = styled('code')`
   display: none;
@@ -92,7 +92,7 @@ export class IconCard extends React.PureComponent {
     const {Icon, name} = this.props
     return (
       <Wrapper onClick={() => this.copy()}>
-        <div>{Icon && <Icon height="48" width="48" title={`${name} icon`} />}</div>
+        <div>{Icon && <Icon size={48} title={`${name} icon`} />}</div>
         <Name>{name}</Name>
         <Code title={this.iconImport}>{this.state.copied ? 'Copied!' : this.iconShortImport}</Code>
       </Wrapper>
