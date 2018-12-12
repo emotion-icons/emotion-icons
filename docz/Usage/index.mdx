@@ -5,9 +5,9 @@ order: -9
 ---
 
 import { Playground, PropsTable } from 'docz'
-import {AccountBox, Lock} from 'emotion-icons/material'
-import LogoGithub, {LogoGithubConfig} from 'emotion-icons/octicons/LogoGithub'
-import styled from 'react-emotion'
+import {Accessible, Accessibility} from 'emotion-icons/material'
+import ThreeBars, {ThreeBarsConfig} from 'emotion-icons/octicons/ThreeBars'
+import styled from '@emotion/styled'
 
 # Usage
 
@@ -36,8 +36,8 @@ import React from 'react'
 import {Account, Lock} from 'emotion-icons/material'
 ```
 <Playground> 
-    <AccountBox />
-    <Lock />
+    <Accessible />
+    <Accessibility />
 </Playground> 
 
 
@@ -57,10 +57,10 @@ Styled Icons accept all the valid props of an `<svg />` element, in addition to 
 
 ```jsx
 import React from 'react'
-import {Lock} from 'emotion-icons/material'
+import {Accessible} from 'emotion-icons/material'
 ```
 <Playground> 
- <Lock size="48" title="Unlock account" css="color: red;" />
+ <Accessible size={48} title="Unlock account" css="color: red;" />
 </Playground> 
 
 ### Icon Config
@@ -70,11 +70,11 @@ or if you need to extract some information for example
 some icons natively have non-square dimensions - original width and height are within the config from the individual icon exports:
 
 ```jsx
-import {LogoGithub, LogoGithubConfig} from 'emotion-icons/octicons/LogoGithub'
+import ThreeBars, {ThreeBarsConfig} from 'emotion-icons/octicons/ThreeBars'
 ```
 <Playground> 
-<LogoGithub />
-<pre>{JSON.stringify(LogoGithubConfig, undefined, 2)}</pre>
+<ThreeBars />
+<pre>{JSON.stringify(ThreeBarsConfig, undefined, 2)}</pre>
   </Playground> 
 
 Dimension exports are not available on the icon pack or index exports:
@@ -92,9 +92,9 @@ All icons are exported as [Styled Components](https://emotion.sh/), which means 
 
 ```jsx
 import styled from 'react-emotion'
-import {Lock} from 'emotion-icons/material'
+import {Accessible} from 'emotion-icons/material'
 
-export const RedLock = styled(Lock)`
+export const RedAccessible = styled(Accessible)`
   color: red;
 
   font-weight: ${props => (props.important ? 'bold' : 'normal')};
@@ -102,10 +102,10 @@ export const RedLock = styled(Lock)`
 ```
 <Playground> 
  {() => {
-const RedLock = styled(Lock)(p=>({
+const RedAccessible = styled(Accessible)(p=>({
 color:p.error?'Crimson':'DodgerBlue',
 }))
-return <div><RedLock/> <RedLock error/></div>
+return <div><RedAccessible/> <RedAccessible error/></div>
  }}
   </Playground> 
 
@@ -116,7 +116,7 @@ Styled Icons have two different built-in "modes" for accessibility purposes. By 
 
 ```javascript
 // this icon
-<Lock />
+<Accessible />
 
 // will result in
 <svg aria-hidden="true">...</svg>
@@ -126,7 +126,7 @@ Alternatively the icon could be used in standalone mode, meaning the icon itself
 
 ```javascript
 // this icon
-<Lock title="Lock account" />
+<Accessible title="Lock account" />
 
 // will result in
 <svg role="img"><title>Lock account</title> ...</svg>
@@ -170,15 +170,15 @@ Tree shaking has been tested with Create React App, Rollup, and Webpack. If your
 import React, {Fragment} from 'react'
 
 // This will result in all Material icons being bundled
-import {Account} from 'emotion-icons/material.cjs'
+import {Accessibility} from 'emotion-icons/material.cjs'
 
 // This will only include the Lock icon
-import {Lock} from 'emotion-icons/material/Lock.cjs'
+import {Accessible} from 'emotion-icons/material/Accessible.cjs'
 
 const App = () => (
   <Fragment>
-    <Account />
-    <Lock />
+    <Accessibility />
+    <Accessible />
   </Fragment>
 )
 ```
