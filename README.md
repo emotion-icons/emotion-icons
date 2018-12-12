@@ -104,7 +104,7 @@ export default createIcon(AwardConfig);
 #### emotion-icons/createIcon.js
 ```jsx
 import React from 'react'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 import isPropValid from '@emotion/is-prop-valid' 
 
 const createInnerElements = body =>
