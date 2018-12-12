@@ -8,7 +8,7 @@ module.exports = async () =>
       source: icon.svg,
       pack: 'simpleIcons',
       hex:icon.hex,
-      width: '24',
-      height: '24',
+      width: 24,
+      height: 24,
     }
   })

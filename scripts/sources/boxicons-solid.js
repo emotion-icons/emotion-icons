@@ -9,8 +9,8 @@ module.exports = async () => {
       originalName: match[1],
       source: fs.readFileSync(filename).toString(),
       pack: 'boxicons-solid',
-      width: '24',
-      height: '24',
+      width: 24,
+      height: 24,
     }
   })
 }
