@@ -55,7 +55,7 @@
     "docz:build": "docz build",
     "generate": "node scripts/generate.js",
     "generate:manifest": "node scripts/generateManifest.js",
-    "generate:test": "node scripts/generateTest.js",
+    "generate:sample": "node scripts/generateSample.js",
     "build": "yarn run clean && yarn run build:es",
     "build:es": "cross-env BABEL_ENV=es babel src --out-dir . --ignore *.spec.js,*.test.js --quiet ",
     "build:cjs": "cross-env BABEL_ENV=cjs babel src --out-dir ./build/srccjs/ --ignore *.spec.js,*.test.js --quiet ",
