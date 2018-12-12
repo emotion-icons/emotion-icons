@@ -9,8 +9,8 @@
         originalName: match[1],
         source: fs.readFileSync(filename).toString(),
         pack: 'boxicons-regular',
-        width: '24',
-        height: '24',
+        width: 24,
+        height: 24,
       }
     })
   }

@@ -10,8 +10,8 @@ module.exports = async () => {
       originalName: match[1],
       source: fs.readFileSync(filename).toString(),
       pack: 'material',
-      width: match[4] || '24',
-      height: '24',
+      width: parseInt(match[4]) || 24,
+      height: 24,
     }
   })
 }
