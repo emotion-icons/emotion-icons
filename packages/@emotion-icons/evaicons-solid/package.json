@@ -1,6 +1,6 @@
 {
   "name": "@emotion-icons/evaicons-solid",
-  "version": "10.6.0",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "Eva Icons available as Emotion React Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.10.4",
-    "@emotion-icons/emotion-icon": "^10.6.0"
+    "@emotion-icons/emotion-icon": "1.0.0"
   },
   "peerDependencies": {
     "@emotion/core": ">=10.0.0 <11",
@@ -34,7 +34,7 @@
     "react": "*"
   },
   "devDependencies": {
-    "@emotion-icons/pack-builder": "^10.6.0",
+    "@emotion-icons/pack-builder": "^1.0.0",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
     "@svg-icons/evaicons-solid": "1.1.0",
