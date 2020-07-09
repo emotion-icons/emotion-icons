@@ -6,11 +6,11 @@
 <a href="https://emotion.sh"><img src="https://badgen.net/badge/built%20with/emotion/f090d5" alt="Built with Emotion" /></a>
 <img src="https://badgen.net/badge/powered%20by/typescript/blue" alt="Powered by TypeScript" /> <a href="#contributors" alt="sponsors on Open Collective"><img src="https://opencollective.com/emotion-icons/backers/badge.svg" /></a> <a href="#contributors" alt="Sponsors on Open Collective"><img src="https://opencollective.com/emotion-icons/sponsors/badge.svg" /></a></p>
 
-<p align="center"><a href="https://vercel.com/?utm_source=emotion-icons"><img height="32" src="https://emotion-icons.js.org/powered-by-vercel.svg" alt="Powered by Vercel" /></a></p>
+<p align="center"><a href="https://vercel.com/?utm_source=emotion-icons"><img height="32" src="https://emotion-icons.dev/powered-by-vercel.svg" alt="Powered by Vercel" /></a></p>
 
 `emotion-icons` provides almost 17,000 icons from the following icon packs as [Emotion React Components](https://emotion.sh/), with full support for TypeScript types and tree-shaking / ES modules.
 
-**[➡️ View the Icon Explorer](https://emotion-icons.js.org)**
+**[➡️ View the Icon Explorer](https://emotion-icons.dev)**
 
 - [Boxicons](https://boxicons.com/)
 - [Crypto Icons](http://cryptoicons.co)
@@ -104,7 +104,7 @@ yarn add @emotion/core @emotion/styled
 
 ## Usage
 
-All icons are available for preview at the [Icon Explorer](https://emotion-icons.js.org).
+All icons are available for preview at the [Icon Explorer](https://emotion-icons.dev).
 
 The entire icon packs are available via the main import and sub-imports:
 
