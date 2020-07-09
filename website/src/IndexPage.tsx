@@ -38,7 +38,7 @@ const IndexPage: React.SFC = () => (
 
       <code className="demo">
         {`
-import styled from 'styled-components'
+import styled from '@emotion/styled'
 import {Zap} from '@emotion-icons/octicons'
 
 const RedZap = styled(Zap)\`

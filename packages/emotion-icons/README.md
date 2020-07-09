@@ -96,7 +96,11 @@ yarn add @emotion-icons/typicons
 yarn add @emotion-icons/zondicons
 ```
 
-Finally, you will need to have installed a version of `styled-components` at least version 4.1.0 or newer, as `emotion-icons` depends on `styled-components` as a peer dependency.
+Finally, you will need to have installed a version of `@emotion/core` and `@emotion/styled` at least version 10.0.0 or newer, as `emotion-icons` depends on `@emotion/core` and `@emotion/styled` as a peer dependency:
+
+```
+yarn add @emotion/core @emotion/styled
+```
 
 ## Usage
 
@@ -223,7 +227,7 @@ export const RedLock = styled(Lock)`
 If you wish to style all icons at once, you can create a wrapper styled component that imparts a particular style to all icons contained within the wrapper by targeting the `EmotionIconBase` component:
 
 ```javascript
-import styled from 'styled-components'
+import styled from '@emotion/styled'
 import {EmotionIconBase} from '@emotion-icons/emotion-icon'
 
 export const IconStyleWrapper = styled.div`
@@ -261,7 +265,7 @@ Since Style Icons accept all `<svg>` element attributes as props, you are free t
 As this library provides direct access to the `<svg>` element, you may wish to further wrap the icon for additional semantic meaning. For example, for a loading spinner:
 
 ```javascript
-import styled from 'styled-components'
+import styled from '@emotion/styled'
 import {Spinner} from '@emotion-icons/fa-solid/Spinner'
 
 const VisuallyHidden = styled.span`
@@ -293,7 +297,7 @@ Emotion Icons supports automatic tree-shaking via the `package.json` `module` pr
 The icons of `emotion-icons` are built using TypeScript and export type definitions. If you need a type to reference any styled icon, there is a `EmotionIcon` type exported from the `@emotion-icons/emotion-icon` package (recommended) or the `emotion-icons/types` import:
 
 ```typescript
-import styled from 'styled-components'
+import styled from '@emotion/styled'
 
 // Recommended:
 import {EmotionIcon} from '@emotion-icons/emotion-icon'
