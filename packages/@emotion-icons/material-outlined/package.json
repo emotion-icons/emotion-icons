@@ -1,0 +1,43 @@
+{
+  "name": "@emotion-icons/material-outlined",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Material outlined icons available as Emotion React Components",
+  "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
+  "homepage": "https://github.com/emotion-icons/emotion-icons",
+  "repository": "git://github.com/emotion-icons/emotion-icons.git",
+  "keywords": [
+    "emotion-icons"
+  ],
+  "funding": {
+    "type": "GitHub",
+    "url": "https://github.com/sponsors/jacobwgillespie"
+  },
+  "main": "./index.js",
+  "module": "./index.esm.js",
+  "types": "./index.d.ts",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "clean-package",
+    "generate": "generate-icon-package @svg-icons/material-outlined"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.10.4",
+    "@emotion-icons/emotion-icon": "1.0.0"
+  },
+  "peerDependencies": {
+    "@emotion/core": ">=10.0.0 <11",
+    "@emotion/styled": ">=10.0.0 <11",
+    "react": "*"
+  },
+  "devDependencies": {
+    "@emotion-icons/pack-builder": "^1.0.0",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@svg-icons/material-outlined": "1.1.0",
+    "react": "^16.13.1"
+  }
+}

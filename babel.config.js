@@ -1,19 +1,32 @@
 module.exports = {
-  presets: ['@babel/preset-env', '@babel/preset-react'],
-  plugins: ['@babel/plugin-proposal-class-properties', '@babel/proposal-object-rest-spread'],
+  plugins: ['@babel/plugin-transform-runtime', 'babel-plugin-emotion'],
   env: {
-    es: {
-      presets: [['@babel/preset-env', {modules: false}], '@babel/preset-react', 'minify'],
+    legacy: {
+      presets: [
+        '@babel/preset-react',
+        '@babel/preset-typescript',
+        [
+          '@babel/preset-env',
+          {
+            bugfixes: true,
+            targets: {ie: '11'},
+          },
+        ],
+      ],
     },
-
-    cjs: {
-      presets: ['@babel/preset-env', '@babel/preset-react', 'minify'],
-    },
-    production: {
-      plugins: ['@babel/plugin-proposal-class-properties'],
-    },
-    development: {
-      plugins: ['@babel/plugin-proposal-class-properties'],
+    modern: {
+      presets: [
+        '@babel/preset-react',
+        '@babel/preset-typescript',
+        [
+          '@babel/preset-modules',
+          {
+            bugfixes: true,
+            modules: false,
+            targets: {esmodules: true},
+          },
+        ],
+      ],
     },
   },
 }

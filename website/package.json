@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "name": "@emotion-icons/website",
+  "version": "1.0.0",
+  "license": "MIT",
+  "funding": {
+    "type": "GitHub",
+    "url": "https://github.com/sponsors/jacobwgillespie"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "next build && next export -o build && cp -r public/* build/ && mv build ../public",
+    "clean": "rm -rf ./build ../public",
+    "start": "next dev"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@loadable/component": "^5.13.1",
+    "copy-to-clipboard": "^3.2.1",
+    "emotion-icons": "1.0.0",
+    "history": "^5.0.0",
+    "js-search": "^2.0.0",
+    "query-string": "^6.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-virtualized": "^9.21.2"
+  },
+  "devDependencies": {
+    "@types/js-search": "^1.4.0",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-virtualized": "^9.21.10",
+    "next": "^9.4.4"
+  }
+}

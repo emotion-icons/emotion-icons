@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "@emotion-icons/pack-builder",
+  "version": "1.0.0",
+  "license": "MIT",
+  "funding": {
+    "type": "GitHub",
+    "url": "https://github.com/sponsors/jacobwgillespie"
+  },
+  "bin": {
+    "generate-icon-mono-package": "./generate-icon-mono-package.js",
+    "generate-icon-package": "./generate-icon-package.js",
+    "clean-package": "./clean-package.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "execa": "^4.0.2",
+    "fast-case": "^1.5.0",
+    "fast-glob": "^3.2.4",
+    "fs-extra": "^9.0.1",
+    "h2x-core": "^1.1.1",
+    "h2x-plugin-jsx": "^1.2.0",
+    "number-to-words": "^1.2.3",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  }
+}

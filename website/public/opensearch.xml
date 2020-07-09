@@ -1,0 +1,9 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Emotion Icons</ShortName>
+  <Description>A React Components icon library</Description>
+  <Url type="text/html" method="GET" template="https://emotion-icons.dev/?s={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="/opensearch.xml" />
+  <Image width="16" height="16">https://emotion-icons.dev/icons/favicon.ico</Image>
+  <InputEncoding>UTF-8</InputEncoding>
+  <moz:SearchForm>https://emotion-icons.dev</moz:SearchForm>
+</OpenSearchDescription>

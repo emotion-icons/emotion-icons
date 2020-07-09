@@ -1,0 +1,24 @@
+import * as React from 'react'
+import {EmotionIcon, EmotionIconBase, EmotionIconProps} from '@emotion-icons/emotion-icon'
+
+export const {{name}}: EmotionIcon = React.forwardRef<SVGSVGElement, EmotionIconProps>((props, ref) => {
+  const attrs: React.SVGProps<SVGSVGElement> = {
+    {{attrs}},
+  }
+
+  return (
+    <EmotionIconBase
+      iconAttrs={attrs}
+      iconVerticalAlign="{{verticalAlign}}"
+      iconViewBox="{{viewBox}}"
+      {...props}
+      ref={ref}
+    >
+      {{svg}}
+    </EmotionIconBase>
+  )
+})
+
+{{name}}.displayName = '{{name}}'
+
+export const {{name}}Dimensions = {height: {{height}}, width: {{width}}}
