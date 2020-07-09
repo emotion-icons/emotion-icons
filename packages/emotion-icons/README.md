@@ -4,7 +4,7 @@
 <a href="https://www.npmjs.com/package/emotion-icons"><img src="https://badgen.net/npm/dm/emotion-icons" alt="npm" /></a>
 <a href="https://www.npmjs.com/package/emotion-icons"><img src="https://badgen.net/npm/v/emotion-icons" alt="npm" /></a>
 <a href="https://emotion.sh"><img src="https://badgen.net/badge/built%20with/emotion/f090d5" alt="Built with Emotion" /></a>
-<img src="https://badgen.net/badge/powered%20by/typescript/blue" alt="Powered by TypeScript" /> <a href="#contributors" alt="sponsors on Open Collective"><img src="https://opencollective.com/emotion-icons/backers/badge.svg" /></a> <a href="#contributors" alt="Sponsors on Open Collective"><img src="https://opencollective.com/emotion-icons/sponsors/badge.svg" /></a></p>
+<img src="https://badgen.net/badge/powered%20by/typescript/blue" alt="Powered by TypeScript" /><a href="https://github.com/sponsors/jacobwgillespie"><img src="https://badgen.net/badge/icon/sponsors/red?label&color=d73a49&icon=github" alt="Sponsor" /></a></p>
 
 <p align="center"><a href="https://vercel.com/?utm_source=emotion-icons"><img height="32" src="https://emotion-icons.dev/powered-by-vercel.svg" alt="Powered by Vercel" /></a></p>
 
@@ -55,7 +55,6 @@
   - [TypeScript](#typescript)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contributors](#contributors)
 
 ## Installation
 
@@ -354,22 +353,3 @@ The Octicons are licensed under the [MIT License](https://github.com/primer/octi
 The Typicons are licensed under the [CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/).
 
 The Typicons are licensed under the [CC BY SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/).
-
-## Contributors
-
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/emotion-icons#backer)]
-
-<a href="https://opencollective.com/emotion-icons#backers" target="_blank"><img src="https://opencollective.com/emotion-icons/backers.svg?width=890"></a>
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/emotion-icons#sponsor)]
-
-<a href="https://opencollective.com/emotion-icons/sponsor/0/website" target="_blank"><img src="https://opencollective.com/emotion-icons/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/emotion-icons/sponsor/1/website" target="_blank"><img src="https://opencollective.com/emotion-icons/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/emotion-icons/sponsor/2/website" target="_blank"><img src="https://opencollective.com/emotion-icons/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/emotion-icons/sponsor/3/website" target="_blank"><img src="https://opencollective.com/emotion-icons/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/emotion-icons/sponsor/4/website" target="_blank"><img src="https://opencollective.com/emotion-icons/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/emotion-icons/sponsor/5/website" target="_blank"><img src="https://opencollective.com/emotion-icons/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/emotion-icons/sponsor/6/website" target="_blank"><img src="https://opencollective.com/emotion-icons/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/emotion-icons/sponsor/7/website" target="_blank"><img src="https://opencollective.com/emotion-icons/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/emotion-icons/sponsor/8/website" target="_blank"><img src="https://opencollective.com/emotion-icons/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/emotion-icons/sponsor/9/website" target="_blank"><img src="https://opencollective.com/emotion-icons/sponsor/9/avatar.svg"></a>
