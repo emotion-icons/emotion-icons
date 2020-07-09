@@ -1,5 +1,0 @@
-import createIcon from '../createIcon'
-
-export const {{name}}Config = {{config}}
-
-export default createIcon({{name}}Config)

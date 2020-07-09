@@ -1,0 +1,41 @@
+{
+  "name": "@emotion-icons/emotion-icon",
+  "version": "10.6.0",
+  "license": "MIT",
+  "description": "Emotion Icons base component",
+  "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
+  "homepage": "https://github.com/emotion-icons/emotion-icons",
+  "repository": "git://github.com/emotion-icons/emotion-icons.git",
+  "keywords": [
+    "emotion-icons"
+  ],
+  "funding": {
+    "type": "GitHub",
+    "url": "https://github.com/sponsors/jacobwgillespie"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "ALLOWED_FILES=index.tsx clean-package"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.10.4",
+    "@emotion/is-prop-valid": "^0.8.7"
+  },
+  "peerDependencies": {
+    "@emotion/core": ">=10.0.0 <11",
+    "@emotion/styled": ">=10.0.0 <11",
+    "react": "*"
+  },
+  "devDependencies": {
+    "@emotion-icons/pack-builder": "^10.6.0",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "react": "^16.13.1"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "name": "emotion-icons",
+  "version": "10.6.0",
+  "license": "MIT",
+  "description": "Icons from packs like Font Awesome, Material, Octicons, Feather, Icomoon, and Boxicons available as Emotion Components",
+  "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
+  "homepage": "https://github.com/emotion-icons/emotion-icons",
+  "repository": "git://github.com/emotion-icons/emotion-icons.git",
+  "keywords": [
+    "emotion",
+    "icons",
+    "font-awesome",
+    "feather-icons",
+    "material-ui",
+    "material",
+    "octicons",
+    "boxicons",
+    "svg"
+  ],
+  "funding": {
+    "type": "GitHub",
+    "url": "https://github.com/sponsors/jacobwgillespie"
+  },
+  "main": "./index.js",
+  "module": "./index.esm.js",
+  "types": "./index.d.ts",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "clean-package",
+    "generate": "generate-icon-mono-package"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.10.4",
+    "@emotion-icons/boxicons-logos": "^10.6.0",
+    "@emotion-icons/boxicons-regular": "^10.6.0",
+    "@emotion-icons/boxicons-solid": "^10.6.0",
+    "@emotion-icons/crypto": "^10.6.0",
+    "@emotion-icons/emotion-icon": "^10.6.0",
+    "@emotion-icons/entypo": "^10.6.0",
+    "@emotion-icons/entypo-social": "^10.6.0",
+    "@emotion-icons/evaicons-outline": "^10.6.0",
+    "@emotion-icons/evaicons-solid": "^10.6.0",
+    "@emotion-icons/evil": "^10.6.0",
+    "@emotion-icons/fa-brands": "^10.6.0",
+    "@emotion-icons/fa-regular": "^10.6.0",
+    "@emotion-icons/fa-solid": "^10.6.0",
+    "@emotion-icons/feather": "^10.6.0",
+    "@emotion-icons/foundation": "^10.6.0",
+    "@emotion-icons/heroicons-outline": "^10.6.0",
+    "@emotion-icons/heroicons-solid": "^10.6.0",
+    "@emotion-icons/icomoon": "^10.6.0",
+    "@emotion-icons/ionicons-outline": "^10.6.0",
+    "@emotion-icons/ionicons-sharp": "^10.6.0",
+    "@emotion-icons/ionicons-solid": "^10.6.0",
+    "@emotion-icons/material": "^10.6.0",
+    "@emotion-icons/material-outlined": "^10.6.0",
+    "@emotion-icons/material-rounded": "^10.6.0",
+    "@emotion-icons/material-sharp": "^10.6.0",
+    "@emotion-icons/material-twotone": "^10.6.0",
+    "@emotion-icons/octicons": "^10.6.0",
+    "@emotion-icons/open-iconic": "^10.6.0",
+    "@emotion-icons/remix-fill": "^10.6.0",
+    "@emotion-icons/remix-line": "^10.6.0",
+    "@emotion-icons/simple-icons": "^10.6.0",
+    "@emotion-icons/typicons": "^10.6.0",
+    "@emotion-icons/zondicons": "^10.6.0"
+  },
+  "peerDependencies": {
+    "@emotion/core": ">=10.0.0 <11",
+    "@emotion/styled": ">=10.0.0 <11",
+    "react": "*"
+  }
+}
