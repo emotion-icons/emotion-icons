@@ -32,13 +32,13 @@
 
 ---
 
-<p align="center">
+<p align="center"><strong>Do you use Styled Components?</strong></p>
 
-| <p align="center">Do you use Styled Components?</p>                                             | <p align="center">Would you like plain SVGs?</p>                                      |
-| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| <p align="center">Check out [💅 Styled Icons](https://github.com/styled-icons/styled-icons)</p> | <p align="center">Check out [🎛️SVG Icons](https://github.com/svg-icons/svg-icons)</p> |
+<p align="center">Check out <a href="https://github.com/styled-icons/styled-icons">💅 Styled Icons</a></p>
 
-</p>
+<p align="center"><strong>Would you like plain SVGs?</strong></p>
+
+<p align="center">Check out <a href="https://github.com/svg-icons/svg-icons">🎛️ SVG Icons</a></p>
 
 ---
 
