@@ -4,7 +4,7 @@
 <a href="https://www.npmjs.com/package/emotion-icons"><img src="https://badgen.net/npm/dm/emotion-icons" alt="npm" /></a>
 <a href="https://www.npmjs.com/package/emotion-icons"><img src="https://badgen.net/npm/v/emotion-icons" alt="npm" /></a>
 <a href="https://emotion.sh"><img src="https://badgen.net/badge/built%20with/emotion/f090d5" alt="Built with Emotion" /></a>
-<img src="https://badgen.net/badge/powered%20by/typescript/blue" alt="Powered by TypeScript" /><a href="https://github.com/sponsors/jacobwgillespie"><img src="https://badgen.net/badge/icon/sponsors/red?label&color=d73a49&icon=github" alt="Sponsor" /></a></p>
+<img src="https://badgen.net/badge/powered%20by/typescript/blue" alt="Powered by TypeScript" /> <a href="https://github.com/sponsors/jacobwgillespie"><img src="https://badgen.net/badge/icon/sponsors/red?label&color=d73a49&icon=github" alt="Sponsor" /></a></p>
 
 <p align="center"><a href="https://vercel.com/?utm_source=emotion-icons"><img height="32" src="https://emotion-icons.dev/powered-by-vercel.svg" alt="Powered by Vercel" /></a></p>
 
