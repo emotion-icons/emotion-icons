@@ -32,6 +32,16 @@
 
 ---
 
+<p align="center">
+
+| <p align="center">Do you use Styled Components?</p>                                             | <p align="center">Would you like plain SVGs?</p>                                      |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| <p align="center">Check out [💅 Styled Icons](https://github.com/styled-icons/styled-icons)</p> | <p align="center">Check out [🎛️SVG Icons](https://github.com/svg-icons/svg-icons)</p> |
+
+</p>
+
+---
+
 ### Table of Contents
 
 - [Installation](#installation)
