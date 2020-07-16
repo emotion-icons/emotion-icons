@@ -1,5 +1,18 @@
 # emotion-icons
 
+## 2.2.0
+
+### Minor Changes
+
+- [#29](https://github.com/emotion-icons/emotion-icons/pull/29): Upgrade Font Awesome to v5.14.0 ([`bef8ccc`](https://github.com/emotion-icons/emotion-icons/commit/bef8cccf61f08698cf3724482dcfb6c696535fc1), [@dependabot](https://github.com/apps/dependabot))
+
+### Patch Changes
+
+- Updated dependencies [[`bef8ccc`](https://github.com/emotion-icons/emotion-icons/commit/bef8cccf61f08698cf3724482dcfb6c696535fc1)]:
+  - @emotion-icons/fa-regular@2.2.0
+  - @emotion-icons/fa-brands@2.2.0
+  - @emotion-icons/fa-solid@2.2.0
+
 ## 2.1.0
 
 ### Minor Changes
@@ -9,8 +22,9 @@
 ### Patch Changes
 
 - Updated dependencies [[`5d2c281`](https://github.com/emotion-icons/emotion-icons/commit/5d2c281ab81a760d5b592403acec6fe8d3037d56)]:
+
   - @emotion-icons/simple-icons@2.1.0
-  
+
 ## 2.0.0
 
 ### Major Changes
