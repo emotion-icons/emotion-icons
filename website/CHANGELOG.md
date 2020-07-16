@@ -1,5 +1,12 @@
 # @emotion-icons/website
 
+## 2.0.2
+
+### Patch Changes
+
+- Updated dependencies [[`bef8ccc`](https://github.com/emotion-icons/emotion-icons/commit/bef8cccf61f08698cf3724482dcfb6c696535fc1)]:
+  - emotion-icons@2.2.0
+
 ## 2.0.1
 
 ### Patch Changes
