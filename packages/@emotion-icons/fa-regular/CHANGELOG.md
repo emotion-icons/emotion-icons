@@ -1,5 +1,11 @@
 # @emotion-icons/fa-regular
 
+## 2.2.1
+
+### Patch Changes
+
+- [#28](https://github.com/emotion-icons/emotion-icons/pull/28): Fix issue where `@emotion-icons/fa-regular` published the incorrect Font Awesome icons ([`b5919db`](https://github.com/emotion-icons/emotion-icons/commit/b5919db58d1cad9e52e6f0381a00db4e704a3b76), [@dependabot](https://github.com/apps/dependabot))
+
 ## 2.2.0
 
 ### Minor Changes

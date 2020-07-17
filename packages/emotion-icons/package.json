@@ -1,6 +1,6 @@
 {
   "name": "emotion-icons",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "license": "MIT",
   "description": "Icons from packs like Font Awesome, Material, Octicons, Feather, Icomoon, and Boxicons available as Emotion Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
@@ -44,8 +44,8 @@
     "@emotion-icons/evaicons-outline": "2.0.0",
     "@emotion-icons/evaicons-solid": "2.0.0",
     "@emotion-icons/evil": "2.0.0",
-    "@emotion-icons/fa-brands": "2.2.0",
-    "@emotion-icons/fa-regular": "2.2.0",
+    "@emotion-icons/fa-brands": "2.2.1",
+    "@emotion-icons/fa-regular": "2.2.1",
     "@emotion-icons/fa-solid": "2.2.0",
     "@emotion-icons/feather": "2.0.0",
     "@emotion-icons/foundation": "2.0.0",
