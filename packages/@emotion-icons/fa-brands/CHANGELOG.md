@@ -1,5 +1,11 @@
 # @emotion-icons/fa-brands
 
+## 2.2.1
+
+### Patch Changes
+
+- [#27](https://github.com/emotion-icons/emotion-icons/pull/27): Fix issue where `@emotion-icons/fa-brands` published the incorrect Font Awesome icons ([`fddc016`](https://github.com/emotion-icons/emotion-icons/commit/fddc016e9fbfa9ab531988322433c11593296a4e), [@dependabot](https://github.com/apps/dependabot))
+
 ## 2.2.0
 
 ### Minor Changes
