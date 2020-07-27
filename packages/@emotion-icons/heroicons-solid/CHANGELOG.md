@@ -1,5 +1,11 @@
 # @emotion-icons/heroicons-solid
 
+## 2.4.0
+
+### Minor Changes
+
+- [#40](https://github.com/emotion-icons/emotion-icons/pull/40): Upgrade Heroicons to v0.3.7 ([`a4a5fe6`](https://github.com/emotion-icons/emotion-icons/commit/a4a5fe691faa3e367d6338077b2b2f83096358c8), [@dependabot](https://github.com/apps/dependabot))
+
 ## 2.0.0
 
 ### Major Changes
