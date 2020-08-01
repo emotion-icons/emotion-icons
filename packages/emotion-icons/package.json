@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.10.5",
+    "@emotion-icons/bootstrap": "2.0.0",
     "@emotion-icons/boxicons-logos": "2.0.0",
     "@emotion-icons/boxicons-regular": "2.0.0",
     "@emotion-icons/boxicons-solid": "2.0.0",

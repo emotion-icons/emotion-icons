@@ -3,6 +3,7 @@ import copy from 'copy-to-clipboard'
 import {EmotionIcon} from 'emotion-icons/types'
 
 const importMap: any = {
+  bootstrap: import('emotion-icons/bootstrap'),
   'boxicons-logos': import('emotion-icons/boxicons-logos'),
   'boxicons-regular': import('emotion-icons/boxicons-regular'),
   'boxicons-solid': import('emotion-icons/boxicons-solid'),
