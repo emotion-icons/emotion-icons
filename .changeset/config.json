@@ -4,6 +4,7 @@
   "commit": false,
   "linked": [
     [
+      "@emotion-icons/bootstrap",
       "@emotion-icons/boxicons-logos",
       "@emotion-icons/boxicons-regular",
       "@emotion-icons/boxicons-solid",
@@ -36,7 +37,6 @@
       "@emotion-icons/simple-icons",
       "@emotion-icons/typicons",
       "@emotion-icons/zondicons",
-      "@emotion-icons/pack-builder",
       "emotion-icons"
     ]
   ],
