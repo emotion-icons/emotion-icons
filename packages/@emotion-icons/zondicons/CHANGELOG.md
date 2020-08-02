@@ -1,5 +1,14 @@
 # @emotion-icons/zondicons
 
+## 2.6.1
+
+### Patch Changes
+
+- [#49](https://github.com/emotion-icons/emotion-icons/pull/49): Fix issue where `.tsx` files were accidentally included in the NPM package (breaking some builds) ([`2dabd86`](https://github.com/emotion-icons/emotion-icons/commit/2dabd861008f5e44d53c01898d24446e2ef9f7f6), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+- Updated dependencies [[`2dabd86`](https://github.com/emotion-icons/emotion-icons/commit/2dabd861008f5e44d53c01898d24446e2ef9f7f6)]:
+  - @emotion-icons/emotion-icon@2.0.1
+
 ## 2.0.0
 
 ### Major Changes

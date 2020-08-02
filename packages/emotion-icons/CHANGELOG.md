@@ -1,5 +1,47 @@
 # emotion-icons
 
+## 2.6.1
+
+### Patch Changes
+
+- [#49](https://github.com/emotion-icons/emotion-icons/pull/49): Fix issue where `.tsx` files were accidentally included in the NPM package (breaking some builds) ([`2dabd86`](https://github.com/emotion-icons/emotion-icons/commit/2dabd861008f5e44d53c01898d24446e2ef9f7f6), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+- Updated dependencies [[`2dabd86`](https://github.com/emotion-icons/emotion-icons/commit/2dabd861008f5e44d53c01898d24446e2ef9f7f6)]:
+  - @emotion-icons/bootstrap@2.6.1
+  - @emotion-icons/boxicons-logos@2.6.1
+  - @emotion-icons/boxicons-regular@2.6.1
+  - @emotion-icons/boxicons-solid@2.6.1
+  - @emotion-icons/crypto@2.6.1
+  - @emotion-icons/emotion-icon@2.0.1
+  - @emotion-icons/entypo@2.6.1
+  - @emotion-icons/entypo-social@2.6.1
+  - @emotion-icons/evaicons-outline@2.6.1
+  - @emotion-icons/evaicons-solid@2.6.1
+  - @emotion-icons/evil@2.6.1
+  - @emotion-icons/fa-brands@2.6.1
+  - @emotion-icons/fa-regular@2.6.1
+  - @emotion-icons/fa-solid@2.6.1
+  - @emotion-icons/feather@2.6.1
+  - @emotion-icons/foundation@2.6.1
+  - @emotion-icons/heroicons-outline@2.6.1
+  - @emotion-icons/heroicons-solid@2.6.1
+  - @emotion-icons/icomoon@2.6.1
+  - @emotion-icons/ionicons-outline@2.6.1
+  - @emotion-icons/ionicons-sharp@2.6.1
+  - @emotion-icons/ionicons-solid@2.6.1
+  - @emotion-icons/material@2.6.1
+  - @emotion-icons/material-outlined@2.6.1
+  - @emotion-icons/material-rounded@2.6.1
+  - @emotion-icons/material-sharp@2.6.1
+  - @emotion-icons/material-twotone@2.6.1
+  - @emotion-icons/octicons@2.6.1
+  - @emotion-icons/open-iconic@2.6.1
+  - @emotion-icons/remix-fill@2.6.1
+  - @emotion-icons/remix-line@2.6.1
+  - @emotion-icons/simple-icons@2.6.1
+  - @emotion-icons/typicons@2.6.1
+  - @emotion-icons/zondicons@2.6.1
+
 ## 2.6.0
 
 ### Minor Changes
