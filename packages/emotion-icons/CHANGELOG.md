@@ -1,5 +1,16 @@
 # emotion-icons
 
+## 2.7.0
+
+### Minor Changes
+
+- [#54](https://github.com/emotion-icons/emotion-icons/pull/54): Upgrade Simple Icons to v3.4.0 ([`683b450`](https://github.com/emotion-icons/emotion-icons/commit/683b4501cf18696973459b27d9d50031fcbd916a), [@dependabot](https://github.com/apps/dependabot))
+
+### Patch Changes
+
+- Updated dependencies [[`683b450`](https://github.com/emotion-icons/emotion-icons/commit/683b4501cf18696973459b27d9d50031fcbd916a)]:
+  - @emotion-icons/simple-icons@2.7.0
+
 ## 2.6.1
 
 ### Patch Changes
