@@ -1,5 +1,47 @@
 # emotion-icons
 
+## 2.7.1
+
+### Patch Changes
+
+- [#67](https://github.com/emotion-icons/emotion-icons/pull/67): Fix IE11 compatibility issue ([`e3b78f3`](https://github.com/emotion-icons/emotion-icons/commit/e3b78f350f549f0b92bccef2695c61e3ad79ddd9), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+- Updated dependencies [[`e3b78f3`](https://github.com/emotion-icons/emotion-icons/commit/e3b78f350f549f0b92bccef2695c61e3ad79ddd9)]:
+  - @emotion-icons/bootstrap@2.7.1
+  - @emotion-icons/boxicons-logos@2.7.1
+  - @emotion-icons/boxicons-regular@2.7.1
+  - @emotion-icons/boxicons-solid@2.7.1
+  - @emotion-icons/crypto@2.7.1
+  - @emotion-icons/emotion-icon@2.0.2
+  - @emotion-icons/entypo@2.7.1
+  - @emotion-icons/entypo-social@2.7.1
+  - @emotion-icons/evaicons-outline@2.7.1
+  - @emotion-icons/evaicons-solid@2.7.1
+  - @emotion-icons/evil@2.7.1
+  - @emotion-icons/fa-brands@2.7.1
+  - @emotion-icons/fa-regular@2.7.1
+  - @emotion-icons/fa-solid@2.7.1
+  - @emotion-icons/feather@2.7.1
+  - @emotion-icons/foundation@2.7.1
+  - @emotion-icons/heroicons-outline@2.7.1
+  - @emotion-icons/heroicons-solid@2.7.1
+  - @emotion-icons/icomoon@2.7.1
+  - @emotion-icons/ionicons-outline@2.7.1
+  - @emotion-icons/ionicons-sharp@2.7.1
+  - @emotion-icons/ionicons-solid@2.7.1
+  - @emotion-icons/material@2.7.1
+  - @emotion-icons/material-outlined@2.7.1
+  - @emotion-icons/material-rounded@2.7.1
+  - @emotion-icons/material-sharp@2.7.1
+  - @emotion-icons/material-twotone@2.7.1
+  - @emotion-icons/octicons@2.7.1
+  - @emotion-icons/open-iconic@2.7.1
+  - @emotion-icons/remix-fill@2.7.1
+  - @emotion-icons/remix-line@2.7.1
+  - @emotion-icons/simple-icons@2.7.1
+  - @emotion-icons/typicons@2.7.1
+  - @emotion-icons/zondicons@2.7.1
+
 ## 2.7.0
 
 ### Minor Changes
