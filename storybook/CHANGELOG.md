@@ -1,5 +1,12 @@
 # @emotion-icons/storybook
 
+## 2.0.11
+
+### Patch Changes
+
+- Updated dependencies [[`ba98d3a`](https://github.com/emotion-icons/emotion-icons/commit/ba98d3ab257ba234fe327ff77447462bf2aac0ea)]:
+  - emotion-icons@2.8.0
+
 ## 2.0.10
 
 ### Patch Changes
