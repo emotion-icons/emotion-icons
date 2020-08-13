@@ -1,5 +1,14 @@
 # @emotion-icons/heroicons-solid
 
+## 2.7.1
+
+### Patch Changes
+
+- [#67](https://github.com/emotion-icons/emotion-icons/pull/67): Fix IE11 compatibility issue ([`e3b78f3`](https://github.com/emotion-icons/emotion-icons/commit/e3b78f350f549f0b92bccef2695c61e3ad79ddd9), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+- Updated dependencies [[`e3b78f3`](https://github.com/emotion-icons/emotion-icons/commit/e3b78f350f549f0b92bccef2695c61e3ad79ddd9)]:
+  - @emotion-icons/emotion-icon@2.0.2
+
 ## 2.6.1
 
 ### Patch Changes
