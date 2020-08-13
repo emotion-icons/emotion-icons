@@ -1,5 +1,11 @@
 # @emotion-icons/pack-builder
 
+## 2.0.1
+
+### Patch Changes
+
+- [#67](https://github.com/emotion-icons/emotion-icons/pull/67): Fix IE11 compatibility issue ([`e3b78f3`](https://github.com/emotion-icons/emotion-icons/commit/e3b78f350f549f0b92bccef2695c61e3ad79ddd9), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 2.0.0
 
 ### Major Changes
