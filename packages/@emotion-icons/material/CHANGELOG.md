@@ -1,5 +1,11 @@
 # @emotion-icons/material
 
+## 2.9.0
+
+### Minor Changes
+
+- [#85](https://github.com/emotion-icons/emotion-icons/pull/85): Upgrade Material Icons to v6.0.0 ([`455258e`](https://github.com/emotion-icons/emotion-icons/commit/455258e281a91123a5813c8f9b93bcd2cc6e258c), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 2.7.1
 
 ### Patch Changes
