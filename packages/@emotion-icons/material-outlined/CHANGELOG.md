@@ -1,5 +1,18 @@
 # @emotion-icons/material-outlined
 
+## 2.10.0
+
+### Minor Changes
+
+- [#93](https://github.com/emotion-icons/emotion-icons/pull/93): Upgrade Material Icons from 6.0.0 to 6.1.0 ([`bc3951e`](https://github.com/emotion-icons/emotion-icons/commit/bc3951e8d8d462f2694050d03b3fa5bdeabbd4ce), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- [#93](https://github.com/emotion-icons/emotion-icons/pull/93): Fix issue where @emotion-icons/emotion-icon package.json incorrectly referenced its built files, breaking some builds ([`bc3951e`](https://github.com/emotion-icons/emotion-icons/commit/bc3951e8d8d462f2694050d03b3fa5bdeabbd4ce), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+- Updated dependencies [[`bc3951e`](https://github.com/emotion-icons/emotion-icons/commit/bc3951e8d8d462f2694050d03b3fa5bdeabbd4ce)]:
+  - @emotion-icons/emotion-icon@2.0.3
+
 ## 2.9.0
 
 ### Minor Changes
