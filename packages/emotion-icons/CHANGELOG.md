@@ -1,5 +1,57 @@
 # emotion-icons
 
+## 2.10.0
+
+### Minor Changes
+
+- [#93](https://github.com/emotion-icons/emotion-icons/pull/93): Bump Simple Icons from 3.5.0 to 3.6.0 ([`bc3951e`](https://github.com/emotion-icons/emotion-icons/commit/bc3951e8d8d462f2694050d03b3fa5bdeabbd4ce), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+* [#93](https://github.com/emotion-icons/emotion-icons/pull/93): Upgrade Material Icons from 6.0.0 to 6.1.0 ([`bc3951e`](https://github.com/emotion-icons/emotion-icons/commit/bc3951e8d8d462f2694050d03b3fa5bdeabbd4ce), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+- [#93](https://github.com/emotion-icons/emotion-icons/pull/93): Bump heroicons from 0.3.7 to 0.4.0 ([`bc3951e`](https://github.com/emotion-icons/emotion-icons/commit/bc3951e8d8d462f2694050d03b3fa5bdeabbd4ce), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+* [#93](https://github.com/emotion-icons/emotion-icons/pull/93): Bump Octicons from 10.0.0 to 10.1.0 ([`bc3951e`](https://github.com/emotion-icons/emotion-icons/commit/bc3951e8d8d462f2694050d03b3fa5bdeabbd4ce), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- [#93](https://github.com/emotion-icons/emotion-icons/pull/93): Fix issue where @emotion-icons/emotion-icon package.json incorrectly referenced its built files, breaking some builds ([`bc3951e`](https://github.com/emotion-icons/emotion-icons/commit/bc3951e8d8d462f2694050d03b3fa5bdeabbd4ce), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+- Updated dependencies [[`bc3951e`](https://github.com/emotion-icons/emotion-icons/commit/bc3951e8d8d462f2694050d03b3fa5bdeabbd4ce), [`bc3951e`](https://github.com/emotion-icons/emotion-icons/commit/bc3951e8d8d462f2694050d03b3fa5bdeabbd4ce), [`bc3951e`](https://github.com/emotion-icons/emotion-icons/commit/bc3951e8d8d462f2694050d03b3fa5bdeabbd4ce), [`bc3951e`](https://github.com/emotion-icons/emotion-icons/commit/bc3951e8d8d462f2694050d03b3fa5bdeabbd4ce), [`bc3951e`](https://github.com/emotion-icons/emotion-icons/commit/bc3951e8d8d462f2694050d03b3fa5bdeabbd4ce)]:
+  - @emotion-icons/simple-icons@2.10.0
+  - @emotion-icons/material@2.10.0
+  - @emotion-icons/material-outlined@2.10.0
+  - @emotion-icons/material-rounded@2.10.0
+  - @emotion-icons/material-sharp@2.10.0
+  - @emotion-icons/material-twotone@2.10.0
+  - @emotion-icons/heroicons-outline@2.10.0
+  - @emotion-icons/heroicons-solid@2.10.0
+  - @emotion-icons/emotion-icon@2.0.3
+  - @emotion-icons/bootstrap@2.10.0
+  - @emotion-icons/boxicons-logos@2.10.0
+  - @emotion-icons/boxicons-regular@2.10.0
+  - @emotion-icons/boxicons-solid@2.10.0
+  - @emotion-icons/crypto@2.10.0
+  - @emotion-icons/entypo@2.10.0
+  - @emotion-icons/entypo-social@2.10.0
+  - @emotion-icons/evaicons-outline@2.10.0
+  - @emotion-icons/evaicons-solid@2.10.0
+  - @emotion-icons/evil@2.10.0
+  - @emotion-icons/fa-brands@2.10.0
+  - @emotion-icons/fa-regular@2.10.0
+  - @emotion-icons/fa-solid@2.10.0
+  - @emotion-icons/feather@2.10.0
+  - @emotion-icons/foundation@2.10.0
+  - @emotion-icons/icomoon@2.10.0
+  - @emotion-icons/ionicons-outline@2.10.0
+  - @emotion-icons/ionicons-sharp@2.10.0
+  - @emotion-icons/ionicons-solid@2.10.0
+  - @emotion-icons/octicons@2.10.0
+  - @emotion-icons/open-iconic@2.10.0
+  - @emotion-icons/remix-fill@2.10.0
+  - @emotion-icons/remix-line@2.10.0
+  - @emotion-icons/typicons@2.10.0
+  - @emotion-icons/zondicons@2.10.0
+
 ## 2.9.0
 
 ### Minor Changes
