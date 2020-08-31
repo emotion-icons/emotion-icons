@@ -1,5 +1,11 @@
 # @emotion-icons/heroicons-outline
 
+## 2.11.0
+
+### Minor Changes
+
+- [#95](https://github.com/emotion-icons/emotion-icons/pull/95): Bump heroicons from 0.4.0 to 0.4.1 ([`183d3bb`](https://github.com/emotion-icons/emotion-icons/commit/183d3bb3f630deebb6288b2a7283035f883378ff), [@dependabot](https://github.com/apps/dependabot))
+
 ## 2.10.0
 
 ### Minor Changes
