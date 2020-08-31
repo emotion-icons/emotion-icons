@@ -1,5 +1,20 @@
 # emotion-icons
 
+## 2.11.0
+
+### Minor Changes
+
+- [#95](https://github.com/emotion-icons/emotion-icons/pull/95): Bump heroicons from 0.4.0 to 0.4.1 ([`183d3bb`](https://github.com/emotion-icons/emotion-icons/commit/183d3bb3f630deebb6288b2a7283035f883378ff), [@dependabot](https://github.com/apps/dependabot))
+
+* [#101](https://github.com/emotion-icons/emotion-icons/pull/101): Bump bootstrap-icons from 1.0.0-alpha5 to 1.0.0 ([`63f0c22`](https://github.com/emotion-icons/emotion-icons/commit/63f0c22fe79f758ba8e0fbdb6be4fcd5d4b5f0ed), [@dependabot](https://github.com/apps/dependabot))
+
+### Patch Changes
+
+- Updated dependencies [[`183d3bb`](https://github.com/emotion-icons/emotion-icons/commit/183d3bb3f630deebb6288b2a7283035f883378ff), [`63f0c22`](https://github.com/emotion-icons/emotion-icons/commit/63f0c22fe79f758ba8e0fbdb6be4fcd5d4b5f0ed)]:
+  - @emotion-icons/heroicons-solid@2.11.0
+  - @emotion-icons/heroicons-outline@2.11.0
+  - @emotion-icons/bootstrap@2.11.0
+
 ## 2.10.0
 
 ### Minor Changes
