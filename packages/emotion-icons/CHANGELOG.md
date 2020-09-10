@@ -1,5 +1,19 @@
 # emotion-icons
 
+## 2.12.0
+
+### Minor Changes
+
+- [#117](https://github.com/emotion-icons/emotion-icons/pull/117): Bump @primer/octicons from 10.1.0 to 11.0.0 ([`2d27c7d`](https://github.com/emotion-icons/emotion-icons/commit/2d27c7de06f9e11678d3f3c570f2cb912574937f), [@dependabot](https://github.com/apps/dependabot))
+
+* [#116](https://github.com/emotion-icons/emotion-icons/pull/116): Bump simple-icons from 3.6.1 to 3.7.0 ([`0521d88`](https://github.com/emotion-icons/emotion-icons/commit/0521d88a8c17bf6552dd3d62e5e4d00aa79a215d), [@dependabot](https://github.com/apps/dependabot))
+
+### Patch Changes
+
+- Updated dependencies [[`2d27c7d`](https://github.com/emotion-icons/emotion-icons/commit/2d27c7de06f9e11678d3f3c570f2cb912574937f), [`0521d88`](https://github.com/emotion-icons/emotion-icons/commit/0521d88a8c17bf6552dd3d62e5e4d00aa79a215d)]:
+  - @emotion-icons/octicons@2.12.0
+  - @emotion-icons/simple-icons@2.12.0
+
 ## 2.11.0
 
 ### Minor Changes
