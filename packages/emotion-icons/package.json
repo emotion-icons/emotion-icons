@@ -1,6 +1,6 @@
 {
   "name": "emotion-icons",
-  "version": "2.12.0",
+  "version": "2.13.0",
   "license": "MIT",
   "description": "Icons from packs like Font Awesome, Material, Octicons, Feather, Icomoon, and Boxicons available as Emotion Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
@@ -65,7 +65,7 @@
     "@emotion-icons/open-iconic": "2.10.0",
     "@emotion-icons/remix-fill": "2.10.0",
     "@emotion-icons/remix-line": "2.10.0",
-    "@emotion-icons/simple-icons": "2.12.0",
+    "@emotion-icons/simple-icons": "2.13.0",
     "@emotion-icons/typicons": "2.10.0",
     "@emotion-icons/zondicons": "2.10.0"
   },
