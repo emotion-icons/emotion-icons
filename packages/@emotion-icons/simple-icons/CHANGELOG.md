@@ -1,5 +1,11 @@
 # @emotion-icons/simple-icons
 
+## 2.14.0
+
+### Minor Changes
+
+- [#134](https://github.com/emotion-icons/emotion-icons/pull/134): Bump simple-icons from 3.8.0 to 3.9.0 ([`9e6b4bb5`](https://github.com/emotion-icons/emotion-icons/commit/9e6b4bb5460b88165174544d632e6898227fbb41), [@dependabot](https://github.com/apps/dependabot))
+
 ## 2.13.0
 
 ### Minor Changes
