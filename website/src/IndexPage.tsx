@@ -23,7 +23,7 @@ const IndexPage: React.SFC = () => (
 
       <p>
         Import icons from the following icon packs as <a href="https://emotion.sh">Emotion React Components</a>:{' '}
-        <a href="https://icons.getbootstrap.com/">Boxicons</a>, <a href="https://boxicons.com/">Boxicons</a>,{' '}
+        <a href="https://icons.getbootstrap.com/">Bootstrap</a>, <a href="https://boxicons.com/">Boxicons</a>,{' '}
         <a href="http://cryptoicons.co">Crypto Icons</a>, <a href="http://www.entypo.com/">Entypo</a>,{' '}
         <a href="https://akveo.github.io/eva-icons/">Eva Icons</a>, <a href="https://evil-icons.io">Evil Icons</a>,{' '}
         <a href="https://feathericons.com/">Feather</a>, <a href="https://fontawesome.com/">Font Awesome</a>,{' '}
