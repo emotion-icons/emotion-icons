@@ -1,5 +1,11 @@
 # @emotion-icons/fa-regular
 
+## 2.15.0
+
+### Minor Changes
+
+- [#145](https://github.com/emotion-icons/emotion-icons/pull/145): Upgrade Font Awesome icons to v5.15.0 ([`398a29ff`](https://github.com/emotion-icons/emotion-icons/commit/398a29ff09e67f00c59d1f749e57fd7502cb3d79), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 2.10.0
 
 ### Patch Changes

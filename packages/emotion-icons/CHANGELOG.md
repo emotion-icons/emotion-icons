@@ -1,5 +1,21 @@
 # emotion-icons
 
+## 2.15.0
+
+### Minor Changes
+
+- [#145](https://github.com/emotion-icons/emotion-icons/pull/145): Upgrade Font Awesome icons to v5.15.0 ([`398a29ff`](https://github.com/emotion-icons/emotion-icons/commit/398a29ff09e67f00c59d1f749e57fd7502cb3d79), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+* [#145](https://github.com/emotion-icons/emotion-icons/pull/145): Upgrade Simple Icons to v3.10.0 ([`398a29ff`](https://github.com/emotion-icons/emotion-icons/commit/398a29ff09e67f00c59d1f749e57fd7502cb3d79), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- Updated dependencies [[`398a29ff`](https://github.com/emotion-icons/emotion-icons/commit/398a29ff09e67f00c59d1f749e57fd7502cb3d79), [`398a29ff`](https://github.com/emotion-icons/emotion-icons/commit/398a29ff09e67f00c59d1f749e57fd7502cb3d79)]:
+  - @emotion-icons/fa-brands@2.15.0
+  - @emotion-icons/fa-regular@2.15.0
+  - @emotion-icons/fa-solid@2.15.0
+  - @emotion-icons/simple-icons@2.15.0
+
 ## 2.14.0
 
 ### Minor Changes
