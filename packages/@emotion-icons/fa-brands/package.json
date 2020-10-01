@@ -37,7 +37,7 @@
     "@emotion-icons/pack-builder": "^2.0.0",
     "@emotion/core": "^10.0.35",
     "@emotion/styled": "^10.0.27",
-    "@svg-icons/fa-brands": "1.5.0",
+    "@svg-icons/fa-brands": "1.21.0",
     "react": "^16.13.1"
   }
 }
