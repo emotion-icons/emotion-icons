@@ -23,7 +23,7 @@
     "emotion-icons": "2.15.0",
     "history": "^5.0.0",
     "js-search": "^2.0.0",
-    "query-string": "^6.13.4",
+    "query-string": "^6.13.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-virtualized": "^9.22.2"
