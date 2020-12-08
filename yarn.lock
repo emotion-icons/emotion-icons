@@ -2324,10 +2324,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/material-twotone/-/material-twotone-1.15.0.tgz#a09d445f66066b049f79275f266decf2851f091f"
   integrity sha512-bq+LHBmvUmEgNX7UKWou5cA8l+wFk0cVXozdnAsd547aXf6B3oRHZ6NghWXLgUMHgQv16SgMZxg9Ou1BBsnNQQ==
 
-"@svg-icons/octicons@1.18.0":
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/octicons/-/octicons-1.18.0.tgz#57c2b2e3a15d2589c0feed7aee5e06c1fb022bb5"
-  integrity sha512-/Qia0jrOyyaZN1nCSzYHC1p2RvyCAHZ9EUpVrARbBfsEziEjLb6OFMyOuTtfWhGl/d4LgLhLN9iDcD/fUHKCXQ==
+"@svg-icons/octicons@1.23.0":
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/octicons/-/octicons-1.23.0.tgz#f9d7ebd63383671e602fcd45f2fe95da0e610cdc"
+  integrity sha512-iwk4ALBIXaAeFkK35Umgfc04u6Zp5F3XTOfN7Z4Z9umAjmpwYvCxM8hS0/ZM5OOsBVeGgHODyfbPFd7anbf5Kw==
 
 "@svg-icons/open-iconic@1.1.0":
   version "1.1.0"
