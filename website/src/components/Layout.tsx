@@ -1,7 +1,7 @@
 import React from 'react'
-import {Global, css} from '@emotion/core'
+import {Global,css} from '@emotion/react'
 
-const globalStyle = css`
+const globalStyle=css`
   html {
     height: 100%;
     font-family: 'Avenir Next', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif,
@@ -175,7 +175,7 @@ const globalStyle = css`
   }
 `
 
-const Layout: React.SFC = ({children}) => (
+const Layout: React.SFC=({children}) => (
   <div>
     <a
       href="https://github.com/emotion-icons/emotion-icons"
