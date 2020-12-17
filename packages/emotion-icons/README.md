@@ -107,10 +107,10 @@ yarn add @emotion-icons/typicons
 yarn add @emotion-icons/zondicons
 ```
 
-Finally, you will need to have installed a version of `@emotion/core` and `@emotion/styled` at least version 10.0.0 or newer, as `emotion-icons` depends on `@emotion/core` and `@emotion/styled` as a peer dependency:
+Finally, you will need to have installed a version of `@emotion/react` and `@emotion/styled` at least version 11.0.0 or newer, as `emotion-icons` depends on `@emotion/react` and `@emotion/styled` as a peer dependency:
 
 ```
-yarn add @emotion/core @emotion/styled
+yarn add @emotion/react @emotion/styled
 ```
 
 ## Usage
