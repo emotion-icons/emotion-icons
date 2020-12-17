@@ -37,5 +37,5 @@
 '@emotion-icons/storybook': major
 '@emotion-icons/website': major
 ---
-## Major Changes
+
 Upgrading to [Emotion 11](https://github.com/emotion-js/emotion/pull/1675)
