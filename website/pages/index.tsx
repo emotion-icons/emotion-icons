@@ -3,5 +3,5 @@ import IndexPage from '../src/IndexPage'
 import * as serviceWorker from '../src/serviceWorker'
 
 serviceWorker.unregister()
-
-export default () => <IndexPage />
+const Main = () => <IndexPage />
+export default Main
