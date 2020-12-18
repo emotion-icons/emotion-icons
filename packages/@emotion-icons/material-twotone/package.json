@@ -25,7 +25,7 @@
     "generate": "generate-icon-package @svg-icons/material-twotone"
   },
   "dependencies": {
-    "@babel/runtime": "^7.10.5",
+    "@babel/runtime": "^7.12.5",
     "@emotion-icons/emotion-icon": "3.0.0"
   },
   "peerDependencies": {
@@ -38,6 +38,6 @@
     "@emotion/react": "^11.1.2",
     "@emotion/styled": "^11.0.0",
     "@svg-icons/material-twotone": "1.15.0",
-    "react": "^16.13.1"
+    "react": "^17.0.1"
   }
 }
