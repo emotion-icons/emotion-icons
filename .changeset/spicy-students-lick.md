@@ -3,4 +3,4 @@
 'emotion-icons': minor
 ---
 
-Upgrade Bootstrap icons to v1.1.0
+Upgrade Bootstrap icons to v1.2.1

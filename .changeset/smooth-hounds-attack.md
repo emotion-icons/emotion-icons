@@ -3,4 +3,4 @@
 'emotion-icons': minor
 ---
 
-Upgrade Simple Icons to v4.1.0
+Upgrade Simple Icons to v4.2.0

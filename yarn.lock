@@ -2290,15 +2290,15 @@
     resolve-from "^5.0.0"
     store2 "^2.7.1"
 
-"@svg-icons/bootstrap@1.23.0":
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/bootstrap/-/bootstrap-1.23.0.tgz#cca31e82fe0b3954b82a6b7014795e17655b1ecf"
-  integrity sha512-XLH/WTtMioiAoDVsHgcUuAnHMvV1NpETGLNJGK+yZJ1jEQQfKZ+P5thlY9XQWoSEq1ifs6PhUanJ+LKKDB9Usw==
+"@svg-icons/bootstrap@1.25.0":
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/bootstrap/-/bootstrap-1.25.0.tgz#0b5568356fe63c2c40ad4fd651f6699b8575c3ef"
+  integrity sha512-iiwEE/cUExnlRigpn0VZi3KjVE6Z+nyAnQz4CRjZbQltZqhlWygLuVQnGdaULs67tgHexTe//Lx67NGLEkmoYg==
 
-"@svg-icons/boxicons-logos@1.23.0":
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/boxicons-logos/-/boxicons-logos-1.23.0.tgz#c816e16e42a244833c74dfb3355b3e5589ac2d5e"
-  integrity sha512-jNpQp34Ijp3xn9ezz7HJlGIYQzwHEYOfzFs0blGcsSMuJaaLFha53vyznXdJuHkbN42eWlQce/FEGosHE0lyrg==
+"@svg-icons/boxicons-logos@1.25.0":
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/boxicons-logos/-/boxicons-logos-1.25.0.tgz#fc64f444a0c79892303bfd1af076667a51f18b37"
+  integrity sha512-+gXPtXaXr1AJzx7eUetTQzd4RWC/rvKW8CteFnKhkTR5KU4nJ2Lsz0ExyFBoBYRbucCKS6Ue3ql2x2IL4uiq9g==
 
 "@svg-icons/boxicons-regular@1.23.0":
   version "1.23.0"
@@ -2395,30 +2395,30 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/ionicons-solid/-/ionicons-solid-1.22.0.tgz#9e12edb4c45310db5b9c8177bf99502d907b6ffd"
   integrity sha512-Xqnw1crZth2LBVV0vmwng6VNzIrZ19BLGLtmNoM3dNFgH2MeRMyyUoMhME8yiyEWRGO6mcEn7J+5p8oykxuriw==
 
-"@svg-icons/material-filled@1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/material-filled/-/material-filled-1.15.0.tgz#01cc0ba1fb307e0e461a2bec640fe4d9db37066b"
-  integrity sha512-II5peExWB9EpLkdbZy74QMqrK7vVLvjDy0nw7m5c8wv6OUBUMMdBbHaDFKfDP2iA2uneInlQORVirEBFf84tjg==
+"@svg-icons/material-filled@1.25.0":
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/material-filled/-/material-filled-1.25.0.tgz#b51b52b8d7e6bf2702177a913652cfa9d401c132"
+  integrity sha512-KXweVmtYYLTcyd7pFoQiN+d6AP+TO++DMDvKg+w9fA/6I7zG5N+efMXhZezOM5piQC2SgpE+dUWX18ssRW6qZA==
 
-"@svg-icons/material-outlined@1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/material-outlined/-/material-outlined-1.15.0.tgz#2d9524d45e74b05039fc1fc7e668f6c33d4bb17f"
-  integrity sha512-x776G+9pGPQhq374xqU4uSbsgMpresNlSwwbupNHKgCfXC6FV7fLL3QJ44Og2rHvn9DI8C+KnOJHdh8cfs/pXQ==
+"@svg-icons/material-outlined@1.25.0":
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/material-outlined/-/material-outlined-1.25.0.tgz#487ec3db361e9d5cb93a1a1766babf922587d62c"
+  integrity sha512-/qeYUdsMKhsBNHXRz4WnqGap9jTMS8jebXmTjlvmikRrrP2fQ5c9oJaysWjAYuG/S+kE7CXLL3SC+TUPxrwpzg==
 
-"@svg-icons/material-rounded@1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/material-rounded/-/material-rounded-1.15.0.tgz#8b592e7eaa2fa26dc4f200247fa43ff871c0174b"
-  integrity sha512-9XprdTFQf1ERSvZms5IDKIJwqMTosWoD0pT//TH1T4VtFALR50nzYMY4tvFTkzaYpayxN0hG+0wGNMnaITBnxw==
+"@svg-icons/material-rounded@1.25.0":
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/material-rounded/-/material-rounded-1.25.0.tgz#36a13e9e4c1d618afd922d2c9b1c4318e4a311c3"
+  integrity sha512-8K9azt8RxxAlBNN+68RddP8WGuyvrt622F4cSUMYIGg4mHo7hPas1xPwxFu0JNr3wrFFHJSymFXjvWi7as0oDQ==
 
-"@svg-icons/material-sharp@1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/material-sharp/-/material-sharp-1.15.0.tgz#994716747108f5fbe27266482d83ed6aae1e4384"
-  integrity sha512-IP/COpzghhP891c+SJEHGjFsv4ViUvqTIOxYcAxEwi0i34WBfaAjCI7Miss0tPz9dyWSQWVIovN7ZQbFUGHIeg==
+"@svg-icons/material-sharp@1.25.0":
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/material-sharp/-/material-sharp-1.25.0.tgz#a5a8c5a999a825561dce811946c7806ba6731023"
+  integrity sha512-/hebQM//Fqwjacfi/k7QRQ0eZy1Rb/mZKz8hYedh9siXAxgE6q/nEsT27CZVmWpCsGr1cYYKksJ0e76+UE3hTA==
 
-"@svg-icons/material-twotone@1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/material-twotone/-/material-twotone-1.15.0.tgz#a09d445f66066b049f79275f266decf2851f091f"
-  integrity sha512-bq+LHBmvUmEgNX7UKWou5cA8l+wFk0cVXozdnAsd547aXf6B3oRHZ6NghWXLgUMHgQv16SgMZxg9Ou1BBsnNQQ==
+"@svg-icons/material-twotone@1.25.0":
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/material-twotone/-/material-twotone-1.25.0.tgz#b39a0f875c1be0377a7a72636fca9b54009d129e"
+  integrity sha512-QHUMyI73eAdkyKKhmRkDQudbP8kBoQineDF6fwn2GlP2MX6MFD++4YiNu/+qHkSbh9oSj1t2QBeEjLavlJ+ptw==
 
 "@svg-icons/octicons@1.24.0":
   version "1.24.0"
@@ -2440,10 +2440,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/remix-line/-/remix-line-1.1.0.tgz#e8fc8eaa9864f296f73a76c57f9fc9ca6df826a3"
   integrity sha512-v7F5Xvnn/31Gu2eGk82x3EalIb7KQcwn14Z187i4lD/H7T/ockk9q92OZstPacz/fstAAkJZ/oeXC8KWZnM7aQ==
 
-"@svg-icons/simple-icons@1.23.0":
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/simple-icons/-/simple-icons-1.23.0.tgz#f3a48c4de02b772c40dda83bb85f0bb64abc3c3a"
-  integrity sha512-P9G2tiIhv4Y4ZsZ9TJ198Yy6CqEK7ECzFDjKGpfuOkpEs6fgNAuJV+RwPrGOJhriCQkYUg386XI4lWwmalK4og==
+"@svg-icons/simple-icons@1.25.0":
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/simple-icons/-/simple-icons-1.25.0.tgz#5b55862e6b59d6d5389dc3f2e76eb32e39a1afc1"
+  integrity sha512-03aix2N1RzOpxfmUnSsq/YpLnE9cV6pCiPEAcMllajmHab0OttJCnm6Md1i/atjWBhJehuy5DgQWCuFzw0zY6A==
 
 "@svg-icons/typicons@1.1.0":
   version "1.1.0"
