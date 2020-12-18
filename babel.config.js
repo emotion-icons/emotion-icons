@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['@babel/plugin-transform-runtime', 'babel-plugin-emotion'],
+  plugins: ['@babel/plugin-transform-runtime', '@emotion/babel-plugin'],
   env: {
     legacy: {
       presets: [

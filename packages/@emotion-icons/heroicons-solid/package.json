@@ -26,17 +26,17 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.10.5",
-    "@emotion-icons/emotion-icon": "2.0.3"
+    "@emotion-icons/emotion-icon": "3.0.0"
   },
   "peerDependencies": {
-    "@emotion/core": ">=10.0.0 <11",
-    "@emotion/styled": ">=10.0.0 <11",
+    "@emotion/react": ">=11.0.0 <12",
+    "@emotion/styled": ">=11.0.0 <12",
     "react": "*"
   },
   "devDependencies": {
     "@emotion-icons/pack-builder": "^2.0.0",
-    "@emotion/core": "^10.0.35",
-    "@emotion/styled": "^10.0.27",
+    "@emotion/react": "^11.1.2",
+    "@emotion/styled": "^11.0.0",
     "@svg-icons/heroicons-solid": "1.16.0",
     "react": "^16.13.1"
   }

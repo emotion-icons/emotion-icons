@@ -16,7 +16,7 @@
   },
   "scripts": {
     "build": "yarn build:icons && yarn build:website",
-    "build:icons": "yarn generate && run-p 'build:icons:*' && yarn generate:pkg",
+    "build:icons": "yarn generate && run-p build:icons:* && yarn generate:pkg",
     "build:icons:cjs": "env BABEL_ENV=legacy yarn babel packages --extensions '.ts,.tsx' --out-dir packages",
     "build:icons:esm": "env BABEL_ENV=modern yarn babel packages --extensions '.ts,.tsx' --out-dir packages --out-file-extension .esm.js",
     "build:icons:typescript": "yarn tsc --emitDeclarationOnly",
@@ -25,7 +25,7 @@
     "fmt": "prettier --write './**/*.{ts,tsx,js,md,json}'",
     "fmt:check": "prettier --list-different './**/*.{ts,tsx,js,md,json}'",
     "generate": "yarn wsrun -t -m -c generate",
-    "generate:pkg": "find packages -name 'package.built.json' -not -path '*/node_modules/*' -exec bash -c 'mv \"$1\" \"${1%.built.json}\".json' - '{}' \\;",
+    "generate:pkg": "node ./tools/replace-built-pkg.js",
     "release": "yarn build:icons && yarn changeset publish"
   },
   "devDependencies": {
@@ -37,9 +37,9 @@
     "@babel/preset-typescript": "^7.10.4",
     "@changesets/changelog-github": "^0.2.7",
     "@changesets/cli": "^2.10.3",
+    "@emotion/babel-plugin": "^11.1.2",
     "@types/node": "^14.11.2",
     "@types/react": "^16.9.49",
-    "babel-plugin-emotion": "^10.0.33",
     "monorepolint": "^0.5.0-alpha.50",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.1.2",
