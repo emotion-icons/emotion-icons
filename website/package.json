@@ -18,7 +18,7 @@
   "dependencies": {
     "@emotion/react": "^11.1.2",
     "@emotion/styled": "^11.0.0",
-    "@loadable/component": "^5.13.2",
+    "@loadable/component": "^5.14.1",
     "copy-to-clipboard": "^3.2.1",
     "emotion-icons": "2.15.0",
     "history": "^5.0.0",
