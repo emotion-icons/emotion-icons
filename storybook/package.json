@@ -20,15 +20,25 @@
     "@emotion/react": "^11.1.2",
     "@emotion/styled": "^11.0.0",
     "emotion-icons": "2.15.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@storybook/addons": "^6.0.22",
-    "@storybook/react": "^6.0.22",
-    "babel-loader": "^8.1.0",
-    "chromatic": "^5.2.0",
-    "fs-extra": "^9.0.1"
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "@changesets/cli": "^2.12.0",
+    "@storybook/addons": "^6.1.11",
+    "@storybook/react": "^6.1.11",
+    "@types/node": "^14.14.14",
+    "@types/react": "^17.0.0",
+    "babel-loader": "^8.2.2",
+    "chromatic": "^5.5.0",
+    "fs-extra": "^9.0.1",
+    "prettier": "^2.2.1",
+    "wsrun": "^5.2.4"
   }
 }
