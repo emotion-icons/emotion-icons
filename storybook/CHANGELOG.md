@@ -1,5 +1,16 @@
 # @emotion-icons/storybook
 
+## 3.0.0
+
+### Major Changes
+
+- [#245](https://github.com/emotion-icons/emotion-icons/pull/245): Upgrading to [Emotion 11](https://github.com/emotion-js/emotion/pull/1675) ([`34311c5c`](https://github.com/emotion-icons/emotion-icons/commit/34311c5c572384d32c95fe4a0e8c796c2d1caf77), [@JoshRosenstein](https://github.com/JoshRosenstein))
+
+### Patch Changes
+
+- Updated dependencies [[`94ca2f3e`](https://github.com/emotion-icons/emotion-icons/commit/94ca2f3e9ab5fcb8db2b2017382c9b764b4458ef), [`34311c5c`](https://github.com/emotion-icons/emotion-icons/commit/34311c5c572384d32c95fe4a0e8c796c2d1caf77), [`94ca2f3e`](https://github.com/emotion-icons/emotion-icons/commit/94ca2f3e9ab5fcb8db2b2017382c9b764b4458ef), [`94ca2f3e`](https://github.com/emotion-icons/emotion-icons/commit/94ca2f3e9ab5fcb8db2b2017382c9b764b4458ef), [`94ca2f3e`](https://github.com/emotion-icons/emotion-icons/commit/94ca2f3e9ab5fcb8db2b2017382c9b764b4458ef), [`7a7e0690`](https://github.com/emotion-icons/emotion-icons/commit/7a7e06904e3a198b12a2ed419365f9c41a06b746), [`94ca2f3e`](https://github.com/emotion-icons/emotion-icons/commit/94ca2f3e9ab5fcb8db2b2017382c9b764b4458ef), [`94ca2f3e`](https://github.com/emotion-icons/emotion-icons/commit/94ca2f3e9ab5fcb8db2b2017382c9b764b4458ef), [`94ca2f3e`](https://github.com/emotion-icons/emotion-icons/commit/94ca2f3e9ab5fcb8db2b2017382c9b764b4458ef)]:
+  - emotion-icons@3.0.0
+
 ## 2.0.18
 
 ### Patch Changes

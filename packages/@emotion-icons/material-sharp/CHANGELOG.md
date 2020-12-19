@@ -1,5 +1,20 @@
 # @emotion-icons/material-sharp
 
+## 3.0.0
+
+### Major Changes
+
+- [#245](https://github.com/emotion-icons/emotion-icons/pull/245): Upgrading to [Emotion 11](https://github.com/emotion-js/emotion/pull/1675) ([`34311c5c`](https://github.com/emotion-icons/emotion-icons/commit/34311c5c572384d32c95fe4a0e8c796c2d1caf77), [@JoshRosenstein](https://github.com/JoshRosenstein))
+
+### Minor Changes
+
+- [#246](https://github.com/emotion-icons/emotion-icons/pull/246): Upgrade Material icons to v6.2.0 ([`7a7e0690`](https://github.com/emotion-icons/emotion-icons/commit/7a7e06904e3a198b12a2ed419365f9c41a06b746), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- Updated dependencies [[`34311c5c`](https://github.com/emotion-icons/emotion-icons/commit/34311c5c572384d32c95fe4a0e8c796c2d1caf77)]:
+  - @emotion-icons/emotion-icon@4.0.0
+
 ## 2.10.0
 
 ### Minor Changes

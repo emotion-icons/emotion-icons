@@ -1,5 +1,20 @@
 # @emotion-icons/simple-icons
 
+## 3.0.0
+
+### Major Changes
+
+- [#245](https://github.com/emotion-icons/emotion-icons/pull/245): Upgrading to [Emotion 11](https://github.com/emotion-js/emotion/pull/1675) ([`34311c5c`](https://github.com/emotion-icons/emotion-icons/commit/34311c5c572384d32c95fe4a0e8c796c2d1caf77), [@JoshRosenstein](https://github.com/JoshRosenstein))
+
+### Minor Changes
+
+- [#246](https://github.com/emotion-icons/emotion-icons/pull/246): Upgrade Simple Icons to v4.2.0 ([`94ca2f3e`](https://github.com/emotion-icons/emotion-icons/commit/94ca2f3e9ab5fcb8db2b2017382c9b764b4458ef), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- Updated dependencies [[`34311c5c`](https://github.com/emotion-icons/emotion-icons/commit/34311c5c572384d32c95fe4a0e8c796c2d1caf77)]:
+  - @emotion-icons/emotion-icon@4.0.0
+
 ## 2.15.0
 
 ### Minor Changes

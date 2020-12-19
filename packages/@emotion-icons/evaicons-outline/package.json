@@ -1,6 +1,6 @@
 {
   "name": "@emotion-icons/evaicons-outline",
-  "version": "2.10.0",
+  "version": "3.0.0",
   "license": "MIT",
   "description": "Eva Icons available as Emotion React Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.5",
-    "@emotion-icons/emotion-icon": "3.0.0"
+    "@emotion-icons/emotion-icon": "4.0.0"
   },
   "peerDependencies": {
     "@emotion/react": ">=11.0.0 <12",
