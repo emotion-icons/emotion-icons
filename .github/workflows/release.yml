@@ -6,6 +6,8 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main' && github.repository == 'emotion-icons/emotion-icons'
+    env:
+      NODE_OPTIONS: --max_old_space_size=8192
     steps:
       - uses: actions/checkout@v2
         with:
