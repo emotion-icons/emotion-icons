@@ -1,5 +1,11 @@
 # @emotion-icons/bootstrap
 
+## 3.2.0
+
+### Minor Changes
+
+- [#257](https://github.com/emotion-icons/emotion-icons/pull/257): Upgrade Bootstrap icons to v1.2.2 ([`178ad593`](https://github.com/emotion-icons/emotion-icons/commit/178ad593702609993b90b5a0b6a7063025ab82af), [@dependabot](https://github.com/apps/dependabot))
+
 ## 3.0.0
 
 ### Major Changes
