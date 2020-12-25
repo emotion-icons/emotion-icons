@@ -2187,10 +2187,10 @@
     resolve-from "^5.0.0"
     store2 "^2.7.1"
 
-"@svg-icons/bootstrap@1.25.0":
-  version "1.25.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/bootstrap/-/bootstrap-1.25.0.tgz#0b5568356fe63c2c40ad4fd651f6699b8575c3ef"
-  integrity sha512-iiwEE/cUExnlRigpn0VZi3KjVE6Z+nyAnQz4CRjZbQltZqhlWygLuVQnGdaULs67tgHexTe//Lx67NGLEkmoYg==
+"@svg-icons/bootstrap@1.27.0":
+  version "1.27.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/bootstrap/-/bootstrap-1.27.0.tgz#d8f8f36d80a8ebdd493e0f6c77e7db71b2bcb687"
+  integrity sha512-qIisdam0QN5uiuuI4N4WviboNVBaLfNJk+NqndDbNO/x+nd7xsGdkUJyYeLbDjM8iq2KJXhzOOIAvaKib1FmAQ==
 
 "@svg-icons/boxicons-logos@1.25.0":
   version "1.25.0"
