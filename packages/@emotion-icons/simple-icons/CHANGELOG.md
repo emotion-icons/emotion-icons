@@ -1,5 +1,11 @@
 # @emotion-icons/simple-icons
 
+## 3.3.0
+
+### Minor Changes
+
+- [#260](https://github.com/emotion-icons/emotion-icons/pull/260): Upgrade Simple Icons to v4.4.0 ([`c4d3397a`](https://github.com/emotion-icons/emotion-icons/commit/c4d3397aaa784bc86948a98640bab1fd95c6c3b0), [@dependabot](https://github.com/apps/dependabot))
+
 ## 3.1.0
 
 ### Minor Changes
