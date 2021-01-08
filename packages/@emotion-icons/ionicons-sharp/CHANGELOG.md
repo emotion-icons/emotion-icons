@@ -1,5 +1,11 @@
 # @emotion-icons/ionicons-sharp
 
+## 3.4.0
+
+### Minor Changes
+
+- [#265](https://github.com/emotion-icons/emotion-icons/pull/265): Upgrade Ionicons to v5.3.0 ([`f33f1b29`](https://github.com/emotion-icons/emotion-icons/commit/f33f1b29d4bc60d40c32a7c1e4224e0f8325e720), [@dependabot](https://github.com/apps/dependabot))
+
 ## 3.0.0
 
 ### Major Changes
