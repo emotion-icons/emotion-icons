@@ -2337,10 +2337,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/remix-line/-/remix-line-1.1.0.tgz#e8fc8eaa9864f296f73a76c57f9fc9ca6df826a3"
   integrity sha512-v7F5Xvnn/31Gu2eGk82x3EalIb7KQcwn14Z187i4lD/H7T/ockk9q92OZstPacz/fstAAkJZ/oeXC8KWZnM7aQ==
 
-"@svg-icons/simple-icons@1.28.0":
-  version "1.28.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/simple-icons/-/simple-icons-1.28.0.tgz#ce0e8ae1f59abc8fd190a83e33f58c3e2ed2e69a"
-  integrity sha512-/gjKSqP6r1Y6U6/yN1AL+zbaUkDNbc6ShIng5N/FhYbfzgciPSd6AvaKq0YTcxPRsWFGICDv0/Gyu7sTiL+kAA==
+"@svg-icons/simple-icons@1.29.0":
+  version "1.29.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/simple-icons/-/simple-icons-1.29.0.tgz#391bd2ecc72d03602d9cb6b53984e6f31c6740a2"
+  integrity sha512-4D+4JnA626/WT4DdMVTqq87G69engCNaIxXDr7QAyWw4TVsGspXtftQqg04Wx3rCDqjSIUgXS79J6nRmGan1NA==
 
 "@svg-icons/typicons@1.1.0":
   version "1.1.0"
