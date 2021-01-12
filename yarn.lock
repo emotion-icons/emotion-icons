@@ -2201,10 +2201,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/boxicons-solid/-/boxicons-solid-1.23.0.tgz#70e3a7273eabc560560793772ba6693a43807200"
   integrity sha512-cbeztRM7r/umTo5FKtKHqXc6BIpSORyKBkm0XHjlsxk4t9z6xVg/856QpkNlvd1CTXgVcZHgoWIo6Jk760IlZQ==
 
-"@svg-icons/crypto@1.23.0":
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/crypto/-/crypto-1.23.0.tgz#cfc42d9623f33e3a7c708bd974a29414484d3e27"
-  integrity sha512-G+x89Ei++BD83JeMkYJYgdWB0ZnpeIC4xw8w3o/NAIDhQnWHEVhzjpJQNpZOHjOiElp9sxXFe76gB+q3m1YYlQ==
+"@svg-icons/crypto@1.31.0":
+  version "1.31.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/crypto/-/crypto-1.31.0.tgz#2bdfafa91b0fbf426a006d84d0d6c0fb20864939"
+  integrity sha512-ZUBQVylCbJvlrpLbta8dsWiiclavNRVt7+T7lDVsGUCC5ZaVgScvaE/ib91ysFJcXYnXCqswAq04joDaAf9OXQ==
 
 "@svg-icons/entypo-social@1.1.0":
   version "1.1.0"
