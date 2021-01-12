@@ -1,5 +1,11 @@
 # @emotion-icons/crypto
 
+## 3.5.0
+
+### Minor Changes
+
+- [#271](https://github.com/emotion-icons/emotion-icons/pull/271): Upgrade Cryptocurrency icons to v0.17.1 ([`2f49de0e`](https://github.com/emotion-icons/emotion-icons/commit/2f49de0e812e84c0336b97e465b30f448e4e3670), [@dependabot](https://github.com/apps/dependabot))
+
 ## 3.0.0
 
 ### Major Changes
