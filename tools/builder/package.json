@@ -8,9 +8,9 @@
     "url": "https://github.com/sponsors/jacobwgillespie"
   },
   "bin": {
+    "clean-package": "./clean-package.js",
     "generate-icon-mono-package": "./generate-icon-mono-package.js",
-    "generate-icon-package": "./generate-icon-package.js",
-    "clean-package": "./clean-package.js"
+    "generate-icon-package": "./generate-icon-package.js"
   },
   "publishConfig": {
     "access": "public"
