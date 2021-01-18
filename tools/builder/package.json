@@ -22,7 +22,7 @@
     "fs-extra": "^9.0.1",
     "h2x-core": "^1.1.1",
     "h2x-plugin-jsx": "^1.2.0",
-    "number-to-words": "^1.2.3",
+    "number-to-words": "^1.2.4",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
   }
