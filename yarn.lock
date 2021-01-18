@@ -1775,7 +1775,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.4
     "@emotion/styled": ^11.0.0
-    "@svg-icons/bootstrap": 1.27.0
+    "@svg-icons/bootstrap": 1.31.0
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -1972,7 +1972,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.4
     "@emotion/styled": ^11.0.0
-    "@svg-icons/fa-brands": 1.22.0
+    "@svg-icons/fa-brands": 1.33.0
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -1990,7 +1990,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.4
     "@emotion/styled": ^11.0.0
-    "@svg-icons/fa-regular": 1.22.0
+    "@svg-icons/fa-regular": 1.33.0
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -2008,7 +2008,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.4
     "@emotion/styled": ^11.0.0
-    "@svg-icons/fa-solid": 1.22.0
+    "@svg-icons/fa-solid": 1.33.0
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -2170,7 +2170,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.4
     "@emotion/styled": ^11.0.0
-    "@svg-icons/material-outlined": 1.25.0
+    "@svg-icons/material-outlined": 1.33.0
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -2188,7 +2188,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.4
     "@emotion/styled": ^11.0.0
-    "@svg-icons/material-rounded": 1.25.0
+    "@svg-icons/material-rounded": 1.33.0
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -2206,7 +2206,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.4
     "@emotion/styled": ^11.0.0
-    "@svg-icons/material-sharp": 1.25.0
+    "@svg-icons/material-sharp": 1.33.0
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -2224,7 +2224,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.4
     "@emotion/styled": ^11.0.0
-    "@svg-icons/material-twotone": 1.25.0
+    "@svg-icons/material-twotone": 1.33.0
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -2242,7 +2242,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.4
     "@emotion/styled": ^11.0.0
-    "@svg-icons/material-filled": 1.25.0
+    "@svg-icons/material-filled": 1.33.0
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -2352,7 +2352,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.4
     "@emotion/styled": ^11.0.0
-    "@svg-icons/simple-icons": 1.29.0
+    "@svg-icons/simple-icons": 1.33.0
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3596,10 +3596,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/bootstrap@npm:1.27.0":
-  version: 1.27.0
-  resolution: "@svg-icons/bootstrap@npm:1.27.0"
-  checksum: 7f6517748777d7d72d299e2fabc8f3f4eb66fab5ee55a7c617e183af09798e50e0da18a6b106185168f31a0701b38cc3975cd948087a5fdbdbdf8edfa8c12abf
+"@svg-icons/bootstrap@npm:1.31.0":
+  version: 1.31.0
+  resolution: "@svg-icons/bootstrap@npm:1.31.0"
+  checksum: 0f76dfec80fee44a0a37d3cc1b5e7d2913a388dbeab0a0fd77b9fa634342538532ae44dbeab30d550d389f44d8c5416ddfe221519d1aff8e8629442fb7d6e9ba
   languageName: node
   linkType: hard
 
@@ -3666,24 +3666,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/fa-brands@npm:1.22.0":
-  version: 1.22.0
-  resolution: "@svg-icons/fa-brands@npm:1.22.0"
-  checksum: 5ee44b44d01f27b95ea683daf3dad0344b00a1c1adc5e5f564dc106284fc88ec136dfcfb5576b85180fae80d469b7527059abb4576ac1a422f89be28aa0228c5
+"@svg-icons/fa-brands@npm:1.33.0":
+  version: 1.33.0
+  resolution: "@svg-icons/fa-brands@npm:1.33.0"
+  checksum: 6905b9a7f98cdf4c0e12aeec0e3018f88eeeb397cc1e37f53f5097861a6c1a834c0371bbb8c12dc311c4b70e0f0784dd3529cf1fa557ebcaf7757c7806a9c5f4
   languageName: node
   linkType: hard
 
-"@svg-icons/fa-regular@npm:1.22.0":
-  version: 1.22.0
-  resolution: "@svg-icons/fa-regular@npm:1.22.0"
-  checksum: d7800f076c891e3143bbd74b897ddd89099907596d6a0b7948fb6ee38092b94f74766f3e3c285bb8dd57709600932bfece5264578fd35035128de7353320b430
+"@svg-icons/fa-regular@npm:1.33.0":
+  version: 1.33.0
+  resolution: "@svg-icons/fa-regular@npm:1.33.0"
+  checksum: 5ee91c649feba53f31fc537d1e1505803a43278dde6f64057062a452e8751564985c280ff20e2836bf881ee483e7127a27e7d833b0000574f0ab6dafb3a21bbd
   languageName: node
   linkType: hard
 
-"@svg-icons/fa-solid@npm:1.22.0":
-  version: 1.22.0
-  resolution: "@svg-icons/fa-solid@npm:1.22.0"
-  checksum: ccc9d2f4819440a5f05b406139f08bbc488686ac2797624df5df09c072bb2f7605a1654b54bcf98f85850f75f0aedcff315a8578e44fa0c0253e26b2beb28178
+"@svg-icons/fa-solid@npm:1.33.0":
+  version: 1.33.0
+  resolution: "@svg-icons/fa-solid@npm:1.33.0"
+  checksum: 6d6f87c1b34c00a230acb4f55d876c62603f0988b04abcdb0f847754122b637dab235e16c998ba9b7113776e4ace8f621dbd9276b1d9425b2e3f762751c0013f
   languageName: node
   linkType: hard
 
@@ -3743,38 +3743,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/material-filled@npm:1.25.0":
-  version: 1.25.0
-  resolution: "@svg-icons/material-filled@npm:1.25.0"
-  checksum: 7de7ef2afd71d353fa1a07145bd13a7ed02efa96be0619f85bc04b1c545c8b455bb8da9155ce020f7286d8000fb0f6f764715f91b1e4c7534a595d98cbb63d74
+"@svg-icons/material-filled@npm:1.33.0":
+  version: 1.33.0
+  resolution: "@svg-icons/material-filled@npm:1.33.0"
+  checksum: 37c4db2288295213f9c3c306b0dcaed44c154331a34de122f0bfe72e698d6042e643d1fc8b7e2268d4ad9e7509a89132622d4b8fa7f68eabb9da61a934bd6f73
   languageName: node
   linkType: hard
 
-"@svg-icons/material-outlined@npm:1.25.0":
-  version: 1.25.0
-  resolution: "@svg-icons/material-outlined@npm:1.25.0"
-  checksum: 6818d31b878493e2440bb9b3b994aa7977d0c4e8b10ca73999def701c6b62bb9997ad5b60dcec636b43516c60b8db3b81593b1b91c020fde210c28516878307d
+"@svg-icons/material-outlined@npm:1.33.0":
+  version: 1.33.0
+  resolution: "@svg-icons/material-outlined@npm:1.33.0"
+  checksum: 5ba4c20d65d26e7cf615c00290f4d743d44d4189d0ab0ca369409419dead32bda1639432106bf7373930a0496317ce13136013655cfbde14dbddc3ae54d62788
   languageName: node
   linkType: hard
 
-"@svg-icons/material-rounded@npm:1.25.0":
-  version: 1.25.0
-  resolution: "@svg-icons/material-rounded@npm:1.25.0"
-  checksum: 80516d98fc541e258e868cf758a28d58b0c487602ce7a01f2885b21b9517d930a6656a292282496d216cb45f89485a4c902b4efd77e86a4cc1e6900d407c19d0
+"@svg-icons/material-rounded@npm:1.33.0":
+  version: 1.33.0
+  resolution: "@svg-icons/material-rounded@npm:1.33.0"
+  checksum: 2c5f63274a0a7fd3d1ee8bb197e8b8030bd9ee19cd045a07e2e8ef2167d2bed436a2f66c566e3818866cc54bf98742a3d335e131a44bbd7e0a6b93d2ee3651d2
   languageName: node
   linkType: hard
 
-"@svg-icons/material-sharp@npm:1.25.0":
-  version: 1.25.0
-  resolution: "@svg-icons/material-sharp@npm:1.25.0"
-  checksum: 586efed73e6078951a98919bcfd0334cdeca9a849f1d30bd5639fa412eeab9eea59d3efaa99e461183d24a903ac1cdf42011c5195608b126003a105234fae100
+"@svg-icons/material-sharp@npm:1.33.0":
+  version: 1.33.0
+  resolution: "@svg-icons/material-sharp@npm:1.33.0"
+  checksum: 6bea9289944f06c85726d932ecedcbfdf8b982453b63cc8b7b3e0c67ac47085df3ab8635c446f8aec429186744140748fbe706668074224be3cc9e13ca25a2d4
   languageName: node
   linkType: hard
 
-"@svg-icons/material-twotone@npm:1.25.0":
-  version: 1.25.0
-  resolution: "@svg-icons/material-twotone@npm:1.25.0"
-  checksum: 8a64342bb43e031c4a5722fd64171b939413cc6effd83afe3df9bf7867f240f3510bb774a0dee9c90be064ea8e03f6359f863cd8df391a1de8c39dd3681bd2ea
+"@svg-icons/material-twotone@npm:1.33.0":
+  version: 1.33.0
+  resolution: "@svg-icons/material-twotone@npm:1.33.0"
+  checksum: 248d7f30647266d43ae424559c6ebf4a16ebb38954c9dc587196c554550446bb171aaa2123927f35c1c341c1310cc135214103fbfe9b444fa2ec7b96a87f1557
   languageName: node
   linkType: hard
 
@@ -3806,10 +3806,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/simple-icons@npm:1.29.0":
-  version: 1.29.0
-  resolution: "@svg-icons/simple-icons@npm:1.29.0"
-  checksum: 09b3d6b97dd51e7c07e8a4728d244b3892d06db04b66f5a586f2b61c9c71d1b783caca8eac1abc919ff75d1b9ae571e6955ffcbab387dc4d03591e3a50452cae
+"@svg-icons/simple-icons@npm:1.33.0":
+  version: 1.33.0
+  resolution: "@svg-icons/simple-icons@npm:1.33.0"
+  checksum: d1df9c97e0fca8701150b3ca3c93cf39e397817a554754846532578e8f57f7a502cf05a89f1be0143bd89141a3b9f06016c6498da9bfdb240e00aab355fc12d7
   languageName: node
   linkType: hard
 

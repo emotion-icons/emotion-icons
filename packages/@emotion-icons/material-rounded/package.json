@@ -37,7 +37,7 @@
     "@emotion-icons/pack-builder": "^2.0.0",
     "@emotion/react": "^11.1.4",
     "@emotion/styled": "^11.0.0",
-    "@svg-icons/material-rounded": "1.25.0",
+    "@svg-icons/material-rounded": "1.33.0",
     "react": "^17.0.1"
   }
 }
