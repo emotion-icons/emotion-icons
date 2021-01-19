@@ -69,6 +69,9 @@
     "@emotion-icons/typicons": "3.0.0",
     "@emotion-icons/zondicons": "3.0.0"
   },
+  "devDependencies": {
+    "@emotion-icons/pack-builder": "^2.0.1"
+  },
   "peerDependencies": {
     "@emotion/react": ">=11.0.0 <12",
     "@emotion/styled": ">=11.0.0 <12",

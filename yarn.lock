@@ -2287,7 +2287,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@emotion-icons/pack-builder@^2.0.0, @emotion-icons/pack-builder@workspace:tools/builder":
+"@emotion-icons/pack-builder@^2.0.0, @emotion-icons/pack-builder@^2.0.1, @emotion-icons/pack-builder@workspace:tools/builder":
   version: 0.0.0-use.local
   resolution: "@emotion-icons/pack-builder@workspace:tools/builder"
   dependencies:
@@ -7781,6 +7781,7 @@ __metadata:
     "@emotion-icons/material-twotone": 3.0.0
     "@emotion-icons/octicons": 3.0.0
     "@emotion-icons/open-iconic": 3.0.0
+    "@emotion-icons/pack-builder": ^2.0.1
     "@emotion-icons/remix-fill": 3.0.0
     "@emotion-icons/remix-line": 3.0.0
     "@emotion-icons/simple-icons": 3.4.0
