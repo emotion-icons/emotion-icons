@@ -1,5 +1,31 @@
 # emotion-icons
 
+## 3.6.0
+
+### Minor Changes
+
+- [#281](https://github.com/emotion-icons/emotion-icons/pull/281): Upgrade Simple Icons to v4.7.0 ([`153c3d32`](https://github.com/emotion-icons/emotion-icons/commit/153c3d32bdb4f1e814c496ee1e2e09e370b62a9f), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+* [#281](https://github.com/emotion-icons/emotion-icons/pull/281): Upgrade Material icons to v6.3.0 ([`153c3d32`](https://github.com/emotion-icons/emotion-icons/commit/153c3d32bdb4f1e814c496ee1e2e09e370b62a9f), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+- [#281](https://github.com/emotion-icons/emotion-icons/pull/281): Upgrade Bootstrap icons to v1.3.0 ([`153c3d32`](https://github.com/emotion-icons/emotion-icons/commit/153c3d32bdb4f1e814c496ee1e2e09e370b62a9f), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+* [#281](https://github.com/emotion-icons/emotion-icons/pull/281): Upgrade Font Awesome to v5.15.2 ([`153c3d32`](https://github.com/emotion-icons/emotion-icons/commit/153c3d32bdb4f1e814c496ee1e2e09e370b62a9f), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- Updated dependencies [[`153c3d32`](https://github.com/emotion-icons/emotion-icons/commit/153c3d32bdb4f1e814c496ee1e2e09e370b62a9f), [`153c3d32`](https://github.com/emotion-icons/emotion-icons/commit/153c3d32bdb4f1e814c496ee1e2e09e370b62a9f), [`153c3d32`](https://github.com/emotion-icons/emotion-icons/commit/153c3d32bdb4f1e814c496ee1e2e09e370b62a9f), [`153c3d32`](https://github.com/emotion-icons/emotion-icons/commit/153c3d32bdb4f1e814c496ee1e2e09e370b62a9f)]:
+  - @emotion-icons/simple-icons@3.6.0
+  - @emotion-icons/material@3.6.0
+  - @emotion-icons/material-outlined@3.6.0
+  - @emotion-icons/material-rounded@3.6.0
+  - @emotion-icons/material-sharp@3.6.0
+  - @emotion-icons/material-twotone@3.6.0
+  - @emotion-icons/bootstrap@3.6.0
+  - @emotion-icons/fa-brands@3.6.0
+  - @emotion-icons/fa-regular@3.6.0
+  - @emotion-icons/fa-solid@3.6.0
+
 ## 3.5.0
 
 ### Minor Changes
