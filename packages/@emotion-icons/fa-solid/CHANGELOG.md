@@ -1,5 +1,11 @@
 # @emotion-icons/fa-solid
 
+## 3.6.0
+
+### Minor Changes
+
+- [#281](https://github.com/emotion-icons/emotion-icons/pull/281): Upgrade Font Awesome to v5.15.2 ([`153c3d32`](https://github.com/emotion-icons/emotion-icons/commit/153c3d32bdb4f1e814c496ee1e2e09e370b62a9f), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 3.0.0
 
 ### Major Changes
