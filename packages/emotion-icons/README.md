@@ -8,7 +8,7 @@
 
 <p align="center"><a href="https://vercel.com/?utm_source=emotion-icons"><img height="32" src="https://emotion-icons.dev/powered-by-vercel.svg" alt="Powered by Vercel" /></a></p>
 
-`emotion-icons` provides almost 17,000 icons from the following icon packs as [Emotion React Components](https://emotion.sh/), with full support for TypeScript types and tree-shaking / ES modules.
+`emotion-icons` provides over 20,000 icons from the following icon packs as [Emotion React Components](https://emotion.sh/), with full support for TypeScript types and tree-shaking / ES modules.
 
 **[➡️ View the Icon Explorer](https://emotion-icons.dev)**
 

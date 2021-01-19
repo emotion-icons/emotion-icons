@@ -73,5 +73,8 @@
     "@emotion/react": ">=11.0.0 <12",
     "@emotion/styled": ">=11.0.0 <12",
     "react": "*"
+  },
+  "devDependencies": {
+    "@emotion-icons/pack-builder": "^2.0.1"
   }
 }

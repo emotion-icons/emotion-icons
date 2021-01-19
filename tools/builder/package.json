@@ -8,9 +8,9 @@
     "url": "https://github.com/sponsors/jacobwgillespie"
   },
   "bin": {
+    "clean-package": "./clean-package.js",
     "generate-icon-mono-package": "./generate-icon-mono-package.js",
-    "generate-icon-package": "./generate-icon-package.js",
-    "clean-package": "./clean-package.js"
+    "generate-icon-package": "./generate-icon-package.js"
   },
   "publishConfig": {
     "access": "public"
@@ -22,7 +22,7 @@
     "fs-extra": "^9.0.1",
     "h2x-core": "^1.1.1",
     "h2x-plugin-jsx": "^1.2.0",
-    "number-to-words": "^1.2.3",
+    "number-to-words": "^1.2.4",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
   }

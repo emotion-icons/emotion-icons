@@ -16,10 +16,10 @@
     "start": "next dev"
   },
   "dependencies": {
-    "@emotion/react": "^11.1.2",
+    "@emotion/react": "^11.1.4",
     "@emotion/styled": "^11.0.0",
     "@loadable/component": "^5.14.1",
-    "copy-to-clipboard": "^3.2.1",
+    "copy-to-clipboard": "^3.3.1",
     "emotion-icons": "3.5.0",
     "history": "^5.0.0",
     "js-search": "^2.0.0",
