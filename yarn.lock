@@ -2352,7 +2352,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.4
     "@emotion/styled": ^11.0.0
-    "@svg-icons/simple-icons": 1.33.0
+    "@svg-icons/simple-icons": 1.34.0
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3806,10 +3806,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/simple-icons@npm:1.33.0":
-  version: 1.33.0
-  resolution: "@svg-icons/simple-icons@npm:1.33.0"
-  checksum: d1df9c97e0fca8701150b3ca3c93cf39e397817a554754846532578e8f57f7a502cf05a89f1be0143bd89141a3b9f06016c6498da9bfdb240e00aab355fc12d7
+"@svg-icons/simple-icons@npm:1.34.0":
+  version: 1.34.0
+  resolution: "@svg-icons/simple-icons@npm:1.34.0"
+  checksum: eeb43486dbf6c953939fca1f4cace38a46378902f9ccd253f5da042d010a042460ba3cb24868fa5bd3f4440dfb4cfdbcf9d8c39a5102f2cd48d1261bcf94c50e
   languageName: node
   linkType: hard
 
