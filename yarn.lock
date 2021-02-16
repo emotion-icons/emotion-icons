@@ -1780,7 +1780,6 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.12.13
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/is-prop-valid": ^1.1.0
     "@emotion/react": ^11.1.5
     "@emotion/styled": ^11.1.5
     react: ^17.0.1
