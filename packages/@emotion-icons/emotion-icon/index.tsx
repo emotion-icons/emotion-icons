@@ -17,20 +17,6 @@ interface EmotionIconBaseProps {
   iconVerticalAlign: string
 }
 
-function isValidProp(key: string): key is keyof React.SVGProps<SVGSVGElement> {
-  return validProp(key)
-}
-
-function filterSVGProps(props: EmotionIconProps): React.SVGProps<SVGSVGElement> {
-  return (Object.keys(props) as Array<keyof EmotionIconProps>).reduce<React.SVGProps<SVGSVGElement>>((p, k) => {
-    if (isValidProp(k)) {
-      // hack to satisfy TypeScript complexity
-      ;(p as any)[k] = props[k]
-    }
-    return p
-  }, {})
-}
-
 const EmotionIconBaseBase = React.forwardRef<SVGSVGElement, EmotionIconProps & EmotionIconBaseProps>((props, ref) => {
   const {children, iconAttrs, iconVerticalAlign, iconViewBox, size, title, ...otherProps} = props
 
@@ -42,12 +28,11 @@ const EmotionIconBaseBase = React.forwardRef<SVGSVGElement, EmotionIconProps & E
     focusable: 'false',
     role: title != null ? 'img' : undefined,
     ...iconAttrs,
+    ...otherProps,
   }
 
-  const svgProps = filterSVGProps(otherProps)
-
   return (
-    <svg {...iconProps} {...svgProps} ref={ref}>
+    <svg {...iconProps} ref={ref}>
       {title && <title key="icon-title">{title}</title>}
       {children}
     </svg>
