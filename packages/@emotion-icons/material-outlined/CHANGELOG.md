@@ -1,5 +1,11 @@
 # @emotion-icons/material-outlined
 
+## 3.8.0
+
+### Minor Changes
+
+- [#296](https://github.com/emotion-icons/emotion-icons/pull/296): Bump @svg-icons/material-outlined from 1.33.0 to 1.36.0 ([`69b032db`](https://github.com/emotion-icons/emotion-icons/commit/69b032db55654c4fc7571820399293b0e2aaf136), [@dependabot](https://github.com/apps/dependabot))
+
 ## 3.6.0
 
 ### Minor Changes

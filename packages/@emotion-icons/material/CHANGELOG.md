@@ -1,5 +1,17 @@
 # @emotion-icons/material
 
+## 3.8.0
+
+### Minor Changes
+
+- Bump @svg-icons/material-rounded from 1.33.0 to 1.36.0 ([`79f77a5a`](https://github.com/emotion-icons/emotion-icons/commit/79f77a5a7122b0df7e85f11478006251cdf26fba), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+* [#295](https://github.com/emotion-icons/emotion-icons/pull/295): Bump @svg-icons/material-filled from 1.33.0 to 1.36.0 ([`aba18808`](https://github.com/emotion-icons/emotion-icons/commit/aba1880861b1c70bdb626eaa562c007ce64714d6), [@dependabot](https://github.com/apps/dependabot))
+
+- [#296](https://github.com/emotion-icons/emotion-icons/pull/296): Bump @svg-icons/material-outlined from 1.33.0 to 1.36.0 ([`69b032db`](https://github.com/emotion-icons/emotion-icons/commit/69b032db55654c4fc7571820399293b0e2aaf136), [@dependabot](https://github.com/apps/dependabot))
+
+* Bump @svg-icons/material-sharp from 1.33.0 to 1.36.0 ([`e2907691`](https://github.com/emotion-icons/emotion-icons/commit/e2907691145253e4ba269a72a9bf6b99a47b8bd5), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 3.6.0
 
 ### Minor Changes

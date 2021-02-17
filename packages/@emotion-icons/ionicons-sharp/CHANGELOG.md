@@ -1,5 +1,11 @@
 # @emotion-icons/ionicons-sharp
 
+## 3.8.0
+
+### Minor Changes
+
+- [#289](https://github.com/emotion-icons/emotion-icons/pull/289): Bump @svg-icons/ionicons-sharp from 1.30.0 to 1.35.0 ([`381793ef`](https://github.com/emotion-icons/emotion-icons/commit/381793efbadb8586c8bccc8ebad4beff4a3767bd), [@dependabot](https://github.com/apps/dependabot))
+
 ## 3.4.0
 
 ### Minor Changes
