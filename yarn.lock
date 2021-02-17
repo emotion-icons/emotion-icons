@@ -1729,7 +1729,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.5
     "@emotion/styled": ^11.1.5
-    "@svg-icons/boxicons-regular": 1.23.0
+    "@svg-icons/boxicons-regular": 1.39.1
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3529,10 +3529,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/boxicons-regular@npm:1.23.0":
-  version: 1.23.0
-  resolution: "@svg-icons/boxicons-regular@npm:1.23.0"
-  checksum: 693481423232ea3305c05337cd1f1c8b5ac9d6f3060036f33086dd3eef6a3ee3b9f5b34684d03df4558490bb7a8f5039a80af778bcc13d2bab73a538b094c375
+"@svg-icons/boxicons-regular@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/boxicons-regular@npm:1.39.1"
+  checksum: 68e211990cb7f025871d7899ee7c26707edb3d11aebd86f643fb045bae0bd5a87032bcca035348f375b85ecabd4f9de22f675e2de1739a069e02e7fcd750a362
   languageName: node
   linkType: hard
 
