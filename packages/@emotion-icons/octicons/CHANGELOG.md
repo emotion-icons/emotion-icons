@@ -1,5 +1,11 @@
 # @emotion-icons/octicons
 
+## 3.8.0
+
+### Minor Changes
+
+- [#303](https://github.com/emotion-icons/emotion-icons/pull/303): Bump @svg-icons/octicons from 1.24.0 to 1.36.1 ([`42b9539a`](https://github.com/emotion-icons/emotion-icons/commit/42b9539acc049f726e5bf6793c21413a2ba1655d), [@dependabot](https://github.com/apps/dependabot))
+
 ## 3.0.0
 
 ### Major Changes

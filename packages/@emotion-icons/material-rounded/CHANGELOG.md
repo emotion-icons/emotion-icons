@@ -1,5 +1,11 @@
 # @emotion-icons/material-rounded
 
+## 3.8.0
+
+### Minor Changes
+
+- Bump @svg-icons/material-rounded from 1.33.0 to 1.36.0 ([`79f77a5a`](https://github.com/emotion-icons/emotion-icons/commit/79f77a5a7122b0df7e85f11478006251cdf26fba), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 3.6.0
 
 ### Minor Changes

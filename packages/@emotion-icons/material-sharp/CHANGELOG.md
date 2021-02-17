@@ -1,5 +1,11 @@
 # @emotion-icons/material-sharp
 
+## 3.8.0
+
+### Minor Changes
+
+- Bump @svg-icons/material-sharp from 1.33.0 to 1.36.0 ([`e2907691`](https://github.com/emotion-icons/emotion-icons/commit/e2907691145253e4ba269a72a9bf6b99a47b8bd5), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 3.6.0
 
 ### Minor Changes

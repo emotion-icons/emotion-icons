@@ -1,5 +1,11 @@
 # @emotion-icons/ionicons-outline
 
+## 3.8.0
+
+### Minor Changes
+
+- [#291](https://github.com/emotion-icons/emotion-icons/pull/291): Bump @svg-icons/ionicons-outline from 1.30.0 to 1.35.0 ([`9150420f`](https://github.com/emotion-icons/emotion-icons/commit/9150420f618a3a07470a76b08c944febe53f4f03), [@dependabot](https://github.com/apps/dependabot))
+
 ## 3.4.0
 
 ### Minor Changes

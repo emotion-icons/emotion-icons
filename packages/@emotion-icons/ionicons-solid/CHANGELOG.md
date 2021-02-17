@@ -1,5 +1,11 @@
 # @emotion-icons/ionicons-solid
 
+## 3.8.0
+
+### Minor Changes
+
+- [#292](https://github.com/emotion-icons/emotion-icons/pull/292): Bump @svg-icons/ionicons-solid from 1.30.0 to 1.35.0 ([`0971760c`](https://github.com/emotion-icons/emotion-icons/commit/0971760cf9aaedc809a463c7202ddb92d31458e7), [@dependabot](https://github.com/apps/dependabot))
+
 ## 3.4.0
 
 ### Minor Changes

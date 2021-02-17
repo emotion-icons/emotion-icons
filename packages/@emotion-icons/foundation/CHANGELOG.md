@@ -1,5 +1,11 @@
 # @emotion-icons/foundation
 
+## 3.8.0
+
+### Minor Changes
+
+- [#298](https://github.com/emotion-icons/emotion-icons/pull/298): Bump @svg-icons/foundation from 1.1.0 to 1.36.0 ([`85d418fa`](https://github.com/emotion-icons/emotion-icons/commit/85d418fa76de330db4486d20a1e163d8b7897b89), [@dependabot](https://github.com/apps/dependabot))
+
 ## 3.0.0
 
 ### Major Changes

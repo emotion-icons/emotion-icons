@@ -1,5 +1,21 @@
 # emotion-icons
 
+## 3.8.0
+
+### Patch Changes
+
+- Updated dependencies [[`381793ef`](https://github.com/emotion-icons/emotion-icons/commit/381793efbadb8586c8bccc8ebad4beff4a3767bd), [`42b9539a`](https://github.com/emotion-icons/emotion-icons/commit/42b9539acc049f726e5bf6793c21413a2ba1655d), [`ecc6f133`](https://github.com/emotion-icons/emotion-icons/commit/ecc6f133e901727b649110cf5685947e1d6145e4), [`79f77a5a`](https://github.com/emotion-icons/emotion-icons/commit/79f77a5a7122b0df7e85f11478006251cdf26fba), [`9150420f`](https://github.com/emotion-icons/emotion-icons/commit/9150420f618a3a07470a76b08c944febe53f4f03), [`aba18808`](https://github.com/emotion-icons/emotion-icons/commit/aba1880861b1c70bdb626eaa562c007ce64714d6), [`69b032db`](https://github.com/emotion-icons/emotion-icons/commit/69b032db55654c4fc7571820399293b0e2aaf136), [`85d418fa`](https://github.com/emotion-icons/emotion-icons/commit/85d418fa76de330db4486d20a1e163d8b7897b89), [`e2907691`](https://github.com/emotion-icons/emotion-icons/commit/e2907691145253e4ba269a72a9bf6b99a47b8bd5), [`0971760c`](https://github.com/emotion-icons/emotion-icons/commit/0971760cf9aaedc809a463c7202ddb92d31458e7)]:
+  - @emotion-icons/ionicons-sharp@3.8.0
+  - @emotion-icons/octicons@3.8.0
+  - @emotion-icons/simple-icons@3.8.0
+  - @emotion-icons/material-rounded@3.8.0
+  - @emotion-icons/material@3.8.0
+  - @emotion-icons/ionicons-outline@3.8.0
+  - @emotion-icons/material-outlined@3.8.0
+  - @emotion-icons/foundation@3.8.0
+  - @emotion-icons/material-sharp@3.8.0
+  - @emotion-icons/ionicons-solid@3.8.0
+
 ## 3.7.0
 
 ### Minor Changes
