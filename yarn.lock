@@ -1997,7 +1997,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.5
     "@emotion/styled": ^11.1.5
-    "@svg-icons/heroicons-solid": 1.16.0
+    "@svg-icons/heroicons-solid": 1.39.1
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3627,10 +3627,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/heroicons-solid@npm:1.16.0":
-  version: 1.16.0
-  resolution: "@svg-icons/heroicons-solid@npm:1.16.0"
-  checksum: 70ee75ae59fff38660354b63c04e440a3f82c79aa6e78f42c46e14c0e829067ecf571a14dc9c96222c272e42082fc629630b490fab3be59ab308e8441409b2ea
+"@svg-icons/heroicons-solid@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/heroicons-solid@npm:1.39.1"
+  checksum: 88e0af38e423bfe5f020aca38a0d5142900bd99b6ddc2e229fbb8dac164173051776dfc35fe4c4a750d16ff9e2cc0bb1b4526b223ab7441856f46700178d374c
   languageName: node
   linkType: hard
 
