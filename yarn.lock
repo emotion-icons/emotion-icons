@@ -2033,7 +2033,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.5
     "@emotion/styled": ^11.1.5
-    "@svg-icons/ionicons-outline": 1.30.0
+    "@svg-icons/ionicons-outline": 1.39.1
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3641,10 +3641,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/ionicons-outline@npm:1.30.0":
-  version: 1.30.0
-  resolution: "@svg-icons/ionicons-outline@npm:1.30.0"
-  checksum: bf9ee67de9716f3bed2331bd787c7a767cf4b9e40850072a3c50b08fa38042a0599a1e9717aa8ce8394588387f6921a156985f506ffe311ed413ff3daf02144a
+"@svg-icons/ionicons-outline@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/ionicons-outline@npm:1.39.1"
+  checksum: fbf45d6aae4b64e714b2dfe47ef3258310e4d11e8475476badbf2a4b3884254f851a6358af9d0638385e265e5ab678b63860a2be573bd59cd25a9744d2fbc378
   languageName: node
   linkType: hard
 
