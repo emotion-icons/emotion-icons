@@ -1765,7 +1765,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.5
     "@emotion/styled": ^11.1.5
-    "@svg-icons/crypto": 1.31.0
+    "@svg-icons/crypto": 1.39.1
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3543,10 +3543,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/crypto@npm:1.31.0":
-  version: 1.31.0
-  resolution: "@svg-icons/crypto@npm:1.31.0"
-  checksum: fcd7c435be8e593d214a02f318ac9bd5b3f423da5f66ce7a460f3da0b26c687eb928b8ac3aa1d8572937091f26f55f80c3ec04ee4416e931e320039af9ac4d4d
+"@svg-icons/crypto@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/crypto@npm:1.39.1"
+  checksum: f2e1697a93bb5e6e5a8d3b98890c05416880eea67810e6af980c6f534dad66364cbdcce7e9ad402a86589b04e48a0678b742e6c5fc9f4b6fb9fabec28321f3df
   languageName: node
   linkType: hard
 
