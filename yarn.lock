@@ -2315,7 +2315,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.5
     "@emotion/styled": ^11.1.5
-    "@svg-icons/typicons": 1.1.0
+    "@svg-icons/typicons": 1.39.1
     react: ^17.0.1
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3733,10 +3733,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/typicons@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@svg-icons/typicons@npm:1.1.0"
-  checksum: 4a1dee6e14b80bb88b7184551bdee0f3972f2f3e42c9c206f5ca0a3bde9a248dee5b2dbfc71cc8199da7fac01126c494ac30f112794548d993b0a83836e1cc71
+"@svg-icons/typicons@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/typicons@npm:1.39.1"
+  checksum: 2aa3e07aec7a567efd74806583a80e085bc7ed5af2b4275d0537ad90b7a7381349c6d2e5dacc65a7ee31e0bd78024e6e06b2441b74ba6674878bf18fd199b02a
   languageName: node
   linkType: hard
 
