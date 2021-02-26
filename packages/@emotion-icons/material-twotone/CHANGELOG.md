@@ -1,5 +1,11 @@
 # @emotion-icons/material-twotone
 
+## 3.9.0
+
+### Minor Changes
+
+- [#348](https://github.com/emotion-icons/emotion-icons/pull/348): Bump @svg-icons/material-twotone from 1.33.0 to 1.39.1 ([`d57701e7`](https://github.com/emotion-icons/emotion-icons/commit/d57701e748d0d19af330dc73427e932dfc565697), [@dependabot](https://github.com/apps/dependabot))
+
 ## 3.6.0
 
 ### Minor Changes
