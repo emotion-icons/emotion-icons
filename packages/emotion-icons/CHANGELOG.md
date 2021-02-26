@@ -1,5 +1,13 @@
 # emotion-icons
 
+## 3.9.0
+
+### Patch Changes
+
+- Updated dependencies [[`d57701e7`](https://github.com/emotion-icons/emotion-icons/commit/d57701e748d0d19af330dc73427e932dfc565697)]:
+  - @emotion-icons/material-twotone@3.9.0
+  - @emotion-icons/material@3.9.0
+
 ## 3.8.0
 
 ### Patch Changes
