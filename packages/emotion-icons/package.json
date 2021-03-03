@@ -1,6 +1,6 @@
 {
   "name": "emotion-icons",
-  "version": "3.9.0",
+  "version": "3.10.0",
   "license": "MIT",
   "description": "Icons from packs like Font Awesome, Material, Octicons, Feather, Icomoon, and Boxicons available as Emotion Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.9",
-    "@emotion-icons/bootstrap": "3.6.0",
+    "@emotion-icons/bootstrap": "3.10.0",
     "@emotion-icons/boxicons-logos": "3.0.0",
     "@emotion-icons/boxicons-regular": "3.0.0",
     "@emotion-icons/boxicons-solid": "3.0.0",
@@ -65,7 +65,7 @@
     "@emotion-icons/open-iconic": "3.0.0",
     "@emotion-icons/remix-fill": "3.0.0",
     "@emotion-icons/remix-line": "3.0.0",
-    "@emotion-icons/simple-icons": "3.8.0",
+    "@emotion-icons/simple-icons": "3.10.0",
     "@emotion-icons/typicons": "3.0.0",
     "@emotion-icons/zondicons": "3.0.0"
   },
