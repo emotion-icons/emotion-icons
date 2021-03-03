@@ -1711,7 +1711,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion-icons/bootstrap@3.6.0, @emotion-icons/bootstrap@workspace:packages/@emotion-icons/bootstrap":
+"@emotion-icons/bootstrap@3.10.0, @emotion-icons/bootstrap@workspace:packages/@emotion-icons/bootstrap":
   version: 0.0.0-use.local
   resolution: "@emotion-icons/bootstrap@workspace:packages/@emotion-icons/bootstrap"
   dependencies:
@@ -2287,7 +2287,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@emotion-icons/simple-icons@3.8.0, @emotion-icons/simple-icons@workspace:packages/@emotion-icons/simple-icons":
+"@emotion-icons/simple-icons@3.10.0, @emotion-icons/simple-icons@workspace:packages/@emotion-icons/simple-icons":
   version: 0.0.0-use.local
   resolution: "@emotion-icons/simple-icons@workspace:packages/@emotion-icons/simple-icons"
   dependencies:
@@ -2324,7 +2324,7 @@ __metadata:
     "@types/react": ^17.0.2
     babel-loader: ^8.2.2
     chromatic: ^5.6.3
-    emotion-icons: 3.9.0
+    emotion-icons: 3.10.0
     fs-extra: ^9.1.0
     prettier: ^2.2.1
     react: ^17.0.1
@@ -2362,7 +2362,7 @@ __metadata:
     "@types/react-dom": ^17.0.1
     "@types/react-virtualized": ^9.21.11
     copy-to-clipboard: ^3.3.1
-    emotion-icons: 3.9.0
+    emotion-icons: 3.10.0
     history: ^5.0.0
     js-search: ^2.0.0
     next: ^10.0.7
@@ -7492,12 +7492,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emotion-icons@3.9.0, emotion-icons@workspace:packages/emotion-icons":
+"emotion-icons@3.10.0, emotion-icons@workspace:packages/emotion-icons":
   version: 0.0.0-use.local
   resolution: "emotion-icons@workspace:packages/emotion-icons"
   dependencies:
     "@babel/runtime": ^7.13.9
-    "@emotion-icons/bootstrap": 3.6.0
+    "@emotion-icons/bootstrap": 3.10.0
     "@emotion-icons/boxicons-logos": 3.0.0
     "@emotion-icons/boxicons-regular": 3.0.0
     "@emotion-icons/boxicons-solid": 3.0.0
@@ -7529,7 +7529,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.1
     "@emotion-icons/remix-fill": 3.0.0
     "@emotion-icons/remix-line": 3.0.0
-    "@emotion-icons/simple-icons": 3.8.0
+    "@emotion-icons/simple-icons": 3.10.0
     "@emotion-icons/typicons": 3.0.0
     "@emotion-icons/zondicons": 3.0.0
   peerDependencies:
