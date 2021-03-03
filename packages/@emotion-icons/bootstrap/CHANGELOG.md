@@ -1,5 +1,11 @@
 # @emotion-icons/bootstrap
 
+## 3.11.0
+
+### Minor Changes
+
+- [#357](https://github.com/emotion-icons/emotion-icons/pull/357): Bump @svg-icons/bootstrap from 1.39.1 to 1.40.0 ([`8470d6bd`](https://github.com/emotion-icons/emotion-icons/commit/8470d6bd3d0e9baf2cfb308310407f49ce007ded), [@dependabot](https://github.com/apps/dependabot))
+
 ## 3.10.0
 
 ### Minor Changes
