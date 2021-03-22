@@ -5,6 +5,7 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    if: github.actor != 'dependabot[bot]'
     env:
       NODE_OPTIONS: --max_old_space_size=8192
     steps:
@@ -32,6 +33,7 @@ jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
+    if: github.actor != 'dependabot[bot]'
     steps:
       - uses: actions/checkout@v2
         with:
