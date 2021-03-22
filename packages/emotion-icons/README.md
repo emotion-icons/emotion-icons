@@ -27,6 +27,7 @@
 - [Material Design](https://material.io/icons/)
 - [Octicons](https://octicons.github.com/)
 - [Open Iconic](https://www.npmjs.com/package/open-iconic)
+- [Remix](https://remixicon.com/)
 - [Simple Icons](https://github.com/simple-icons/simple-icons)
 - [Typicons](https://www.s-ings.com/typicons/)
 - [Zondicons](https://www.zondicons.com/)
@@ -102,6 +103,8 @@ yarn add @emotion-icons/material-twotone
 yarn add @emotion-icons/material-sharp
 yarn add @emotion-icons/octicons
 yarn add @emotion-icons/open-iconic
+yarn add @emotion-icons/remix-fill
+yarn add @emotion-icons/remix-line
 yarn add @emotion-icons/simple-icons
 yarn add @emotion-icons/typicons
 yarn add @emotion-icons/zondicons
@@ -146,10 +149,12 @@ import * as ioniconsOutline from '@emotion-icons/ionicons-outline'
 import * as material from '@emotion-icons/material'
 import * as materialOutlined from '@emotion-icons/material-outlined'
 import * as materialRounded from '@emotion-icons/material-rounded'
-import * as materialTwoTone from '@emotion-icons/material-twotone'
 import * as materialSharp from '@emotion-icons/material-sharp'
+import * as materialTwoTone from '@emotion-icons/material-twotone'
 import * as octicons from '@emotion-icons/octicons'
 import * as openIconic from '@emotion-icons/open-iconic'
+import * as remixFill from '@emotion-icons/remix-fill'
+import * as remixLine from '@emotion-icons/remix-line'
 import * as simpleIcons from '@emotion-icons/simple-icons'
 import * as typicons from '@emotion-icons/typicons'
 import * as zondicons from '@emotion-icons/zondicons'
@@ -339,6 +344,8 @@ The Boxicons are licensed under the [CC BY 4.0 License](https://boxicons.com/get
 
 The Cryptocurrency icons are licensed under the [CC0 1.0 Universal License](https://github.com/atomiclabs/cryptocurrency-icons/blob/master/LICENSE.md).
 
+The Entypo icons are licensed under the [CC BY-SA 4.0 License](http://www.entypo.com/).
+
 The Eva Icons are licensed under the [MIT License](https://github.com/akveo/eva-icons/blob/master/LICENSE.txt).
 
 The Evil Icons are licensed under the [MIT License](https://github.com/evil-icons/evil-icons/blob/master/LICENSE.txt).
@@ -346,6 +353,10 @@ The Evil Icons are licensed under the [MIT License](https://github.com/evil-icon
 The Font Awesome icons are licensed under the [CC BY 4.0 License](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt).
 
 The Feather icons are licensed under the [MIT License](https://github.com/feathericons/feather/blob/master/LICENSE).
+
+The Foundation icons are licensed under the [MIT License](https://github.com/thecreation/standard-icons/blob/master/modules/foundation-icons/LICENSE).
+
+The Heroicons are licensed under the [MIT License](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE).
 
 The Icomoon icons are dual licensed under [GPL](http://www.gnu.org/licenses/gpl.html) / [CC BY 4.0 License](http://creativecommons.org/licenses/by/4.0/).
 
@@ -355,6 +366,12 @@ The Material Design icons are licensed under the [Apache License Version 2.0](ht
 
 The Octicons are licensed under the [MIT License](https://github.com/primer/octicons/blob/master/LICENSE).
 
-The Typicons are licensed under the [CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/).
+The Open Iconic icons are licensed under the [MIT License](https://github.com/iconic/open-iconic/blob/master/ICON-LICENSE).
+
+The Remix icons are licensed under the [Apache License 2.0](https://github.com/Remix-Design/RemixIcon/blob/master/License).
+
+The Simple Icons are licensed under the [CC0 1.0 Universal License](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md).
 
 The Typicons are licensed under the [CC BY SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/).
+
+The Zondicons are licensed under the [MIT License](https://github.com/dukestreetstudio/zondicons/blob/master/LICENSE).
