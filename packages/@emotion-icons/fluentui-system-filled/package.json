@@ -1,0 +1,43 @@
+{
+  "name": "@emotion-icons/fluentui-system-filled",
+  "version": "3.11.0",
+  "license": "MIT",
+  "description": "FluentUI System (filled) icons available as Emotion React Components",
+  "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
+  "homepage": "https://github.com/emotion-icons/emotion-icons",
+  "repository": "git://github.com/emotion-icons/emotion-icons.git",
+  "keywords": [
+    "emotion-icons"
+  ],
+  "funding": {
+    "type": "GitHub",
+    "url": "https://github.com/sponsors/jacobwgillespie"
+  },
+  "main": "./index.js",
+  "module": "./index.esm.js",
+  "types": "./index.d.ts",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "clean-package",
+    "generate": "generate-icon-package @svg-icons/fluentui-system-filled"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.10",
+    "@emotion-icons/emotion-icon": "4.0.0"
+  },
+  "peerDependencies": {
+    "@emotion/react": ">=11.0.0 <12",
+    "@emotion/styled": ">=11.0.0 <12",
+    "react": "*"
+  },
+  "devDependencies": {
+    "@emotion-icons/pack-builder": "^2.0.0",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
+    "@svg-icons/fluentui-system-filled": "1.41.0",
+    "react": "^17.0.1"
+  }
+}

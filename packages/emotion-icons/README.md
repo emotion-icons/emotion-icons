@@ -19,6 +19,7 @@
 - [Eva Icons](https://akveo.github.io/eva-icons/)
 - [Evil Icons](https://evil-icons.io)
 - [Feather](https://feathericons.com/)
+- [FluentUI System](https://github.com/microsoft/fluentui-system-icons)
 - [Font Awesome](https://fontawesome.com/)
 - [Foundation](https://zurb.com/playground/foundation-icon-fonts-3)
 - [Heroicons](https://github.com/refactoringui/heroicons)
@@ -89,6 +90,8 @@ yarn add @emotion-icons/fa-brands
 yarn add @emotion-icons/fa-regular
 yarn add @emotion-icons/fa-solid
 yarn add @emotion-icons/feather
+yarn add @emotion-icons/fluentui-system-filled
+yarn add @emotion-icons/fluentui-system-regular
 yarn add @emotion-icons/foundation
 yarn add @emotion-icons/heroicons-outline
 yarn add @emotion-icons/heroicons-solid
@@ -139,6 +142,8 @@ import * as faBrands from '@emotion-icons/fa-brands'
 import * as faRegular from '@emotion-icons/fa-regular'
 import * as faSolid from '@emotion-icons/fa-solid'
 import * as feather from '@emotion-icons/feather'
+import * as fluentUISystemFilled from '@emotion-icons/fluentui-system-filled'
+import * as fluentUISystemRegular from '@emotion-icons/fluentui-system-regular'
 import * as foundation from '@emotion-icons/foundation'
 import * as heroiconsOutline from '@emotion-icons/heroicons-outline'
 import * as heroiconsSolid from '@emotion-icons/heroicons-solid'
@@ -353,6 +358,8 @@ The Evil Icons are licensed under the [MIT License](https://github.com/evil-icon
 The Font Awesome icons are licensed under the [CC BY 4.0 License](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt).
 
 The Feather icons are licensed under the [MIT License](https://github.com/feathericons/feather/blob/master/LICENSE).
+
+The FluentUI System icons are licensed under the [MIT License](https://github.com/microsoft/fluentui-system-icons/blob/master/LICENSE).
 
 The Foundation icons are licensed under the [MIT License](https://github.com/thecreation/standard-icons/blob/master/modules/foundation-icons/LICENSE).
 
