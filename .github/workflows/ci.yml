@@ -24,7 +24,6 @@ jobs:
       - run: yarn install --immutable
       - run: yarn build:icons
       - run: yarn chromatic --exit-once-uploaded --exit-zero-on-changes
-        if: github.actor != 'dependabot[bot]'
         working-directory: storybook/
         env:
           CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
