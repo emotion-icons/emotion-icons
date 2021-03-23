@@ -1,5 +1,11 @@
 # @emotion-icons/fluentui-system-filled
 
+## 3.13.0
+
+### Minor Changes
+
+- [#372](https://github.com/emotion-icons/emotion-icons/pull/372): Bump @svg-icons/fluentui-system-filled from 1.41.0 to 1.42.0 ([`218c2996`](https://github.com/emotion-icons/emotion-icons/commit/218c2996e5082dec9118ef610bad077db47bd662), [@dependabot](https://github.com/apps/dependabot))
+
 ## 3.12.0
 
 ### Minor Changes
