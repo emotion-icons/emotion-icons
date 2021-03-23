@@ -1943,7 +1943,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@emotion-icons/fa-solid@3.6.0, @emotion-icons/fa-solid@workspace:packages/@emotion-icons/fa-solid":
+"@emotion-icons/fa-solid@3.13.0, @emotion-icons/fa-solid@workspace:packages/@emotion-icons/fa-solid":
   version: 0.0.0-use.local
   resolution: "@emotion-icons/fa-solid@workspace:packages/@emotion-icons/fa-solid"
   dependencies:
@@ -1979,7 +1979,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@emotion-icons/fluentui-system-filled@3.12.0, @emotion-icons/fluentui-system-filled@workspace:packages/@emotion-icons/fluentui-system-filled":
+"@emotion-icons/fluentui-system-filled@3.13.0, @emotion-icons/fluentui-system-filled@workspace:packages/@emotion-icons/fluentui-system-filled":
   version: 0.0.0-use.local
   resolution: "@emotion-icons/fluentui-system-filled@workspace:packages/@emotion-icons/fluentui-system-filled"
   dependencies:
@@ -1997,7 +1997,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@emotion-icons/fluentui-system-regular@3.12.0, @emotion-icons/fluentui-system-regular@workspace:packages/@emotion-icons/fluentui-system-regular":
+"@emotion-icons/fluentui-system-regular@3.13.0, @emotion-icons/fluentui-system-regular@workspace:packages/@emotion-icons/fluentui-system-regular":
   version: 0.0.0-use.local
   resolution: "@emotion-icons/fluentui-system-regular@workspace:packages/@emotion-icons/fluentui-system-regular"
   dependencies:
@@ -2323,7 +2323,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@emotion-icons/simple-icons@3.11.0, @emotion-icons/simple-icons@workspace:packages/@emotion-icons/simple-icons":
+"@emotion-icons/simple-icons@3.13.0, @emotion-icons/simple-icons@workspace:packages/@emotion-icons/simple-icons":
   version: 0.0.0-use.local
   resolution: "@emotion-icons/simple-icons@workspace:packages/@emotion-icons/simple-icons"
   dependencies:
@@ -2360,7 +2360,7 @@ __metadata:
     "@types/react": ^17.0.3
     babel-loader: ^8.2.2
     chromatic: ^5.7.0
-    emotion-icons: 3.12.0
+    emotion-icons: 3.13.0
     fs-extra: ^9.1.0
     prettier: ^2.2.1
     react: ^17.0.1
@@ -2398,7 +2398,7 @@ __metadata:
     "@types/react-dom": ^17.0.3
     "@types/react-virtualized": ^9.21.11
     copy-to-clipboard: ^3.3.1
-    emotion-icons: 3.12.0
+    emotion-icons: 3.13.0
     history: ^5.0.0
     js-search: ^2.0.0
     next: ^10.0.9
@@ -7468,7 +7468,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emotion-icons@3.12.0, emotion-icons@workspace:packages/emotion-icons":
+"emotion-icons@3.13.0, emotion-icons@workspace:packages/emotion-icons":
   version: 0.0.0-use.local
   resolution: "emotion-icons@workspace:packages/emotion-icons"
   dependencies:
@@ -7486,10 +7486,10 @@ __metadata:
     "@emotion-icons/evil": 3.0.0
     "@emotion-icons/fa-brands": 3.6.0
     "@emotion-icons/fa-regular": 3.6.0
-    "@emotion-icons/fa-solid": 3.6.0
+    "@emotion-icons/fa-solid": 3.13.0
     "@emotion-icons/feather": 3.0.0
-    "@emotion-icons/fluentui-system-filled": 3.12.0
-    "@emotion-icons/fluentui-system-regular": 3.12.0
+    "@emotion-icons/fluentui-system-filled": 3.13.0
+    "@emotion-icons/fluentui-system-regular": 3.13.0
     "@emotion-icons/foundation": 3.8.0
     "@emotion-icons/heroicons-outline": 3.0.0
     "@emotion-icons/heroicons-solid": 3.0.0
@@ -7507,7 +7507,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.1
     "@emotion-icons/remix-fill": 3.0.0
     "@emotion-icons/remix-line": 3.0.0
-    "@emotion-icons/simple-icons": 3.11.0
+    "@emotion-icons/simple-icons": 3.13.0
     "@emotion-icons/typicons": 3.0.0
     "@emotion-icons/zondicons": 3.0.0
   peerDependencies:
