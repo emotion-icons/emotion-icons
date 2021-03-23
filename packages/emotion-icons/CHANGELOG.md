@@ -1,5 +1,15 @@
 # emotion-icons
 
+## 3.13.0
+
+### Patch Changes
+
+- Updated dependencies [[`97738fc9`](https://github.com/emotion-icons/emotion-icons/commit/97738fc9222a38572e924f8a01a28c4cbab19bb7), [`6d75e65d`](https://github.com/emotion-icons/emotion-icons/commit/6d75e65d73acbbcd67065e3960d7493f287fd56c), [`218c2996`](https://github.com/emotion-icons/emotion-icons/commit/218c2996e5082dec9118ef610bad077db47bd662), [`fd1cee07`](https://github.com/emotion-icons/emotion-icons/commit/fd1cee07392d37c18cf8dc7cd08be181d4819e5a)]:
+  - @emotion-icons/simple-icons@3.13.0
+  - @emotion-icons/fluentui-system-regular@3.13.0
+  - @emotion-icons/fluentui-system-filled@3.13.0
+  - @emotion-icons/fa-solid@3.13.0
+
 ## 3.12.0
 
 ### Minor Changes

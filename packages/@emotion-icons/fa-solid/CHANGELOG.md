@@ -1,5 +1,11 @@
 # @emotion-icons/fa-solid
 
+## 3.13.0
+
+### Minor Changes
+
+- [#374](https://github.com/emotion-icons/emotion-icons/pull/374): Bump @svg-icons/fa-solid from 1.39.1 to 1.42.0 ([`fd1cee07`](https://github.com/emotion-icons/emotion-icons/commit/fd1cee07392d37c18cf8dc7cd08be181d4819e5a), [@dependabot](https://github.com/apps/dependabot))
+
 ## 3.6.0
 
 ### Minor Changes
