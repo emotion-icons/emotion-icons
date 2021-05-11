@@ -2019,7 +2019,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.5
     "@emotion/styled": ^11.1.5
-    "@svg-icons/fluentui-system-regular": 1.42.0
+    "@svg-icons/fluentui-system-regular": 1.50.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3698,10 +3698,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/fluentui-system-regular@npm:1.42.0":
-  version: 1.42.0
-  resolution: "@svg-icons/fluentui-system-regular@npm:1.42.0"
-  checksum: cda1deee0e194b4e14fa986eb406cbeb9b66b553e2763d1fcb277ba36bbb34dec7d9fcc371292c1bf62506eed38a96adb8ca12f941e3fd163d759236c018dab6
+"@svg-icons/fluentui-system-regular@npm:1.50.0":
+  version: 1.50.0
+  resolution: "@svg-icons/fluentui-system-regular@npm:1.50.0"
+  checksum: 68752531bca09f7c0c6db001195c6639dc6b26c5a524b1e6598c4e4c7fa033f95c9142661944ee870d359f469669981054afa47906a0a40549f2d322a3b2afcd
   languageName: node
   linkType: hard
 
