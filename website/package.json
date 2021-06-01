@@ -16,7 +16,7 @@
     "start": "next dev"
   },
   "dependencies": {
-    "@emotion/react": "^11.1.5",
+    "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.1.5",
     "@loadable/component": "^5.14.1",
     "copy-to-clipboard": "^3.3.1",
