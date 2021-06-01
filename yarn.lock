@@ -1733,7 +1733,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.1.5
     "@emotion/styled": ^11.1.5
-    "@svg-icons/bootstrap": 1.40.0
+    "@svg-icons/bootstrap": 1.53.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3657,10 +3657,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/bootstrap@npm:1.40.0":
-  version: 1.40.0
-  resolution: "@svg-icons/bootstrap@npm:1.40.0"
-  checksum: a430f34332603dd7c1124aeb3df31e425597ff7d3d6beb87551244556657b666181228b012e7ab7718e09995d47ebe25ed3e0a18755f4221b4afe5ef5d0e6ced
+"@svg-icons/bootstrap@npm:1.53.0":
+  version: 1.53.0
+  resolution: "@svg-icons/bootstrap@npm:1.53.0"
+  checksum: 5cbed1eb79edd216761f84a2eab52476eaa0ad03ae132f5a1afa168f32e1ee8dbe18e386f9b9f5431a282b27af1d438ef8b3060ae76189713d191b7d35c74e62
   languageName: node
   linkType: hard
 
