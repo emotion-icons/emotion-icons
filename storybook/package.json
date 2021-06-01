@@ -32,7 +32,7 @@
     "@babel/preset-typescript": "^7.13.0",
     "@changesets/cli": "^2.15.0",
     "@storybook/addons": "^6.1.21",
-    "@storybook/react": "^6.1.21",
+    "@storybook/react": "^6.2.9",
     "@types/node": "^14.14.33",
     "@types/react": "^17.0.3",
     "babel-loader": "^8.2.2",
