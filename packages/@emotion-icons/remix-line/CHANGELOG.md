@@ -1,5 +1,12 @@
 # @emotion-icons/remix-line
 
+## 3.14.0
+
+### Patch Changes
+
+- Updated dependencies [[`22602317`](https://github.com/emotion-icons/emotion-icons/commit/22602317b414938da76253f7850f4a252cd91edb)]:
+  - @emotion-icons/emotion-icon@4.1.0
+
 ## 3.0.0
 
 ### Major Changes

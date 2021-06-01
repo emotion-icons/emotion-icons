@@ -1,5 +1,16 @@
 # @emotion-icons/ionicons-outline
 
+## 3.14.0
+
+### Minor Changes
+
+- [#461](https://github.com/emotion-icons/emotion-icons/pull/461): Update all package dependencies ([`22602317`](https://github.com/emotion-icons/emotion-icons/commit/22602317b414938da76253f7850f4a252cd91edb), [@icon-bot](https://github.com/icon-bot))
+
+### Patch Changes
+
+- Updated dependencies [[`22602317`](https://github.com/emotion-icons/emotion-icons/commit/22602317b414938da76253f7850f4a252cd91edb)]:
+  - @emotion-icons/emotion-icon@4.1.0
+
 ## 3.8.0
 
 ### Minor Changes

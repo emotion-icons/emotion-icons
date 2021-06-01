@@ -1,5 +1,47 @@
 # emotion-icons
 
+## 3.14.0
+
+### Patch Changes
+
+- Updated dependencies [[`22602317`](https://github.com/emotion-icons/emotion-icons/commit/22602317b414938da76253f7850f4a252cd91edb)]:
+  - @emotion-icons/bootstrap@3.14.0
+  - @emotion-icons/boxicons-logos@3.14.0
+  - @emotion-icons/boxicons-regular@3.14.0
+  - @emotion-icons/boxicons-solid@3.14.0
+  - @emotion-icons/crypto@3.14.0
+  - @emotion-icons/emotion-icon@4.1.0
+  - @emotion-icons/entypo-social@3.14.0
+  - @emotion-icons/entypo@3.14.0
+  - @emotion-icons/evaicons-outline@3.14.0
+  - @emotion-icons/evaicons-solid@3.14.0
+  - @emotion-icons/evil@3.14.0
+  - @emotion-icons/fa-brands@3.14.0
+  - @emotion-icons/fa-regular@3.14.0
+  - @emotion-icons/fa-solid@3.14.0
+  - @emotion-icons/feather@3.14.0
+  - @emotion-icons/fluentui-system-filled@3.14.0
+  - @emotion-icons/fluentui-system-regular@3.14.0
+  - @emotion-icons/foundation@3.14.0
+  - @emotion-icons/heroicons-outline@3.14.0
+  - @emotion-icons/heroicons-solid@3.14.0
+  - @emotion-icons/icomoon@3.14.0
+  - @emotion-icons/ionicons-outline@3.14.0
+  - @emotion-icons/ionicons-sharp@3.14.0
+  - @emotion-icons/ionicons-solid@3.14.0
+  - @emotion-icons/material-outlined@3.14.0
+  - @emotion-icons/material-rounded@3.14.0
+  - @emotion-icons/material-sharp@3.14.0
+  - @emotion-icons/material-twotone@3.14.0
+  - @emotion-icons/material@3.14.0
+  - @emotion-icons/octicons@3.14.0
+  - @emotion-icons/open-iconic@3.14.0
+  - @emotion-icons/remix-fill@3.14.0
+  - @emotion-icons/remix-line@3.14.0
+  - @emotion-icons/simple-icons@3.14.0
+  - @emotion-icons/typicons@3.14.0
+  - @emotion-icons/zondicons@3.14.0
+
 ## 3.13.0
 
 ### Patch Changes

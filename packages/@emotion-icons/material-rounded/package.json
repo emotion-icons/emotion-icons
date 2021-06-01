@@ -1,6 +1,6 @@
 {
   "name": "@emotion-icons/material-rounded",
-  "version": "3.8.0",
+  "version": "3.14.0",
   "license": "MIT",
   "description": "Material rounded icons available as Emotion React Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.14.0",
-    "@emotion-icons/emotion-icon": "4.0.0"
+    "@emotion-icons/emotion-icon": "4.1.0"
   },
   "peerDependencies": {
     "@emotion/react": ">=11.0.0 <12",
