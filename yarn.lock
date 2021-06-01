@@ -2406,7 +2406,7 @@ __metadata:
   dependencies:
     "@emotion/react": ^11.1.5
     "@emotion/styled": ^11.1.5
-    "@loadable/component": ^5.14.1
+    "@loadable/component": ^5.15.0
     "@types/js-search": ^1.4.0
     "@types/react-dom": ^17.0.3
     "@types/react-virtualized": ^9.21.11
@@ -2760,16 +2760,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@loadable/component@npm:^5.14.1":
-  version: 5.14.1
-  resolution: "@loadable/component@npm:5.14.1"
+"@loadable/component@npm:^5.15.0":
+  version: 5.15.0
+  resolution: "@loadable/component@npm:5.15.0"
   dependencies:
     "@babel/runtime": ^7.7.7
     hoist-non-react-statics: ^3.3.1
     react-is: ^16.12.0
   peerDependencies:
     react: ">=16.3.0"
-  checksum: 073b1752c1a3dedf039364f05acfd2fbc4371d8d15ddb129fe761cf126a10087b5a399f5d223cba715c8298812c35df8bfe8573f9c461f465ae5e65f944e7aa3
+  checksum: 6512784fdb1e779e708b19078bebdb2cc716690a83814d69ce058253c9a48f5d264d73da01b48d38c94920e6a1004c9f5a8c141058c771622d3ef31af923976f
   languageName: node
   linkType: hard
 
