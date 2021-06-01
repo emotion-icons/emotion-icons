@@ -40,7 +40,7 @@
     "@changesets/cli": "^2.16.0",
     "@emotion/babel-plugin": "^11.3.0",
     "@monorepolint/cli": "^0.5.0-alpha.52",
-    "@monorepolint/core": "0.5.0-alpha.52",
+    "@monorepolint/core": "0.5.0-alpha.53",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.8",
     "npm-check-updates": "^11.6.0",
