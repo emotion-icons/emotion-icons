@@ -33,12 +33,12 @@
     "@changesets/cli": "^2.16.0",
     "@storybook/addons": "^6.2.9",
     "@storybook/react": "^6.2.9",
-    "@types/node": "^15.6.1",
+    "@types/node": "^15.12.1",
     "@types/react": "^17.0.9",
     "babel-loader": "^8.2.2",
     "chromatic": "^5.9.0",
     "fs-extra": "^10.0.0",
-    "prettier": "^2.3.0",
+    "prettier": "^2.3.1",
     "wsrun": "^5.2.4"
   }
 }

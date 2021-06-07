@@ -2353,7 +2353,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@emotion-icons/pack-builder@workspace:tools/builder"
   dependencies:
-    execa: ^5.0.1
+    execa: ^5.1.1
     fast-case: ^1.6.0
     fast-glob: ^3.2.5
     fs-extra: ^10.0.0
@@ -2438,13 +2438,13 @@ __metadata:
     "@emotion/styled": ^11.3.0
     "@storybook/addons": ^6.2.9
     "@storybook/react": ^6.2.9
-    "@types/node": ^15.6.1
+    "@types/node": ^15.12.1
     "@types/react": ^17.0.9
     babel-loader: ^8.2.2
     chromatic: ^5.9.0
     emotion-icons: 3.14.0
     fs-extra: ^10.0.0
-    prettier: ^2.3.0
+    prettier: ^2.3.1
     react: ^17.0.2
     react-dom: ^17.0.2
     wsrun: ^5.2.4
@@ -4337,7 +4337,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>= 8, @types/node@npm:^15.6.1":
+"@types/node@npm:*, @types/node@npm:>= 8":
   version: 15.6.1
   resolution: "@types/node@npm:15.6.1"
   checksum: 07b3855bc0a1ba2215455a3ef4ed5e88711321b3cdc0ba1ea0286f6facbdf61530970b9fa7eec79eb1d46231f986c21ef3b7c1f1e0c365cf1b887d76b0addb86
@@ -4355,6 +4355,13 @@ __metadata:
   version: 14.17.1
   resolution: "@types/node@npm:14.17.1"
   checksum: 3ab1180ff2579f4039aa2416087df03e4e8b5f930b64e024ad2b2ae73e546f6054c3bae0324180d425944c7c408c02fdf6ca71f5a265ed05f28aeaae0a2c3599
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^15.12.1":
+  version: 15.12.1
+  resolution: "@types/node@npm:15.12.1"
+  checksum: 8a111dc99281e07b1a6408437a09eafb081760aa8bd73d481793345b302a565772c45f2be7fdd7386a8a7ce589a999ccfb513dba15a0b3320dba03c94308253f
   languageName: node
   linkType: hard
 
@@ -8170,7 +8177,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:^5.0.0, execa@npm:^5.0.1":
+"execa@npm:^5.0.0":
   version: 5.0.1
   resolution: "execa@npm:5.0.1"
   dependencies:
@@ -8184,6 +8191,23 @@ __metadata:
     signal-exit: ^3.0.3
     strip-final-newline: ^2.0.0
   checksum: f80f4bdf0a6192e66a36279b739730a7f706f49b49a8ca7fbad504756c972b375716cc6521ffa95fc0098906dac73d1d9346c74a1332fc0079c05e6bb21f08a2
+  languageName: node
+  linkType: hard
+
+"execa@npm:^5.1.1":
+  version: 5.1.1
+  resolution: "execa@npm:5.1.1"
+  dependencies:
+    cross-spawn: ^7.0.3
+    get-stream: ^6.0.0
+    human-signals: ^2.1.0
+    is-stream: ^2.0.0
+    merge-stream: ^2.0.0
+    npm-run-path: ^4.0.1
+    onetime: ^5.1.2
+    signal-exit: ^3.0.3
+    strip-final-newline: ^2.0.0
+  checksum: 4286ade8cdb267bfb982bddbf894a58df29ff4f3bb871252a4832c4608e485dd71e5a8bbfde9f95d7db4af864f5de1aa6a1780017217bd946a16409b8e022987
   languageName: node
   linkType: hard
 
@@ -13281,12 +13305,12 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "prettier@npm:2.3.0"
+"prettier@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "prettier@npm:2.3.1"
   bin:
     prettier: bin-prettier.js
-  checksum: 652640cc8b71bc5277cfb8bf6f161783ca588efcf683c3d630837b39da8d57fef35c9e00ae5855a8e3c75136c42274046c913cc2b2d2968558315f31c6a26981
+  checksum: 9b4a695b87ce5f510fc20feec01cce7371f0fa0b92ffe79d543f6be52e2004c532861629de4d7ab1c577e1f649dce3cfccd62cb2ca6526b1da8d9c63eb84bf36
   languageName: node
   linkType: hard
 
@@ -14455,11 +14479,11 @@ fsevents@~2.3.1:
     "@emotion/babel-plugin": ^11.3.0
     "@monorepolint/cli": ^0.5.0-alpha.53
     "@monorepolint/core": 0.5.0-alpha.53
-    "@types/node": ^15.6.1
+    "@types/node": ^15.12.1
     "@types/react": ^17.0.9
     npm-check-updates: ^11.6.0
     npm-run-all: ^4.1.5
-    prettier: ^2.3.0
+    prettier: ^2.3.1
     typescript: ^4.2.3
     wsrun: ^5.2.4
   languageName: unknown
