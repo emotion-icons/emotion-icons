@@ -2441,7 +2441,7 @@ __metadata:
     "@types/node": ^15.12.1
     "@types/react": ^17.0.9
     babel-loader: ^8.2.2
-    chromatic: ^5.9.0
+    chromatic: ^5.9.2
     emotion-icons: 3.14.0
     fs-extra: ^10.0.0
     prettier: ^2.3.1
@@ -4337,10 +4337,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>= 8":
-  version: 15.6.1
-  resolution: "@types/node@npm:15.6.1"
-  checksum: 07b3855bc0a1ba2215455a3ef4ed5e88711321b3cdc0ba1ea0286f6facbdf61530970b9fa7eec79eb1d46231f986c21ef3b7c1f1e0c365cf1b887d76b0addb86
+"@types/node@npm:*, @types/node@npm:>= 8, @types/node@npm:^15.12.1":
+  version: 15.12.1
+  resolution: "@types/node@npm:15.12.1"
+  checksum: 8a111dc99281e07b1a6408437a09eafb081760aa8bd73d481793345b302a565772c45f2be7fdd7386a8a7ce589a999ccfb513dba15a0b3320dba03c94308253f
   languageName: node
   linkType: hard
 
@@ -4355,13 +4355,6 @@ __metadata:
   version: 14.17.1
   resolution: "@types/node@npm:14.17.1"
   checksum: 3ab1180ff2579f4039aa2416087df03e4e8b5f930b64e024ad2b2ae73e546f6054c3bae0324180d425944c7c408c02fdf6ca71f5a265ed05f28aeaae0a2c3599
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^15.12.1":
-  version: 15.12.1
-  resolution: "@types/node@npm:15.12.1"
-  checksum: 8a111dc99281e07b1a6408437a09eafb081760aa8bd73d481793345b302a565772c45f2be7fdd7386a8a7ce589a999ccfb513dba15a0b3320dba03c94308253f
   languageName: node
   linkType: hard
 
@@ -6253,9 +6246,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:^5.9.0":
-  version: 5.9.0
-  resolution: "chromatic@npm:5.9.0"
+"chromatic@npm:^5.9.2":
+  version: 5.9.2
+  resolution: "chromatic@npm:5.9.2"
   dependencies:
     "@actions/core": ^1.2.4
     "@actions/github": ^4.0.0
@@ -6298,7 +6291,7 @@ __metadata:
     chroma: bin/register.js
     chromatic: bin/register.js
     chromatic-cli: bin/register.js
-  checksum: d6ecd218b344d32547a1049010cec5f1dd63063c8dff88ed4bd7e3f04cc035207ce6ce52c15528b72b86c7f0955f7966df7dd8685d04dcdf49e0b121d213da3d
+  checksum: 18f62ea7b3efed6a8cb70026ee1d08bc50413fbf7f11c583dabb5bc099142e425a920ce8acf3f03d01553b4fcd928e801e38688483a49614fa610fc6615e7ad7
   languageName: node
   linkType: hard
 
@@ -8177,24 +8170,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:^5.0.0":
-  version: 5.0.1
-  resolution: "execa@npm:5.0.1"
-  dependencies:
-    cross-spawn: ^7.0.3
-    get-stream: ^6.0.0
-    human-signals: ^2.1.0
-    is-stream: ^2.0.0
-    merge-stream: ^2.0.0
-    npm-run-path: ^4.0.1
-    onetime: ^5.1.2
-    signal-exit: ^3.0.3
-    strip-final-newline: ^2.0.0
-  checksum: f80f4bdf0a6192e66a36279b739730a7f706f49b49a8ca7fbad504756c972b375716cc6521ffa95fc0098906dac73d1d9346c74a1332fc0079c05e6bb21f08a2
-  languageName: node
-  linkType: hard
-
-"execa@npm:^5.1.1":
+"execa@npm:^5.0.0, execa@npm:^5.1.1":
   version: 5.1.1
   resolution: "execa@npm:5.1.1"
   dependencies:
