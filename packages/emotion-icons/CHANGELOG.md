@@ -1,5 +1,15 @@
 # emotion-icons
 
+## 3.15.0
+
+### Patch Changes
+
+- Updated dependencies [[`ceeab293`](https://github.com/emotion-icons/emotion-icons/commit/ceeab293ccd7a74cb9366eda733fc42ac6b1aa44)]:
+  - @emotion-icons/fluentui-system-filled@3.15.0
+  - @emotion-icons/fluentui-system-regular@3.15.0
+  - @emotion-icons/octicons@3.15.0
+  - @emotion-icons/simple-icons@3.15.0
+
 ## 3.14.0
 
 ### Patch Changes
