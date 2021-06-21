@@ -1,6 +1,5 @@
 import * as React from 'react'
 import styled from '@emotion/styled'
-import validProp from '@emotion/is-prop-valid'
 
 export type EmotionIcon = React.ForwardRefExoticComponent<
   React.PropsWithoutRef<EmotionIconProps> & React.RefAttributes<SVGSVGElement>
