@@ -1,5 +1,12 @@
 # @emotion-icons/website
 
+## 3.0.15
+
+### Patch Changes
+
+- Updated dependencies []:
+  - emotion-icons@3.15.0
+
 ## 3.0.14
 
 ### Patch Changes
