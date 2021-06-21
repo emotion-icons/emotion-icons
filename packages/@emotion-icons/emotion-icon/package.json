@@ -24,7 +24,8 @@
     "clean": "ALLOWED_FILES=index.tsx clean-package"
   },
   "dependencies": {
-    "@babel/runtime": "^7.14.6"
+    "@babel/runtime": "^7.14.6",
+    "@emotion/is-prop-valid": "^1.1.0"
   },
   "peerDependencies": {
     "@emotion/react": ">=11.0.0 <12",
