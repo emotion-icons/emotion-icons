@@ -1,0 +1,6 @@
+packages:
+  - packages/*
+  - packages/@emotion-icons/*
+  - storybook
+  - tools/*
+  - website

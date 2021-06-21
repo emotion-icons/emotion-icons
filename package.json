@@ -15,19 +15,19 @@
     "trailingComma": "all"
   },
   "scripts": {
-    "build": "yarn build:icons && yarn build:website",
-    "build:icons": "yarn generate && run-p 'build:icons:*' && yarn generate:pkg",
-    "build:icons:cjs": "env BABEL_ENV=legacy yarn babel packages --extensions '.ts,.tsx' --out-dir packages",
-    "build:icons:esm": "env BABEL_ENV=modern yarn babel packages --extensions '.ts,.tsx' --out-dir packages --out-file-extension .esm.js",
-    "build:icons:typescript": "yarn tsc --emitDeclarationOnly",
-    "build:website": "wsrun -p @emotion-icons/website -c build",
-    "clean": "wsrun -m -c clean",
+    "build": "pnpm build:icons && pnpm build:website",
+    "build:icons": "pnpm generate && run-p 'build:icons:*' && pnpm generate:pkg",
+    "build:icons:cjs": "env BABEL_ENV=legacy pnpm babel packages --extensions '.ts,.tsx' --out-dir packages",
+    "build:icons:esm": "env BABEL_ENV=modern pnpm babel packages --extensions '.ts,.tsx' --out-dir packages --out-file-extension .esm.js",
+    "build:icons:typescript": "pnpm tsc --emitDeclarationOnly",
+    "build:website": "pnpm run --filter @emotion-icons/website build",
+    "clean": "pnpm run -r clean",
     "fmt": "prettier --write './**/*.{ts,tsx,js,md,json}'",
     "fmt:check": "prettier --list-different './**/*.{ts,tsx,js,md,json}'",
-    "generate": "yarn wsrun -t -m -c generate",
+    "generate": "pnpm run -r generate",
     "generate:pkg": "node ./tools/replace-built-pkg.js",
-    "release": "yarn build:icons && yarn changeset publish",
-    "update-all": "ncu -u -p yarn --deep --dep dev,optional,prod,bundle --reject typescript && yarn"
+    "release": "pnpm build:icons && pnpm changeset publish",
+    "update-all": "ncu -u -p pnpm --deep --dep dev,optional,prod,bundle --reject typescript && pnpm i"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.5",
@@ -46,7 +46,6 @@
     "npm-check-updates": "^11.7.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.3.1",
-    "typescript": "^4.2.3",
-    "wsrun": "^5.2.4"
+    "typescript": "^4.2.3"
   }
 }
