@@ -48,7 +48,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/bootstrap': 1.53.0
       react: ^17.0.2
     dependencies:
@@ -57,7 +56,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/bootstrap': 1.53.0
       react: 17.0.2
 
@@ -67,7 +65,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/boxicons-logos': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -76,7 +73,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/boxicons-logos': 1.39.1
       react: 17.0.2
 
@@ -86,7 +82,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/boxicons-regular': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -95,7 +90,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/boxicons-regular': 1.39.1
       react: 17.0.2
 
@@ -105,7 +99,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/boxicons-solid': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -114,7 +107,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/boxicons-solid': 1.39.1
       react: 17.0.2
 
@@ -124,7 +116,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/crypto': 1.53.0
       react: ^17.0.2
     dependencies:
@@ -133,7 +124,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/crypto': 1.53.0
       react: 17.0.2
 
@@ -142,14 +132,12 @@ importers:
       '@babel/runtime': ^7.14.6
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       react: ^17.0.2
     dependencies:
       '@babel/runtime': 7.14.6
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       react: 17.0.2
 
   packages/@emotion-icons/entypo:
@@ -158,7 +146,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/entypo': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -167,7 +154,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/entypo': 1.39.1
       react: 17.0.2
 
@@ -177,7 +163,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/entypo-social': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -186,7 +171,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/entypo-social': 1.39.1
       react: 17.0.2
 
@@ -196,7 +180,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/evaicons-outline': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -205,7 +188,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/evaicons-outline': 1.39.1
       react: 17.0.2
 
@@ -215,7 +197,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/evaicons-solid': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -224,7 +205,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/evaicons-solid': 1.39.1
       react: 17.0.2
 
@@ -234,7 +214,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/evil': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -243,7 +222,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/evil': 1.39.1
       react: 17.0.2
 
@@ -253,7 +231,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/fa-brands': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -262,7 +239,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/fa-brands': 1.39.1
       react: 17.0.2
 
@@ -272,7 +248,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/fa-regular': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -281,7 +256,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/fa-regular': 1.39.1
       react: 17.0.2
 
@@ -291,7 +265,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/fa-solid': 1.42.0
       react: ^17.0.2
     dependencies:
@@ -300,7 +273,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/fa-solid': 1.42.0
       react: 17.0.2
 
@@ -310,7 +282,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/feather': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -319,7 +290,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/feather': 1.39.1
       react: 17.0.2
 
@@ -329,7 +299,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/fluentui-system-filled': 1.60.0
       react: ^17.0.2
     dependencies:
@@ -338,7 +307,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/fluentui-system-filled': 1.60.0
       react: 17.0.2
 
@@ -348,7 +316,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/fluentui-system-regular': 1.60.0
       react: ^17.0.2
     dependencies:
@@ -357,7 +324,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/fluentui-system-regular': 1.60.0
       react: 17.0.2
 
@@ -367,7 +333,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/foundation': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -376,7 +341,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/foundation': 1.39.1
       react: 17.0.2
 
@@ -386,7 +350,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/heroicons-outline': 1.50.0
       react: ^17.0.2
     dependencies:
@@ -395,7 +358,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/heroicons-outline': 1.50.0
       react: 17.0.2
 
@@ -405,7 +367,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/heroicons-solid': 1.50.0
       react: ^17.0.2
     dependencies:
@@ -414,7 +375,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/heroicons-solid': 1.50.0
       react: 17.0.2
 
@@ -424,7 +384,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/icomoon': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -433,7 +392,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/icomoon': 1.39.1
       react: 17.0.2
 
@@ -443,7 +401,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/ionicons-outline': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -452,7 +409,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/ionicons-outline': 1.39.1
       react: 17.0.2
 
@@ -462,7 +418,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/ionicons-sharp': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -471,7 +426,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/ionicons-sharp': 1.39.1
       react: 17.0.2
 
@@ -481,7 +435,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/ionicons-solid': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -490,7 +443,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/ionicons-solid': 1.39.1
       react: 17.0.2
 
@@ -500,7 +452,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/material-filled': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -509,7 +460,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/material-filled': 1.39.1
       react: 17.0.2
 
@@ -519,7 +469,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/material-outlined': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -528,7 +477,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/material-outlined': 1.39.1
       react: 17.0.2
 
@@ -538,7 +486,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/material-rounded': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -547,7 +494,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/material-rounded': 1.39.1
       react: 17.0.2
 
@@ -557,7 +503,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/material-sharp': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -566,7 +511,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/material-sharp': 1.39.1
       react: 17.0.2
 
@@ -576,7 +520,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/material-twotone': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -585,7 +528,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/material-twotone': 1.39.1
       react: 17.0.2
 
@@ -595,7 +537,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/octicons': 1.58.0
       react: ^17.0.2
     dependencies:
@@ -604,7 +545,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/octicons': 1.58.0
       react: 17.0.2
 
@@ -614,7 +554,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/open-iconic': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -623,7 +562,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/open-iconic': 1.39.1
       react: 17.0.2
 
@@ -633,7 +571,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/remix-fill': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -642,7 +579,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/remix-fill': 1.39.1
       react: 17.0.2
 
@@ -652,7 +588,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/remix-line': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -661,7 +596,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/remix-line': 1.39.1
       react: 17.0.2
 
@@ -671,7 +605,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/simple-icons': 1.59.0
       react: ^17.0.2
     dependencies:
@@ -680,7 +613,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/simple-icons': 1.59.0
       react: 17.0.2
 
@@ -690,7 +622,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/typicons': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -699,7 +630,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/typicons': 1.39.1
       react: 17.0.2
 
@@ -709,7 +639,6 @@ importers:
       '@emotion-icons/emotion-icon': 4.1.0
       '@emotion-icons/pack-builder': ^2.0.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@svg-icons/zondicons': 1.39.1
       react: ^17.0.2
     dependencies:
@@ -718,7 +647,6 @@ importers:
     devDependencies:
       '@emotion-icons/pack-builder': link:../../../tools/builder
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       '@svg-icons/zondicons': 1.39.1
       react: 17.0.2
 
@@ -813,7 +741,6 @@ importers:
       '@babel/preset-typescript': ^7.14.5
       '@changesets/cli': ^2.16.0
       '@emotion/react': ^11.4.0
-      '@emotion/styled': ^11.3.0
       '@storybook/addons': ^6.2.9
       '@storybook/react': ^6.2.9
       '@types/node': ^15.12.4
@@ -828,7 +755,6 @@ importers:
       wsrun: ^5.2.4
     dependencies:
       '@emotion/react': 11.4.0_81862478866c67faf6c62f3dd0cd029f
-      '@emotion/styled': 11.3.0_9040e47581cdc4ea30d85a9c9daeae52
       emotion-icons: link:../packages/emotion-icons
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -2575,6 +2501,7 @@ packages:
     resolution: {integrity: sha512-9RkilvXAufQHsSsjQ3PIzSns+pxuX4EW8EbGeSPjZMHuMx6z/MOzb9LpqNieQX4F3mre3NWS2+X3JNRHTQztUQ==}
     dependencies:
       '@emotion/memoize': 0.7.5
+    dev: false
 
   /@emotion/memoize/0.7.4:
     resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
@@ -2680,6 +2607,7 @@ packages:
       '@emotion/utils': 1.0.0
       '@types/react': 17.0.11
       react: 17.0.2
+    dev: false
 
   /@emotion/stylis/0.8.5:
     resolution: {integrity: sha512-h6KtPihKFn3T9fuIrwvXXUOwlx3rfUvfZIcP5a6rh8Y7zjE3O06hT5Ss4S/YI1AYhuZ1kjaE/5EaOOI2NqSylQ==}

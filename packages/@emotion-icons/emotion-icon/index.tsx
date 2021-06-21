@@ -1,5 +1,5 @@
 import * as React from 'react'
-import styled from '@emotion/styled'
+import {css} from '@emotion/react'
 
 export type EmotionIcon = React.ForwardRefExoticComponent<
   React.PropsWithoutRef<EmotionIconProps> & React.RefAttributes<SVGSVGElement>
@@ -16,30 +16,32 @@ interface EmotionIconBaseProps {
   iconVerticalAlign: string
 }
 
-const EmotionIconBaseBase = React.forwardRef<SVGSVGElement, EmotionIconProps & EmotionIconBaseProps>((props, ref) => {
-  const {children, iconAttrs, iconVerticalAlign, iconViewBox, size, title, ...otherProps} = props
+export const EmotionIconBase = React.forwardRef<SVGSVGElement, EmotionIconProps & EmotionIconBaseProps>(
+  (props, ref) => {
+    const {children, className, iconAttrs, iconVerticalAlign, iconViewBox, size, title, ...otherProps} = props
 
-  const iconProps: React.SVGProps<SVGSVGElement> = {
-    viewBox: iconViewBox,
-    height: props.height !== undefined ? props.height : size,
-    width: props.width !== undefined ? props.width : size,
-    'aria-hidden': title == null ? 'true' : undefined,
-    focusable: 'false',
-    role: title != null ? 'img' : undefined,
-    ...iconAttrs,
-    ...otherProps,
-  }
+    const iconProps: React.SVGProps<SVGSVGElement> = {
+      viewBox: iconViewBox,
+      height: props.height !== undefined ? props.height : size,
+      width: props.width !== undefined ? props.width : size,
+      'aria-hidden': title == null ? 'true' : undefined,
+      focusable: 'false',
+      role: title != null ? 'img' : undefined,
+      ...iconAttrs,
+      ...otherProps,
+    }
 
-  return (
-    <svg {...iconProps} ref={ref}>
-      {title && <title key="icon-title">{title}</title>}
-      {children}
-    </svg>
-  )
-})
+    const baseClassName = css({
+      display: 'inline-block',
+      verticalAlign: iconVerticalAlign,
+      overflow: 'hidden',
+    })
 
-export const EmotionIconBase = styled(EmotionIconBaseBase)`
-  display: inline-block;
-  vertical-align: ${(props) => props.iconVerticalAlign};
-  overflow: hidden;
-`
+    return (
+      <svg {...iconProps} className={className ? `${baseClassName.name} ${className}` : baseClassName.name} ref={ref}>
+        {title && <title key="icon-title">{title}</title>}
+        {children}
+      </svg>
+    )
+  },
+)
