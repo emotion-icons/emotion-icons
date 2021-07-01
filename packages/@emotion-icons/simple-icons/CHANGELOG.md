@@ -1,5 +1,11 @@
 # @emotion-icons/simple-icons
 
+## 3.16.0
+
+### Minor Changes
+
+- [#496](https://github.com/emotion-icons/emotion-icons/pull/496): Update @svg-icons/simple-icons to v1.61.0 ([`57c2f6b8`](https://github.com/emotion-icons/emotion-icons/commit/57c2f6b806383cb6bac0823a4f15c4c4e8663c63), [@icon-bot](https://github.com/icon-bot))
+
 ## 3.15.0
 
 ### Minor Changes
