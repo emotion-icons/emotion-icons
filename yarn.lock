@@ -2532,7 +2532,7 @@ __metadata:
     "@emotion/styled": ^11.3.0
     "@loadable/component": ^5.15.0
     "@types/js-search": ^1.4.0
-    "@types/react-dom": ^17.0.8
+    "@types/react-dom": ^17.0.9
     "@types/react-virtualized": ^9.21.11
     copy-to-clipboard: ^3.3.1
     emotion-icons: 3.16.0
@@ -4580,12 +4580,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^17.0.8":
-  version: 17.0.8
-  resolution: "@types/react-dom@npm:17.0.8"
+"@types/react-dom@npm:^17.0.9":
+  version: 17.0.9
+  resolution: "@types/react-dom@npm:17.0.9"
   dependencies:
     "@types/react": "*"
-  checksum: 3859a6e06ec4545319c159ea71814beb3822801f0d4c41219855258557722cbcec8b5fba84551489169ec228b8817b4c05a8ef0dc87eb2bafb4d1431d1af9608
+  checksum: 82da85bcfba524fb83946df50e433b8cc942dd30f5f3f6e0756816960ce4b85db6faa2da9f2b83124087fbe0d124580edf7b1017628b78fb28fee057e91512cb
   languageName: node
   linkType: hard
 
