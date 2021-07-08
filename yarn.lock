@@ -2533,7 +2533,7 @@ __metadata:
     "@loadable/component": ^5.15.0
     "@types/js-search": ^1.4.0
     "@types/react-dom": ^17.0.8
-    "@types/react-virtualized": ^9.21.11
+    "@types/react-virtualized": ^9.21.12
     copy-to-clipboard: ^3.3.1
     emotion-icons: 3.16.0
     history: ^5.0.0
@@ -4598,13 +4598,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-virtualized@npm:^9.21.11":
-  version: 9.21.11
-  resolution: "@types/react-virtualized@npm:9.21.11"
+"@types/react-virtualized@npm:^9.21.12":
+  version: 9.21.12
+  resolution: "@types/react-virtualized@npm:9.21.12"
   dependencies:
     "@types/prop-types": "*"
     "@types/react": "*"
-  checksum: 5a030f4be21fe114371b29b315021891a02fd6c6035dcbe7f2eb77dd6f9e78a521e791fab8a24c5b3c5754337e6cca5119635eb6f2c9c70a1550fa61e608030f
+  checksum: 208907d89741c196fc7e9a9b10c5c527585cfbee07aa407e32fb519dbf75935b9d1e5963b833c46f8a30dade93294c798c697d15b83795011abb64a73cc01df8
   languageName: node
   linkType: hard
 
