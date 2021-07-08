@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@types/js-search": "^1.4.0",
-    "@types/react-dom": "^17.0.8",
+    "@types/react-dom": "^17.0.9",
     "@types/react-virtualized": "^9.21.11",
     "next": "^11.0.1"
   }
