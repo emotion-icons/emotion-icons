@@ -2460,7 +2460,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@emotion-icons/simple-icons@3.16.0, @emotion-icons/simple-icons@workspace:packages/@emotion-icons/simple-icons":
+"@emotion-icons/simple-icons@3.17.0, @emotion-icons/simple-icons@workspace:packages/@emotion-icons/simple-icons":
   version: 0.0.0-use.local
   resolution: "@emotion-icons/simple-icons@workspace:packages/@emotion-icons/simple-icons"
   dependencies:
@@ -2497,7 +2497,7 @@ __metadata:
     "@types/react": ^17.0.14
     babel-loader: ^8.2.2
     chromatic: ^5.9.2
-    emotion-icons: 3.16.0
+    emotion-icons: 3.17.0
     fs-extra: ^10.0.0
     prettier: ^2.3.2
     react: ^17.0.2
@@ -2535,7 +2535,7 @@ __metadata:
     "@types/react-dom": ^17.0.9
     "@types/react-virtualized": ^9.21.12
     copy-to-clipboard: ^3.3.1
-    emotion-icons: 3.16.0
+    emotion-icons: 3.17.0
     history: ^5.0.0
     js-search: ^2.0.0
     next: ^11.0.1
@@ -4494,10 +4494,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>= 8":
-  version: 15.12.5
-  resolution: "@types/node@npm:15.12.5"
-  checksum: 42485de7a0b7277ddaae25b36ab4174fc8f23e8a5de9ccaedd002ecec17135c48227a5e09088d181c2bc34fe6b2064feb4a468954372076fd8addac2f72dad7e
+"@types/node@npm:*, @types/node@npm:>= 8, @types/node@npm:^16.3.1":
+  version: 16.3.1
+  resolution: "@types/node@npm:16.3.1"
+  checksum: 2021138afd66a9235f4b64e412dd8a8d1199f3d17303c2868ab062a10214ba76b793bf4f59e14c3bf981623e099843855776390b445d840779cb171c2fcb97a9
   languageName: node
   linkType: hard
 
@@ -4512,13 +4512,6 @@ __metadata:
   version: 14.17.1
   resolution: "@types/node@npm:14.17.1"
   checksum: 3ab1180ff2579f4039aa2416087df03e4e8b5f930b64e024ad2b2ae73e546f6054c3bae0324180d425944c7c408c02fdf6ca71f5a265ed05f28aeaae0a2c3599
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^16.3.1":
-  version: 16.3.1
-  resolution: "@types/node@npm:16.3.1"
-  checksum: 2021138afd66a9235f4b64e412dd8a8d1199f3d17303c2868ab062a10214ba76b793bf4f59e14c3bf981623e099843855776390b445d840779cb171c2fcb97a9
   languageName: node
   linkType: hard
 
@@ -4615,18 +4608,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
-  version: 17.0.11
-  resolution: "@types/react@npm:17.0.11"
-  dependencies:
-    "@types/prop-types": "*"
-    "@types/scheduler": "*"
-    csstype: ^3.0.2
-  checksum: ed2b57e44e8da99b13a7b0cd7d9d9159e3113a5160e25c9deae4f577cfb87f05103b54bb0e9722f48a7db3ddb3a836ade12b971bbc338d397b719886fb81efff
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:^17.0.14":
+"@types/react@npm:*, @types/react@npm:^17.0.14":
   version: 17.0.14
   resolution: "@types/react@npm:17.0.14"
   dependencies:
@@ -7986,7 +7968,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emotion-icons@3.16.0, emotion-icons@workspace:packages/emotion-icons":
+"emotion-icons@3.17.0, emotion-icons@workspace:packages/emotion-icons":
   version: 0.0.0-use.local
   resolution: "emotion-icons@workspace:packages/emotion-icons"
   dependencies:
@@ -8025,7 +8007,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.1
     "@emotion-icons/remix-fill": 3.14.0
     "@emotion-icons/remix-line": 3.14.0
-    "@emotion-icons/simple-icons": 3.16.0
+    "@emotion-icons/simple-icons": 3.17.0
     "@emotion-icons/typicons": 3.14.0
     "@emotion-icons/zondicons": 3.14.0
   peerDependencies:
@@ -8620,20 +8602,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.1.1":
-  version: 3.2.6
-  resolution: "fast-glob@npm:3.2.6"
-  dependencies:
-    "@nodelib/fs.stat": ^2.0.2
-    "@nodelib/fs.walk": ^1.2.3
-    glob-parent: ^5.1.2
-    merge2: ^1.3.0
-    micromatch: ^4.0.4
-  checksum: 0ba488ef503d250e1881bad5d01bc1393d6ca5b1243d354c9a2c8ec2b36771179b11f3e2d4e607a454aac8f9bb29682f0c0208f6cc87b6975bb82067a54960b2
-  languageName: node
-  linkType: hard
-
-"fast-glob@npm:^3.2.7":
+"fast-glob@npm:^3.1.1, fast-glob@npm:^3.2.7":
   version: 3.2.7
   resolution: "fast-glob@npm:3.2.7"
   dependencies:
