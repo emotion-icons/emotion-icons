@@ -37,7 +37,7 @@
     "@emotion-icons/pack-builder": "^2.0.0",
     "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.3.0",
-    "@svg-icons/heroicons-solid": "1.50.0",
+    "@svg-icons/heroicons-solid": "1.64.0",
     "react": "^17.0.2"
   }
 }
