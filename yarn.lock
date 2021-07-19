@@ -2179,7 +2179,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/heroicons-outline": 1.50.0
+    "@svg-icons/heroicons-outline": 1.64.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -2197,7 +2197,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/heroicons-solid": 1.50.0
+    "@svg-icons/heroicons-solid": 1.64.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -2469,7 +2469,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/simple-icons": 1.62.0
+    "@svg-icons/simple-icons": 1.63.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -2493,7 +2493,7 @@ __metadata:
     "@emotion/styled": ^11.3.0
     "@storybook/addons": ^6.3.4
     "@storybook/react": ^6.3.4
-    "@types/node": ^16.3.1
+    "@types/node": ^16.3.3
     "@types/react": ^17.0.14
     babel-loader: ^8.2.2
     chromatic: ^5.9.2
@@ -4152,17 +4152,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/heroicons-outline@npm:1.50.0":
-  version: 1.50.0
-  resolution: "@svg-icons/heroicons-outline@npm:1.50.0"
-  checksum: 340a71f8a1182c191026951e34029a61a49912d82eed9d53547c95c56612f7c6e72768088cb9cc67be3ec08ac9e5cd8c1fcc35a9ae2efcab78f1ff29f3e55882
+"@svg-icons/heroicons-outline@npm:1.64.0":
+  version: 1.64.0
+  resolution: "@svg-icons/heroicons-outline@npm:1.64.0"
+  checksum: 2d4255912e3c1f285ad08c642375a9f8cb75c4bb2fec3c4fbc08d94e272405d9dba8e0e2e36bccb38b47f1812007c100418350814c00e10f26a50c2bb302397a
   languageName: node
   linkType: hard
 
-"@svg-icons/heroicons-solid@npm:1.50.0":
-  version: 1.50.0
-  resolution: "@svg-icons/heroicons-solid@npm:1.50.0"
-  checksum: 199575094bd63aa354937f8ac32f6c5ccbc21d383e60e3dd77b59dadf0c0712ffcdecfef27d64559f5a281201fe639d0b730ad9624dd7a9b5f91a733d85b1246
+"@svg-icons/heroicons-solid@npm:1.64.0":
+  version: 1.64.0
+  resolution: "@svg-icons/heroicons-solid@npm:1.64.0"
+  checksum: 55486c867435aae0ced7e11fc668920f773226ebe00602790f04b1b06c0a4975fc1507b14456f30f473a329e457a629ceba18c1285904785e8b34a18a1ffdb66
   languageName: node
   linkType: hard
 
@@ -4257,10 +4257,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/simple-icons@npm:1.62.0":
-  version: 1.62.0
-  resolution: "@svg-icons/simple-icons@npm:1.62.0"
-  checksum: f6912c7e8cac9900fec6b6b768f7a909c1bb2f5beb0ce104acf567d1b87fc5412277e262239cb5a0ec313d085496a7d842f9badc841cb9a0ff1905db2d72344e
+"@svg-icons/simple-icons@npm:1.63.0":
+  version: 1.63.0
+  resolution: "@svg-icons/simple-icons@npm:1.63.0"
+  checksum: 5b2b4ce6f302858bb7032b66cad580f72214047f7474c90605a5f3c7691b33331a44055f1b019fe3ceb1bf13929da61e7fab2494b5232d8d85bc1b7520c0dfa3
   languageName: node
   linkType: hard
 
@@ -4494,7 +4494,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>= 8, @types/node@npm:^16.3.1":
+"@types/node@npm:*, @types/node@npm:>= 8":
   version: 16.3.1
   resolution: "@types/node@npm:16.3.1"
   checksum: 2021138afd66a9235f4b64e412dd8a8d1199f3d17303c2868ab062a10214ba76b793bf4f59e14c3bf981623e099843855776390b445d840779cb171c2fcb97a9
@@ -4512,6 +4512,13 @@ __metadata:
   version: 14.17.1
   resolution: "@types/node@npm:14.17.1"
   checksum: 3ab1180ff2579f4039aa2416087df03e4e8b5f930b64e024ad2b2ae73e546f6054c3bae0324180d425944c7c408c02fdf6ca71f5a265ed05f28aeaae0a2c3599
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^16.3.3":
+  version: 16.3.3
+  resolution: "@types/node@npm:16.3.3"
+  checksum: e597a54070815170d8f541c778900023f2522c27be9c56b2b8411d663da1ef5226f9d16ec158c5d9c84ddcc85551e3d02aa68046aa108b4c6085bc7c95a5bebb
   languageName: node
   linkType: hard
 
@@ -8636,6 +8643,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fast-memoize@npm:^2.5.2":
+  version: 2.5.2
+  resolution: "fast-memoize@npm:2.5.2"
+  checksum: 88bd91488039c0e04131d5382b8ea084268f144ce14ab36c360dd04f7792ac0c419e125b0fe6e6f41e77f03d1f703b31697475b2e95889ca86510623e2f0d904
+  languageName: node
+  linkType: hard
+
 "fastq@npm:^1.6.0":
   version: 1.9.0
   resolution: "fastq@npm:1.9.0"
@@ -11670,15 +11684,6 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"map-age-cleaner@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "map-age-cleaner@npm:0.1.3"
-  dependencies:
-    p-defer: ^1.0.0
-  checksum: 0f0b8114925d9f9d528c5d5c9cbde83fea203b8edb1cfdb10d31aa2ce1ddccfcefe0bd6924b0d2e3928ff9d895496bf817a22b259fe05f3c4865702e65b71fd3
-  languageName: node
-  linkType: hard
-
 "map-cache@npm:^0.2.2":
   version: 0.2.2
   resolution: "map-cache@npm:0.2.2"
@@ -11800,16 +11805,6 @@ fsevents@~2.3.1:
   version: 0.3.0
   resolution: "media-typer@npm:0.3.0"
   checksum: be1c825782df7f38eebd451d778f6407bb15a59c8807a69e7f2ad74a25440e474536441c6bf583fdf2803ea23b866e91ff68f565cda297211dd89147758c8df3
-  languageName: node
-  linkType: hard
-
-"mem@npm:^8.1.1":
-  version: 8.1.1
-  resolution: "mem@npm:8.1.1"
-  dependencies:
-    map-age-cleaner: ^0.1.3
-    mimic-fn: ^3.1.0
-  checksum: 059b1a9d66a11a6924b1ccbcb5a31923458021d9149c2b21d7b4642bb6c1138d085c8b661ee808df990904b768146459bff2afe629ccf38cde9d48f0ecc6ccff
   languageName: node
   linkType: hard
 
@@ -12026,13 +12021,6 @@ fsevents@~2.3.1:
   version: 2.1.0
   resolution: "mimic-fn@npm:2.1.0"
   checksum: f7d2d7febe3d7dd71da0700b1d455ec6c951a96b463ffcc303c93771b9fe4e45318152ea677c241505b19b39e41d906e5052cfb382d59a44bdb6d3d57f8b467b
-  languageName: node
-  linkType: hard
-
-"mimic-fn@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "mimic-fn@npm:3.1.0"
-  checksum: 873b65357a72a69a4d13745963d43518878ca8ea1d025bb5a8d973fd78877bbcb692c4993b80b65d418c68829518320359402c49dc239ea50ed1146722a5411e
   languageName: node
   linkType: hard
 
@@ -12632,14 +12620,15 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"npm-check-updates@npm:^11.8.2":
-  version: 11.8.2
-  resolution: "npm-check-updates@npm:11.8.2"
+"npm-check-updates@npm:^11.8.3":
+  version: 11.8.3
+  resolution: "npm-check-updates@npm:11.8.3"
   dependencies:
     chalk: ^4.1.1
     cint: ^8.2.1
     cli-table: ^0.3.6
     commander: ^6.2.1
+    fast-memoize: ^2.5.2
     find-up: 5.0.0
     fp-and-or: ^0.1.3
     get-stdin: ^8.0.0
@@ -12649,7 +12638,6 @@ fsevents@~2.3.1:
     jsonlines: ^0.1.1
     libnpmconfig: ^1.2.1
     lodash: ^4.17.21
-    mem: ^8.1.1
     minimatch: ^3.0.4
     p-map: ^4.0.0
     pacote: ^11.3.4
@@ -12666,7 +12654,7 @@ fsevents@~2.3.1:
   bin:
     ncu: bin/cli.js
     npm-check-updates: bin/cli.js
-  checksum: 80b7c48d45cbb0f1c5ab8be185139d5b8650b37a7aeffc226bf68f9edc0520fd193a12b8e310d741c1431268e67c1da55ed2b90a0d0fb2bbfe1068b4ba704a48
+  checksum: d7c130249b7be0495cb8e5fbc742fba4342ab2ac478f6b191a9331d5c099424e80f2f95f0f07efb3b417d4d80234bf4c672e59d32aa00b427dfe51d7003c5f30
   languageName: node
   linkType: hard
 
@@ -13073,13 +13061,6 @@ fsevents@~2.3.1:
   version: 1.1.0
   resolution: "p-cancelable@npm:1.1.0"
   checksum: 01fdd9ac319f0e69e22c18d5b9e5f4dca62a0827d72349c73b0c88b07c760849de49201dcbe4fbbcbe61b4bdce8f4f3596cfbbfed664cf411ff1ab9a80664574
-  languageName: node
-  linkType: hard
-
-"p-defer@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "p-defer@npm:1.0.0"
-  checksum: ffaabb161334dd9b471f7136038c9322f5288fdd86e070d75a6c65f1b28893d5ef084d9b94401e285117da65906c2952a96404a45a57ecd010393445ac2b6159
   languageName: node
   linkType: hard
 
@@ -14986,9 +14967,9 @@ fsevents@~2.3.1:
     "@emotion/babel-plugin": ^11.3.0
     "@monorepolint/cli": ^0.5.0-alpha.53
     "@monorepolint/core": 0.5.0-alpha.53
-    "@types/node": ^16.3.1
+    "@types/node": ^16.3.3
     "@types/react": ^17.0.14
-    npm-check-updates: ^11.8.2
+    npm-check-updates: ^11.8.3
     npm-run-all: ^4.1.5
     prettier: ^2.3.2
     typescript: ^4.2.3
