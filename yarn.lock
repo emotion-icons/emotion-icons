@@ -1911,7 +1911,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/boxicons-solid": 1.39.1
+    "@svg-icons/boxicons-solid": 1.65.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -4054,10 +4054,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/boxicons-solid@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/boxicons-solid@npm:1.39.1"
-  checksum: 8cece8bdfc8851eb8f0cfe9ac400ca7a5921a2f3ea9c3bf30ec8e1a25c637793a6ff6105210d4e3e70088531fdd4d620fd31aa0accbc4d56e1dfd41bcc1d82df
+"@svg-icons/boxicons-solid@npm:1.65.0":
+  version: 1.65.0
+  resolution: "@svg-icons/boxicons-solid@npm:1.65.0"
+  checksum: e0abe1e886afec4344abd70905943b638109d3504325f5c3ccb198dff0b0e3feae8e4e723acf42d0bcb480ae8433521828103b3eacb5e26cd4a16ba323dadda8
   languageName: node
   linkType: hard
 
@@ -4494,10 +4494,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>= 8":
-  version: 16.3.1
-  resolution: "@types/node@npm:16.3.1"
-  checksum: 2021138afd66a9235f4b64e412dd8a8d1199f3d17303c2868ab062a10214ba76b793bf4f59e14c3bf981623e099843855776390b445d840779cb171c2fcb97a9
+"@types/node@npm:*, @types/node@npm:>= 8, @types/node@npm:^16.3.3":
+  version: 16.3.3
+  resolution: "@types/node@npm:16.3.3"
+  checksum: e597a54070815170d8f541c778900023f2522c27be9c56b2b8411d663da1ef5226f9d16ec158c5d9c84ddcc85551e3d02aa68046aa108b4c6085bc7c95a5bebb
   languageName: node
   linkType: hard
 
@@ -4512,13 +4512,6 @@ __metadata:
   version: 14.17.1
   resolution: "@types/node@npm:14.17.1"
   checksum: 3ab1180ff2579f4039aa2416087df03e4e8b5f930b64e024ad2b2ae73e546f6054c3bae0324180d425944c7c408c02fdf6ca71f5a265ed05f28aeaae0a2c3599
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^16.3.3":
-  version: 16.3.3
-  resolution: "@types/node@npm:16.3.3"
-  checksum: e597a54070815170d8f541c778900023f2522c27be9c56b2b8411d663da1ef5226f9d16ec158c5d9c84ddcc85551e3d02aa68046aa108b4c6085bc7c95a5bebb
   languageName: node
   linkType: hard
 
