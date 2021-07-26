@@ -1,5 +1,11 @@
 # @emotion-icons/boxicons-logos
 
+## 3.18.0
+
+### Minor Changes
+
+- [#538](https://github.com/emotion-icons/emotion-icons/pull/538): Update all package dependencies ([`736e4f72`](https://github.com/emotion-icons/emotion-icons/commit/736e4f72335976e1adb382fdb87e2ebe2bc793f7), [@icon-bot](https://github.com/icon-bot))
+
 ## 3.14.0
 
 ### Minor Changes
