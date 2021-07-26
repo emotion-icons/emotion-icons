@@ -1,5 +1,11 @@
 # @emotion-icons/heroicons-outline
 
+## 3.18.0
+
+### Minor Changes
+
+- [#526](https://github.com/emotion-icons/emotion-icons/pull/526): Update all package dependencies ([`730c33e6`](https://github.com/emotion-icons/emotion-icons/commit/730c33e6924ad2272d360f48ac41a490b421c948), [@icon-bot](https://github.com/icon-bot))
+
 ## 3.14.0
 
 ### Minor Changes

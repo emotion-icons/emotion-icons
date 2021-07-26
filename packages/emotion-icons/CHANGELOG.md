@@ -1,5 +1,17 @@
 # emotion-icons
 
+## 3.18.0
+
+### Patch Changes
+
+- Updated dependencies [[`730c33e6`](https://github.com/emotion-icons/emotion-icons/commit/730c33e6924ad2272d360f48ac41a490b421c948), [`736e4f72`](https://github.com/emotion-icons/emotion-icons/commit/736e4f72335976e1adb382fdb87e2ebe2bc793f7)]:
+  - @emotion-icons/heroicons-outline@3.18.0
+  - @emotion-icons/heroicons-solid@3.18.0
+  - @emotion-icons/simple-icons@3.18.0
+  - @emotion-icons/boxicons-logos@3.18.0
+  - @emotion-icons/boxicons-regular@3.18.0
+  - @emotion-icons/boxicons-solid@3.18.0
+
 ## 3.17.0
 
 ### Patch Changes
