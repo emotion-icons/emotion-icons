@@ -1875,7 +1875,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/boxicons-logos": 1.65.0
+    "@svg-icons/boxicons-logos": 1.66.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -4040,10 +4040,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/boxicons-logos@npm:1.65.0":
-  version: 1.65.0
-  resolution: "@svg-icons/boxicons-logos@npm:1.65.0"
-  checksum: eac324afc324cb6608aa7b9aabda255ac3e6288bc0b9a0e0b1c95434641aeceb554b706f3c03d633e41fde52b8d21e3114b206dbd4e37f0f4acd305e957fd85d
+"@svg-icons/boxicons-logos@npm:1.66.0":
+  version: 1.66.0
+  resolution: "@svg-icons/boxicons-logos@npm:1.66.0"
+  checksum: 60419a5e6aa3ceb2910f694c0961e51ae59249578b8143b026e23752dcc215237d3656eceb2cdca8950e66d0bd5fa13ab67752b4cd30cd7496dd776c38cc169c
   languageName: node
   linkType: hard
 
