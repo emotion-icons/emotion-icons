@@ -1855,7 +1855,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/bootstrap": 1.53.0
     react: ^17.0.2
@@ -1873,7 +1873,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/boxicons-logos": 1.65.0
     react: ^17.0.2
@@ -1891,7 +1891,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/boxicons-regular": 1.65.0
     react: ^17.0.2
@@ -1909,7 +1909,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/boxicons-solid": 1.65.0
     react: ^17.0.2
@@ -1927,7 +1927,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/crypto": 1.53.0
     react: ^17.0.2
@@ -1944,7 +1944,7 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     react: ^17.0.2
   peerDependencies:
@@ -1961,7 +1961,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/entypo-social": 1.39.1
     react: ^17.0.2
@@ -1979,7 +1979,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/entypo": 1.39.1
     react: ^17.0.2
@@ -1997,7 +1997,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/evaicons-outline": 1.39.1
     react: ^17.0.2
@@ -2015,7 +2015,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/evaicons-solid": 1.39.1
     react: ^17.0.2
@@ -2033,7 +2033,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/evil": 1.39.1
     react: ^17.0.2
@@ -2051,7 +2051,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/fa-brands": 1.39.1
     react: ^17.0.2
@@ -2069,7 +2069,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/fa-regular": 1.39.1
     react: ^17.0.2
@@ -2087,7 +2087,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/fa-solid": 1.42.0
     react: ^17.0.2
@@ -2105,7 +2105,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/feather": 1.39.1
     react: ^17.0.2
@@ -2123,7 +2123,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/fluentui-system-filled": 1.60.0
     react: ^17.0.2
@@ -2141,7 +2141,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/fluentui-system-regular": 1.60.0
     react: ^17.0.2
@@ -2159,7 +2159,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/foundation": 1.39.1
     react: ^17.0.2
@@ -2177,7 +2177,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/heroicons-outline": 1.64.0
     react: ^17.0.2
@@ -2195,7 +2195,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/heroicons-solid": 1.64.0
     react: ^17.0.2
@@ -2213,7 +2213,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/icomoon": 1.39.1
     react: ^17.0.2
@@ -2231,7 +2231,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/ionicons-outline": 1.39.1
     react: ^17.0.2
@@ -2249,7 +2249,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/ionicons-sharp": 1.39.1
     react: ^17.0.2
@@ -2267,7 +2267,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/ionicons-solid": 1.39.1
     react: ^17.0.2
@@ -2285,7 +2285,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/material-outlined": 1.39.1
     react: ^17.0.2
@@ -2303,7 +2303,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/material-rounded": 1.39.1
     react: ^17.0.2
@@ -2321,7 +2321,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/material-sharp": 1.39.1
     react: ^17.0.2
@@ -2339,7 +2339,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/material-twotone": 1.39.1
     react: ^17.0.2
@@ -2357,7 +2357,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/material-filled": 1.39.1
     react: ^17.0.2
@@ -2375,7 +2375,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/octicons": 1.58.0
     react: ^17.0.2
@@ -2393,7 +2393,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/open-iconic": 1.39.1
     react: ^17.0.2
@@ -2431,7 +2431,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/remix-fill": 1.39.1
     react: ^17.0.2
@@ -2449,7 +2449,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/remix-line": 1.39.1
     react: ^17.0.2
@@ -2467,7 +2467,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/simple-icons": 1.65.0
     react: ^17.0.2
@@ -2489,7 +2489,7 @@ __metadata:
     "@babel/preset-react": ^7.14.5
     "@babel/preset-typescript": ^7.14.5
     "@changesets/cli": ^2.16.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@storybook/addons": ^6.3.6
     "@storybook/react": ^6.3.6
@@ -2513,7 +2513,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/typicons": 1.39.1
     react: ^17.0.2
@@ -2528,7 +2528,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@emotion-icons/website@workspace:website"
   dependencies:
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@loadable/component": ^5.15.0
     "@types/js-search": ^1.4.0
@@ -2553,7 +2553,7 @@ __metadata:
     "@babel/runtime": ^7.14.8
     "@emotion-icons/emotion-icon": 4.1.0
     "@emotion-icons/pack-builder": ^2.0.0
-    "@emotion/react": ^11.4.0
+    "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@svg-icons/zondicons": 1.39.1
     react: ^17.0.2
@@ -2677,14 +2677,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/react@npm:^11.4.0":
-  version: 11.4.0
-  resolution: "@emotion/react@npm:11.4.0"
+"@emotion/react@npm:^11.4.1":
+  version: 11.4.1
+  resolution: "@emotion/react@npm:11.4.1"
   dependencies:
     "@babel/runtime": ^7.13.10
     "@emotion/cache": ^11.4.0
     "@emotion/serialize": ^1.0.2
-    "@emotion/sheet": ^1.0.1
+    "@emotion/sheet": ^1.0.2
     "@emotion/utils": ^1.0.0
     "@emotion/weak-memoize": ^0.2.5
     hoist-non-react-statics: ^3.3.1
@@ -2696,7 +2696,7 @@ __metadata:
       optional: true
     "@types/react":
       optional: true
-  checksum: 4058dc4de5a7470f0e7e4543d5051570b2ff60bda47c51b77bb3f09b644a9244a1b77d27b42aebf6ed48eb4273a2e6d2564348064ac59cf81a3ac2192e6826fa
+  checksum: 17bb4645c9a3e0164142e7b7729e30902e8357aed29f0c16fb73b4078651233315fbfcc22f21278c520c708087b0488a92d0bdc9ac9db414376c9bb227b916f0
   languageName: node
   linkType: hard
 
@@ -2733,10 +2733,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/sheet@npm:^1.0.0, @emotion/sheet@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@emotion/sheet@npm:1.0.1"
-  checksum: 59a52b6d546d92db2f44a1e46659fa8b7e11545c20270cdf61bc9ddd24a774d148e873dc355f85025cd11912df4945794ca9a266799fdaf0c4c815ac83cda456
+"@emotion/sheet@npm:^1.0.0, @emotion/sheet@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@emotion/sheet@npm:1.0.2"
+  checksum: 188d43dbc1a21964635226df9efa3917dd288915d497bce35c4ee2d86028e7e591d03e1f7cb1c05a7baa762e4341c37ee030f0d0c7155039d5e1d5edfabf241c
   languageName: node
   linkType: hard
 
