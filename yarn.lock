@@ -2053,7 +2053,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/fa-brands": 1.39.1
+    "@svg-icons/fa-brands": 1.68.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -4103,10 +4103,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/fa-brands@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/fa-brands@npm:1.39.1"
-  checksum: 774182cde0b545e05eb0010646ce3e98ba8bab74500fa24610592fa9852171b14c78b64ae825f9ac0d7f62287fe945e33c23b9dcdd728973b539c7c7ab72c2b8
+"@svg-icons/fa-brands@npm:1.68.0":
+  version: 1.68.0
+  resolution: "@svg-icons/fa-brands@npm:1.68.0"
+  checksum: a2af8144c0dd9280063f9df4f2e12cc0aff4c8800bb03d5026bfa5ee7b7dc8a41af26cdf3c7a02a902a6f4a9778fc2c33602f773060cfe811f565dc8f922d768
   languageName: node
   linkType: hard
 
