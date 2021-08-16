@@ -2536,7 +2536,7 @@ __metadata:
     "@types/react-virtualized": ^9.21.12
     copy-to-clipboard: ^3.3.1
     emotion-icons: 3.18.0
-    history: ^5.0.0
+    history: ^5.0.1
     js-search: ^2.0.0
     next: ^11.0.1
     query-string: ^7.0.1
@@ -9813,12 +9813,12 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"history@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "history@npm:5.0.0"
+"history@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "history@npm:5.0.1"
   dependencies:
     "@babel/runtime": ^7.7.6
-  checksum: 38a8af6f31a08ddfd6b404fa6df2fcca8bd91300aa0858bdd2bf314aca0516bd37f9835c1f628e4a9113c1be4145d8e7c58f225564d8e9708a0f49c217acb47a
+  checksum: e77a3831f347e11d956131ca74634bb1f61e782e9415d96011c7856290db7bd9d9ae0988c34a0c9190087c129494c8c15a9a2f9f49d87dde5ac6c7c7678a125f
   languageName: node
   linkType: hard
 
