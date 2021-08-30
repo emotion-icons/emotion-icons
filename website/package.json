@@ -16,12 +16,12 @@
     "start": "next dev"
   },
   "dependencies": {
-    "@emotion/react": "^11.4.0",
+    "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
     "@loadable/component": "^5.15.0",
     "copy-to-clipboard": "^3.3.1",
     "emotion-icons": "3.18.0",
-    "history": "^5.0.0",
+    "history": "^5.0.1",
     "js-search": "^2.0.0",
     "query-string": "^7.0.1",
     "react": "^17.0.2",
@@ -31,7 +31,7 @@
   "devDependencies": {
     "@types/js-search": "^1.4.0",
     "@types/react-dom": "^17.0.9",
-    "@types/react-virtualized": "^9.21.12",
-    "next": "^11.0.1"
+    "@types/react-virtualized": "^9.21.13",
+    "next": "^11.1.0"
   }
 }

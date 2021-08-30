@@ -24,7 +24,7 @@
     "clean": "ALLOWED_FILES=index.tsx clean-package"
   },
   "dependencies": {
-    "@babel/runtime": "^7.14.8"
+    "@babel/runtime": "^7.15.3"
   },
   "peerDependencies": {
     "@emotion/react": ">=11.0.0 <12",
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@emotion-icons/pack-builder": "^2.0.0",
-    "@emotion/react": "^11.4.0",
+    "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
     "react": "^17.0.2"
   }
