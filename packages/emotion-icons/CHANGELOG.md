@@ -1,5 +1,18 @@
 # emotion-icons
 
+## 3.19.0
+
+### Patch Changes
+
+- Updated dependencies [[`13bea980`](https://github.com/emotion-icons/emotion-icons/commit/13bea980c80f4c220e61fb5e7555ba7366ee69b2)]:
+  - @emotion-icons/boxicons-logos@3.19.0
+  - @emotion-icons/boxicons-regular@3.19.0
+  - @emotion-icons/boxicons-solid@3.19.0
+  - @emotion-icons/crypto@3.19.0
+  - @emotion-icons/fa-brands@3.19.0
+  - @emotion-icons/octicons@3.19.0
+  - @emotion-icons/simple-icons@3.19.0
+
 ## 3.18.0
 
 ### Patch Changes

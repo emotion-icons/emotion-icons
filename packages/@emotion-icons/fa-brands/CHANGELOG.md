@@ -1,5 +1,11 @@
 # @emotion-icons/fa-brands
 
+## 3.19.0
+
+### Minor Changes
+
+- [#546](https://github.com/emotion-icons/emotion-icons/pull/546): Update all package dependencies ([`13bea980`](https://github.com/emotion-icons/emotion-icons/commit/13bea980c80f4c220e61fb5e7555ba7366ee69b2), [@icon-bot](https://github.com/icon-bot))
+
 ## 3.14.0
 
 ### Minor Changes
