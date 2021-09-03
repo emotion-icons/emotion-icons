@@ -33,7 +33,7 @@
     "generate": "generate-icon-mono-package"
   },
   "dependencies": {
-    "@babel/runtime": "^7.15.3",
+    "@babel/runtime": "^7.15.4",
     "@emotion-icons/bootstrap": "3.14.0",
     "@emotion-icons/boxicons-logos": "3.19.0",
     "@emotion-icons/boxicons-regular": "3.19.0",
