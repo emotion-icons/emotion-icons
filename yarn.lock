@@ -618,6 +618,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/plugin-proposal-object-rest-spread@npm:^7.15.6":
+  version: 7.15.6
+  resolution: "@babel/plugin-proposal-object-rest-spread@npm:7.15.6"
+  dependencies:
+    "@babel/compat-data": ^7.15.0
+    "@babel/helper-compilation-targets": ^7.15.4
+    "@babel/helper-plugin-utils": ^7.14.5
+    "@babel/plugin-syntax-object-rest-spread": ^7.8.3
+    "@babel/plugin-transform-parameters": ^7.15.4
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 31a1e62f2acc6c733c01041729b97aa4127cd666535f0bcfc2ef7e5247682af951d32ee5d0641f19650fde73ab2e3b640549c4c8033e7fb06bfe7612655d2bcb
+  languageName: node
+  linkType: hard
+
 "@babel/plugin-proposal-optional-catch-binding@npm:^7.14.5":
   version: 7.14.5
   resolution: "@babel/plugin-proposal-optional-catch-binding@npm:7.14.5"
@@ -1367,7 +1382,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.12.11, @babel/preset-env@npm:^7.15.4":
+"@babel/preset-env@npm:^7.12.11":
   version: 7.15.4
   resolution: "@babel/preset-env@npm:7.15.4"
   dependencies:
@@ -1447,6 +1462,89 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0-0
   checksum: d298a6e7a02c94db1ce278405567ee61fcd06e419bd9755dbd4223960d204947b74520a76aa4fa2fff28386b34b84636aaa1393bb37f3344edc6abaef561266f
+  languageName: node
+  linkType: hard
+
+"@babel/preset-env@npm:^7.15.6":
+  version: 7.15.6
+  resolution: "@babel/preset-env@npm:7.15.6"
+  dependencies:
+    "@babel/compat-data": ^7.15.0
+    "@babel/helper-compilation-targets": ^7.15.4
+    "@babel/helper-plugin-utils": ^7.14.5
+    "@babel/helper-validator-option": ^7.14.5
+    "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining": ^7.15.4
+    "@babel/plugin-proposal-async-generator-functions": ^7.15.4
+    "@babel/plugin-proposal-class-properties": ^7.14.5
+    "@babel/plugin-proposal-class-static-block": ^7.15.4
+    "@babel/plugin-proposal-dynamic-import": ^7.14.5
+    "@babel/plugin-proposal-export-namespace-from": ^7.14.5
+    "@babel/plugin-proposal-json-strings": ^7.14.5
+    "@babel/plugin-proposal-logical-assignment-operators": ^7.14.5
+    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.14.5
+    "@babel/plugin-proposal-numeric-separator": ^7.14.5
+    "@babel/plugin-proposal-object-rest-spread": ^7.15.6
+    "@babel/plugin-proposal-optional-catch-binding": ^7.14.5
+    "@babel/plugin-proposal-optional-chaining": ^7.14.5
+    "@babel/plugin-proposal-private-methods": ^7.14.5
+    "@babel/plugin-proposal-private-property-in-object": ^7.15.4
+    "@babel/plugin-proposal-unicode-property-regex": ^7.14.5
+    "@babel/plugin-syntax-async-generators": ^7.8.4
+    "@babel/plugin-syntax-class-properties": ^7.12.13
+    "@babel/plugin-syntax-class-static-block": ^7.14.5
+    "@babel/plugin-syntax-dynamic-import": ^7.8.3
+    "@babel/plugin-syntax-export-namespace-from": ^7.8.3
+    "@babel/plugin-syntax-json-strings": ^7.8.3
+    "@babel/plugin-syntax-logical-assignment-operators": ^7.10.4
+    "@babel/plugin-syntax-nullish-coalescing-operator": ^7.8.3
+    "@babel/plugin-syntax-numeric-separator": ^7.10.4
+    "@babel/plugin-syntax-object-rest-spread": ^7.8.3
+    "@babel/plugin-syntax-optional-catch-binding": ^7.8.3
+    "@babel/plugin-syntax-optional-chaining": ^7.8.3
+    "@babel/plugin-syntax-private-property-in-object": ^7.14.5
+    "@babel/plugin-syntax-top-level-await": ^7.14.5
+    "@babel/plugin-transform-arrow-functions": ^7.14.5
+    "@babel/plugin-transform-async-to-generator": ^7.14.5
+    "@babel/plugin-transform-block-scoped-functions": ^7.14.5
+    "@babel/plugin-transform-block-scoping": ^7.15.3
+    "@babel/plugin-transform-classes": ^7.15.4
+    "@babel/plugin-transform-computed-properties": ^7.14.5
+    "@babel/plugin-transform-destructuring": ^7.14.7
+    "@babel/plugin-transform-dotall-regex": ^7.14.5
+    "@babel/plugin-transform-duplicate-keys": ^7.14.5
+    "@babel/plugin-transform-exponentiation-operator": ^7.14.5
+    "@babel/plugin-transform-for-of": ^7.15.4
+    "@babel/plugin-transform-function-name": ^7.14.5
+    "@babel/plugin-transform-literals": ^7.14.5
+    "@babel/plugin-transform-member-expression-literals": ^7.14.5
+    "@babel/plugin-transform-modules-amd": ^7.14.5
+    "@babel/plugin-transform-modules-commonjs": ^7.15.4
+    "@babel/plugin-transform-modules-systemjs": ^7.15.4
+    "@babel/plugin-transform-modules-umd": ^7.14.5
+    "@babel/plugin-transform-named-capturing-groups-regex": ^7.14.9
+    "@babel/plugin-transform-new-target": ^7.14.5
+    "@babel/plugin-transform-object-super": ^7.14.5
+    "@babel/plugin-transform-parameters": ^7.15.4
+    "@babel/plugin-transform-property-literals": ^7.14.5
+    "@babel/plugin-transform-regenerator": ^7.14.5
+    "@babel/plugin-transform-reserved-words": ^7.14.5
+    "@babel/plugin-transform-shorthand-properties": ^7.14.5
+    "@babel/plugin-transform-spread": ^7.14.6
+    "@babel/plugin-transform-sticky-regex": ^7.14.5
+    "@babel/plugin-transform-template-literals": ^7.14.5
+    "@babel/plugin-transform-typeof-symbol": ^7.14.5
+    "@babel/plugin-transform-unicode-escapes": ^7.14.5
+    "@babel/plugin-transform-unicode-regex": ^7.14.5
+    "@babel/preset-modules": ^0.1.4
+    "@babel/types": ^7.15.6
+    babel-plugin-polyfill-corejs2: ^0.2.2
+    babel-plugin-polyfill-corejs3: ^0.2.2
+    babel-plugin-polyfill-regenerator: ^0.2.2
+    core-js-compat: ^3.16.0
+    semver: ^6.3.0
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 84eb7766fd0bcf5c4043c215f3ca02446d2d477d5b3cb7c6f90afc8bbbb92fcfddb4aca6ca3704ecc5617da252e2fb8f98a4c3bdcc2f6d841dbcc0f794057ca3
   languageName: node
   linkType: hard
 
@@ -1565,6 +1663,16 @@ __metadata:
     "@babel/helper-validator-identifier": ^7.14.9
     to-fast-properties: ^2.0.0
   checksum: 8eb790f83e584238d1bb56c9301b04681c7e3446035c7b243d42dafcfa8412a244cedee1687edf09c9a30848281c00e58deed7c1e46a474ef9e674458db15f6f
+  languageName: node
+  linkType: hard
+
+"@babel/types@npm:^7.15.6":
+  version: 7.15.6
+  resolution: "@babel/types@npm:7.15.6"
+  dependencies:
+    "@babel/helper-validator-identifier": ^7.14.9
+    to-fast-properties: ^2.0.0
+  checksum: 34c8048bdec27e9935fa22cb1bd02f7b7c92c3bce21e96a85a92791c7e648868bb39039f0a1293dadc3fda51242040077d65e0a3d9601993ea5e4d9dd0821da4
   languageName: node
   linkType: hard
 
@@ -2463,7 +2571,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
-    "@svg-icons/simple-icons": 1.72.0
+    "@svg-icons/simple-icons": 1.74.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -2479,7 +2587,7 @@ __metadata:
     "@babel/cli": ^7.15.4
     "@babel/core": ^7.15.5
     "@babel/plugin-transform-runtime": ^7.15.0
-    "@babel/preset-env": ^7.15.4
+    "@babel/preset-env": ^7.15.6
     "@babel/preset-react": ^7.14.5
     "@babel/preset-typescript": ^7.15.0
     "@changesets/cli": ^2.17.0
@@ -2487,13 +2595,13 @@ __metadata:
     "@emotion/styled": ^11.3.0
     "@storybook/addons": ^6.3.8
     "@storybook/react": ^6.3.8
-    "@types/node": ^16.7.10
+    "@types/node": ^16.9.1
     "@types/react": ^17.0.20
     babel-loader: ^8.2.2
     chromatic: ^5.9.2
     emotion-icons: 3.20.0
     fs-extra: ^10.0.0
-    prettier: ^2.3.2
+    prettier: ^2.4.0
     react: ^17.0.2
     react-dom: ^17.0.2
     wsrun: ^5.2.4
@@ -4142,10 +4250,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/simple-icons@npm:1.72.0":
-  version: 1.72.0
-  resolution: "@svg-icons/simple-icons@npm:1.72.0"
-  checksum: 5b28ff8c939e668025f860a28e684274bf5fded96913f121538b76492962d7b82f3728e8ddc6adfc12e2647e0e1e45a7d676a9afbc6f0027e889317888d80801
+"@svg-icons/simple-icons@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@svg-icons/simple-icons@npm:1.74.0"
+  checksum: cf3a39d09a6f49e45b68ffce219b2f92bbf5d2f381ee57d716ca40706d8be5fe89c31c36a13101392f1ca6f7acc564b1c6b8980315ce8b8bb0b565c8327e062c
   languageName: node
   linkType: hard
 
@@ -4372,7 +4480,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>= 8, @types/node@npm:^16.7.10":
+"@types/node@npm:*, @types/node@npm:>= 8":
   version: 16.7.10
   resolution: "@types/node@npm:16.7.10"
   checksum: 50c83528a973746ba8fa67654c9fce33b57812ac9f67f445e56d8a11231587d866476323e7c1235894aca0b27321847915d058122b0f3f2e6e0acc20f54ba445
@@ -4390,6 +4498,13 @@ __metadata:
   version: 14.17.1
   resolution: "@types/node@npm:14.17.1"
   checksum: 3ab1180ff2579f4039aa2416087df03e4e8b5f930b64e024ad2b2ae73e546f6054c3bae0324180d425944c7c408c02fdf6ca71f5a265ed05f28aeaae0a2c3599
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^16.9.1":
+  version: 16.9.1
+  resolution: "@types/node@npm:16.9.1"
+  checksum: b9b9ee7e36004b09d56bf69703957ec4721f2e12f5d258bf2d92155e7d760ca1d73a04fe679856ef4d67fa56015bca71e9485c36ea99f04bc727c7a23cd91329
   languageName: node
   linkType: hard
 
@@ -13231,12 +13346,12 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.3.2":
-  version: 2.3.2
-  resolution: "prettier@npm:2.3.2"
+"prettier@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "prettier@npm:2.4.0"
   bin:
     prettier: bin-prettier.js
-  checksum: 4fd89a7f6a12b13456d359fba2b1dd0fc0a17cf33f8f15953ab9f43b21ea9b09b5a2861d63b558ca0577274ce606d390e70628cf93e26d19d6cb7f19c9eebc31
+  checksum: b8409c92cf2e4e423b74e408f76b4786c2d8d5bc63c97aad256e9ca65c919a138e64717fdff4abeb9cb3b2048bb8320fc2e8fbca6f220b01dc08ad83c349cdc5
   languageName: node
   linkType: hard
 
@@ -14406,7 +14521,7 @@ fsevents@~2.3.1:
     "@babel/cli": ^7.15.4
     "@babel/core": ^7.15.5
     "@babel/plugin-transform-runtime": ^7.15.0
-    "@babel/preset-env": ^7.15.4
+    "@babel/preset-env": ^7.15.6
     "@babel/preset-react": ^7.14.5
     "@babel/preset-typescript": ^7.15.0
     "@changesets/changelog-github": ^0.4.1
@@ -14414,11 +14529,11 @@ fsevents@~2.3.1:
     "@emotion/babel-plugin": ^11.3.0
     "@monorepolint/cli": ^0.5.0-alpha.53
     "@monorepolint/core": 0.5.0-alpha.53
-    "@types/node": ^16.7.10
+    "@types/node": ^16.9.1
     "@types/react": ^17.0.20
     npm-check-updates: ^11.8.5
     npm-run-all: ^4.1.5
-    prettier: ^2.3.2
+    prettier: ^2.4.0
     typescript: ^4.2.3
     wsrun: ^5.2.4
   languageName: unknown
