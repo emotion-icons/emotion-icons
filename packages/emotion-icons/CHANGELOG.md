@@ -1,5 +1,12 @@
 # emotion-icons
 
+## 3.22.0
+
+### Patch Changes
+
+- Updated dependencies [[`c7b63494`](https://github.com/emotion-icons/emotion-icons/commit/c7b63494445a9065a07cd23e38c08b21f2a8a679)]:
+  - @emotion-icons/simple-icons@3.22.0
+
 ## 3.21.0
 
 ### Patch Changes
