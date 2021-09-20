@@ -2895,21 +2895,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monorepolint/core@npm:0.5.0-alpha.53":
-  version: 0.5.0-alpha.53
-  resolution: "@monorepolint/core@npm:0.5.0-alpha.53"
-  dependencies:
-    "@monorepolint/utils": ^0.5.0-alpha.53+dbc9790
-    camelcase: ^6.0.0
-    chalk: ^4.1.0
-    minimatch: ^3.0.4
-    runtypes: ^4.0.0
-    tslib: ^2.0.0
-  checksum: 5584de1e5e90843a2bab78fd755008cf0dfabdfdb519efb4ac908ea928a88639672a4633c8e67eced99932d4f3cea3b76553a793f54c1a632108be85bddd0850
-  languageName: node
-  linkType: hard
-
-"@monorepolint/core@npm:^0.5.0-alpha.52+2a5e8a6, @monorepolint/core@npm:^0.5.0-alpha.61+91b1d76":
+"@monorepolint/core@npm:0.5.0-alpha.61, @monorepolint/core@npm:^0.5.0-alpha.52+2a5e8a6, @monorepolint/core@npm:^0.5.0-alpha.61+91b1d76":
   version: 0.5.0-alpha.61
   resolution: "@monorepolint/core@npm:0.5.0-alpha.61"
   dependencies:
@@ -2939,7 +2925,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monorepolint/utils@npm:^0.5.0-alpha.52+2a5e8a6, @monorepolint/utils@npm:^0.5.0-alpha.53+dbc9790, @monorepolint/utils@npm:^0.5.0-alpha.61+91b1d76":
+"@monorepolint/utils@npm:^0.5.0-alpha.52+2a5e8a6, @monorepolint/utils@npm:^0.5.0-alpha.61+91b1d76":
   version: 0.5.0-alpha.61
   resolution: "@monorepolint/utils@npm:0.5.0-alpha.61"
   dependencies:
@@ -3118,13 +3104,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/openapi-types@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@octokit/openapi-types@npm:2.0.0"
-  checksum: 5dba467708d45cd43979da80c9229d9b102368ef2cd68d546811bc61f3fc84bf412fb8b619ab776fc60db33b5e4997047128e7b0676c5a86f22c6d0db4220859
-  languageName: node
-  linkType: hard
-
 "@octokit/plugin-paginate-rest@npm:^2.13.3":
   version: 2.16.3
   resolution: "@octokit/plugin-paginate-rest@npm:2.16.3"
@@ -3148,17 +3127,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/request-error@npm:^2.0.0":
-  version: 2.0.4
-  resolution: "@octokit/request-error@npm:2.0.4"
-  dependencies:
-    "@octokit/types": ^6.0.0
-    deprecation: ^2.0.0
-    once: ^1.4.0
-  checksum: 5761659a66aba76a238f97d8e1a995e0745fe3aa7cf86daa42c07d339cc6353e3818c74e5a58c923f72a77f490d137cb20398532c263919d922b02477dd3ee03
-  languageName: node
-  linkType: hard
-
 "@octokit/request-error@npm:^2.0.5, @octokit/request-error@npm:^2.1.0":
   version: 2.1.0
   resolution: "@octokit/request-error@npm:2.1.0"
@@ -3170,23 +3138,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/request@npm:^5.3.0":
-  version: 5.4.12
-  resolution: "@octokit/request@npm:5.4.12"
-  dependencies:
-    "@octokit/endpoint": ^6.0.1
-    "@octokit/request-error": ^2.0.0
-    "@octokit/types": ^6.0.3
-    deprecation: ^2.0.0
-    is-plain-object: ^5.0.0
-    node-fetch: ^2.6.1
-    once: ^1.4.0
-    universal-user-agent: ^6.0.0
-  checksum: 7a98c8c7f91671f25f9211e071e881d31e8a4e7f1078954b71374b1b5923001eb979f4c511bc25dde1632143c09586c85de67ba1ab1268ee663db5dfa4d48ef5
-  languageName: node
-  linkType: hard
-
-"@octokit/request@npm:^5.6.0":
+"@octokit/request@npm:^5.3.0, @octokit/request@npm:^5.6.0":
   version: 5.6.1
   resolution: "@octokit/request@npm:5.6.1"
   dependencies:
@@ -3200,17 +3152,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/types@npm:^6.0.0, @octokit/types@npm:^6.0.3":
-  version: 6.1.1
-  resolution: "@octokit/types@npm:6.1.1"
-  dependencies:
-    "@octokit/openapi-types": ^2.0.0
-    "@types/node": ">= 8"
-  checksum: ae2a161040f32f8d2032cd4b6a2ba3d1c1ae12c4383b2e519083e0e6ba65c26b645d563c8ec40371756f35bffe05822a3c6376c4266938ffe5815f1a2bf9c852
-  languageName: node
-  linkType: hard
-
-"@octokit/types@npm:^6.16.1, @octokit/types@npm:^6.28.1":
+"@octokit/types@npm:^6.0.0, @octokit/types@npm:^6.0.3, @octokit/types@npm:^6.16.1, @octokit/types@npm:^6.28.1":
   version: 6.28.1
   resolution: "@octokit/types@npm:6.28.1"
   dependencies:
@@ -4416,10 +4358,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>= 8":
-  version: 16.9.1
-  resolution: "@types/node@npm:16.9.1"
-  checksum: b9b9ee7e36004b09d56bf69703957ec4721f2e12f5d258bf2d92155e7d760ca1d73a04fe679856ef4d67fa56015bca71e9485c36ea99f04bc727c7a23cd91329
+"@types/node@npm:*, @types/node@npm:^16.9.4":
+  version: 16.9.4
+  resolution: "@types/node@npm:16.9.4"
+  checksum: 04e44ae18bb11e67a3fec9718d917088c33db943056779fa8a5728fc7a2e8856838106dac693b19e26cde7edf9c8eae272cba16137d79d778056424ac6e105cd
   languageName: node
   linkType: hard
 
@@ -4434,13 +4376,6 @@ __metadata:
   version: 14.17.1
   resolution: "@types/node@npm:14.17.1"
   checksum: 3ab1180ff2579f4039aa2416087df03e4e8b5f930b64e024ad2b2ae73e546f6054c3bae0324180d425944c7c408c02fdf6ca71f5a265ed05f28aeaae0a2c3599
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^16.9.4":
-  version: 16.9.4
-  resolution: "@types/node@npm:16.9.4"
-  checksum: 04e44ae18bb11e67a3fec9718d917088c33db943056779fa8a5728fc7a2e8856838106dac693b19e26cde7edf9c8eae272cba16137d79d778056424ac6e105cd
   languageName: node
   linkType: hard
 
@@ -4518,18 +4453,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
-  version: 17.0.20
-  resolution: "@types/react@npm:17.0.20"
-  dependencies:
-    "@types/prop-types": "*"
-    "@types/scheduler": "*"
-    csstype: ^3.0.2
-  checksum: 80b016e6cdd26eebd29790f6407b111bce11457ba066ef19237e9e5531da0ccb142686eee7572c4b31ff94f264124707b6eded2901733dd3559ac59eef581a8a
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:^17.0.22":
+"@types/react@npm:*, @types/react@npm:^17.0.22":
   version: 17.0.22
   resolution: "@types/react@npm:17.0.22"
   dependencies:
@@ -14534,7 +14458,7 @@ fsevents@~2.3.1:
     "@changesets/cli": ^2.17.0
     "@emotion/babel-plugin": ^11.3.0
     "@monorepolint/cli": ^0.5.0-alpha.61
-    "@monorepolint/core": 0.5.0-alpha.53
+    "@monorepolint/core": 0.5.0-alpha.61
     "@types/node": ^16.9.4
     "@types/react": ^17.0.22
     npm-check-updates: ^11.8.5
@@ -17182,17 +17106,10 @@ typescript@^4.2.3:
   languageName: node
   linkType: hard
 
-"yargs-parser@npm:^20.2.2":
+"yargs-parser@npm:^20.2.2, yargs-parser@npm:^20.2.3":
   version: 20.2.9
   resolution: "yargs-parser@npm:20.2.9"
   checksum: 3c58da6f6142f93c5207e309764bd90f723b9d7ed43f2e8aad0da1cefab83ee8ebf311dee2e81102646b74450c899e35b35053800b91fac23e6f433056f4c4cf
-  languageName: node
-  linkType: hard
-
-"yargs-parser@npm:^20.2.3":
-  version: 20.2.4
-  resolution: "yargs-parser@npm:20.2.4"
-  checksum: 00dd0f23b608aa16962f1b73ac6c461ae6c97e8e85ad24b0c9adfeb5ef20a93a484ba858a6a3200f487478427db27d555d7772463d793d6c27b1b8b614cf3d7e
   languageName: node
   linkType: hard
 
