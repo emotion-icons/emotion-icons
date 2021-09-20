@@ -24,7 +24,7 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.15.4",
+    "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.5",
     "@babel/plugin-transform-runtime": "^7.15.0",
     "@babel/preset-env": "^7.15.6",
@@ -33,12 +33,12 @@
     "@changesets/cli": "^2.17.0",
     "@storybook/addons": "^6.3.8",
     "@storybook/react": "^6.3.8",
-    "@types/node": "^16.9.1",
-    "@types/react": "^17.0.20",
+    "@types/node": "^16.9.4",
+    "@types/react": "^17.0.22",
     "babel-loader": "^8.2.2",
-    "chromatic": "^5.9.2",
+    "chromatic": "^5.10.0",
     "fs-extra": "^10.0.0",
-    "prettier": "^2.4.0",
+    "prettier": "^2.4.1",
     "wsrun": "^5.2.4"
   }
 }
