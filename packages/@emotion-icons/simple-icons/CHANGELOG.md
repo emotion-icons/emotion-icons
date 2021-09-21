@@ -1,5 +1,11 @@
 # @emotion-icons/simple-icons
 
+## 3.23.0
+
+### Minor Changes
+
+- [#599](https://github.com/emotion-icons/emotion-icons/pull/599): Bump @svg-icons/simple-icons from 1.75.0 to 1.76.0 ([`e926a802`](https://github.com/emotion-icons/emotion-icons/commit/e926a802895fec460af8039a5f4094aecc11cd31), [@dependabot](https://github.com/apps/dependabot))
+
 ## 3.22.0
 
 ### Minor Changes
