@@ -2490,7 +2490,7 @@ __metadata:
     "@types/node": ^16.9.4
     "@types/react": ^17.0.22
     babel-loader: ^8.2.2
-    chromatic: ^5.10.0
+    chromatic: ^5.10.1
     emotion-icons: 3.23.0
     fs-extra: ^10.0.0
     prettier: ^2.4.1
@@ -6267,9 +6267,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:^5.10.0":
-  version: 5.10.0
-  resolution: "chromatic@npm:5.10.0"
+"chromatic@npm:^5.10.1":
+  version: 5.10.1
+  resolution: "chromatic@npm:5.10.1"
   dependencies:
     "@actions/core": ^1.5.0
     "@actions/github": ^5.0.0
@@ -6293,7 +6293,7 @@ __metadata:
     meow: ^8.0.0
     no-proxy: ^1.0.3
     node-ask: ^1.0.1
-    node-fetch: ^2.6.0
+    node-fetch: 2.6.0
     node-loggly-bulk: ^2.2.4
     p-limit: 3.1.0
     picomatch: 2.2.2
@@ -6314,7 +6314,7 @@ __metadata:
     chroma: bin/register.js
     chromatic: bin/register.js
     chromatic-cli: bin/register.js
-  checksum: 0ce40d68db848a2f7f4edcf6dabe14b2db3ff90c0621516405f0d304f6f3ed7646f69c336a9e66b7e509c90fc10830fff0b0ef2658c93fcb6397680252c8a5c8
+  checksum: cd9d0f87f9bfc652cc1e665f7ea50e28cb223fd933261582e523688ff8280036273a88f0afcf9ccf19832296e7e7f459f7515bf064f63a7cf790487a01181def
   languageName: node
   linkType: hard
 
@@ -12019,7 +12019,14 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:^2.5.0, node-fetch@npm:^2.6.0, node-fetch@npm:^2.6.1":
+"node-fetch@npm:2.6.0":
+  version: 2.6.0
+  resolution: "node-fetch@npm:2.6.0"
+  checksum: dd9f586a9f7ddb7dd94d2aba9cb693d32f5001e9850098512fbc8a4cbdd56838afa08ed0a6725b9fce9b01ec12b713e622cbfc16d92762d8b937b238330a632a
+  languageName: node
+  linkType: hard
+
+"node-fetch@npm:^2.5.0, node-fetch@npm:^2.6.1":
   version: 2.6.1
   resolution: "node-fetch@npm:2.6.1"
   checksum: cbb171635e538162b977eac5dfe7a1e07a9a02e991924377a6435502291e2f823d306b95aabc455caebf4a118ccf836868462bc70ccc3095af02bb9da61fda37
