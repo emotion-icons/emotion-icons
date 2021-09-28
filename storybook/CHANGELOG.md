@@ -1,5 +1,12 @@
 # @emotion-icons/storybook
 
+## 3.1.6
+
+### Patch Changes
+
+- Updated dependencies []:
+  - emotion-icons@3.24.0
+
 ## 3.1.5
 
 ### Patch Changes
