@@ -2362,7 +2362,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@emotion-icons/octicons@3.20.0, @emotion-icons/octicons@workspace:packages/@emotion-icons/octicons":
+"@emotion-icons/octicons@3.24.0, @emotion-icons/octicons@workspace:packages/@emotion-icons/octicons":
   version: 0.0.0-use.local
   resolution: "@emotion-icons/octicons@workspace:packages/@emotion-icons/octicons"
   dependencies:
@@ -2454,7 +2454,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@emotion-icons/simple-icons@3.23.0, @emotion-icons/simple-icons@workspace:packages/@emotion-icons/simple-icons":
+"@emotion-icons/simple-icons@3.24.0, @emotion-icons/simple-icons@workspace:packages/@emotion-icons/simple-icons":
   version: 0.0.0-use.local
   resolution: "@emotion-icons/simple-icons@workspace:packages/@emotion-icons/simple-icons"
   dependencies:
@@ -2491,7 +2491,7 @@ __metadata:
     "@types/react": ^17.0.24
     babel-loader: ^8.2.2
     chromatic: ^5.10.1
-    emotion-icons: 3.23.0
+    emotion-icons: 3.24.0
     fs-extra: ^10.0.0
     prettier: ^2.4.1
     react: ^17.0.2
@@ -7734,7 +7734,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emotion-icons@3.23.0, emotion-icons@workspace:packages/emotion-icons":
+"emotion-icons@3.24.0, emotion-icons@workspace:packages/emotion-icons":
   version: 0.0.0-use.local
   resolution: "emotion-icons@workspace:packages/emotion-icons"
   dependencies:
@@ -7768,12 +7768,12 @@ __metadata:
     "@emotion-icons/material-rounded": 3.14.0
     "@emotion-icons/material-sharp": 3.14.0
     "@emotion-icons/material-twotone": 3.14.0
-    "@emotion-icons/octicons": 3.20.0
+    "@emotion-icons/octicons": 3.24.0
     "@emotion-icons/open-iconic": 3.14.0
     "@emotion-icons/pack-builder": ^2.0.1
     "@emotion-icons/remix-fill": 3.14.0
     "@emotion-icons/remix-line": 3.14.0
-    "@emotion-icons/simple-icons": 3.23.0
+    "@emotion-icons/simple-icons": 3.24.0
     "@emotion-icons/typicons": 3.14.0
     "@emotion-icons/zondicons": 3.14.0
   peerDependencies:
