@@ -2490,7 +2490,7 @@ __metadata:
     "@types/node": ^16.10.1
     "@types/react": ^17.0.24
     babel-loader: ^8.2.2
-    chromatic: ^5.10.1
+    chromatic: ^5.10.2
     emotion-icons: 3.24.0
     fs-extra: ^10.0.0
     prettier: ^2.4.1
@@ -6267,9 +6267,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:^5.10.1":
-  version: 5.10.1
-  resolution: "chromatic@npm:5.10.1"
+"chromatic@npm:^5.10.2":
+  version: 5.10.2
+  resolution: "chromatic@npm:5.10.2"
   dependencies:
     "@actions/core": ^1.5.0
     "@actions/github": ^5.0.0
@@ -6314,7 +6314,7 @@ __metadata:
     chroma: bin/register.js
     chromatic: bin/register.js
     chromatic-cli: bin/register.js
-  checksum: cd9d0f87f9bfc652cc1e665f7ea50e28cb223fd933261582e523688ff8280036273a88f0afcf9ccf19832296e7e7f459f7515bf064f63a7cf790487a01181def
+  checksum: 1546af93240971d3045358b20d4b57bacf270c03b207d6c83d98ca5cfe6fcb3c2d21a39ecef5abdfb211eef582def5a49609867489706fef2c97d7c8832dc9e0
   languageName: node
   linkType: hard
 
