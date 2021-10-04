@@ -1,5 +1,11 @@
 # @emotion-icons/octicons
 
+## 3.25.0
+
+### Minor Changes
+
+- [#615](https://github.com/emotion-icons/emotion-icons/pull/615): Update all package dependencies ([`696152c0`](https://github.com/emotion-icons/emotion-icons/commit/696152c0dc03b90462003d82b4970c1602b3ab05), [@icon-bot](https://github.com/icon-bot))
+
 ## 3.24.0
 
 ### Minor Changes
