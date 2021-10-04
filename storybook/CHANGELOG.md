@@ -1,5 +1,14 @@
 # @emotion-icons/storybook
 
+## 3.1.7
+
+### Patch Changes
+
+- [#615](https://github.com/emotion-icons/emotion-icons/pull/615): Update all package dependencies ([`696152c0`](https://github.com/emotion-icons/emotion-icons/commit/696152c0dc03b90462003d82b4970c1602b3ab05), [@icon-bot](https://github.com/icon-bot))
+
+- Updated dependencies []:
+  - emotion-icons@3.25.0
+
 ## 3.1.6
 
 ### Patch Changes
