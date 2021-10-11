@@ -1,5 +1,11 @@
 # @emotion-icons/simple-icons
 
+## 3.26.0
+
+### Minor Changes
+
+- [#622](https://github.com/emotion-icons/emotion-icons/pull/622): Update all package dependencies ([`b15244f9`](https://github.com/emotion-icons/emotion-icons/commit/b15244f94f33a56e333b5b9114ec754ea1c490a0), [@icon-bot](https://github.com/icon-bot))
+
 ## 3.24.0
 
 ### Minor Changes
