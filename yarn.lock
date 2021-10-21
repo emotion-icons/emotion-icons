@@ -2489,7 +2489,7 @@ __metadata:
     "@storybook/react": ^6.3.10
     "@types/node": ^16.10.3
     "@types/react": ^17.0.27
-    babel-loader: ^8.2.2
+    babel-loader: ^8.2.3
     chromatic: ^5.10.2
     emotion-icons: 3.26.0
     fs-extra: ^10.0.0
@@ -5376,9 +5376,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-loader@npm:^8.2.2":
-  version: 8.2.2
-  resolution: "babel-loader@npm:8.2.2"
+"babel-loader@npm:^8.2.2, babel-loader@npm:^8.2.3":
+  version: 8.2.3
+  resolution: "babel-loader@npm:8.2.3"
   dependencies:
     find-cache-dir: ^3.3.1
     loader-utils: ^1.4.0
@@ -5387,7 +5387,7 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0
     webpack: ">=2"
-  checksum: 362bb715736abec0162bdf8dc2a523a09c46c7b14aef13d9c6548ff609b8cb3879129822a5096401cd955230d836bde19037d9cbebeced940d5348c64959bec3
+  checksum: 4905a8e425d501d04af555d3b3ab9797e21488cf30711a26afc1b4411b7cde1c69ff80e78e32fdc004cefc5fffdb790ca152f8baa9eaee65d9d71a1eb47ed4ca
   languageName: node
   linkType: hard
 
