@@ -34,7 +34,7 @@
     "@storybook/addons": "^6.3.10",
     "@storybook/react": "^6.3.10",
     "@types/node": "^16.10.3",
-    "@types/react": "^17.0.27",
+    "@types/react": "^17.0.31",
     "babel-loader": "^8.2.2",
     "chromatic": "^5.10.2",
     "fs-extra": "^10.0.0",
