@@ -1,5 +1,14 @@
 # emotion-icons
 
+## 3.27.0
+
+### Patch Changes
+
+- Updated dependencies [[`058c59ae`](https://github.com/emotion-icons/emotion-icons/commit/058c59ae2bc85f6fbb5928a743c0db92798a36d3)]:
+  - @emotion-icons/bootstrap@3.27.0
+  - @emotion-icons/octicons@3.27.0
+  - @emotion-icons/simple-icons@3.27.0
+
 ## 3.26.0
 
 ### Patch Changes

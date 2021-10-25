@@ -1,5 +1,11 @@
 # @emotion-icons/bootstrap
 
+## 3.27.0
+
+### Minor Changes
+
+- [#635](https://github.com/emotion-icons/emotion-icons/pull/635): Update all package dependencies ([`058c59ae`](https://github.com/emotion-icons/emotion-icons/commit/058c59ae2bc85f6fbb5928a743c0db92798a36d3), [@icon-bot](https://github.com/icon-bot))
+
 ## 3.14.0
 
 ### Minor Changes
