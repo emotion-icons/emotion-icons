@@ -17,7 +17,7 @@
     "storybook": "start-storybook -p 6006"
   },
   "dependencies": {
-    "@emotion/react": "^11.4.1",
+    "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
     "emotion-icons": "3.26.0",
     "react": "^17.0.2",
@@ -31,12 +31,12 @@
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
     "@changesets/cli": "^2.17.0",
-    "@storybook/addons": "^6.3.10",
-    "@storybook/react": "^6.3.10",
-    "@types/node": "^16.10.3",
-    "@types/react": "^17.0.27",
-    "babel-loader": "^8.2.2",
-    "chromatic": "^5.10.2",
+    "@storybook/addons": "^6.3.12",
+    "@storybook/react": "^6.3.12",
+    "@types/node": "^16.11.4",
+    "@types/react": "^17.0.32",
+    "babel-loader": "^8.2.3",
+    "chromatic": "^6.0.4",
     "fs-extra": "^10.0.0",
     "prettier": "^2.4.1",
     "wsrun": "^5.2.4"
