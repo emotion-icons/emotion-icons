@@ -1800,7 +1800,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion-icons/bootstrap@3.14.0, @emotion-icons/bootstrap@workspace:packages/@emotion-icons/bootstrap":
+"@emotion-icons/bootstrap@3.27.0, @emotion-icons/bootstrap@workspace:packages/@emotion-icons/bootstrap":
   version: 0.0.0-use.local
   resolution: "@emotion-icons/bootstrap@workspace:packages/@emotion-icons/bootstrap"
   dependencies:
@@ -2320,7 +2320,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@emotion-icons/octicons@3.25.0, @emotion-icons/octicons@workspace:packages/@emotion-icons/octicons":
+"@emotion-icons/octicons@3.27.0, @emotion-icons/octicons@workspace:packages/@emotion-icons/octicons":
   version: 0.0.0-use.local
   resolution: "@emotion-icons/octicons@workspace:packages/@emotion-icons/octicons"
   dependencies:
@@ -2412,7 +2412,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@emotion-icons/simple-icons@3.26.0, @emotion-icons/simple-icons@workspace:packages/@emotion-icons/simple-icons":
+"@emotion-icons/simple-icons@3.27.0, @emotion-icons/simple-icons@workspace:packages/@emotion-icons/simple-icons":
   version: 0.0.0-use.local
   resolution: "@emotion-icons/simple-icons@workspace:packages/@emotion-icons/simple-icons"
   dependencies:
@@ -2449,7 +2449,7 @@ __metadata:
     "@types/react": ^17.0.32
     babel-loader: ^8.2.3
     chromatic: ^6.0.4
-    emotion-icons: 3.26.0
+    emotion-icons: 3.27.0
     fs-extra: ^10.0.0
     prettier: ^2.4.1
     react: ^17.0.2
@@ -4192,10 +4192,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 16.10.3
-  resolution: "@types/node@npm:16.10.3"
-  checksum: 327ba7f5e23a7c6b269f45d2f5d699a5a2c5e81c5beb4de18e118e14c2d6b621e50dbf715c5944af9e1d16a510f7bcb728c69691cbed585ac8f010a81c08a8a4
+"@types/node@npm:*, @types/node@npm:^16.11.4":
+  version: 16.11.4
+  resolution: "@types/node@npm:16.11.4"
+  checksum: 4182611dd4ae8d32a2f9c6a680f5c8ce0897cbe93fbc74a1351fe1507bd5e5dc53d323c2539cc06b98892486a2485a937a5ca1d106cc2d482f0ee22f8a72f146
   languageName: node
   linkType: hard
 
@@ -4210,13 +4210,6 @@ __metadata:
   version: 14.17.1
   resolution: "@types/node@npm:14.17.1"
   checksum: 3ab1180ff2579f4039aa2416087df03e4e8b5f930b64e024ad2b2ae73e546f6054c3bae0324180d425944c7c408c02fdf6ca71f5a265ed05f28aeaae0a2c3599
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^16.11.4":
-  version: 16.11.4
-  resolution: "@types/node@npm:16.11.4"
-  checksum: 4182611dd4ae8d32a2f9c6a680f5c8ce0897cbe93fbc74a1351fe1507bd5e5dc53d323c2539cc06b98892486a2485a937a5ca1d106cc2d482f0ee22f8a72f146
   languageName: node
   linkType: hard
 
@@ -4294,18 +4287,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
-  version: 17.0.27
-  resolution: "@types/react@npm:17.0.27"
-  dependencies:
-    "@types/prop-types": "*"
-    "@types/scheduler": "*"
-    csstype: ^3.0.2
-  checksum: 0e54725df927efffd413da553a9f57ca9469d62a8cf31704c7628efc6254846560aa5531a53f4386238df08500822177cf0da147bf3f0e0d70abd8998ee1230f
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:^17.0.32":
+"@types/react@npm:*, @types/react@npm:^17.0.32":
   version: 17.0.32
   resolution: "@types/react@npm:17.0.32"
   dependencies:
@@ -5189,22 +5171,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-loader@npm:^8.2.2":
-  version: 8.2.2
-  resolution: "babel-loader@npm:8.2.2"
-  dependencies:
-    find-cache-dir: ^3.3.1
-    loader-utils: ^1.4.0
-    make-dir: ^3.1.0
-    schema-utils: ^2.6.5
-  peerDependencies:
-    "@babel/core": ^7.0.0
-    webpack: ">=2"
-  checksum: 362bb715736abec0162bdf8dc2a523a09c46c7b14aef13d9c6548ff609b8cb3879129822a5096401cd955230d836bde19037d9cbebeced940d5348c64959bec3
-  languageName: node
-  linkType: hard
-
-"babel-loader@npm:^8.2.3":
+"babel-loader@npm:^8.2.2, babel-loader@npm:^8.2.3":
   version: 8.2.3
   resolution: "babel-loader@npm:8.2.3"
   dependencies:
@@ -7432,12 +7399,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emotion-icons@3.26.0, emotion-icons@workspace:packages/emotion-icons":
+"emotion-icons@3.27.0, emotion-icons@workspace:packages/emotion-icons":
   version: 0.0.0-use.local
   resolution: "emotion-icons@workspace:packages/emotion-icons"
   dependencies:
     "@babel/runtime": ^7.15.4
-    "@emotion-icons/bootstrap": 3.14.0
+    "@emotion-icons/bootstrap": 3.27.0
     "@emotion-icons/boxicons-logos": 3.19.0
     "@emotion-icons/boxicons-regular": 3.19.0
     "@emotion-icons/boxicons-solid": 3.19.0
@@ -7466,12 +7433,12 @@ __metadata:
     "@emotion-icons/material-rounded": 3.14.0
     "@emotion-icons/material-sharp": 3.14.0
     "@emotion-icons/material-twotone": 3.14.0
-    "@emotion-icons/octicons": 3.25.0
+    "@emotion-icons/octicons": 3.27.0
     "@emotion-icons/open-iconic": 3.14.0
     "@emotion-icons/pack-builder": ^2.0.1
     "@emotion-icons/remix-fill": 3.14.0
     "@emotion-icons/remix-line": 3.14.0
-    "@emotion-icons/simple-icons": 3.26.0
+    "@emotion-icons/simple-icons": 3.27.0
     "@emotion-icons/typicons": 3.14.0
     "@emotion-icons/zondicons": 3.14.0
   peerDependencies:
@@ -14750,17 +14717,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"stylis@npm:^4.0.10":
+"stylis@npm:^4.0.10, stylis@npm:^4.0.3":
   version: 4.0.10
   resolution: "stylis@npm:4.0.10"
   checksum: 271892d9f64eced85ed777879e303ef58154f3dec60de7ca962d91c4b6ec0961d278050221a196eee050c58ce34e6e06f293537dc2eb4c0d83fc40b168767750
-  languageName: node
-  linkType: hard
-
-"stylis@npm:^4.0.3":
-  version: 4.0.6
-  resolution: "stylis@npm:4.0.6"
-  checksum: e01700e7f12b28bd609f39781fa3ce2c447d1ba726295bdf0abd5f515b3603799ac0992828d351e77de75b32fb668e07580000803418a1744f35f8130d3ffd2d
   languageName: node
   linkType: hard
 
