@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@emotion-icons/pack-builder": "^2.0.0",
-    "@emotion/react": "^11.5.0",
+    "@emotion/react": "^11.7.0",
     "@emotion/styled": "^11.3.0",
     "@svg-icons/remix-fill": "1.39.1",
     "react": "^17.0.2"
