@@ -2360,7 +2360,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@emotion-icons/pack-builder@workspace:tools/builder"
   dependencies:
-    execa: ^5.1.1
+    execa: ^6.1.0
     fast-case: ^1.6.0
     fast-glob: ^3.2.7
     fs-extra: ^10.0.0
@@ -7813,20 +7813,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:^5.1.1":
-  version: 5.1.1
-  resolution: "execa@npm:5.1.1"
+"execa@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "execa@npm:6.1.0"
   dependencies:
     cross-spawn: ^7.0.3
-    get-stream: ^6.0.0
-    human-signals: ^2.1.0
-    is-stream: ^2.0.0
+    get-stream: ^6.0.1
+    human-signals: ^3.0.1
+    is-stream: ^3.0.0
     merge-stream: ^2.0.0
-    npm-run-path: ^4.0.1
-    onetime: ^5.1.2
-    signal-exit: ^3.0.3
-    strip-final-newline: ^2.0.0
-  checksum: 4286ade8cdb267bfb982bddbf894a58df29ff4f3bb871252a4832c4608e485dd71e5a8bbfde9f95d7db4af864f5de1aa6a1780017217bd946a16409b8e022987
+    npm-run-path: ^5.1.0
+    onetime: ^6.0.0
+    signal-exit: ^3.0.7
+    strip-final-newline: ^3.0.0
+  checksum: 7d8b4454fec4b88438e5f416a6839522628f61d62805e14e24cedd87c74a5e31eb64dc682f8a83a5685978c147d638d1ffe79d845445bd6b47467308c9012698
   languageName: node
   linkType: hard
 
@@ -8582,10 +8582,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"get-stream@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "get-stream@npm:6.0.0"
-  checksum: 4354a4de78ebfd4340db6c7a3956ad1db7e67dbf718bcc576481697188442156f88d0d79d94b8af2615dad9920d41df85227e0c6b0fe5764d26e0df25f4035f8
+"get-stream@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "get-stream@npm:6.0.1"
+  checksum: 83de1fde5b21f879b91e45c1be765f53cf041873d65aea3b5a15cd53d4bc7825118693b1f50efb5c33a5d979dd20b398b6af955ffd70a013017da933b18fa5c8
   languageName: node
   linkType: hard
 
@@ -9316,10 +9316,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"human-signals@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "human-signals@npm:2.1.0"
-  checksum: 70bfd94d27b8ca94f76f92f56d294694860c15264393a8ffee83f49535a08da02e477064d91e2b511cc642ec5c7922675d2babcca2b6bf6f45e4d037b632759d
+"human-signals@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "human-signals@npm:3.0.1"
+  checksum: 3b78a3e0c75bc002f9330346463063eb401d73666730b94f2f08661dfce91587a1336dcf05affa1f21b96fcc840159a07ab5af84eb2cf3dc0b980287bea1b2de
   languageName: node
   linkType: hard
 
@@ -9967,10 +9967,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"is-stream@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "is-stream@npm:2.0.0"
-  checksum: f92ba04a8b8fafbade79bdaada53a044025db2fbd3fc2be978434db9a097a4afa457c2e3222c70c2ffc38854bde3a352593d6315463a54394f08ca9e51e32b50
+"is-stream@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "is-stream@npm:3.0.0"
+  checksum: cfa9abcc4f14ac6e234e79cbeea8ba94edec33040d8b54e01be9c5a9ec970941329e5cfb6e62edafa799220b2b16ca65650c070edbf3f5314fb929c2e6dab219
   languageName: node
   linkType: hard
 
@@ -11072,10 +11072,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"mimic-fn@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "mimic-fn@npm:2.1.0"
-  checksum: f7d2d7febe3d7dd71da0700b1d455ec6c951a96b463ffcc303c93771b9fe4e45318152ea677c241505b19b39e41d906e5052cfb382d59a44bdb6d3d57f8b467b
+"mimic-fn@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "mimic-fn@npm:4.0.0"
+  checksum: c8f6f3880c29ac88c24d6e0b0028668dc8cefda726ff4a0b0562194d632a36c977926cb6b842415877f44d0496633f368c5e4659d0f0499d349468540dfeb985
   languageName: node
   linkType: hard
 
@@ -11673,12 +11673,12 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"npm-run-path@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "npm-run-path@npm:4.0.1"
+"npm-run-path@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "npm-run-path@npm:5.1.0"
   dependencies:
-    path-key: ^3.0.0
-  checksum: 058fd068804f8c34fcef9393fc895d45400834c9f90bbafc57259f9fd47e8796712e4ad54524f0971b806260a118bf61ac37b0bf9f74e9e58c84bae780ae09e6
+    path-key: ^4.0.0
+  checksum: e56142d1854ad197507cdec8549082ebcde86d42762ead37be20030c6b2fd057ab436d918ff91d68726e0aebba275993e5a26db0e74fc24c4abeb44db51786c3
   languageName: node
   linkType: hard
 
@@ -11879,12 +11879,12 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"onetime@npm:^5.1.2":
-  version: 5.1.2
-  resolution: "onetime@npm:5.1.2"
+"onetime@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "onetime@npm:6.0.0"
   dependencies:
-    mimic-fn: ^2.1.0
-  checksum: e425f6caeb20cf2598ffece94be5663932e34d074f1631b682b13d5f01cc1e0712a7dc711eff1706bb5a5aaab8a52e37bd5edcf560334e3222219d7e8b09c21c
+    mimic-fn: ^4.0.0
+  checksum: feb483e95adc1d2669ebf00d66e089eef9b17a9690e43b69766ba121cd6051c482556ff890c383e335b11456e47af130cf6e8ef5889e72e963b187579f64410f
   languageName: node
   linkType: hard
 
@@ -12283,10 +12283,17 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"path-key@npm:^3.0.0, path-key@npm:^3.1.0":
+"path-key@npm:^3.1.0":
   version: 3.1.1
   resolution: "path-key@npm:3.1.1"
   checksum: e44aa3ca9faed0440994883050143b1214fffb907bf3a7bbdba15dc84f60821617c0d84e4cc74e1d84e9274003da50427f54d739b0b47636bcbaff4ec71b9b86
+  languageName: node
+  linkType: hard
+
+"path-key@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "path-key@npm:4.0.0"
+  checksum: 3808ac788e6dd621edaa2e2b8ca837a56e4702fd74514f5560477f848f5dcb7d990a5bc579b3f1990f239c0c18c61dfe8a820d8c073b2333101d4e2541538e71
   languageName: node
   linkType: hard
 
@@ -14117,10 +14124,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"signal-exit@npm:^3.0.0, signal-exit@npm:^3.0.2, signal-exit@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "signal-exit@npm:3.0.3"
-  checksum: f8f3fec95c8d1f9ad7e3cce07e1195f84e7a85cdcb4e825e8a2b76aa5406a039083d2bc9662b3cf40e6948262f41277047d20e6fbd58c77edced0b18fab647d8
+"signal-exit@npm:^3.0.0, signal-exit@npm:^3.0.2, signal-exit@npm:^3.0.7":
+  version: 3.0.7
+  resolution: "signal-exit@npm:3.0.7"
+  checksum: a7f02d991d08422ae89ecbd493bea18ca2ce4f0e93416a82b589a805fefc9c75b3f794588b52eb86f75dcf3c43c89bc5e29800b79accf8924439f02eb9de5d9f
   languageName: node
   linkType: hard
 
@@ -14673,10 +14680,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"strip-final-newline@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "strip-final-newline@npm:2.0.0"
-  checksum: 74dbd8a602409706748db730200efab53ba739ed7888310e74e45697efbd760981df6d6f0fa34b23e973135fb07d3b22adae6e6d58898f692a094e49692c6c33
+"strip-final-newline@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "strip-final-newline@npm:3.0.0"
+  checksum: 3aec076f8c58e1481d4457282b894b0d9af3f13acfdc5ffa9338b653fb83e3d2e3de52bc737edf8e913ce1350bcd9525b8a4f0d77e6f8ad8ae0c1b0313757073
   languageName: node
   linkType: hard
 
