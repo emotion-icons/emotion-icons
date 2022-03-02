@@ -8,7 +8,7 @@ jobs:
   open-pr:
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
         id: yarn-cache-dir-path
       - uses: actions/cache@v2.1.6
