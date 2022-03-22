@@ -2367,7 +2367,7 @@ __metadata:
     h2x-core: ^1.1.1
     h2x-plugin-jsx: ^1.2.0
     number-to-words: ^1.2.4
-    ts-node: ^10.4.0
+    ts-node: ^10.7.0
     typescript: ^4.2.3
   bin:
     clean-package: ./clean-package.js
@@ -15097,9 +15097,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.4.0":
-  version: 10.4.0
-  resolution: "ts-node@npm:10.4.0"
+"ts-node@npm:^10.7.0":
+  version: 10.7.0
+  resolution: "ts-node@npm:10.7.0"
   dependencies:
     "@cspotcode/source-map-support": 0.7.0
     "@tsconfig/node10": ^1.0.7
@@ -15112,6 +15112,7 @@ fsevents@~2.3.1:
     create-require: ^1.1.0
     diff: ^4.0.1
     make-error: ^1.1.1
+    v8-compile-cache-lib: ^3.0.0
     yn: 3.1.1
   peerDependencies:
     "@swc/core": ">=1.2.50"
@@ -15126,10 +15127,11 @@ fsevents@~2.3.1:
   bin:
     ts-node: dist/bin.js
     ts-node-cwd: dist/bin-cwd.js
+    ts-node-esm: dist/bin-esm.js
     ts-node-script: dist/bin-script.js
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
-  checksum: 3c2797b6ca6a3811c04b194f9423f98db0ef218504f5246306ab2b45efe95f494a6e4b3b7f6ffdca97faee53b9a07568cb2a3fb9b7cc0f5d49e7e522646412dc
+  checksum: f037c1e8b53ddb86cda7f74d18f8a31197ba938b3fe2456f57089a6c0d6fc8c095bff0c03337d53635a03c4ba466b53fed2e4da48c05b7dba3764a7a2e303e76
   languageName: node
   linkType: hard
 
@@ -15693,6 +15695,13 @@ typescript@^4.2.3:
   bin:
     uuid: ./bin/uuid
   checksum: 1ce3f37e214d6d0dc94a6a9663a0365013ace66bc3fd5b203e6f5d2eeb978aaee1192367222386345d30b4c6a447928c501121aa84c637724bf105ef57284949
+  languageName: node
+  linkType: hard
+
+"v8-compile-cache-lib@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "v8-compile-cache-lib@npm:3.0.0"
+  checksum: 1cdd91b300865926aeb883fa1a8ecf854077e40fb69942fa7bfa24b0aea175f2b49ec5652217e8d3029e6e02a6e00dd05f2369a9dcbd3eb2ed4dad959363b0ad
   languageName: node
   linkType: hard
 
