@@ -2385,7 +2385,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/remix-fill": 1.39.1
+    "@svg-icons/remix-fill": 1.86.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3948,10 +3948,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/remix-fill@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/remix-fill@npm:1.39.1"
-  checksum: 2b1a2c8648436c5e78fc594a56f0d51463b94b923788e0e2b87be5427e727711cdeb151d8fb566bde9578d93ce979a253810dfcf10e3cfdafe8257ec5373af0a
+"@svg-icons/remix-fill@npm:1.86.0":
+  version: 1.86.0
+  resolution: "@svg-icons/remix-fill@npm:1.86.0"
+  checksum: c51059dd3b41d96747ae03e8842994910444d5b818b5527f72b9eb78be46415c679bd79f453bd369e064bcd93b0ed3b0b6d30464570e02cb02ceb75462f1ef9b
   languageName: node
   linkType: hard
 
