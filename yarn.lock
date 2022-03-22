@@ -1915,7 +1915,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/entypo-social": 1.39.1
+    "@svg-icons/entypo-social": 1.86.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3773,10 +3773,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/entypo-social@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/entypo-social@npm:1.39.1"
-  checksum: c1e690d84787639a694cbe3ef158e389a3a8036c774af32ebbc242c1f49a16fd983c60504cd1ddf7dc5c4aa3fe00dde30c945008b83f610785ec2e14bceca8d0
+"@svg-icons/entypo-social@npm:1.86.0":
+  version: 1.86.0
+  resolution: "@svg-icons/entypo-social@npm:1.86.0"
+  checksum: 7c737a7c4efee043fb58f61676e3bfb0dfcf1b6ad56b33f2dbf87b0064fab66113545ac0023e0f32009b7ae5261138fd3d88a0fe66290d4b2713fb13edb37d62
   languageName: node
   linkType: hard
 
