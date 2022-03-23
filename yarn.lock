@@ -2485,7 +2485,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/zondicons": 1.39.1
+    "@svg-icons/zondicons": 1.86.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3976,10 +3976,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/zondicons@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/zondicons@npm:1.39.1"
-  checksum: 8309f6b44fe23474a6f978a96e4ec59a0408dba96443571d0b9a0a542bfbcdfdef8ea0213525b48c9b419aedeb1be85947c8ec6d79e56cd63b6674637504b8a0
+"@svg-icons/zondicons@npm:1.86.0":
+  version: 1.86.0
+  resolution: "@svg-icons/zondicons@npm:1.86.0"
+  checksum: 727ff91f21606703b491914d8796b0d17917d25a9f256ce052dcd5bce95a561d2126ca43641ff04b7beacd2f5f941857c16c3d5502c88d49fd97f53b564c37d2
   languageName: node
   linkType: hard
 
