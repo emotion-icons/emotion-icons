@@ -2293,7 +2293,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/material-twotone": 1.39.1
+    "@svg-icons/material-twotone": 1.86.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3927,10 +3927,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/material-twotone@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/material-twotone@npm:1.39.1"
-  checksum: 47f26f9ea1c296d4cb75335bb0729ef0b100d1da49f8cd6c737d1555185f26109338437d0bdf55b623541d5afd51811af85410b49b2a304cb4d3aa67ef570f82
+"@svg-icons/material-twotone@npm:1.86.0":
+  version: 1.86.0
+  resolution: "@svg-icons/material-twotone@npm:1.86.0"
+  checksum: 8967451f9bfe655d50eeef4f1110e543cf97f88f96837046999089395afa68de03cc182203dcaf75a6bf92ee7ce6375dc75a2efce0ae621d6d4d9d029a91a768
   languageName: node
   linkType: hard
 
