@@ -19,7 +19,7 @@ jobs:
             ${{ runner.os }}-yarn-v2-
       - run: yarn install --immutable
       - run: yarn update-all
-      - uses: peter-evans/create-pull-request@v3
+      - uses: peter-evans/create-pull-request@v4
         with:
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           title: Update all package dependencies
