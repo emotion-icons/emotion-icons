@@ -2329,7 +2329,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/octicons": 1.84.0
+    "@svg-icons/octicons": 1.86.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3934,10 +3934,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/octicons@npm:1.84.0":
-  version: 1.84.0
-  resolution: "@svg-icons/octicons@npm:1.84.0"
-  checksum: 43a8c7452e498e480d6740483bb3a6e84a758831ccc8a8d1dd7d0b822e890da95cd0c824a0969ec5244088b9417fef0f944c4538add16c96e8a027ebfda2706b
+"@svg-icons/octicons@npm:1.86.0":
+  version: 1.86.0
+  resolution: "@svg-icons/octicons@npm:1.86.0"
+  checksum: bacd5b9cb1a0e8c22da347b846d75b3c278aa454f7d41332e713487284b340754f44519ad8e0dee8d1f9e1a99ac237dee0b7e510326e730fc54579d22d4935f7
   languageName: node
   linkType: hard
 
