@@ -2167,7 +2167,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/icomoon": 1.39.1
+    "@svg-icons/icomoon": 1.86.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3871,10 +3871,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/icomoon@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/icomoon@npm:1.39.1"
-  checksum: 93f133e4f107f73e6386fc05c82becff15d305a6a91a8f1f27662ed9193091eae2bdad9683a60b8ae854de9aae8e9839c675ff104f338cf7532679a1e7a334c8
+"@svg-icons/icomoon@npm:1.86.0":
+  version: 1.86.0
+  resolution: "@svg-icons/icomoon@npm:1.86.0"
+  checksum: d4353a8a8a90d6c579dfebd4a91a03983972b0e897cf4771f0aa8d7ecaffd1b37b7a4e7763e44811baa842d0d25b50fabdc3483d4eb3cf888a2f10e9e45b78fe
   languageName: node
   linkType: hard
 
