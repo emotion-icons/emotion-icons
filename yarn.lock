@@ -1969,7 +1969,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/evaicons-solid": 1.39.1
+    "@svg-icons/evaicons-solid": 1.86.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3794,10 +3794,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/evaicons-solid@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/evaicons-solid@npm:1.39.1"
-  checksum: 61f75736c853e2002f8befe70c28eb04b66fadca028daa8df53c8179a11c479c04bbc3c39f5c2e8c899a062348ad85e3c4f11e09e80be5a322a55ac89eaa997d
+"@svg-icons/evaicons-solid@npm:1.86.0":
+  version: 1.86.0
+  resolution: "@svg-icons/evaicons-solid@npm:1.86.0"
+  checksum: cb1997899b2eb5c78628e4b19184bf2d78559acc8376fbf5add7f09a3950ee8618a86b518ece8003b896831dba2231ddb84fbbefef516fd5427c3fadc4e1fa31
   languageName: node
   linkType: hard
 
