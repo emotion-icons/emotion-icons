@@ -2361,7 +2361,7 @@ __metadata:
   resolution: "@emotion-icons/pack-builder@workspace:tools/builder"
   dependencies:
     execa: ^5.1.1
-    fast-case: ^1.6.0
+    fast-case: ^1.7.0
     fast-glob: ^3.2.7
     fs-extra: ^10.0.0
     h2x-core: ^1.1.1
@@ -7957,10 +7957,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-case@npm:^1.6.0":
-  version: 1.6.0
-  resolution: "fast-case@npm:1.6.0"
-  checksum: 53f6aeb459954193471bd95b6189edfd9f94c4a4a44307e181458832d998a7586377f61ea0c0c00921759115d24b75cbc16a42a86db9cb3e090e5f4d785ed4a1
+"fast-case@npm:^1.7.0":
+  version: 1.7.0
+  resolution: "fast-case@npm:1.7.0"
+  checksum: adf33595e8c1c6e95477f3f2a3d3a6d61cdac6aa4bd6a7318cfbd81daf7a291e4aa6afb42273b6efe9edc5eca290b5ea37606edb56df4b87d9e88ef4dfce8f3a
   languageName: node
   linkType: hard
 
