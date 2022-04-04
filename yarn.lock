@@ -2239,7 +2239,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/material-outlined": 1.39.1
+    "@svg-icons/material-outlined": 1.86.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3906,10 +3906,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/material-outlined@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/material-outlined@npm:1.39.1"
-  checksum: b7eb3a15dc0a71f3fe6a13a8923adc04e1bcefc27cc7f0603855d7eb7d42cb5b362eb59bacbda1c0377d267a4773563d474a5c61f64368677d8df301c804f05b
+"@svg-icons/material-outlined@npm:1.86.0":
+  version: 1.86.0
+  resolution: "@svg-icons/material-outlined@npm:1.86.0"
+  checksum: a7418dfddd5c9c16b6a6a66b438fc8c83f4519b7dbe5516be2526d2c0c04ee878189633ee1be302e03d77d70bbceafbf7d6d36acdf4cd65b87e2248fbfde701a
   languageName: node
   linkType: hard
 
