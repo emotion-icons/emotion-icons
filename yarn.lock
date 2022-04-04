@@ -2023,7 +2023,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/fa-regular": 1.39.1
+    "@svg-icons/fa-regular": 1.86.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3815,10 +3815,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/fa-regular@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/fa-regular@npm:1.39.1"
-  checksum: 06aaeacb122d8df901f7016b7b6378640aa1350403c7b8a749b7f0fbaed950d490dd8de1bc69848e4d236dfc85166ee4399c206ca8b80d2831c8afa30679d2d6
+"@svg-icons/fa-regular@npm:1.86.0":
+  version: 1.86.0
+  resolution: "@svg-icons/fa-regular@npm:1.86.0"
+  checksum: fdb332ab86ac979a503241058d34dc4370e4a21dc4bf57253a6b343a943905895083c63552f5d6cb30b5d6a9e739a7ec4fd14e3a53a4491bda21fca742504fa7
   languageName: node
   linkType: hard
 
