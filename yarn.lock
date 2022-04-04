@@ -2113,7 +2113,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/foundation": 1.39.1
+    "@svg-icons/foundation": 1.86.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3850,10 +3850,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/foundation@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/foundation@npm:1.39.1"
-  checksum: 9525dd0c1e3508d022566f619ef18a169ded468afb923ba191773c5b9bf765cfc29e6063cd0fb381d729e463f406d232fde8f074c8be9d3f68401bf32a957f33
+"@svg-icons/foundation@npm:1.86.0":
+  version: 1.86.0
+  resolution: "@svg-icons/foundation@npm:1.86.0"
+  checksum: 7824d95e0415489374fc788cc34ab31e630088296641f84dbb958fd0e73d0c641efaaf14592a2cd40e2546835b8dfe41ad9e85369fb779a985478422661b7670
   languageName: node
   linkType: hard
 
