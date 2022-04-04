@@ -2347,7 +2347,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/open-iconic": 1.39.1
+    "@svg-icons/open-iconic": 1.86.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3941,10 +3941,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/open-iconic@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/open-iconic@npm:1.39.1"
-  checksum: 0356673bff3c5f94b7372cd6145af714bb7a0bcb80c9f6105fdb0fdc3113f6812848729c3a012891d8aa7e83e845d108308140f0f3dd7e2bf5ef66b23c86ecbd
+"@svg-icons/open-iconic@npm:1.86.0":
+  version: 1.86.0
+  resolution: "@svg-icons/open-iconic@npm:1.86.0"
+  checksum: 0e9f0c211b56c7c8748e20b401cc3f055fdaa1fa3dde52d5dc9d2dad8b2e0d30df9a6b2a5328be5d71879bb0b393a3e535388ea716452e7cf048b6ab1e9cf359
   languageName: node
   linkType: hard
 
