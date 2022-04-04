@@ -1987,7 +1987,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/evil": 1.39.1
+    "@svg-icons/evil": 1.86.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3801,10 +3801,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/evil@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/evil@npm:1.39.1"
-  checksum: 20e2c8d05ae11ddc642d2a14fb2669a9f4c889965072b97ae6dbd15c056c3dd96f3892160f5ad40c2cd2498bd51fd2b4f0a73fbfa16c1754f023bce2f648ee47
+"@svg-icons/evil@npm:1.86.0":
+  version: 1.86.0
+  resolution: "@svg-icons/evil@npm:1.86.0"
+  checksum: cf91df7375276b5ec30fc81b977ae68ca33731da6fddb87fc53bcb12536d6db6a4b9f2e953e56b7d229cd140ae6d662ae3cdf575102f6520d593cab2d90135cb
   languageName: node
   linkType: hard
 
