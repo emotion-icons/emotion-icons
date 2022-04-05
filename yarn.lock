@@ -2221,7 +2221,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/ionicons-solid": 1.39.1
+    "@svg-icons/ionicons-solid": 1.86.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3892,10 +3892,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/ionicons-solid@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/ionicons-solid@npm:1.39.1"
-  checksum: 47635b51accb5fa3cd963d1bc2d4689eb7af80ead537f8904497af34265cd4285517981d86272511842526144607393c4341fbd5fb78f84566201fb0fa2b7576
+"@svg-icons/ionicons-solid@npm:1.86.0":
+  version: 1.86.0
+  resolution: "@svg-icons/ionicons-solid@npm:1.86.0"
+  checksum: cf08fce9d223f3ee176a9ae949773d6d9b8a4cf5687ae92dfd57f9a00116a92c88ca0ccbc625914ced9b66e1108c74ea59177255797dad4ade06c6f6903d8bb7
   languageName: node
   linkType: hard
 
