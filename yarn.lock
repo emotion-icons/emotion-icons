@@ -2203,7 +2203,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/ionicons-sharp": 1.39.1
+    "@svg-icons/ionicons-sharp": 1.86.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3885,10 +3885,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/ionicons-sharp@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/ionicons-sharp@npm:1.39.1"
-  checksum: 4a4896d496cdd74fadb7dfdb901fa616a24dc4e5ade84e4eac4f7b08bb23d0fd3650be5b443067b6fc1b06ae1031b9ff658e65756b3a55e199bfbff16cd069b7
+"@svg-icons/ionicons-sharp@npm:1.86.0":
+  version: 1.86.0
+  resolution: "@svg-icons/ionicons-sharp@npm:1.86.0"
+  checksum: 09777a38c0c11007756398393e61c0626975d5b7f2629809c111ade7113560dd741c15c5feb9bf1007f4d1e591079181afd8f1224e7aba16da8fa87e77fa75ca
   languageName: node
   linkType: hard
 
