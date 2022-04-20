@@ -2447,7 +2447,7 @@ __metadata:
     "@storybook/react": ^6.3.12
     "@types/node": ^16.11.4
     "@types/react": ^17.0.32
-    babel-loader: ^8.2.3
+    babel-loader: ^8.2.5
     chromatic: ^6.0.4
     emotion-icons: 3.27.0
     fs-extra: ^10.0.0
@@ -5171,18 +5171,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-loader@npm:^8.2.2, babel-loader@npm:^8.2.3":
-  version: 8.2.3
-  resolution: "babel-loader@npm:8.2.3"
+"babel-loader@npm:^8.2.2, babel-loader@npm:^8.2.5":
+  version: 8.2.5
+  resolution: "babel-loader@npm:8.2.5"
   dependencies:
     find-cache-dir: ^3.3.1
-    loader-utils: ^1.4.0
+    loader-utils: ^2.0.0
     make-dir: ^3.1.0
     schema-utils: ^2.6.5
   peerDependencies:
     "@babel/core": ^7.0.0
     webpack: ">=2"
-  checksum: 4905a8e425d501d04af555d3b3ab9797e21488cf30711a26afc1b4411b7cde1c69ff80e78e32fdc004cefc5fffdb790ca152f8baa9eaee65d9d71a1eb47ed4ca
+  checksum: 6e4d2a308061903437ca70e469bc34ea701d7889ba2943f1992cf10a04c94a182fe747571f32e0da5fa6b0a97dfa8433d6c3a69dfbc315d35fd19d4b700c998e
   languageName: node
   linkType: hard
 
@@ -10569,7 +10569,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"loader-utils@npm:^1.2.3, loader-utils@npm:^1.4.0":
+"loader-utils@npm:^1.2.3":
   version: 1.4.0
   resolution: "loader-utils@npm:1.4.0"
   dependencies:
