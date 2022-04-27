@@ -1810,7 +1810,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/bootstrap": 1.83.0
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -1828,7 +1828,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/boxicons-logos": 1.66.0
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -1846,7 +1846,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/boxicons-regular": 1.66.0
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -1864,7 +1864,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/boxicons-solid": 1.66.0
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -1882,7 +1882,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/crypto": 1.66.0
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -1898,7 +1898,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -1916,7 +1916,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/entypo-social": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -1934,7 +1934,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/entypo": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -1952,7 +1952,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/evaicons-outline": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -1970,7 +1970,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/evaicons-solid": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -1988,7 +1988,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/evil": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2006,7 +2006,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/fa-brands": 1.68.0
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2024,7 +2024,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/fa-regular": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2042,7 +2042,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/fa-solid": 1.42.0
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2060,7 +2060,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/feather": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2078,7 +2078,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/fluentui-system-filled": 1.60.0
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2096,7 +2096,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/fluentui-system-regular": 1.60.0
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2114,7 +2114,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/foundation": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2132,7 +2132,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/heroicons-outline": 1.64.0
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2150,7 +2150,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/heroicons-solid": 1.64.0
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2168,7 +2168,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/icomoon": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2186,7 +2186,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/ionicons-outline": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2204,7 +2204,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/ionicons-sharp": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2222,7 +2222,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/ionicons-solid": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2240,7 +2240,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/material-outlined": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2258,7 +2258,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/material-rounded": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2276,7 +2276,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/material-sharp": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2294,7 +2294,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/material-twotone": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2312,7 +2312,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/material-filled": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2330,7 +2330,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/octicons": 1.84.0
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2348,7 +2348,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/open-iconic": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2386,7 +2386,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/remix-fill": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2404,7 +2404,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/remix-line": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2422,7 +2422,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/simple-icons": 1.82.0
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2452,7 +2452,7 @@ __metadata:
     emotion-icons: 3.27.0
     fs-extra: ^10.0.0
     prettier: ^2.4.1
-    react: ^17.0.2
+    react: ^18.1.0
     react-dom: ^17.0.2
     wsrun: ^5.2.4
   languageName: unknown
@@ -2468,7 +2468,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/typicons": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -2486,7 +2486,7 @@ __metadata:
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
     "@svg-icons/zondicons": 1.39.1
-    react: ^17.0.2
+    react: ^18.1.0
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
     "@emotion/styled": ">=11.0.0 <12"
@@ -13208,13 +13208,12 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react@npm:17.0.2"
+"react@npm:^18.1.0":
+  version: 18.1.0
+  resolution: "react@npm:18.1.0"
   dependencies:
     loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-  checksum: 7d0dfebafe1d297503157abb2e9acdb49852185deb8700c16f4a6faad87642f84903ab18cfc16f40b9a0dfe97540f99834982ee953e6d48b39c41608dc3e4b29
+  checksum: c581a1b60cff0d1a09a476cd442b4f61fdf68f4c54b4a7b5af9687e5a2a34296d32f53d65c44610cdeab789359165364e275c82dd23cfd6ffe78c0021bbe74d0
   languageName: node
   linkType: hard
 
