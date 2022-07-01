@@ -2448,7 +2448,7 @@ __metadata:
     "@types/node": ^16.11.4
     "@types/react": ^17.0.32
     babel-loader: ^8.2.3
-    chromatic: ^6.0.4
+    chromatic: ^6.7.0
     emotion-icons: 3.27.0
     fs-extra: ^10.0.0
     prettier: ^2.4.1
@@ -4351,10 +4351,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-env@npm:^1.16.0":
-  version: 1.16.0
-  resolution: "@types/webpack-env@npm:1.16.0"
-  checksum: eaf62fb65ba18737174a520a444bb7407e5a6f32581690c5a7a687e6f86e9d4ce336fd9e79989aafa19e5f390046ad54b9100cd3d70a43dcf0ab0161d30cd5bd
+"@types/webpack-env@npm:^1.16.0, @types/webpack-env@npm:^1.17.0":
+  version: 1.17.0
+  resolution: "@types/webpack-env@npm:1.17.0"
+  checksum: 27e90fde84efcd370cc7e9aa5d8b540e7e082633e98e86626c18f45fc3b72035cd0f66e6773828d392ab9eeb90dc7abdd9314dfcd92b17597a8ae68d91caaffb
   languageName: node
   linkType: hard
 
@@ -6042,14 +6042,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:^6.0.4":
-  version: 6.0.4
-  resolution: "chromatic@npm:6.0.4"
+"chromatic@npm:^6.7.0":
+  version: 6.7.0
+  resolution: "chromatic@npm:6.7.0"
+  dependencies:
+    "@types/webpack-env": ^1.17.0
   bin:
     chroma: bin/main.cjs
     chromatic: bin/main.cjs
     chromatic-cli: bin/main.cjs
-  checksum: a90ab4ea6a9236c4a8f200fd3d2e829c312b727f5d06b7583ce139e4fe8be06d00119fb622eb521074b829e0e626f1216f63f7de64a1c49d93dd64f863304150
+  checksum: 7405c206282aa7ec64a3518b79edfbfb526adcf97f4d35b9b29ecad6bd7421ed1b5ac4bd031952f03a839ff5378623962cb79eb8c3436f53e7c950470f724996
   languageName: node
   linkType: hard
 
