@@ -1793,10 +1793,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@discoveryjs/json-ext@npm:^0.5.3":
-  version: 0.5.3
-  resolution: "@discoveryjs/json-ext@npm:0.5.3"
-  checksum: 2bf62fce2c73c6adf87aef876fa71ef37b05202fe92d9889b96d3612e050aa4bef7cdf4eb6a6dd4bf8480e3b146e0c45aa49f537d84a508c3849f68b20c600ef
+"@discoveryjs/json-ext@npm:^0.5.3, @discoveryjs/json-ext@npm:^0.5.7":
+  version: 0.5.7
+  resolution: "@discoveryjs/json-ext@npm:0.5.7"
+  checksum: ee01d84c0afc5a32090a3376f4d0aeab113ce6e6e75dac7843ae29689a3adfd173e8339415115348be2385521e15361ff65e5144e1e5d8e064d062a477acdbba
   languageName: node
   linkType: hard
 
@@ -2448,7 +2448,7 @@ __metadata:
     "@types/node": ^16.11.4
     "@types/react": ^17.0.32
     babel-loader: ^8.2.3
-    chromatic: ^6.0.4
+    chromatic: ^6.9.0
     emotion-icons: 3.27.0
     fs-extra: ^10.0.0
     prettier: ^2.4.1
@@ -4351,10 +4351,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-env@npm:^1.16.0":
-  version: 1.16.0
-  resolution: "@types/webpack-env@npm:1.16.0"
-  checksum: eaf62fb65ba18737174a520a444bb7407e5a6f32581690c5a7a687e6f86e9d4ce336fd9e79989aafa19e5f390046ad54b9100cd3d70a43dcf0ab0161d30cd5bd
+"@types/webpack-env@npm:^1.16.0, @types/webpack-env@npm:^1.17.0":
+  version: 1.18.0
+  resolution: "@types/webpack-env@npm:1.18.0"
+  checksum: ad425fcd189cf7329a2f7fd324b02f46ba0ae90910fda2724ff3709fbdebc87d6131308c82e92916662ff2f2178c3d5ae64bc0a4e683148d61b64a3cc2791664
   languageName: node
   linkType: hard
 
@@ -6042,14 +6042,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:^6.0.4":
-  version: 6.0.4
-  resolution: "chromatic@npm:6.0.4"
+"chromatic@npm:^6.9.0":
+  version: 6.9.0
+  resolution: "chromatic@npm:6.9.0"
+  dependencies:
+    "@discoveryjs/json-ext": ^0.5.7
+    "@types/webpack-env": ^1.17.0
   bin:
     chroma: bin/main.cjs
     chromatic: bin/main.cjs
     chromatic-cli: bin/main.cjs
-  checksum: a90ab4ea6a9236c4a8f200fd3d2e829c312b727f5d06b7583ce139e4fe8be06d00119fb622eb521074b829e0e626f1216f63f7de64a1c49d93dd64f863304150
+  checksum: 480f311adc7a12870f62e997c3b331f11beae83f01973c9a8b8cecec2772e1ddc2bf835abc10540ae1d61a5fe2e65eb4426c2173735fa29215941e57d572489b
   languageName: node
   linkType: hard
 
