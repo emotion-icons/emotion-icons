@@ -2363,7 +2363,7 @@ __metadata:
     execa: ^5.1.1
     fast-case: ^1.6.0
     fast-glob: ^3.2.7
-    fs-extra: ^10.0.0
+    fs-extra: ^10.1.0
     h2x-core: ^1.1.1
     h2x-plugin-jsx: ^1.2.0
     number-to-words: ^1.2.4
@@ -2450,7 +2450,7 @@ __metadata:
     babel-loader: ^8.2.3
     chromatic: ^6.0.4
     emotion-icons: 3.27.0
-    fs-extra: ^10.0.0
+    fs-extra: ^10.1.0
     prettier: ^2.4.1
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -8351,14 +8351,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "fs-extra@npm:10.0.0"
+"fs-extra@npm:^10.1.0":
+  version: 10.1.0
+  resolution: "fs-extra@npm:10.1.0"
   dependencies:
     graceful-fs: ^4.2.0
     jsonfile: ^6.0.1
     universalify: ^2.0.0
-  checksum: 84632d143fe3125b8c3c2b1fedbbdfcfb84fc3e087522b4e138cc07edf574619925713a6609f6d5e53ede2e31ab319c7d528ea4a4a770ba6622a16bf4447cd8b
+  checksum: ea286a767c6e1cbfbb0bd48729b8e5e1734d919bf948ec13c1bde18a451ecf4ab9bd65475a031953032a6d740b3e5f48a945e89d5da536ad9876f7c349c9a2a4
   languageName: node
   linkType: hard
 
