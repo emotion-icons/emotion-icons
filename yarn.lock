@@ -1800,6 +1800,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@discoveryjs/json-ext@npm:^0.5.7":
+  version: 0.5.7
+  resolution: "@discoveryjs/json-ext@npm:0.5.7"
+  checksum: ee01d84c0afc5a32090a3376f4d0aeab113ce6e6e75dac7843ae29689a3adfd173e8339415115348be2385521e15361ff65e5144e1e5d8e064d062a477acdbba
+  languageName: node
+  linkType: hard
+
 "@emotion-icons/bootstrap@3.27.0, @emotion-icons/bootstrap@workspace:packages/@emotion-icons/bootstrap":
   version: 0.0.0-use.local
   resolution: "@emotion-icons/bootstrap@workspace:packages/@emotion-icons/bootstrap"
@@ -2448,7 +2455,7 @@ __metadata:
     "@types/node": ^16.11.4
     "@types/react": ^17.0.32
     babel-loader: ^8.2.3
-    chromatic: ^6.0.4
+    chromatic: ^6.11.0
     emotion-icons: 3.27.0
     fs-extra: ^10.0.0
     prettier: ^2.4.1
@@ -4358,6 +4365,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/webpack-env@npm:^1.17.0":
+  version: 1.18.0
+  resolution: "@types/webpack-env@npm:1.18.0"
+  checksum: ad425fcd189cf7329a2f7fd324b02f46ba0ae90910fda2724ff3709fbdebc87d6131308c82e92916662ff2f2178c3d5ae64bc0a4e683148d61b64a3cc2791664
+  languageName: node
+  linkType: hard
+
 "@types/webpack-sources@npm:*":
   version: 2.1.0
   resolution: "@types/webpack-sources@npm:2.1.0"
@@ -6042,14 +6056,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:^6.0.4":
-  version: 6.0.4
-  resolution: "chromatic@npm:6.0.4"
+"chromatic@npm:^6.11.0":
+  version: 6.11.0
+  resolution: "chromatic@npm:6.11.0"
+  dependencies:
+    "@discoveryjs/json-ext": ^0.5.7
+    "@types/webpack-env": ^1.17.0
   bin:
     chroma: bin/main.cjs
     chromatic: bin/main.cjs
     chromatic-cli: bin/main.cjs
-  checksum: a90ab4ea6a9236c4a8f200fd3d2e829c312b727f5d06b7583ce139e4fe8be06d00119fb622eb521074b829e0e626f1216f63f7de64a1c49d93dd64f863304150
+  checksum: 51c3616b20542c3bbd9addd553256f1bd52b5a05c4f90fb52c2fa9d44a9d4b2b2f7e29fda7fe0137cfb3254eab9af53f88188b59ce0d50a39eb1dbabc0bb8863
   languageName: node
   linkType: hard
 
