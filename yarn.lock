@@ -1793,14 +1793,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@discoveryjs/json-ext@npm:^0.5.3":
-  version: 0.5.3
-  resolution: "@discoveryjs/json-ext@npm:0.5.3"
-  checksum: 2bf62fce2c73c6adf87aef876fa71ef37b05202fe92d9889b96d3612e050aa4bef7cdf4eb6a6dd4bf8480e3b146e0c45aa49f537d84a508c3849f68b20c600ef
-  languageName: node
-  linkType: hard
-
-"@discoveryjs/json-ext@npm:^0.5.7":
+"@discoveryjs/json-ext@npm:^0.5.3, @discoveryjs/json-ext@npm:^0.5.7":
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
   checksum: ee01d84c0afc5a32090a3376f4d0aeab113ce6e6e75dac7843ae29689a3adfd173e8339415115348be2385521e15361ff65e5144e1e5d8e064d062a477acdbba
@@ -4358,14 +4351,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-env@npm:^1.16.0":
-  version: 1.16.0
-  resolution: "@types/webpack-env@npm:1.16.0"
-  checksum: eaf62fb65ba18737174a520a444bb7407e5a6f32581690c5a7a687e6f86e9d4ce336fd9e79989aafa19e5f390046ad54b9100cd3d70a43dcf0ab0161d30cd5bd
-  languageName: node
-  linkType: hard
-
-"@types/webpack-env@npm:^1.17.0":
+"@types/webpack-env@npm:^1.16.0, @types/webpack-env@npm:^1.17.0":
   version: 1.18.0
   resolution: "@types/webpack-env@npm:1.18.0"
   checksum: ad425fcd189cf7329a2f7fd324b02f46ba0ae90910fda2724ff3709fbdebc87d6131308c82e92916662ff2f2178c3d5ae64bc0a4e683148d61b64a3cc2791664
