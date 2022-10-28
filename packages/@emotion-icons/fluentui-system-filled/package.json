@@ -25,7 +25,7 @@
     "generate": "generate-icon-package @svg-icons/fluentui-system-filled"
   },
   "dependencies": {
-    "@babel/runtime": "^7.15.4",
+    "@babel/runtime": "^7.20.0",
     "@emotion-icons/emotion-icon": "4.1.0"
   },
   "peerDependencies": {
