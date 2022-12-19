@@ -1575,14 +1575,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/changelog-github@npm:^0.4.1":
-  version: 0.4.1
-  resolution: "@changesets/changelog-github@npm:0.4.1"
+"@changesets/changelog-github@npm:^0.4.8":
+  version: 0.4.8
+  resolution: "@changesets/changelog-github@npm:0.4.8"
   dependencies:
-    "@changesets/get-github-info": ^0.5.0
-    "@changesets/types": ^4.0.1
+    "@changesets/get-github-info": ^0.5.2
+    "@changesets/types": ^5.2.1
     dotenv: ^8.1.0
-  checksum: 39c787625972a4b5ba2cb25576b0c156a80a6cfaa0b38e4e81d1463c22053c70641b9ac4e2d249ef4b302a0c1b45aba5a464f11cadab6ab4be4794b17bcb941d
+  checksum: 7b83bfeeb38ddb4c2167401e95fa8d9c81c20dcec174e3a62a7c7b77bab3208d5da680d64f1d20cc0fd10bd6cee5a3c38c235776f08c31d16770186d0066b9ec
   languageName: node
   linkType: hard
 
@@ -1663,13 +1663,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/get-github-info@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "@changesets/get-github-info@npm:0.5.0"
+"@changesets/get-github-info@npm:^0.5.2":
+  version: 0.5.2
+  resolution: "@changesets/get-github-info@npm:0.5.2"
   dependencies:
     dataloader: ^1.4.0
     node-fetch: ^2.5.0
-  checksum: e2a35d463f64adfbe2c87356fa37c7a89cf50dbef1d7d130988232f3cddbce1138ea5805f4f4c4d7bde8b19b5b56001ad982f635a4ef0125c2fa5de5ab7196f5
+  checksum: c395de8293bd92ec510de2a6256268267c3917d4ab08ab743f9dd5a2da2141a3e672556c96520bbc0ebfdec4cfcba62fb8b7c5f25f7e9cc13723eed354794c4e
   languageName: node
   linkType: hard
 
@@ -1761,6 +1761,13 @@ __metadata:
   version: 4.0.1
   resolution: "@changesets/types@npm:4.0.1"
   checksum: ec959d0a9c2e96e3d0785f6ea51c1d8c0851b7c36a15c6d8f3aaa412bb3bdc3a3cf7270c95dc686daf199ad959010cd14459e0a309bf546c8b76a6dadc81038b
+  languageName: node
+  linkType: hard
+
+"@changesets/types@npm:^5.2.1":
+  version: 5.2.1
+  resolution: "@changesets/types@npm:5.2.1"
+  checksum: 9b217c3257644520b0e510c369589ea858ded657022978ef7effcf0039adef00910682b347443af56e10e2369adb83d8d5112d1132baf03e81df8eb5d075b35c
   languageName: node
   linkType: hard
 
@@ -13752,7 +13759,7 @@ fsevents@~2.3.1:
     "@babel/preset-env": ^7.15.8
     "@babel/preset-react": ^7.14.5
     "@babel/preset-typescript": ^7.15.0
-    "@changesets/changelog-github": ^0.4.1
+    "@changesets/changelog-github": ^0.4.8
     "@changesets/cli": ^2.17.0
     "@emotion/babel-plugin": ^11.3.0
     "@monorepolint/cli": ^0.5.0-alpha.61
