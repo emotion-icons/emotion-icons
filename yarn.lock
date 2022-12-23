@@ -2257,7 +2257,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/material-rounded": 1.39.1
+    "@svg-icons/material-rounded": 1.87.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3913,10 +3913,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/material-rounded@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/material-rounded@npm:1.39.1"
-  checksum: 73785aaf60003770d45e9b5bffd17c606e32ad71ecbbb9f8452afaa7153b2e7313891e3b47955558e147d20fdbf6ddef2993f845b657f8638d6e877ed07ee437
+"@svg-icons/material-rounded@npm:1.87.0":
+  version: 1.87.0
+  resolution: "@svg-icons/material-rounded@npm:1.87.0"
+  checksum: e2399dfb3ce7a7df5c8296d5c9180885efc9940016dea863a0334eec92ba7670d6bf2cbc4b8f7fd52fcfac099fdb18192e0a587c435adf54e2e951469df46ae4
   languageName: node
   linkType: hard
 
