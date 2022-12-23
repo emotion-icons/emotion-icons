@@ -2311,7 +2311,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/material-filled": 1.39.1
+    "@svg-icons/material-filled": 1.87.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3899,10 +3899,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/material-filled@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/material-filled@npm:1.39.1"
-  checksum: 1e6b423f5e437ac7bc21487ad8e146040fbaa0eb0db35870b825a4618ac133c47d43961674e33bacd85d8e0807033cb7d74601cd9f32f6f1b44eca3fd9f3f3e2
+"@svg-icons/material-filled@npm:1.87.0":
+  version: 1.87.0
+  resolution: "@svg-icons/material-filled@npm:1.87.0"
+  checksum: a0f911979568e5d41cb6313af92940430f51b47181f5cda9a013701f5b1954c9fad8dc048cfc3ef02b45dd71202281ccf459e2c0567b7979d5f0e7414e9b472a
   languageName: node
   linkType: hard
 
