@@ -2059,7 +2059,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/feather": 1.39.1
+    "@svg-icons/feather": 1.87.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3829,10 +3829,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/feather@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/feather@npm:1.39.1"
-  checksum: c63b67d48700e83ffa6e779c91769cd292f47ffd52097e326f773911e75205a139003dfd9ba7c3ec61a735fc60169d4b1c8cf49fb8295d0d5aef9a7387b06d2d
+"@svg-icons/feather@npm:1.87.0":
+  version: 1.87.0
+  resolution: "@svg-icons/feather@npm:1.87.0"
+  checksum: 18d5e2d22f2b0d18923b488cf4e5582621310cd41241ac4ad7c5e11b01a73042068eaf5304611aa49c086efdc67a2a1aa8dc1aa4da85faa34cdb6a81a1525374
   languageName: node
   linkType: hard
 
