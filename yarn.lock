@@ -2275,7 +2275,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/material-sharp": 1.39.1
+    "@svg-icons/material-sharp": 1.87.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3920,10 +3920,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/material-sharp@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/material-sharp@npm:1.39.1"
-  checksum: b310b46fc935b871edd119b81db05d0493dbd93dab6ba31ce57d114181f97a2d83137eb89db939616b8e1e10371bb07140cb7e3709f49bea60d50a3db06f57c0
+"@svg-icons/material-sharp@npm:1.87.0":
+  version: 1.87.0
+  resolution: "@svg-icons/material-sharp@npm:1.87.0"
+  checksum: 7d5c45e5ffd6fe5531a7c70d158db57c4d815d0241f5b4b724dbbafde8e3666eb609dfd5883403c573e00baf7d1763bd0214d4d611650d595f0aeb68ad49a082
   languageName: node
   linkType: hard
 
