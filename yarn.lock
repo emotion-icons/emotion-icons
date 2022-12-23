@@ -2131,7 +2131,7 @@ __metadata:
     "@emotion-icons/pack-builder": ^2.0.0
     "@emotion/react": ^11.5.0
     "@emotion/styled": ^11.3.0
-    "@svg-icons/heroicons-outline": 1.64.0
+    "@svg-icons/heroicons-outline": 1.87.0
     react: ^17.0.2
   peerDependencies:
     "@emotion/react": ">=11.0.0 <12"
@@ -3857,10 +3857,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/heroicons-outline@npm:1.64.0":
-  version: 1.64.0
-  resolution: "@svg-icons/heroicons-outline@npm:1.64.0"
-  checksum: 2d4255912e3c1f285ad08c642375a9f8cb75c4bb2fec3c4fbc08d94e272405d9dba8e0e2e36bccb38b47f1812007c100418350814c00e10f26a50c2bb302397a
+"@svg-icons/heroicons-outline@npm:1.87.0":
+  version: 1.87.0
+  resolution: "@svg-icons/heroicons-outline@npm:1.87.0"
+  checksum: 7a1ca1b1c9a74eae16795e38f6e80d84af73c02dbefbb65daa70168ff80c59cf2b1962662e4fbaf7d5473ac5de617cb3738a670f06c98d3da09b47b00daa60fc
   languageName: node
   linkType: hard
 
