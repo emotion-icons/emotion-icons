@@ -2445,7 +2445,7 @@ __metadata:
     "@emotion/styled": ^11.3.0
     "@storybook/addons": ^6.3.12
     "@storybook/react": ^6.3.12
-    "@types/node": ^16.11.4
+    "@types/node": ^18.11.18
     "@types/react": ^17.0.32
     babel-loader: ^8.2.3
     chromatic: ^6.0.4
@@ -4192,10 +4192,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^16.11.4":
-  version: 16.11.4
-  resolution: "@types/node@npm:16.11.4"
-  checksum: 4182611dd4ae8d32a2f9c6a680f5c8ce0897cbe93fbc74a1351fe1507bd5e5dc53d323c2539cc06b98892486a2485a937a5ca1d106cc2d482f0ee22f8a72f146
+"@types/node@npm:*, @types/node@npm:^18.11.18":
+  version: 18.11.18
+  resolution: "@types/node@npm:18.11.18"
+  checksum: 6fefe7545aeff8ff19d9ac1c0434edf44a5a55fcbfdf2b7a2da69ccfdd06a7ba4fdebb6c797a7eedb707c5be729c6bbd0c967f2281e03e152dc87bdcd3e21c35
   languageName: node
   linkType: hard
 
@@ -13757,7 +13757,7 @@ fsevents@~2.3.1:
     "@emotion/babel-plugin": ^11.3.0
     "@monorepolint/cli": ^0.5.0-alpha.61
     "@monorepolint/core": 0.5.0-alpha.61
-    "@types/node": ^16.11.4
+    "@types/node": ^18.11.18
     "@types/react": ^17.0.32
     npm-check-updates: ^11.8.5
     npm-run-all: ^4.1.5
