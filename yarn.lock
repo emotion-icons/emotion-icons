@@ -2451,7 +2451,7 @@ __metadata:
     chromatic: ^6.0.4
     emotion-icons: 3.27.0
     fs-extra: ^10.0.0
-    prettier: ^2.4.1
+    prettier: ^2.8.3
     react: ^17.0.2
     react-dom: ^17.0.2
     wsrun: ^5.2.4
@@ -12594,12 +12594,12 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.4.1":
-  version: 2.4.1
-  resolution: "prettier@npm:2.4.1"
+"prettier@npm:^2.8.3":
+  version: 2.8.3
+  resolution: "prettier@npm:2.8.3"
   bin:
     prettier: bin-prettier.js
-  checksum: d72ebe33441651cdb334d05d8d180bedbb6f8ca9db47163719b9763f3f471d27b9dc86b9f2c9383773681ff836eb5951acd1809871077c9313609f7b7e05554e
+  checksum: 2c4e7c14a4d82e0478a3b4a6a7bde6743caf58ddbe8a4f55623ccd43619d570d832e8e8b82e053b05380ec6e1d5198f07f151299310069643c0491a8530c4fc0
   languageName: node
   linkType: hard
 
@@ -13761,7 +13761,7 @@ fsevents@~2.3.1:
     "@types/react": ^17.0.32
     npm-check-updates: ^11.8.5
     npm-run-all: ^4.1.5
-    prettier: ^2.4.1
+    prettier: ^2.8.3
     typescript: ^4.2.3
     wsrun: ^5.2.4
   languageName: unknown
